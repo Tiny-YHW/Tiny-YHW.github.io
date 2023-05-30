@@ -11,7 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
-
+asdasd
 最近用上了 GitHub Copilot，它的能力不时让我惊叹，于是越来越多地面向 tab 编程，机械键盘的损耗都小了许多:-p
 
 这天，它给我自动生成了一句像这样的日志打印代码：
