@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI 自动补全的这句日志能正常打印吗？
+title: AI 自动补全的这句日志能正常打印吗copy？
 categories: [java]
 description: 一句 GitHub Copilot 自动生成的代码让我产生了疑惑，于是探索了一番。
 keywords: java, GitHub Copilot
@@ -11,6 +11,7 @@ mathjax: false
 mindmap: false
 mindmap2: false
 ---
+copy
 12.28
 kanshifougengxin
 asdasd
