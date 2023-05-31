@@ -4,14 +4,14 @@
 baseurl:
 url: https://tiny-yhw.github.io/
 date_format: "ordinal"
-title: 码志
+title: Layouto
 subtitle: "公众号：Layouto"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+description: "Tiny-Y个人博客，公众号：Layouto"
+keywords: PCB Layout, Tiny-Y, Allegro, Altium, Skill
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2023
 # 源码仓库，请替换成自己的
 repository: tiny-yhw/tiny-yhw.github.io/
 # 对 css 和 js 资源的 cdn 加速配置
@@ -40,7 +40,7 @@ components:
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
         enabled: true
-        image_alt: 闷骚的程序员
+        image_alt: Layouto
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -57,10 +57,10 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Tiny-Y
 organization: 
 organization_url: 
-github_username: tiny-y
+github_username: Tiny-Y
 location: Shijiazhuang, China
 email: chumpma@gmail.com
 
@@ -180,9 +180,9 @@ lazy_load_disqus : false
 # ---------------- #
 simple_jekyll_search:
     # 是否支持全文搜索
-    fulltext: false
+    fulltext: ture
     # 最多显示多少条搜索结果
-    limit: 10
+    limit: 100
 
 # ---------------- #
 #      Google      #
