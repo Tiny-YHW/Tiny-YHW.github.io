@@ -14,6 +14,8 @@ mindmap2: false
 
 官方文档：https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
 
+段落之间尽量空一个空行
+
 #标题
 要创建标题，请在标题文本前添加一至六个 # 符号。 你使用的 # 数量将决定层次结构级别和标题的大小。
 标题其实和HTML中的h系列很像，想要设置为标题的文字前面加#来表示
@@ -41,6 +43,19 @@ mindmap2: false
 
 删除线
 要加删除线的文字左右分别用两个~~号包起来
+或者加一个<del>
+
+<del>f(n)</del>  
+<del>= f(n-1) + f(n-2)</del>  
+<del>= 2f(n-2) + f(n-3)</del>  
+<del>= 3f(n-3) + 2f(n-4)</del>  
+<del>= 5 f(n-4) + 3f(n-5)</del>  
+<del>= 8f(n-5) + 5f(n-6)</del>  
+<del>= ...</del>  
+<del>= fibo(x+1)f(n-x)+fibo(x)f(n-(x+1))</del>  
+<del>=...</del>  
+<del>= fibo(n-1)f(n-(n-2)) + fibo(n-2)f(n-(n-1))</del>  
+<del>= fibo(n-1)f(2) + fibo(n-2)f(1)</del>  
 
 示例：
 
@@ -71,11 +86,19 @@ n个...
 图片title是图片的标题，当鼠标移到图片上时显示的内容。title可加可不加
 
 #六、超链接
+本标签页
 [超链接名](超链接地址 "超链接title")
 title可加可不加
-
-示例：
 [百度](http://baidu.com)
+[example](http://yinping4256.github.io)
+<http://yinping4256.github.io>
+
+新标签页
+最简单的办法是，只需要在我上面两种方法后面添加{:target="_blank"}.
+[example](http://yinping4256.github.io){:target="_blank"}
+<http://yinping4256.github.io>{:target="_blank"}
+
+
 
 #七、列表
 无序列表
