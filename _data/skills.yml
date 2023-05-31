@@ -1,19 +1,16 @@
-- name: Software Engineer Keywords
+- name: PCB Design Soft
   keywords:
-      - Java
-      - C++
-      - Python
-      - Design Patterns
+      - Allegro
+      - Altium
 
-- name: Mobile Developer Keywords
+- name: Other Soft
   keywords:
-      - Android
-      - Reverse Engineering
+      - PCB Library
+      - Valor NPI
 
-- name: Windows Developer Keywords
+- name: Ohter
   keywords:
-      - Win32 SDK
-      - DuiLib
-      - WTL
-      - COM
-      - WinDbg
+      - Allegro Skill程序
+      - PCB封装库建库规范
+      - 中心库管理和应用
+      - DFM自动化检查
