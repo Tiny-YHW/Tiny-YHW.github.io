@@ -16,6 +16,9 @@ permalink: /about/
 
 ## 联系
 
+- QQ群：[318558588](https://jq.qq.com/?_wv=1027&k=JHFtV92M){:target="_blank"}
+- 微信号：tiny--Y
+- 抖音号：TinyY46664
 <ul>
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
@@ -24,9 +27,6 @@ permalink: /about/
 <li>
 微信公众号：<br />
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="Layouto" />
-</li>
-<li>
-QQ群：[318558588](https://jq.qq.com/?_wv=1027&k=JHFtV92M){:target="_blank"}
 </li>
 </ul>
 
