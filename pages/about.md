@@ -22,15 +22,15 @@ permalink: /about/
 {% endfor %}
 
 <li>
-微信公众号：Layouto
+微信公众号：Layouto<br />
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="Layouto" />
 </li>
 <li>
-微信号：tiny--Y
+微信号：tiny--Y<br />
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/wechat.jpg" alt="tiny--Y" />
 </li>
 <li>
-抖音号：TinyY46664
+抖音号：TinyY46664<br />
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/douyin.jpg" alt="TinyY46664" />
 </li>
 </ul>
