@@ -1,18 +1,18 @@
 ---
 layout: page
 title: About
-description: 打码改变世界
-keywords: Zhuang Ma, 马壮
+description: description
+keywords: Tiny-Y
 comments: true
 menu: 关于
 permalink: /about/
 ---
 
-我是马壮，码而生，码而立。
+我是Tiny-Y
 
-仰慕「优雅编码的艺术」。
+专业PCB Layout设计工程师
 
-坚信熟能生巧，努力改变人生。
+个人擅长钻研与PCB设计相关的，软件、标准化、效率、技巧、二次开发等
 
 ## 联系
 
@@ -23,9 +23,11 @@ permalink: /about/
 
 <li>
 微信公众号：<br />
-<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="闷骚的程序员" />
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="Layouto" />
 </li>
-
+<li>
+QQ群：[318558588](https://jq.qq.com/?_wv=1027&k=JHFtV92M){:target="_blank"}
+</li>
 </ul>
 
 
