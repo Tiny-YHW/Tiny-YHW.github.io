@@ -15,18 +15,23 @@ permalink: /about/
 个人擅长钻研与PCB设计相关的，软件、标准化、效率、技巧、二次开发等
 
 ## 联系
-
 - QQ群：[318558588](https://jq.qq.com/?_wv=1027&k=JHFtV92M){:target="_blank"}
-- 微信号：tiny--Y
-- 抖音号：TinyY46664
 <ul>
 {% for website in site.data.social %}
 <li>{{website.sitename }}：<a href="{{ website.url }}" target="_blank">@{{ website.name }}</a></li>
 {% endfor %}
 
 <li>
-微信公众号：<br />
+微信公众号：Layouto
 <img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/qrcode.jpg" alt="Layouto" />
+</li>
+<li>
+微信号：tiny--Y
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/wechat.jpg" alt="tiny--Y" />
+</li>
+<li>
+抖音号：TinyY46664
+<img style="height:192px;width:192px;border:1px solid lightgrey;" src="{{ site.url }}/assets/images/douyin.jpg" alt="TinyY46664" />
 </li>
 </ul>
 
