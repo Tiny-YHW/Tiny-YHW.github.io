@@ -115,7 +115,7 @@ markdown: kramdown
 kramdown:
     input: GFM
 highlighter: rouge
-paginate: 10
+paginate: 10 # 一页你准备放几篇文章
 lsi: false
 quiet: false
 excerpt_separator: "\n\n"
@@ -140,7 +140,7 @@ collections:
 # ---------------- #
 #      Comments    #
 # ---------------- #
-# support provider: disqus, gitment, gitalk, utterances, beaudar, giscus
+# 使用评论插件的名称: disqus, gitment, gitalk, utterances, beaudar, giscus
 comments_provider: giscus
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
