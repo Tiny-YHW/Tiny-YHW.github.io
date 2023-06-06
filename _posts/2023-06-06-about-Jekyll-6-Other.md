@@ -1,11 +1,10 @@
 ---
 layout: post
 title: Jekyll 资源、博客迁移、模版
-permalink: /Jekyll-Other/
 date: 2023-06-06
 categories: Jekyll
 ---
-* * *
+
 * * *
 
 **目录**
