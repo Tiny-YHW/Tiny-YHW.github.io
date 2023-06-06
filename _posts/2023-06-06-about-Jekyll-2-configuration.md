@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Jekyll 配置
-permalink: /Jekyll-configuration/
 date: 2023-06-06
 categories: Jekyll
 ---
@@ -18,6 +17,7 @@ categories: Jekyll
 *   [《Jekyll使用教程笔记 六：资源、博客迁移、模版》](https://juejin.cn/post/6844903632882630664 "https://juejin.cn/post/6844903632882630664")
 
 * * *
+http://jekyllcn.com/docs/configuration/
 
 配置
 ==
