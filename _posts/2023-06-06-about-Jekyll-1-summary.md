@@ -1,8 +1,7 @@
 ---
 layout: post
 title: 简介、快速开始、基本用法、目录结构
-permalink: /Jekyll-Summary/
-date: 2023-06-06
+
 categories: Jekyll
 ---
 
