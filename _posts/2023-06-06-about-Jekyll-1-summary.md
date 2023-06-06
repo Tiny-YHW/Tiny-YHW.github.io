@@ -217,21 +217,3 @@ Jekyll的核心是一个文本转换引擎。这个系统的大概是：你给�
 > [minima](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjekyll%2Fminima "https://github.com/jekyll/minima")是当前的默认主题，`bundle show minima`会告诉你minima主题的文件存储在计算机上的哪个位置。
 
 目录结构说明：
-
-| 文件/文件夹 | 说明 |
-| --- | --- |
-| `_config.yml` | 存储配置数据。这些配置中的许多选项都可以从命令行中指定，但在这里指定它们更加容易，并且你不必记住它们。 |
-| `_drafts` | 草稿是未发布的文章。这些文件的命名格式是没有日期的：`title.MARKUP`。了解如何[使用草稿](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Fdrafts%2F "https://jekyllrb.com/docs/drafts/")。 |
-| `_includes` | These are the partials that can be mixed and matched by your layouts and posts to facilitate reuse. The liquid tag {% include file.ext %} can be used to include the partial in \_includes/file.ext. |
-| `_layouts` | 这些是包装文章的模板。在[YAML Front Matter](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Ffrontmatter%2F "https://jekyllrb.com/docs/frontmatter/")中逐层选择布局，这将在下一节中介绍。 The liquid tag `{{ content }}`用于将内容注入网页。 |
-| `_posts` | 可以这么说，这里是你的动态内容。这些文件的命名约定很重要，并且必须遵循以下格式：`YEAR-MONTH-DAY-title.MARKUP`。可以为每篇文章指定[固定链接](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Fpermalinks%2F "https://jekyllrb.com/docs/permalinks/")，但日期和MARKUP语言完全由文件名决定。 |
-| `_data` | 格式良好的网站数据应该放在这里。Jekyll引擎将自动加载该目录中的所有数据文件（使用`.yml`，`.yaml`，`.json`或`.csv`格式和扩展名），并且可以通过`site.data`访问它们。如果目录下有文件`members.yml`，则可以通过`site.data.members`访问该文件的内容。 |
-| `_sass` | 些是可以导入到`main.scss`中的sass部分，然后将它们处理成一个样式表`main.css`，该样式表定义了你的网站使用的样式。 |
-| `_site` | 这是Jekyll完成转换后，生成的网站将被存放的（默认）位置。建议将它添加到`.gitignore`文件中。 |
-| `.jekyll-metadata` | 临时文件，这些将帮助Jekyll追踪自上次构建站点后哪些文件未被修改，以及哪些文件需要在下一个版本中重新生成。该文件不会包含在生成的网站中。建议将它添加到.gitignore文件中。 |
-| `index.html`或`index.md`或其他HTML、Markdown文件 | 假设该文件具有[YAML Front Matter](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Ffrontmatter%2F "https://jekyllrb.com/docs/frontmatter/")部分，它将由Jekyll进行转换。网站根目录中的任何`.html`，`.markdown`，`.md`或`.textile`文件或上面未列出的目录也会发生同样的情况。 |
-| 其他文件/文件夹 | 除了上面列出之外的其他文件夹和文件（例如`css`和`images`文件夹，`favicon.ico`文件等），将会被逐字复制到生成的网站中。如果你想知道它们是如何布置的，有[很多网站已经在使用Jekyll](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Fsites%2F "https://jekyllrb.com/docs/sites/")。 |
-
-  
-
-本文转自 [https://juejin.cn/post/6844903623567081486](https://juejin.cn/post/6844903623567081486)，如有侵权，请联系删除。
