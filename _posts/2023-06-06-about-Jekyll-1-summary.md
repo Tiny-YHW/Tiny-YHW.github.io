@@ -222,4 +222,3 @@ Jekyll的核心是一个文本转换引擎。这个系统的大概是：你给�
 | --- | --- |
 | `_config.yml` | 存储配置数据。这些配置中的许多选项都可以从命令行中指定，但在这里指定它们更加容易，并且你不必记住它们。 |
 | `_drafts` | 草稿是未发布的文章。这些文件的命名格式是没有日期的：`title.MARKUP`。了解如何[使用草稿](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Fdrafts%2F "https://jekyllrb.com/docs/drafts/")。 |
-| `_includes` | These are the partials that can be mixed and matched by your layouts and posts to facilitate reuse. The liquid tag {% include file.ext %} can be used to include the partial in \_includes/file.ext. |
