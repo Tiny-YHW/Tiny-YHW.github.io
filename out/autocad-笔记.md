@@ -1,0 +1,197 @@
+---
+title: 'AutoCAD 笔记'
+date: Mon, 27 Apr 2020 01:24:00 +0000
+draft: false
+tags: ['设计软件']
+---
+
+**软件下载**
+--------
+
+[CAD自学网](http://www.cadzxw.com/download.html)
+
+修改对象
+----
+
+*   MI(MIRROR):镜像
+*   CO(COPY):复制
+*   M(MOVE)：移动
+*   O（OFFSET）：外扩或內缩
+*   SC：放大（缩小）指定倍数
+*   X（EXPLODE）：分解
+*   TR（TRIM）：修剪
+*   EX（EXTEND）：延伸
+*   S（STRETCH）：拉伸
+*   CHA（CHAMFER）：倒斜角
+*   F（FILLET）：倒圆角
+*   PE（PEDIT）：多段线编辑
+*   ED（DDEDIT）：修改文本
+
+**绘图**
+------
+
+*   PL（PLINE）：画线多段线   L 直线  A圆弧 W指定线宽
+*   A（ARC）：画圆弧
+*   L（LINE）：画直线
+*   C（CIRCLE）：圆形
+*   SPL（SPLINE）：样条曲线
+*   POL（POLYGON）：正多边形
+*   REC（RECTANGLE）：矩形
+*   Enter：重复执行上一个命令
+
+**设置**
+------
+
+*   OP：选项
+*   D：标注样式管理器
+
+**标注**
+------
+
+*   DLI, \*DIMLINEAR（直线标注）
+*   DAL, \*DIMALIGNED（对齐标注）
+*   DRA, \*DIMRADIUS（半径标注）
+*   DDI, \*DIMDIAMETER（直径标注）
+*   DAN, \*DIMANGULAR（角度标注）
+*   DCE, \*DIMCENTER（中心标注）
+*   DOR, \*DIMORDINATE（点标注）
+*   TOL, \*TOLERANCE（标注形位公差）
+*   LE, \*QLEADER（快速引出标注）
+*   DBA, \*DIMBASELINE（基线标注）
+*   DCO, \*DIMCONTINUE（连续标注）
+*   D, \*DIMSTYLE（标注样式）
+*   DED, \*DIMEDIT（编辑标注）
+*   DOV, \*DIMOVERRIDE(替换标注系统变量)
+*   dco，为串起来连标dba，为以第一根为基准，连标
+
+**常用CTRL快捷键**
+-------------
+
+*   【CTRL】＋1 \*PROPERTIES(修改特性)
+*   【CTRL】＋2 \*ADCENTER（设计中心）
+*   【CTRL】＋O \*OPEN（打开文件）
+*   【CTRL】＋N、M \*NEW（新建文件）
+*   【CTRL】＋P \*PRINT（打印文件）
+*   【CTRL】＋S \*SAVE（保存文件）
+*   【CTRL】＋Z \*UNDO（放弃）
+*   【CTRL】＋X \*CUTCLIP（剪切）
+*   【CTRL】＋C \*COPYCLIP（复制）
+*   【CTRL】＋V \*PASTECLIP（粘贴）
+*   【CTRL】＋B \*SNAP（栅格捕捉）
+*   【CTRL】＋F \*OSNAP（对象捕捉）
+*   【CTRL】＋G \*GRID（栅格）
+*   【CTRL】＋L \*ORTHO（正交）
+*   【CTRL】＋W \*（对象追踪）
+*   【CTRL】＋U \*（极轴）
+
+FN功能键
+-----
+
+*   F1: 获取帮助
+*   F2: 实现作图窗和文本窗口的切换
+*   F3: 控制是否实现对象自动捕捉
+*   F4: 数字化仪控制
+*   F5: 等轴测平面切换
+*   F6: 控制状态行上坐标的显示方式
+*   F7: 栅格显示模式控制
+*   F8: 正交模式控制
+*   F9: 栅格捕捉模式控制
+*   F10: 极轴模式控制
+*   F11: 对象追 踪式控制
+
+**将直线或圆弧转换为多段线**
+----------------
+
+直线和圆弧不能自定义线宽，多段线可以，而且多段线更容易做OFFSET操作，存在部分圆弧不能导入的情况，但多段线不会
+
+输入命令PE回车，然后输入M回车（选择多段线模式），分别选择要转换的多段线（要求首尾相接），右击确认完成，输入Y回车（确认），输入J回车（合并多段线）
+
+将样条曲线转换为多段线
+-----------
+
+考虑到部分设计软件导入DXF结构图时样条曲线图形丢失问题，请安下述内容操作
+
+要转换单个样条曲线，请使用 SPLINEDIT 命令：
+
+1.  在 AutoCAD 的命令行中，键入 **SPLINEDIT**。
+2.  选择样条曲线（如果尚未选择）。
+3.  键入 **P**，表示转换为**多段线**。
+4.  指定精度 <0-99>。
+
+SPLINEDIT 之前：
+
+![用户添加的图像](https://s3-us-west-1.amazonaws.com/help.autodesk.com/sfdcarticles/img/0EM3A0000008M4e)
+
+SPLINEDIT 之后：
+
+![用户添加的图像](https://s3-us-west-1.amazonaws.com/help.autodesk.com/sfdcarticles/img/0EM3A0000008M4j)
+
+要同时转换多条样条曲线，请使用 PEDIT 命令：
+
+1.  在 AutoCAD 的命令行中，键入 **PEDIT**。
+2.  键入 **M**，表示转换_多个_。
+3.  选择样条曲线。（PEDIT 命令不允许预先选择样条曲线）
+4.  键入 **Y**，表示将直线、圆弧和样条曲线转换为多段线。
+5.  指定精度 <0-99>。
+6.  按 Esc 键退出命令。
+
+或者：
+
+1.  输入 SAVEAS 命令。
+2.  以 AutoCAD R12/LT2 DXF (\*.dxf) 格式重新保存图形。
+
+**注意：**这种较旧的文件格式不支持样条曲线，因此会自动将它们更改为三维多段线。但请注意，图形中的其他数据结构可能也会受到影响。要避免出现这种情况，请选择要转换的样条曲线，然后改用 **WBLOCK** 命令。
+
+另请参见：
+
+*   [SPLINEDIT（命令）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-5530922C-6828-48B1-804C-EDD9053535BD-htm.html)
+*   [PEDIT（命令）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-0C422AA9-23DD-4650-AD66-68E9D7989E3F-htm.html?st=pedit)
+
+图案填充绘制轮廓
+--------
+
+图案填充可能不能被成功导入部分PCB设计软件，且图案填充作为基本元素也不能打散为可导入的元素。
+
+需要在图案填充的基础上，对其绘制轮廓，将轮廓导入设计软件
+
+使用快速选择选中所图案填充后使用hatchgenerateboundary命令，可批量对图案填充生成轮廓。
+
+更改背景色和其他颜色设置的步骤
+---------------
+
+1.  依次单击应用程序按钮 ![](https://help.autodesk.com/cloudhelp/2019/CHS/AutoCAD-Core/images/ac.menuaro.gif) “选项”。
+2.  在“选项”对话框的“显示”选项卡中，单击“颜色”。
+3.  在“图形窗口颜色”对话框中，选择上下文和要更改的界面元素。
+4.  在“颜色”列表中，选择要使用的颜色。若要指定自定义的颜色，请在列表底部单击“选择颜色”。若要还原到默认颜色设置，请单击相应的“恢复”按钮。
+
+### 相关概念
+
+*   [关于设置绘图区域](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/CHS/AutoCAD-Core/files/GUID-2C96D553-8BF9-48F7-9473-0D23877AF446-htm.html)
+
+### 相关任务
+
+*   [设置图形选项的步骤（常规）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/CHS/AutoCAD-Core/files/GUID-7BDD6F82-F1B4-4430-AE91-18A5E243A1B5-htm.html)
+
+### 相关参考
+
+*   [用于自定义绘图环境的命令](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/CHS/AutoCAD-Core/files/GUID-78E0A321-1927-4A01-B9EB-744E535870DE-htm.html)
+
+PDF转DWG（DXF）
+------------
+
+推荐使用Adobe Illustrator软件，此软件支持原本为矢量格式的图形直接转换为CAD的矢量文件，同时支持根据图片格式临摹（选中对象后上方菜单栏下方有对应按钮，需调整临摹选项参数值达到最优效果）出近似的图形（这个功能是独一无二的，也是推荐使用此款软件的原因）
+
+如果PDF中源图形为线条模式则转换出的CAD为线条模式
+
+如果PDF中源提图形为图片模式临摹出的近似图形分解后为样条曲线，样条曲线不能直接导入设计软件需使用PEIT命令转换为多段线后才能导入
+
+本文提供一款精简绿化CS5版本，特点：小巧够用
+
+[软件下载](https://cloud.189.cn/t/7jmiUnV3amem)（访问码：0ij6）
+
+3D转2D 投影
+--------
+
+3D转2D使用可使用投射命名，调整好视图后使用_flatshot_命令
+
+[更多方法](http://www.everleap.com.tw/tech/adsk_0001.pdf)
