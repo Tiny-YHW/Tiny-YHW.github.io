@@ -1,6 +1,6 @@
 ---
 layout: post
-title: AI 自动补全的这句日志能正常打印吗copy？
+title: about-Jekyll-1-summary
 categories: [java]
 description: 一句 GitHub Copilot 自动生成的代码让我产生了疑惑，于是探索了一番。
 keywords: java, GitHub Copilot
@@ -10,6 +10,7 @@ flow: false
 mathjax: false
 mindmap: false
 mindmap2: false
+date: 2023-06-06
 ---
 copy222
 12.28
