@@ -217,3 +217,7 @@ Jekyll的核心是一个文本转换引擎。这个系统的大概是：你给�
 > [minima](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjekyll%2Fminima "https://github.com/jekyll/minima")是当前的默认主题，`bundle show minima`会告诉你minima主题的文件存储在计算机上的哪个位置。
 
 目录结构说明：
+
+| 文件/文件夹 | 说明 |
+| --- | --- |
+| `_config.yml` | 存储配置数据。这些配置中的许多选项都可以从命令行中指定，但在这里指定它们更加容易，并且你不必记住它们。 |
