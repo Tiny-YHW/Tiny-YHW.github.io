@@ -85,3 +85,127 @@ bundle exec jekyll serve
     
 
 > 如果有疑问，请使用`help`命令来提示你所有可用的选项和用法，它也适用于`new`和`build`以及`serve`命令，例如，`jekyll help new`或`jekyll help build`。
+> 
+> 基本用法
+====
+
+Jekyll gem在终端窗口中为你提供了一个`jekyll`可执行文件。你可以通过多种方式使用此命令：
+
+```
+jekyll build
+# => 当前文件夹中的内容将被生成到./_site
+
+jekyll build --destination <destination>
+# => 当前文件夹中的内容将被生成到<destination>
+
+jekyll build --source <source> --destination <destination>
+# => <source>文件夹中的内容将被生成到<destination>
+
+jekyll build --watch
+# => 当前文件夹中的内容将被生成到./_site,
+#    检查改动，并自动重新生成。
+
+```
+
+重写默认开发配置
+--------
+
+开发环境的默认预览地址是`http://localhost:4000`。**`[3.3.0]`**
+
+如果你想为你的生产环境构建：
+
+*   在`_config.yml`中设置你的生产环境URL。例如：`https://example.com`。
+*   运行`JEKYLL_ENV=production bundle exec jekyll build`。
+
+> **注意: `_config.yml`的更改并不会在自动生成更新过程中生效。**
+> 
+> `_config.yml`主要配置文件会在执行时读取一次全局配置和变量定义。在下次执行之前，不会加载在自动生成更新期间对`_config.yml`所做的更改。
+> 
+> 注意，自动生成更新过程中会对[Data Files](https://link.juejin.cn/?target=https%3A%2F%2Fjekyllrb.com%2Fdocs%2Fdatafiles "https://jekyllrb.com/docs/datafiles")重新加载。
+
+> **警告：目标文件夹在网站构建的时候会被清空**
+> 
+> 默认情况下，当网站构建的时候，`<destination>`中的内容会被自动的清空。不是被你的网站构建时所创建的文件和文件夹都会被删除。可以在<keep\_files>配置指令中指定你希望保留在中的文件和文件夹。
+> 
+> 不要设置为重要本地路径；相反，应该将其用作暂存区域并将文件从那里复制到你的Web服务器。
+
+Jekyll还附带了一个内置的开发服务器，可以让你在本地浏览中浏览生成的网站。
+
+```
+jekyll serve
+# => 开发服务将会运行在http://localhost:4000/
+# 自动生成更新会被开启，如果不想开启请使用`--no-watch`。
+
+jekyll serve --no-watch
+# => 等同于`jekyll serve`，但是内容更改时不会自动生成新的。
+
+jekyll serve --livereload
+# LiveReload将在更新后刷新浏览器页面。
+
+jekyll serve --incremental
+# Incremental将会匹配更改部分，执行部分构建以减少自动生成更新时间。
+
+jekyll serve --detach
+# => 等同于`jekyll serve`，但是不会再当前终端中显示运行状态，而是转为后台模式。
+#    如果你需要关闭服务，你可以`kill -9 1234`，这里的"1234"是PID。
+#    如果你不知道PID，那么就执行`ps aux | grep jekyll`并关闭这个实例。
+
+```
+
+这些只是几个可用的[配置选项](https://juejin.cn/post/6844903629246169096 "https://juejin.cn/post/6844903629246169096")。许多配置选项可以在命令行中指定为flags，或者（更常见）它们可以在源目录的根目录下的`_config.yml`文件中指定。运行时，Jekyll会自动使用该文件中的选项。例如，如果将以下行放在`_config.yml`文件中：
+
+```
+source:      _source
+destination: _deploy
+
+```
+
+那么以下两个命令将是等效的：
+
+```
+jekyll build
+# 上面的命令添加过配置后等于下面的命令没加配置
+jekyll build --source _source --destination _deploy
+
+```
+
+有关配置选项的更多信息，请参阅[配置](https://juejin.cn/post/6844903629246169096 "https://juejin.cn/post/6844903629246169096")页面。
+
+> **注意：寻求帮助**
+> 
+> `help`命令总是在这里提示你所有可用的选项和用法，它也适用于`new`和`build`以及`serve`命令，例如，`jekyll help new`或`jekyll help build`。
+
+如果你有兴趣想要随时浏览这些文档，请安装`jekyll-docs`gem，并在你的终端中运行`jekyll docs`。
+
+目录结构
+====
+
+Jekyll的核心是一个文本转换引擎。这个系统的大概是：你给它的内容可以用你最喜欢的标记语言编写，可以是Markdown，是[Textile](https://link.juejin.cn/?target=https%3A%2F%2Fgithub.com%2Fjekyll%2Fjekyll-textile-converter "https://github.com/jekyll/jekyll-textile-converter")或者是纯粹的HTML，然后Jekyll通过一个或一系列布局文件混合它们。在整个过程中，你可以调整网站URL的样式，布局中显示的数据等等。这一切都是通过编辑文本文件完成的，而静态网站就是它的最终产品。
+
+基本的Jekyll站点通常看起来像这样：
+
+```
+.
+├── _config.yml
+├── _data
+|   └── members.yml
+├── _drafts
+|   ├── begin-with-the-crazy-ideas.md
+|   └── on-simplicity-in-technology.md
+├── _includes
+|   ├── footer.html
+|   └── header.html
+├── _layouts
+|   ├── default.html
+|   └── post.html
+├── _posts
+|   ├── 2007-10-29-why-every-programmer-should-play-nethack.md
+|   └── 2009-04-26-barcamp-boston-4-roundup.md
+├── _sass
+|   ├── _base.scss
+|   └── _layout.scss
+├── _site
+├── .jekyll-metadata
+└── index.html # can also be an 'index.md' with valid YAML Frontmatter
+
+```
