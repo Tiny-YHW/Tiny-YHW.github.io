@@ -124,8 +124,6 @@ Jekyll使用[Liquid](https://link.juejin.cn/?target=https%3A%2F%2Fshopify.github
 `{{ site.members | where_exp:"item","item.projects contains 'foo'" }}` |  |
 | **分组**  
 按给定属性对数组的项进行分组。 | `{{ site.members | group_by:"graduation_year" }}` | `[{"name"=>"2013", "items"=>[...]}, {"name"=>"2014", "items"=>[...]}]` |
-| **按表达分组**  
-使用Liquid表达式对数组的项进行分组。**`[3.4.0]`** | `{{ site.members | group_by_exp:"item", "item.graduation_year | truncate: 3, \"\"" }}` | `[{"name"=>"201...", "items"=>[...]},{"name"=>"200...", "items"=>[...]}]` |
 | **XML转义**  
 转义一些文本以便在XML中使用。 | `{{ page.content | xml_escape }}` | \`\` |
 | **CGI转义**  
