@@ -6,7 +6,7 @@ date: 2023-06-06
 ---
 ![Cadence-Alegro-2022.png](https://a1024.synology.me:222/images/blog2023/Cadence-Alegro-2022.png)
 
-22.1（**2022年10月**）
+22.1（2022年10月）
 ==================
 
 本文描述了Cadence Allegro PCB Editor在22.1基础版的新功能和增强功能。
@@ -43,8 +43,6 @@ Allegro SPB 22.1 版本附带一个新的 3DX 引擎，该引擎与 Allegro 板�
 
 <iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7224396314727940648?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
 
-[视频演示](https://v.douyin.com/UqjJ3tQ/){:target="_blank"}
-
 High-Speed Structure Enhancements高速结构增强
 ---------------------------------------
 
@@ -57,6 +55,8 @@ High-Speed Structure Enhancements高速结构增强
 现在创建结构更快了。这是对版本17.4-2019, HotFix 013中引入的原型的增强，可基于参数生成结构。
 
 Allegro SPB 22.1 版本可以**从画面上所选的差分对变换中直接提取结构的相关信息，**更快地创建结构。
+
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7225527003037434427?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
 
 增加一个选项：回流过孔使用与信号孔同样的padstack，启用此选项可以更快的定义一种指定的回流孔类型
 
@@ -78,6 +78,8 @@ HotFix 028版本17.4-2019提供了通过结构替换差分过孔的功能。但�
 
 现在，Allegro SPB 22.1 版本**可以使用不带有进线或出线的过孔结构，**这样在替换以后，走线和延迟就可以保持不变。
 
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7229583974199198223?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
+
 ### On-Canvas Structure Update and Variant Creation画布上的结构更新和变体创建
 
 结构可以在一个设计中多次使用。可以更改一个实例，并同步更新所有相同的实例。有时，您可能需要添加或移除对象，或者为不同的情况创建稍微不同的结构变体。在此版本中可以通过Route – Structure – Redefine命令在现有结构中添加或移除对象。可以选择覆盖实例或保存到新结构中。
@@ -94,6 +96,8 @@ Converting Shapes, Vias, and Pins 转换形状、过孔和引脚
 现在，Allegro SPB 22.1 版本可以轻松解决以上需求，**只要执行 Tools-Convert 命令，在板中直接选中对象即可完成不同对象的转换，也可以实现对象的创建或替换。**
 
 ![algPN-15.gif](https://a1024.synology.me:222/images/blog2023/algPN-15.gif)
+
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7225150867958465057?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
 
 Dimensioning Update标注功能更新
 -------------------------
@@ -160,43 +164,3 @@ Display Enhancements 显示增强
 ### Normalized Forms for High Resolution Displays 高分辨率显示器的标准化形式
 
 现在，您可以指定一个比例因子来标准化由于显示比例问题而产生部分截断形状的情况。通过调整系统变量`ALLEGRO_HIGH_DPI_ENABLED`可以让设计的各方面显示在高分辨显示器上也能有更好的表现
-
-修复记录
-----
-
-Fixed CCRs: SPB 22.1 BASE
-
-CCRID Product Title
-
-QIR 1 (HotFix 001)（12-16-2022）
-==============================
-
-本文描述了Cadence Allegro PCB Editor在22.1版季度增量版(QIR) 1中的新功能和增强功能。
-
-Allegro 3DX增强功能
----------------
-
-引入了新的3DX引擎，该引擎与Allegro设计数据库集成，通过解决相关的规模和复杂性问题，提供了更快、更有效的大型设计处理。
-
-该QIR为DRC环境提供了全面的增强，并简化了查看和浏览DRC的方式。该版本还为刚挠结合设计提供了额外的支持。
-
-### 器件间隙DRC
-
-器件到器件的间隙的DRC可用于3D model以及Place Bound 和 DFA Bound。DRC支持为单个器件和各类器件（mechanical, connector, discrete, QFN, SOP, and BGA.）设定不同的水平和垂直间隙值。
-
-DRC标记在三维视图中可见，将光标悬停在标记上可以高亮显示DRC对象及提示信息。
-
-3DX Canvas的搜索窗格中可以浏览DRC。
-
-### 3DX刚挠结合
-
-以交互方式查看和测量刚挠设计的弯曲。您可以随时进行目视器件间距检查，也可以在折弯状态下运行DRCs检查
-
-GPU加速渲染增强
----------
-
-GPU支持在平移和缩放以及打开或关闭图层时提供更快的响应时间，并提高图形渲染质量。
-
-默认情况下，GPU支持是启用的，并且在Windows和Linux平台上可用。
-
-为了获得最佳性能，可考虑使用RTX A6000级别的GPU。
