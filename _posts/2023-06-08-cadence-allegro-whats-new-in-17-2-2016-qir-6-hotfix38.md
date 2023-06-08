@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Cadence Allegro What’s New in 22.1
+title: Cadence Allegro What’s New in 17.2 2016 QIR6（hotfix38）
 categories: Allegro
-date: 2023-06-06
+date: 2023-06-08
 ---
 
 Enhancements in Design for Fabrication Rules Dfx规则增强

@@ -1,8 +1,8 @@
 ---
-title: 'Cadence Allegro What’s New in 17.2-2016 QIR 5 (Hotfix31)'
-date: Thu, 11 May 2023 02:38:59 +0000
-draft: false
-tags: ['未分类']
+layout: post
+title: Cadence Allegro What’s New in 17.2 2016 QIR6（hotfix31）
+categories: Allegro
+date: 2023-06-08
 ---
 
 Return Path DRC Updates

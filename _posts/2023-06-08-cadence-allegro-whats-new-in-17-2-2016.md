@@ -1,9 +1,11 @@
 ---
 layout: post
-title: Cadence Allegro What’s New in 22.1
+title: Cadence Allegro What’s New in 17.2 2016
 categories: Allegro
 date: 2023-06-08
 ---
+
+本文描述了Cadence Allegro PCB Editor在17.2基础版的新功能和增强功能。
 
 17.2（除非单独声明否则包括之后版本）windows版本仅支持64位操作系统安装，（Win7-Win11均可），XP将不再被支持
 
