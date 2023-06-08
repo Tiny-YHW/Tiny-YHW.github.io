@@ -1,8 +1,8 @@
 ---
-title: 'Cadence Allegro What’s New in 17.2-2016 QIR 4 (Hotfix25)'
-date: Mon, 08 May 2023 08:15:49 +0000
-draft: false
-tags: ['未分类']
+layout: post
+title: Cadence Allegro What’s New in 17.2 2016 QIR4（hotfix25）
+categories: Allegro
+date: 2023-06-08
 ---
 
 [Allegro DesignTrue DFM可制造性设计解决方案](https://a1024.synology.me:1024/?p=3030)
@@ -46,7 +46,7 @@ Allegro® Integrated Analysis and Checking是一个新的、独特的环境，�
 
 ![172-algPN-165.gif](https://a1024.synology.me:222/images/172-algPN-165.gif)
 
-_XNet/Net Selection_对话框允许您查看、筛选。或者选择平面（网络）或分层对象，如netgroups, differential pairs, and XNets，然后将它们移到“选定的XNet/Nets”窗格中或从“选定的XNet/Nets”窗格中移出。
+XNet/Net Selection对话框允许您查看、筛选。或者选择平面（网络）或分层对象，如netgroups, differential pairs, and XNets，然后将它们移到“选定的XNet/Nets”窗格中或从“选定的XNet/Nets”窗格中移出。
 
 ![172-algPN-166.gif](https://a1024.synology.me:222/images/172-algPN-166.gif)
 
@@ -232,7 +232,7 @@ Productivity Enhancements
 
 ![172-algPN-218.gif](https://a1024.synology.me:222/images/172-algPN-218.gif)
 
-从3D Canvas中查看设计时，可以从3D Canvas _Setup – Preferences_对话框中设置_Color Themes_切换集中颜色主题，支持几种默认的颜色主题，用户也可以自定义几种颜色主题进行切换
+从3D Canvas中查看设计时，可以从3D Canvas_Setup – Preferences_对话框中设置_Color Themes_切换集中颜色主题，支持几种默认的颜色主题，用户也可以自定义几种颜色主题进行切换
 
 ![172-algPN-218.gif](https://a1024.synology.me:222/images/172-algPN-219.gif)
 
@@ -254,7 +254,7 @@ Productivity Enhancements
 
 ![172-algPN-227.gif](https://a1024.synology.me:222/images/172-algPN-227.gif)
 
-在3D Canvas中选择_Setup_ – _Preferences_中的_Cutting Plane_可以打开或关闭很镜面功能和设置一个横截面参数
+在3D Canvas中选择_Setup–Preferences_中的_Cutting Plane_可以打开或关闭很镜面功能和设置一个横截面参数
 
 ![172-algPN-226.gif](https://a1024.synology.me:222/images/172-algPN-226.gif)
 

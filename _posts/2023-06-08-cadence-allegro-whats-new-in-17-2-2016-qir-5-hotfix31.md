@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cadence Allegro What’s New in 17.2 2016 QIR6（hotfix31）
+title: Cadence Allegro What’s New in 17.2 2016 QIR5（hotfix31）
 categories: Allegro
 date: 2023-06-08
 ---
