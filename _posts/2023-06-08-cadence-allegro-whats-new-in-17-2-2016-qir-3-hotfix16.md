@@ -5,6 +5,8 @@ categories: Allegro
 date: 2023-06-08
 ---
 
+本文档介绍了Allegro® PCB Editor在17.2版季度增量版QIR3（hotfix16）中的新功能和增强功能
+
 ## Allegro® PCB Symphony Team Design Option 协同设计选项
 
 此次Allegro\_17.2QIR3的Allegro PCB Symphony Team Design Option新增了几项功能，让设计人员能通过过这些新增功能更方便在Symphony Team Design Option做操作和设计PCB。

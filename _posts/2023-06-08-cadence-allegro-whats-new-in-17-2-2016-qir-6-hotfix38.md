@@ -5,6 +5,8 @@ categories: Allegro
 date: 2023-06-08
 ---
 
+本文档介绍了Allegro® PCB Editor在17.2版季度增量版QIR6（hotfix38）中的新功能和增强功能
+
 Enhancements in Design for Fabrication Rules Dfx规则增强
 ----------------------------------------------------
 

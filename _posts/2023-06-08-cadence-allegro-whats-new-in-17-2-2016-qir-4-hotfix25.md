@@ -5,6 +5,8 @@ categories: Allegro
 date: 2023-06-08
 ---
 
+本文档介绍了Allegro® PCB Editor在17.2版季度增量版QIR4（hotfix25）中的新功能和增强功能
+
 [Allegro DesignTrue DFM可制造性设计解决方案](https://a1024.synology.me:1024/?p=3030)
 --------------------------------------------------------------------------
 
