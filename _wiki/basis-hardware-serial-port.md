@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 串口通信
+title: 串口通信RS-232、RS485和RS422
 cate1: Basis
 cate2: Hardware
 description: 串口通信
