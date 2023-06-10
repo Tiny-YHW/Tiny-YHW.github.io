@@ -7,6 +7,16 @@ date: 2023-06-06
 
 本文档介绍了Allegro® PCB Editor在22.1版季度增量版（QIR）2中的新功能和增强功能
 
+* * *
+
+**关联**
+
+*   [What’s New in 22.1](https://tiny-yhw.github.io//2023/06/06/cadence-allegro-whats-new-in-22-1/)
+*   [What’s New in 22.1 QIR1&2（hotfix4）](https://tiny-yhw.github.io//2023/06/06/cadence-allegro-whats-new-in-22-1-QIR1+2/)
+
+* * *
+
+
 ![Cadence-Alegro-2022.png](https://a1024.synology.me:222/images/blog2023/Cadence-Alegro-2022.png)
 
 ---
