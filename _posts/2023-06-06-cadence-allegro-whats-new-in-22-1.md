@@ -150,7 +150,7 @@ Performance Enhancements性能增强
 
 *   具有大量DRC的设计性能更佳
 *   Faster Update to Smooth 铜皮批量更新性能优化
-*   Better Move Performance 移动大量对象是表现更加
+*   Better Move Performance 移动大量对象时表现更加
 *   Better Performance for Shape Parameter per Layer Override 当设计影响到铜皮形状，铜皮需要更新时性能更佳
 *   Restricting Command Window Messages 限制命令窗口消息，设计任务的非关键消息在命令窗口中不再可见。例如，通常在执行批量操作时，会提前显示1000多条消息。现在消息的最大数量限制为100条。
 *   Faster DRC Checking on Designs with Negative Layers 对带有负片层的设计进行更快的DRC检查
