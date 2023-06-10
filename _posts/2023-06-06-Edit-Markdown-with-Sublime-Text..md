@@ -31,12 +31,12 @@ kbd
 
 ### 命令
 按Ctrl+Shift+P输入命令
-切换自动链接URL折叠
+切换自动链接URL折叠（可以使用URL快捷检索）
 - MarkdownEditing: Toggle Automatic Link URL Folding
 切换颜色主题
 - MarkdownEditing: Select Color Scheme
 
 ## LiveReload
 ### 命令
-设置网页自动刷新
+设置网页自动刷新（可以从菜单Preferences-Package Settings-LiveReload-Plugins快捷选择）
 - LiveReload: Enable/disable plugins
