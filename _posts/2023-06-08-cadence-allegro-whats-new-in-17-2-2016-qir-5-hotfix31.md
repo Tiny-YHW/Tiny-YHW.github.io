@@ -22,6 +22,18 @@ date: 2023-06-08
 
 * * *
 
+[Allegro DesignTrue DFM可制造性设计解决方案](https://tiny-yhw.github.io//2023/06/08/cadence-allegro-designtrue-dfm/){:target="_blank"}
+--------------------------------------------------------
+
+新增大量DFM支持的检查项目
+
+[Allegro PCB Symphony Team Design Option](https://tiny-yhw.github.io//2023/06/10/2023-06-10-cadence-allegro-symphony-team-design/){:target="_blank"}
+---------------------------------------
+
+支持使用只读skill程序
+
+[Allegro Symphony Team Design模式下使用Skill](https://tiny-yhw.github.io//2023/06/10/2023-06-10-cadence-allegro-symphony-team-design-skill/){:target="_blank"}
+
 
 Return Path DRC Updates
 -----------------------
@@ -44,10 +56,6 @@ Return Path DRC Updates
 
 ![172-algPN-98.gif](https://a1024.synology.me:222/images/172-algPN-98.gif)
 
-[DesignTrue DFM](https://a1024.synology.me:1024/?p=3030)
---------------------------------------------------------
-
-新增大量DFM支持的检查项目
 
 3D Canvas Updates
 -----------------
@@ -185,14 +193,6 @@ Productivity Enhancements
 
 ![172-algPN-117.gif](https://a1024.synology.me:222/images/172-algPN-117.gif)
 
-Allegro PCB Symphony Team Design Option
----------------------------------------
-
-支持更过可使用命令及交互（略）
-
-支持使用只读skill程序
-
-[Allegro Symphony Team Design模式下使用Skill](https://a1024.synology.me:1024/?p=2802)
 
 Miscellaneous Enhancements
 --------------------------

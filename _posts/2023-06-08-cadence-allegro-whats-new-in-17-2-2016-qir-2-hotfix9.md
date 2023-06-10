@@ -23,9 +23,12 @@ date: 2023-06-08
 * * *
 
 
-## New Concurrent PCB Team Design Environment 一种新的并行PCB团队设计环境
+## New Concurrent PCB Team Design Environment
 
-[](link){:target="_blank"}
+一种新的并行PCB团队设计环境
+
+[Allegro PCB Symphony Team Design实时协同设计](https://tiny-yhw.github.io//2023/06/10/2023-06-10-cadence-allegro-symphony-team-design/){:target="_blank"}
+
 ## Create Flow (Design Planning Option)
 
 ## Introducing the New 3D Canvas (Unsupported Prototype) 3D画布

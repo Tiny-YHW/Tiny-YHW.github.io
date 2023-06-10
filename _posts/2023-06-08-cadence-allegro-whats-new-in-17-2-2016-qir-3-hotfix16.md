@@ -25,6 +25,8 @@ date: 2023-06-08
 
 ## Allegro® PCB Symphony Team Design Option 协同设计选项
 
+[Allegro PCB Symphony Team Design实时协同设计](https://tiny-yhw.github.io//2023/06/10/2023-06-10-cadence-allegro-symphony-team-design/){:target="_blank"}
+
 此次Allegro\_17.2QIR3的Allegro PCB Symphony Team Design Option新增了几项功能，让设计人员能通过过这些新增功能更方便在Symphony Team Design Option做操作和设计PCB。
 
 ### Placement

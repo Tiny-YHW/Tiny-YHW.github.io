@@ -22,9 +22,14 @@ date: 2023-06-08
 
 * * *
 
-## DesignTrue DFM in OrCAD and Allegro PCB Editor
+
+
+## DesignTrue DFM
 
 增加诸多可检查项
+
+[Allegro DesignTrue DFM可制造性设计解决方案](https://tiny-yhw.github.io//2023/06/08/cadence-allegro-designtrue-dfm/){:target="_blank"}
+
 
 ## Component Lead Editor in Allegro PCB Editor 器件引脚编辑
 
@@ -71,6 +76,8 @@ date: 2023-06-08
 需要在线连接Cadence官网，略
 
 ## Allegro® PCB Symphony Team Design Option
+
+[Allegro PCB Symphony Team Design实时协同设计](https://tiny-yhw.github.io//2023/06/10/2023-06-10-cadence-allegro-symphony-team-design/){:target="_blank"}
 
 增加更多功能或命令支持
 

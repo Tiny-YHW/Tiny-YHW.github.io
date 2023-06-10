@@ -24,7 +24,7 @@ date: 2023-06-08
 
 
 
-[Allegro DesignTrue DFM可制造性设计解决方案](https://a1024.synology.me:1024/?p=3030)
+[Allegro DesignTrue DFM可制造性设计解决方案](https://tiny-yhw.github.io//2023/06/08/cadence-allegro-designtrue-dfm/){:target="_blank"}
 --------------------------------------------------------------------------
 
 [Allegro DRC Browser DRC浏览器](https://a1024.synology.me:1024/?p=2986)
@@ -285,6 +285,8 @@ Productivity Enhancements
 
 Allegro PCB Symphony Team Design Option
 ---------------------------------------
+
+[Allegro PCB Symphony Team Design实时协同设计](https://tiny-yhw.github.io//2023/06/10/2023-06-10-cadence-allegro-symphony-team-design/){:target="_blank"}
 
 新增部分功能的支持
 

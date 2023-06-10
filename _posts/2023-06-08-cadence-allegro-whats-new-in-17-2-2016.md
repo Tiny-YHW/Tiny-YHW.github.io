@@ -24,7 +24,6 @@ date: 2023-06-08
 
 * * *
 
-
 17.2（除非单独声明否则包括之后版本）windows版本仅支持64位操作系统安装，（Win7-Win11均可），XP将不再被支持
 
 ![](https://a1024.synology.me:222/images/blog2022/Snipaste_2022-10-21_16-24-17.png)
