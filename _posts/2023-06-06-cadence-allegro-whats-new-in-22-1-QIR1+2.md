@@ -32,6 +32,8 @@ date: 2023-06-06
 
 器件到器件的间隙的DRC可用于3D model以及Place Bound 和 DFA Bound。DRC支持为单个器件和各类器件（mechanical, connector, discrete, QFN, SOP, and BGA.）设定不同的水平和垂直间隙值。
 
+![221-algPNQIR1-2.gif](https://a1024.synology.me:222/images/221-algPNQIR1-2.gif)
+
 DRC标记在三维视图中可见，将光标悬停在标记上可以高亮显示DRC对象及提示信息。
 
 3DX Canvas的搜索窗格中可以浏览DRC。
@@ -39,6 +41,8 @@ DRC标记在三维视图中可见，将光标悬停在标记上可以高亮显�
 ### 3DX刚挠结合
 
 以交互方式查看和测量刚挠设计的弯曲。您可以随时进行目视器件间距检查，也可以在折弯状态下运行DRCs检查
+
+![221-algPNQIR1-3.gif](https://a1024.synology.me:222/images/221-algPNQIR1-3.gif)
 
 ## GPU加速渲染增强
 

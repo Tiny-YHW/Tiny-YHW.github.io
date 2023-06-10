@@ -147,7 +147,7 @@ User Preferences Editor中*Manufacturing – Drilling*新增一个环境变量`B
 
 - Disable oversize antipads: 使用焊盘参数中的*BACKDRILL_CLEARANCE ANTI PAD*值而不使用antipads
 - Disable oversize keepouts: 禁止基于焊盘堆参数中的*BACKDRILL_CLEARANCE Keep-Out*值生成 Route Keepout
-- 
+
 ![172-algPN-32.gif](https://a1024.synology.me:222/images/172-algPN-32.gif)
 
 ## Component Group Move with DFA Feedback 带DFA反馈的多元器件移动
