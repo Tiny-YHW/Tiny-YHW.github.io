@@ -199,19 +199,6 @@ n个...
 >
 > ### 引用块内的标题
 
-**对应 HTML：**
-
-```html
-<blockquote>
-  <p>引用块段落一。</p>
-  <p>引用块段落二。</p>
-  <blockquote>
-    <p>内嵌引用块段落一。</p>
-  </blockquote>
-  <h3 id="引用块内的标题">引用块内的标题</h3>
-</blockquote>
-```
-
 ### 超链接
 本标签页
 [超链接名](超链接地址 "超链接title")
@@ -255,17 +242,6 @@ Markdown 支持行内式链接和引用式链接。
 [1]: https://mazhuang.org
 [2]: https://github.com/mzlogin "我的 GitHub 主页"
 
-**对应 HTML：**
-
-```html
-<p>行内式 <a href="https://mazhuang.org" title="我的个人博客">博客</a> 链接，带 title。</p>
-
-<p>行内式 <a href="https://github.com/mzlogin">GitHub</a> 链接。</p>
-
-<p>引用式 <a href="https://mazhuang.org">博客</a> 链接。</p>
-
-<p>引用式 <a href="https://github.com/mzlogin" title="我的 GitHub 主页">GitHub</a> 链接，带 title。</p>
-```
 
 ### 图片
 
@@ -285,12 +261,6 @@ Markdown 支持行内式链接和引用式链接。
 **预览效果：**
 
 ![Alt text](https://mazhuang.org/favicon.ico "favicon")
-
-**对应 HTML：**
-
-```html
-<img src="https://mazhuang.org/favicon.ico" alt="Alt text" title="favicon">
-```
 
 
 ### 列表
@@ -332,27 +302,11 @@ Markdown 支持行内式链接和引用式链接。
 2. 葡萄
 3. 榴莲
 
-**对应 HTML：**
-
-```html
-<ul>
-  <li>苹果</li>
-  <li>葡萄</li>
-  <li>榴莲</li>
-</ul>
-<ol>
-  <li>苹果</li>
-  <li>葡萄</li>
-  <li>榴莲</li>
-</ol>
-```
-
 注意：序号跟内容之间要有空格
 
 列表嵌套
-上一级和下一级之间敲三个空格即可
+上一级和下一级之间敲三个空格或一个Tab键即可
 
-#
 ### 代码
 支持行内代码和代码块。
 语法：
@@ -384,16 +338,6 @@ if (TextUtils.isEmpty(text)) {
 }
 ```
 
-**对应 HTML：**
-
-```html
-<p>Android 里使用 <code>TextUtils</code> 类的 <code>isEmpty</code> 方法来判断字符串是否为空。</p>
-
-<div class="highlight highlight-source-java"><pre><span class="pl-k">if</span> (<span class="pl-smi">TextUtils</span><span class="pl-k">.</span>isEmpty(text)) {
-    <span class="pl-k">return</span> <span class="pl-c1">null</span>;
-}</pre></div>
-```
-
 上例中的语言标记 `java` 可选填，可用于在编辑器和渲染后的效果里添加语法高亮。
 
 块式代码也可以对整个代码段缩进四个空格，或一个 Tab 来实现。
@@ -420,15 +364,6 @@ if (TextUtils.isEmpty(text)) {
 
 - - -
 
-**对应 HTML：**
-
-```
-<hr />
-
-<hr />
-
-<hr />
-```
 
 ### 嵌入 HTML
 
@@ -469,34 +404,7 @@ Markdown 标记语言的目的不是替代 HTML，也不是发明一种更便捷
 | 0     | 张三       | 28         | 男         |
 | 1     | 李四       | 29         | 男         |
 
-**对应 HTML：**
 
-```html
-<table>
-  <thead>
-    <tr>
-      <th>编号</th>
-      <th align="left">姓名（左）</th>
-      <th align="right">年龄（右）</th>
-      <th align="center">性别（中）</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>0</td>
-      <td align="left">张三</td>
-      <td align="right">28</td>
-      <td align="center">男</td>
-    </tr>
-    <tr>
-      <td>1</td>
-      <td align="left">李四</td>
-      <td align="right">29</td>
-      <td align="center">男</td>
-    </tr>
-  </tbody>
-</table>
-```
 ### 任务列表
 
 在 GitHub / GitLab 里有较好的支持。
@@ -514,16 +422,6 @@ Markdown 标记语言的目的不是替代 HTML，也不是发明一种更便捷
 - [x] 洗碗
 - [ ] 清洗油烟机
 - [ ] 拖地
-
-**对应 HTML：**
-
-```html
-<ul class="contains-task-list">
-  <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox" checked=""> 洗碗</li>
-  <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 清洗油烟机</li>
-  <li class="task-list-item"><input type="checkbox" id="" disabled="" class="task-list-item-checkbox"> 拖地</li>
-</ul>
-```
 
 如果是在 GitHub / GitLab 的 Issue 里，会附赠任务完成比例提示效果：
 
@@ -551,13 +449,6 @@ https://github.com
 
 <example@gmail.com>
 
-**对应 HTML：**
-
-```html
-<p><a href="https://github.com">https://github.com</a></p>
-
-<p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
-```
 
 ### emoji
 
@@ -573,15 +464,6 @@ https://github.com
 
 :camel: :blush: :smile:
 
-**对应 HTML：**
-
-```html
-<p>
-  <img class="emoji" title=":camel:" alt=":camel:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f42b.png" height="20" width="20">
-  <img class="emoji" title=":blush:" alt=":blush:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f60a.png" height="20" width="20">
-  <img class="emoji" title=":smile:" alt=":smile:" src="https://assets-cdn.github.com/images/icons/emoji/unicode/1f604.png" height="20" width="20">
-</p>
-```
 
 ## 奇技淫巧
 
