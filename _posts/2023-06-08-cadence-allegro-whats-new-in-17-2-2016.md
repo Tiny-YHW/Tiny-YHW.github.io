@@ -7,6 +7,21 @@ date: 2023-06-08
 
 本文描述了Cadence Allegro PCB Editor在17.2基础版的新功能和增强功能。
 
+
+* * *
+
+**目录**
+
+*   [《Jekyll使用教程笔记 一：简介、快速开始、基本用法、目录结构》](https://juejin.cn/post/6844903623567081486 "https://juejin.cn/post/6844903623567081486")
+*   [《Jekyll使用教程笔记 二：配置》](https://juejin.cn/post/6844903629246169096 "https://juejin.cn/post/6844903629246169096")
+*   [《Jekyll使用教程笔记 三：Front Matter、写文章》](https://juejin.cn/post/6844903629682376711 "https://juejin.cn/post/6844903629682376711")
+*   [《Jekyll使用教程笔记 四：创建页面、静态文件、变量》](https://juejin.cn/post/6844903629934084109 "https://juejin.cn/post/6844903629934084109")
+*   [《Jekyll使用教程笔记 五：合集、数据文件》](https://juejin.cn/post/6844903630001160199 "https://juejin.cn/post/6844903630001160199")
+*   [《Jekyll使用教程笔记 六：资源、博客迁移、模版》](https://juejin.cn/post/6844903632882630664 "https://juejin.cn/post/6844903632882630664")
+
+* * *
+
+
 17.2（除非单独声明否则包括之后版本）windows版本仅支持64位操作系统安装，（Win7-Win11均可），XP将不再被支持
 
 ![](https://a1024.synology.me:222/images/blog2022/Snipaste_2022-10-21_16-24-17.png)
