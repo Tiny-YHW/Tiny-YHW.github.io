@@ -20,15 +20,15 @@ keywords: Cadence软件下载
 
 总体来说安装步骤如下
 
-*   安装license managener
-*   安装cadence产品
-*   解压吴川斌的破解工具，打开实用工具 破解修复功能，会全自动完成破解（也可查看吴川斌写的使用说明）
+*   安装License Managener
+*   安装Cadence产品和补丁（可同时装多个版本）
+*   使用吴川斌的破解工具对其进行破解
 
 * * *
 
-### 安装license managener
+### 安装License Managener
 
-尽量选择最新版本的license managener，因为它是向下兼容的，目前（20230614）最新版本为12.08，网盘内单独提取了此安装包，可单独下载安装
+尽量选择最新版本的License Managener，因为它是向下兼容的，目前（20230614）最新版本为12.08，网盘内单独提取了此安装包，可单独下载安装
 
 ![Snipaste_2023-06-14_09-12-30.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-12-30.jpg)
 
@@ -38,7 +38,7 @@ keywords: Cadence软件下载
 
 ![Snipaste_2023-06-14_09-16-26.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-16-26.jpg)
 
-- license managener安装完成
+- License Managener安装完成
 
 ### 安装Cadence产品
 
