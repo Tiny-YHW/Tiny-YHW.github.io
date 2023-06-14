@@ -13,7 +13,6 @@ keywords: Cadence软件下载
 使用123云盘存储，下载不限速，无需注册帐号。
 微信公众号Layouto内回复“Cadence”获取。
 
-
 * * *
 ## 安装和破解
 
@@ -22,10 +21,47 @@ keywords: Cadence软件下载
 总体来说安装步骤如下
 
 *   安装license managener
-*   安装cadence 产品
+*   安装cadence产品
 *   解压吴川斌的破解工具，打开实用工具 破解修复功能，会全自动完成破解（也可查看吴川斌写的使用说明）
 
 * * *
+
+### 安装license managener
+
+尽量选择最新版本的license managener，因为它是向下兼容的，目前（20230614）最新版本为12.08，网盘内单独提取了此安装包，可单独下载安装
+
+![Snipaste_2023-06-14_09-12-30.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-12-30.jpg)
+
+- 解压运行setup.exe进行安装
+- 一路默认Next，若有需要接受的点接受
+- 过程中或跳一个Licence File Location对话框，此处点击Cancel
+
+![Snipaste_2023-06-14_09-16-26.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-16-26.jpg)
+
+- license managener安装完成
+
+### 安装Cadence产品
+
+- 点击对应版本的iso文件，点击setup.exe进行安装
+- 一路默认Next，若有需要接受的点接受
+- 过程中有个选择安装产品的界面，如果你了解并能识别你需要的产品可自行配置否则就默认安装所有即可
+- 等待安装完成（需要一段时间尤其是17.4及之后的版本）
+- 建议再继续安装对应版本Cadence的最新hotfix（补丁）
+- 如果需要安装多个版本可以再此时一并安装（后面的破解可以一次性批量处理掉）
+
+### 破解
+
+- 目前使用吴川斌的破解工具是最方便快捷的
+
+![Snipaste_2023-06-14_09-31-57.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-31-57.jpg)
+
+- 解压后直接运行AllegroCrackMasterVn.exe
+- 选择实用工具-破解修复-选择版本-开始破解
+
+![Snipaste_2023-06-14_09-36-23.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-36-23.jpg)
+
+- 等待破解完成（需要一段时间尤其是17.4及之后的版本）
+
 
 OrCAD Capture
 -------------
