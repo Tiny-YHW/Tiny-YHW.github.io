@@ -524,14 +524,18 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 
 位号自适应大小并居中
 
-### [查看板中的过孔Via类型或焊盘Padstack类型](https://a1024.synology.me:1024/allegro-%e5%a6%82%e4%bd%95%e6%9d%bf%e4%b8%ad%e7%9a%84%e8%bf%87%e5%ad%94%e7%b1%bb%e5%9e%8b/)（待补充）
+### [查看板中的过孔Via类型或焊盘Padstack类型](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-padstack-finder/){:target="_blank"}
+
+Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。
 
 Planning Option
 ---------------
 
+### [Flow Planning](https://a1024.synology.me:1024/allegro-flow-planning/){:target="_blank"}
+
 ### [Auto Interactive Break Out Technology](https://a1024.synology.me:1024/allegro-aibtauto-interactive-break-out-technology%e8%87%aa%e5%8a%a8%e4%ba%a4%e4%ba%92%e5%b8%83%e7%ba%bf%e6%8a%80%e6%9c%af/)（待补充）
 
-### [Flow Planning](https://a1024.synology.me:1024/allegro-flow-planning/)（待补充）
+
 
 
 ## New Reports 新报告
