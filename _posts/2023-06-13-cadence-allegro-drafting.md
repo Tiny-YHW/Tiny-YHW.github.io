@@ -6,7 +6,12 @@ description:
 date: 2023-06-13
 ---
 
-Allegro新增一系列绘图能力功能，大大增强了在机械结构图的设计上的编辑处理能力，对应的命令可在菜单Manufacture > Drafting的子菜单访问，也可以在*General Edit App*模式时，鼠标指向对应的对象时通过右键访问Drafting
+
+Allegro新增一系列绘图能力功能，大大增强了在机械结构图的设计上的编辑处理能力
+
+此功能在Allegro16.6的补丁版本新增，在各个补丁号中多次进行更新，本文描述功能基于QIR 8(HotFix38)进行介绍，在之前的版本可能缺少部分功能或需要从菜单*Manufacture - Drafting*处访问
+
+对应的命令可在菜单Manufacture > Drafting的子菜单访问，也可以在*General Edit App*模式时，鼠标指向对应的对象时通过右键访问Drafting
 
 ![](http://a1024.synology.me:222/images/blog2022/draft1.png)
 

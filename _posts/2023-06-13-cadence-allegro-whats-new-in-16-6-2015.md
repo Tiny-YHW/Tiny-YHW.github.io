@@ -8,6 +8,9 @@ date: 2023-06-13
 
 
 本文描述了Cadence Allegro PCB Editor在17.4-2019基础版中的增强和改进
+
+## [Allegro Drafting Prototypes ](https://tiny-yhw.github.io//2023/06/13/cadence-allegro-drafting/){:target="_blank"}
+
 ## Flow（待补充）
 QIR 8(HotFix38)新增
 
@@ -31,6 +34,37 @@ QIR 3(HotFix13) 更新（待补充）
 允许用户在布线过程中采用非标准角度如15度进行布线，以使在玻璃纤维介质中走线时最大程度的降低阻抗的不连续性。
 在使用Route-Connect命令布线时从Option面板勾选Route offset启用此功能
 ![route_offset.png](https://a1024.synology.me:222/images/route_offset.png)
+
+
+
+
+### Fiber Weave Effect - Zig-Zag Routing 锯齿形布线
+
+(HotFix51)新增功能
+可将平行布线转换为锯齿形（斜角）路线。通过此种布线方式，可以最大程度地减少PCB玻璃纤维编织对高速信号路由的影响。此功能同时可用于差分对和单端网络。可以指定所需的曲折角度和最大线段长度，以及用于转换完整线段或定义起点和终点的选项。
+
+![](http://a1024.synology.me:222/images/blog2022/highspped2.png)
+
+使用方法：见动图
+
+![](http://a1024.synology.me:222/images/blog2022/highspeed3.gif)
+
+
+### Differential Pair Return Path Vias 差分回流过孔
+
+回流过孔，也称为接地参考过孔，提供回流路径，以最大程度地减少过孔过渡期间PCB和封装互连中的信号衰减。电流必须始终返回其源极，因此，当信号使用通孔从一层转移到另一层时，返回电流将沿着阻抗最小的路径返回到源极。
+
+(HotFix51)新增功能
+
+使用方法：在Add connect命令时右键选择菜单Return Path Vias (Prototype)选择Setup设置回流过孔的参数包括，Setup标签页的过孔选择、网络选择和Spacing标签页的对应回流过孔类型的间距位置等参数，应用后再打孔时回流过孔会同时生成
+
+![](http://a1024.synology.me:222/images/blog2022/highspped1.png)
+
+
+### Remove Tuning移除等长绕线
+
+将进行过Delay tune(等长绕线)的Cline，移除绕线的蛇形部分恢复直连，通过菜单中Route - Remove Tuning访问
+
 
 ### Auto Interactive Convert Corner (AiCC)
 
@@ -101,13 +135,6 @@ QIR 5（HotFix22)中新增VOID_SAME_NET属性对同网络shape的支持，相同
 （HotFix51）当铜皮存在交叉时选择指定铜皮右键选择提高或降低优先级来调整交叉部分的覆盖关系
 
 ![image063.png](https://a1024.synology.me:222/images/image063.png)
-
-## Allegro Drafting Prototypes
-（待补充）
-### Delete by Line 按Line切断线
-### Delete by Rectangle 按矩形切断线
-### Offset Copy 偏移负值线
-### Add Perpendicular Line 添加垂直线
 
 ## Export 输出
 ### Artwork / Film Records Enhancements

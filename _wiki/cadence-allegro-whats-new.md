@@ -8,6 +8,12 @@ keywords:
 
 * * *
 
+## 16.6
+
+- [What’s New in 16.6-2015](https://tiny-yhw.github.io//2023/06/13/cadence-allegro-whats-new-in-16-6-2015/){:target="_blank"}
+
+* * *
+
 ## 17.2
 
 -  [What’s New in 17.2 2016](https://tiny-yhw.github.io//2023/06/08/cadence-allegro-whats-new-in-17-2-2016/){:target="_blank"}
