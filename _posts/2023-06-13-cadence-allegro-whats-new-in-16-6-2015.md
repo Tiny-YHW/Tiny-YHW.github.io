@@ -20,7 +20,6 @@ date: 2023-06-13
 - Show Measure Support for Dual Units 显示对双单位的测量支持
 - Associative Dimensioning Updates 关联尺寸更新
 
-
 ## [Allegro Drafting Prototypes ](https://tiny-yhw.github.io//2023/06/13/cadence-allegro-drafting/){:target="_blank"}
 
 Allegro新增一系列绘图能力功能，大大增强了在机械结构图的设计上的编辑处理能力
@@ -123,7 +122,7 @@ QIR 7 (HotFix32)更新允许在使用Slide命令时改变拐点的角度
 
 当使用Route-Connect命令布线时，16.6之前的版本允许直接点击PCB中的空白区域进行随意布线，16.6 User Preference Editor的Route - Connect中新增环境变量“acon_disable_nullnet_route”，当设置后，用户不能再在空白区域进行布线。
 
-## Line Width Retention during Add Connect 布线线宽重用
+### Line Width Retention during Add Connect 布线线宽重用
 
 当使用Route-Connect命令布线时，线宽默认使用之前用户指定的线宽，并在Option中使用蓝色的线宽值显示，如需使用规则中指定的值，在此处切换为Constraint回复规则中指定的线宽值
 
@@ -170,7 +169,7 @@ QIR 3(HotFix13)引入，而后进行多次更新
 - Change Width 批量修改线宽
 - Cross Copy 跨Class类复制或移动
 - Class颜色
-- polar grid 极坐标格点的使用（待补充）
+- polar grid 极坐标格点的使用
 
 ### [Advanced Mirror 高级镜像](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-advanced-mirror/){:target="_blank"}
 
@@ -384,8 +383,6 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 
 [![dim.png](https://a1024.synology.me:222/images/dim.png)](https://a1024.synology.me:222/image/0EkS)
 
-
-
 ## New Reports 新报告
 
 在QIR 2（HotFix6）新增报告
@@ -393,7 +390,6 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 - **Film Area:**各个artwork层叠中图形占比
 - **Vias per net:**列出每个网络的过孔数量和过孔类型。
 - **Vias per layer per net:**分层列出每个网络的过孔数量和过孔类型。
-
 
 ## Productivity Enhancements
 
