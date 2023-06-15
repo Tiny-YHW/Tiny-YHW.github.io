@@ -6,7 +6,7 @@ description:
 date: 2023-06-13
 ---
 
-<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=w0975lb6c1m" allowFullScreen="true"></iframe>
+<iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=w0975lb6c1m" allowFullScreen="true"></iframe>
 
 视频演示内容包含如下
 - Component Alignment 元器件对齐和等距分布
@@ -486,7 +486,7 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 
 使用下述功能需启用Allegro Productivity Toolbox产品选项，可在软件启动时选择或File-Change Editor选择。
 
-<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=p0975ttcv0e" allowFullScreen="true"></iframe>
+<iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=p0975ttcv0e" allowFullScreen="true"></iframe>
 
 视频演示内容包含如下
 
@@ -496,13 +496,11 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 - Class颜色
 - polar grid 极坐标格点的使用（待补充）
 
-### Advanced Mirror 高级镜像
+### [Advanced Mirror 高级镜像](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-advanced-mirror/){:target="_blank"}
 
 说明：将多个对象按同面进行图形镜像或按镜像面镜像
 
 使用方法：选择菜单Eidt - Advanced Mirror，调整Option，选择对象
-
-[https://www.u-c.com.cn/w/news/technical/63.html](https://www.u-c.com.cn/w/news/technical/63.html)
 
 ### Change Width 批量修改线宽
 
@@ -522,7 +520,10 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 
 使用方法：选择菜单DisPlay - Class Color，调整对话框并应用。
 
-### [位号调整 Label Tune](https://a1024.synology.me:1024/label-tune-%e4%bd%8d%e5%8f%b7%e8%87%aa%e9%80%82%e5%ba%94%e5%a4%a7%e5%b0%8f%e5%b9%b6%e5%b1%85%e4%b8%ad/)（待补充）
+### [位号调整 Label Tune](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-label-tune/){:target="_blank"}
+
+位号自适应大小并居中
+
 ### [查看板中的过孔Via类型或焊盘Padstack类型](https://a1024.synology.me:1024/allegro-%e5%a6%82%e4%bd%95%e6%9d%bf%e4%b8%ad%e7%9a%84%e8%bf%87%e5%ad%94%e7%b1%bb%e5%9e%8b/)（待补充）
 
 Planning Option

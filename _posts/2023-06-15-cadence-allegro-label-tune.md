@@ -24,7 +24,8 @@ Label Tune是一个Productivity Toolbox工具，再16.6某补丁及之后版本�
 
 下面附一个演示视频及使用说明文档（英文的）
 
-<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=m0362j89qkl" allowFullScreen="true"></iframe>
+<iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=m0362j89qkl" allowFullScreen="true"></iframe>
+
 
 官方文档
 ----
