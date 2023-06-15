@@ -11,7 +11,7 @@ date: 2023-06-15
 
 使用此功能前建议学习上面章节内容
 
-菜单Setup > Design Parameter Editor > Route >Auto-I.Breakout、Auto-I. Trunk Route可对两个功能的预设参数进行调整：如是否移除已布的线、是否参照创建的**Bundle**和Flow规则、是否避让动态铜皮等
+菜单Setup > Design Parameter Editor > Route >Auto-I.Breakout、Auto-I. Trunk Route可对两个功能的预设参数进行调整：如是否移除已布的线、是否参照创建的**Bundle**和Flow规则、是否避让动态铜皮等
 
 ![](http://a1024.synology.me:222/images/blog2022/aibt.png)
 
@@ -34,12 +34,14 @@ Auto I. Break Out 自动交互扇出引线
 
 线序调整和Break Out可以交叉调整，排序不分先后
 
+<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=u0975xgaz3m" allowfullscreen="true" width="640" height="480"></iframe>
+
 Auto-I. Trunk Route 自动交互布线
 --------------------------
 
 ### 交互布线
 
-选中Bundle后右键选择Auto-I. Trunk Route，程序将按预设参数完成Break Out后对Bundle的布线(Setup > Design Parameter Editor > Route >Auto-I. Trunk Route)
+选中Bundle后右键选择Auto-I. Trunk Route，程序将按预设参数完成Break Out后对Bundle的布线(Setup > Design Parameter Editor > Route >Auto-I. Trunk Route)
 
 ### 设置间距
 
@@ -51,7 +53,9 @@ Auto-I. Trunk Route 自动交互布线
 
 ### 等长调整
 
-若设置好的了对应Bundle的网络的Machgroup规则，可选中Bundle后右键选择Auto-interactive Delay Tune程序将按预设参数完成自动绕等长(Setup > Design Parameter Editor > Route >Auto-I Delay Tune)
+若设置好的了对应Bundle的网络的Machgroup规则，可选中Bundle后右键选择Auto-interactive Delay Tune程序将按预设参数完成自动绕等长(Setup > Design Parameter Editor > Route >Auto-I Delay Tune)
+
+<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=v0975kxch79" allowfullscreen="true" width="640" height="480"></iframe>
 
 Tip：如果Bundle比较长使用View > Split View 可以分割出一个敞口用来查看连接另一端的状态
 
