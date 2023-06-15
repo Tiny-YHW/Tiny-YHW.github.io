@@ -6,6 +6,18 @@ description:
 date: 2023-06-13
 ---
 
+<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=w0975lb6c1m" allowFullScreen="true"></iframe>
+
+视频演示内容包含如下
+- Component Alignment 元器件对齐和等距分布
+- Place Replicate support of Text 模块复用包含元器件位号
+- Symbol Instance Refresh 刷新器件
+- Parameterized Cornering for Rectangular Shapes 倒角矩形
+- Embedded Net Names 嵌入的网络名称
+- Select by Lasso or Path 套索或路径选择
+- Show Measure Support for Dual Units 显示对双单位的测量支持
+- Associative Dimensioning Updates 关联尺寸更新
+
 
 本文描述了Cadence Allegro PCB Editor在17.4-2019基础版中的增强和改进
 
@@ -34,8 +46,6 @@ QIR 3(HotFix13) 更新（待补充）
 允许用户在布线过程中采用非标准角度如15度进行布线，以使在玻璃纤维介质中走线时最大程度的降低阻抗的不连续性。
 在使用Route-Connect命令布线时从Option面板勾选Route offset启用此功能
 ![route_offset.png](https://a1024.synology.me:222/images/route_offset.png)
-
-
 
 
 ### Fiber Weave Effect - Zig-Zag Routing 锯齿形布线
@@ -69,8 +79,9 @@ QIR 3(HotFix13) 更新（待补充）
 ### Auto Interactive Convert Corner (AiCC)
 
 该命令用于批量切换（改变）走线拐角的角度（Arc、45、90）。其操作对象可以为Nets、Clines和Cline Segments
+菜单：Route->Unsurpported Prototypes->Auto-interactive Convert Corner
 
-![aicc.png](https://a1024.synology.me:222/images/aicc.png)
+![](http://a1024.synology.me:222/images/blog2022/Aicc.gif)
 
 ### Auto Interactive Add Connect 自动互联
 QIR 3(HotFix13) 更新（待补充）
@@ -83,6 +94,7 @@ QIR 3(HotFix13)新增3D Step支持（待补充）
 ### Place Replicate support of Text
 
 模块复用时与元器件关联的Text也将同时被复用
+见文章开头视频演示
 
 ### Placement Replication support for component level pin properties 支持管脚属性复用
 
@@ -223,10 +235,13 @@ QIR 3(HotFix13) 更新增加一个新的环境变量*acon_no_width_override_reta
 
 ### Component Alignment updates 元器件对齐
 
+在Placement Eidt模式下选择元器件，右键选择Align Componment，调整Option
+
 针对横向对齐或纵向对齐，可以设置不同的对齐方式，如左对齐、右对齐、上对齐、下对齐。针对对齐时元器件的间距，可以设置不同的间距值，如Option 控制面板中，Off 代表当前间距；Use DFA constraints 表示采用DFA 间距；Equal spacing 表示用户设置等间距。
 
 ![align.png](https://a1024.synology.me:222/images/align.png)
 
+更多见文章开头视频演示
 
 ### Add Circle - Ease of Use Improvements
 
@@ -305,15 +320,6 @@ QIR 6 (HotFix27)中新增移动器件时同时Slie与其相连的Etch的功能�
 
 QIR 6 (HotFix27)中在标注尺寸时运行使用*Mirror Text*命令标注镜像的文本
 
-### Select by Lasso or Path
-
-16.6 版本鼠标右键下拉菜单Selection set 中新增两个命令“Select by lasso”和“Select by Path”。
-
-![lasso.png](https://a1024.synology.me:222/images/lasso.png)
-
-- Select by Lasso：以索套的方式选择对象；
-- Select by Path：以鼠标经过的路径的方式选择对象，鼠标经过哪些对象则选取哪些对象。
-
 ### Highlight Nets associated with Component 高亮与器件关联的网络
 
 16.6 版本支持在对元器件进行高亮显示的同时，将该元器件关联的网络一并进行高亮。操
@@ -346,7 +352,7 @@ QIR 6 (HotFix27)中在标注尺寸时运行使用*Mirror Text*命令标注镜像
 Ignore FIXED property：在进行焊盘的替换时，支持忽略FIXED 属性；
 Pin #：支持批量替换引脚，例如输入2-8，即只替换编号为2-8 号的引脚。
 
-### Associative Dimensioning Updates
+### Associative Dimensioning Updates 关联尺寸更新
 
 在执行“Manufacture-Dimension Environment”命令，进行线性标注（Linear Dimension）时，
 Option 控制面板有如下改进：
@@ -377,6 +383,38 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 使用*refresh_symbol*命令时新增一个选项以保留与设计中的引脚相关联的焊盘堆栈名称，使其不被更新。
 
 ![image059.png](https://a1024.synology.me:222/images/image059.png)
+
+refresh syminst命令使您可以刷新PCB中已经放置的symbol。 该命令将恢复与symbol有关的数据。 例如，丝印框或文本。 您可以从Placement Edit应用程序模式的右键菜单中访问此命令。
+注意：此命令不会刷新库中的symbol，仅对选中器件生效。
+
+应用：设计检查时发现的元器件某元素误删，可使用此功能恢复
+
+#### 不完全测试结果
+
+**Move对象**
+
+- Line属性所有对象将被重置
+- Shape属性所有对象将被重置
+- Pinnumber对象将被重置
+- 除Pinnumber对象外所有Text将被不会被重置
+
+**Del对象**
+
+- 所有被删除的对象将被重置
+
+**总结**
+
+- 除Pinnumber对象外所有被移动或改变Text不会被重置，其它所有对象将被重置
+
+### Select by Lasso or Path 套索或路径选择
+
+16.6 版本鼠标右键下拉菜单Selection set 中新增两个命令“Select by lasso”和“Select by Path”。
+
+![lasso.png](https://a1024.synology.me:222/images/lasso.png)
+
+- Select by Lasso：以索套的方式选择对象；
+- Select by Path：以鼠标经过的路径的方式选择对象，鼠标经过哪些对象则选取哪些对象。
+
 
 ### Persistent Snap and Selection 延续吸附和选择
 
@@ -416,15 +454,103 @@ Find 控制面板中新增多种查找对象（Match group, Net group, Net class
 
 ### Default Gerber Zero Line Width
 
-（HotFix51）中新增环境变量*artwork_undef_line_width*可以定义一个全局的未定义线宽值
+(HotFix51)中新增环境变量*artwork_undef_line_width*可以定义一个全局的未定义线宽值
 
-### New Reports 新报告
+### Contour Routing 按轮廓布线
+
+(HotFix51)中新增功能
+
+软硬结合设计软区经常使用圆角，若布线路径预软区圆角路径一致可以获得更优质的布线空间
+
+在Add connect命令时右键选择Contour，调整依附轮廓和间距参数，顺着轮廓描摹即可
+
+![](http://a1024.synology.me:222/images/blog2022/highspped5.png)
+
+### Scribble Mode Routing 涂鸦模式布线
+
+QIR 3(HotFix13)引入，而后进行多次更新
+
+个人感觉有点鸡肋，没什么用途，在Add connect命令时通过右键菜单选择Scribble Mode激活此布线模式
+
+![](http://a1024.synology.me:222/images/blog2022/scribble_mode_routing.png)
+
+### Split Views分割视图
+
+QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
+
+将当前显示界面分割为两个部分，分别对焦不同的设计区域，当进行较长的布线时，可以直观清晰的看到连接两端的状态，通过菜单View-Split View访问
+
+![](http://a1024.synology.me:222/images/blog2022/split_view16.66.png)
+
+## ToolBox
+
+使用下述功能需启用Allegro Productivity Toolbox产品选项，可在软件启动时选择或File-Change Editor选择。
+
+<iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=p0975ttcv0e" allowFullScreen="true"></iframe>
+
+视频演示内容包含如下
+
+- Advanced Mirror 高级镜像
+- Change Width 批量修改线宽
+- Cross Copy 跨Class类复制或移动
+- Class颜色
+- polar grid 极坐标格点的使用（待补充）
+
+### Advanced Mirror 高级镜像
+
+说明：将多个对象按同面进行图形镜像或按镜像面镜像
+
+使用方法：选择菜单Eidt - Advanced Mirror，调整Option，选择对象
+
+[https://www.u-c.com.cn/w/news/technical/63.html](https://www.u-c.com.cn/w/news/technical/63.html)
+
+### Change Width 批量修改线宽
+
+说明：修改指定区域内某值线宽的Clines改变线宽
+
+使用方法：选择菜单Eidt - Change Width，调整Option，选择目标层（可以是多个），选择区域
+
+### Cross Copy 跨Class类复制或移动
+
+说明：将一个Class的对象复制或移动到另一个Class（Change命令不能跨Class Change）
+
+使用方法：选择菜单Eidt - Cross Copy，调整调整Option，选择对象
+
+### Class颜色
+
+说明：对用户定义过额Net Class标记一种颜色显示
+
+使用方法：选择菜单DisPlay - Class Color，调整对话框并应用。
+
+### [位号调整 Label Tune](https://a1024.synology.me:1024/label-tune-%e4%bd%8d%e5%8f%b7%e8%87%aa%e9%80%82%e5%ba%94%e5%a4%a7%e5%b0%8f%e5%b9%b6%e5%b1%85%e4%b8%ad/)（待补充）
+### [查看板中的过孔Via类型或焊盘Padstack类型](https://a1024.synology.me:1024/allegro-%e5%a6%82%e4%bd%95%e6%9d%bf%e4%b8%ad%e7%9a%84%e8%bf%87%e5%ad%94%e7%b1%bb%e5%9e%8b/)（待补充）
+
+Planning Option
+---------------
+
+### [Auto Interactive Break Out Technology](https://a1024.synology.me:1024/allegro-aibtauto-interactive-break-out-technology%e8%87%aa%e5%8a%a8%e4%ba%a4%e4%ba%92%e5%b8%83%e7%ba%bf%e6%8a%80%e6%9c%af/)（待补充）
+
+### [Flow Planning](https://a1024.synology.me:1024/allegro-flow-planning/)（待补充）
+
+
+## New Reports 新报告
 
 在QIR 2（HotFix6）新增报告
 
 - **Film Area:**各个artwork层叠中图形占比
 - **Vias per net:**列出每个网络的过孔数量和过孔类型。
 - **Vias per layer per net:**分层列出每个网络的过孔数量和过孔类型。
+
+## 杂七杂八
+
+- Add Connect选择其中一个飞线时可选让其它飞线隐藏
+- 可对字号定义名称，更方便识别，而不是只叫1234
+- 3D可视化效果增强
+- 输出Step（3D）格式的PCB文件
+- 背钻功能增强（还差很多，有必要请使用17.2及以上版本）
+- 尺寸标注关联到对象实时更新
+- Find过滤器新增可过滤对象
+- 新增重新编号符号引脚功能
 
 ## Find by Query（略）不好用而后在17.X中被完全更新
 ## RF PCB Enhancements（略）
