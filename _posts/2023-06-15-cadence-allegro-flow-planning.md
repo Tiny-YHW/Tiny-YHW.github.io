@@ -90,8 +90,7 @@ Find中选择Groups，层开关打开Plan/All层（默认生成到此层），�
 
 Auto Connect 或
 
-[Allegro (AIBT)Auto Interactive Break Out Technology自动交互布线技术](https://a1024.synology.me:1024/allegro-aibtauto-interactive-break-out-technology%e8%87%aa%e5%8a%a8%e4%ba%a4%e4%ba%92%e5%b8%83%e7%ba%bf%e6%8a%80%e6%9c%af/)
-
+[Allegro (AIBT)Auto Interactive Break Out Technology自动交互布线技术](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-aibt/){:target="_blank"}
 
 其它资料
 

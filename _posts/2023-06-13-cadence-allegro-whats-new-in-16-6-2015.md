@@ -6,6 +6,8 @@ description:
 date: 2023-06-13
 ---
 
+本文描述了Cadence Allegro PCB Editor在17.4-2019基础版中的增强和改进
+
 <iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=w0975lb6c1m" allowFullScreen="true"></iframe>
 
 视频演示内容包含如下
@@ -19,12 +21,20 @@ date: 2023-06-13
 - Associative Dimensioning Updates 关联尺寸更新
 
 
-本文描述了Cadence Allegro PCB Editor在17.4-2019基础版中的增强和改进
-
 ## [Allegro Drafting Prototypes ](https://tiny-yhw.github.io//2023/06/13/cadence-allegro-drafting/){:target="_blank"}
 
-## Flow（待补充）
-QIR 8(HotFix38)新增
+Allegro新增一系列绘图能力功能，大大增强了在机械结构图的设计上的编辑处理能力
+
+## Design Planning Option （Flow）
+
+### [Flow Planning](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-flow-planning/){:target="_blank"}
+
+将设计意图表达在设计中
+
+### [Auto Interactive Break Out Technology](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-aibt/){:target="_blank"}
+
+自动交互布线技术
+
 
 ## High Speed
 
@@ -39,14 +49,10 @@ QIR 2（HotFix6）更新（待补充）
 ### Timing Vision
 QIR 2（HotFix6）更新（待补充）
 
-### Auto- Interactive Breakout Technology (AiBT)
-QIR 3(HotFix13) 更新（待补充）
-
 ### Offset Routing
 允许用户在布线过程中采用非标准角度如15度进行布线，以使在玻璃纤维介质中走线时最大程度的降低阻抗的不连续性。
 在使用Route-Connect命令布线时从Option面板勾选Route offset启用此功能
 ![route_offset.png](https://a1024.synology.me:222/images/route_offset.png)
-
 
 ### Fiber Weave Effect - Zig-Zag Routing 锯齿形布线
 
@@ -86,6 +92,53 @@ QIR 3(HotFix13) 更新（待补充）
 ### Auto Interactive Add Connect 自动互联
 QIR 3(HotFix13) 更新（待补充）
 
+
+## ToolBox
+
+使用下述功能需启用Allegro Productivity Toolbox产品选项，可在软件启动时选择或File-Change Editor选择。
+
+<iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=p0975ttcv0e" allowFullScreen="true"></iframe>
+
+视频演示内容包含如下
+
+- Advanced Mirror 高级镜像
+- Change Width 批量修改线宽
+- Cross Copy 跨Class类复制或移动
+- Class颜色
+- polar grid 极坐标格点的使用（待补充）
+
+### [Advanced Mirror 高级镜像](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-advanced-mirror/){:target="_blank"}
+
+说明：将多个对象按同面进行图形镜像或按镜像面镜像
+
+使用方法：选择菜单Eidt - Advanced Mirror，调整Option，选择对象
+
+### Change Width 批量修改线宽
+
+说明：修改指定区域内某值线宽的Clines改变线宽
+
+使用方法：选择菜单Eidt - Change Width，调整Option，选择目标层（可以是多个），选择区域
+
+### Cross Copy 跨Class类复制或移动
+
+说明：将一个Class的对象复制或移动到另一个Class（Change命令不能跨Class Change）
+
+使用方法：选择菜单Eidt - Cross Copy，调整调整Option，选择对象
+
+### Class颜色
+
+说明：对用户定义过额Net Class标记一种颜色显示
+
+使用方法：选择菜单DisPlay - Class Color，调整对话框并应用。
+
+### [位号调整 Label Tune](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-label-tune/){:target="_blank"}
+
+位号自适应大小并居中
+
+### [查看板中的过孔Via类型或焊盘Padstack类型](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-padstack-finder/){:target="_blank"}
+
+Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。
+
 ## 3D Step
 QIR 3(HotFix13)新增3D Step支持（待补充）
 
@@ -100,11 +153,6 @@ QIR 3(HotFix13)新增3D Step支持（待补充）
 
 模块复用（.mdd）时默认不会改变复用模块的管脚属性，在QIR2（Hotfix6）中新增一个环境变量*User Preference Editor - Placement - General - plc_rep_copy_attr*通过设置此变量，可以使模块复用时管脚属性被一起复用
 
-### Symbol Instance Refresh 刷新器件
-
-16.6 版本支持在布局模式（Placement edit）下对单个元器件的更新操作，例如我们会经常将元器件的文本或者器件边框不慎删除，以往的操作方法是通过Place-Update Symbol 来进行恢复，16.6 版本可以直接将鼠标放置某元器件上，右键下拉菜单选择“Refresh symbolinstance”命令来实现，操作更为简单。
-
-![Snipaste_2023-06-13_15-02-35.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-13_15-02-35.jpg)
 
 ## Shape操作
 
@@ -148,6 +196,7 @@ QIR 5（HotFix22)中新增VOID_SAME_NET属性对同网络shape的支持，相同
 
 ![image063.png](https://a1024.synology.me:222/images/image063.png)
 
+
 ## Export 输出
 ### Artwork / Film Records Enhancements
 
@@ -175,6 +224,33 @@ QIR 5（HotFix22）输出PDF功能增加一个新选项*Filter Header/Footer and
 16.6 版本进行NC Route 操作时，支持将金属化与非金属化的钻孔区分开。
 
 ![Snipaste_2023-06-13_15-42-48.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-13_15-42-48.jpg)
+
+
+
+## New Reports 新报告
+
+在QIR 2（HotFix6）新增报告
+
+- **Film Area:**各个artwork层叠中图形占比
+- **Vias per net:**列出每个网络的过孔数量和过孔类型。
+- **Vias per layer per net:**分层列出每个网络的过孔数量和过孔类型。
+
+
+
+
+
+
+
+
+
+
+
+
+### Symbol Instance Refresh 刷新器件
+
+16.6 版本支持在布局模式（Placement edit）下对单个元器件的更新操作，例如我们会经常将元器件的文本或者器件边框不慎删除，以往的操作方法是通过Place-Update Symbol 来进行恢复，16.6 版本可以直接将鼠标放置某元器件上，右键下拉菜单选择“Refresh symbolinstance”命令来实现，操作更为简单。
+
+![Snipaste_2023-06-13_15-02-35.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-13_15-02-35.jpg)
 
 
 ## DRC marker - Link to Constraint Manager DRC标记连接到规则管理器
@@ -482,69 +558,6 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 
 ![](http://a1024.synology.me:222/images/blog2022/split_view16.66.png)
 
-## ToolBox
-
-使用下述功能需启用Allegro Productivity Toolbox产品选项，可在软件启动时选择或File-Change Editor选择。
-
-<iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=p0975ttcv0e" allowFullScreen="true"></iframe>
-
-视频演示内容包含如下
-
-- Advanced Mirror 高级镜像
-- Change Width 批量修改线宽
-- Cross Copy 跨Class类复制或移动
-- Class颜色
-- polar grid 极坐标格点的使用（待补充）
-
-### [Advanced Mirror 高级镜像](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-advanced-mirror/){:target="_blank"}
-
-说明：将多个对象按同面进行图形镜像或按镜像面镜像
-
-使用方法：选择菜单Eidt - Advanced Mirror，调整Option，选择对象
-
-### Change Width 批量修改线宽
-
-说明：修改指定区域内某值线宽的Clines改变线宽
-
-使用方法：选择菜单Eidt - Change Width，调整Option，选择目标层（可以是多个），选择区域
-
-### Cross Copy 跨Class类复制或移动
-
-说明：将一个Class的对象复制或移动到另一个Class（Change命令不能跨Class Change）
-
-使用方法：选择菜单Eidt - Cross Copy，调整调整Option，选择对象
-
-### Class颜色
-
-说明：对用户定义过额Net Class标记一种颜色显示
-
-使用方法：选择菜单DisPlay - Class Color，调整对话框并应用。
-
-### [位号调整 Label Tune](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-label-tune/){:target="_blank"}
-
-位号自适应大小并居中
-
-### [查看板中的过孔Via类型或焊盘Padstack类型](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-padstack-finder/){:target="_blank"}
-
-Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。
-
-Planning Option
----------------
-
-### [Flow Planning](https://a1024.synology.me:1024/allegro-flow-planning/){:target="_blank"}
-
-### [Auto Interactive Break Out Technology](https://a1024.synology.me:1024/allegro-aibtauto-interactive-break-out-technology%e8%87%aa%e5%8a%a8%e4%ba%a4%e4%ba%92%e5%b8%83%e7%ba%bf%e6%8a%80%e6%9c%af/)（待补充）
-
-
-
-
-## New Reports 新报告
-
-在QIR 2（HotFix6）新增报告
-
-- **Film Area:**各个artwork层叠中图形占比
-- **Vias per net:**列出每个网络的过孔数量和过孔类型。
-- **Vias per layer per net:**分层列出每个网络的过孔数量和过孔类型。
 
 ## 杂七杂八
 
@@ -558,5 +571,5 @@ Planning Option
 - 新增重新编号符号引脚功能
 
 ## Find by Query（略）不好用而后在17.X中被完全更新
-## RF PCB Enhancements（略）
-## IPC2581 Enhancements（略）
+## RF PCB Enhancements（略） 我用的很少
+## IPC2581 Enhancements（略） 我用的很少

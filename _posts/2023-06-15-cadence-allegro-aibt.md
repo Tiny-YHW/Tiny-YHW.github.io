@@ -7,7 +7,7 @@ date: 2023-06-15
 ---
 
 
-[Allegro Flow Planning将设计意图表达在设计中](https://a1024.synology.me:1024/allegro-flow-planning/)
+[Allegro Flow Planning将设计意图表达在设计中](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-flow-planning/){:target="_blank"}
 
 使用此功能前建议学习上面章节内容
 
