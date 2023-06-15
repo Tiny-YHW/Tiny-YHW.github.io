@@ -6,11 +6,17 @@ description:
 date: 2023-06-15
 ---
 
-用于自动调整一组设好match group的clines，使clines延时匹配
+用于自动调整一组设好match group的clines，应用于一个等长组内线长的自动调整
 
 如下视频02:03-04:45部分为此功能的演示
 
 <iframe frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=u05222pbpop" allowfullscreen="true" width="640" height="480"></iframe>
+
+### 使用方法
+
+- 从菜单Route \Auto-interactive Delay Tune选择命令
+- 从Option调整绕线方法
+- 选择目标线
 
 ### Aidt Option
 
