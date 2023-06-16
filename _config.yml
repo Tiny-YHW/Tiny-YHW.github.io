@@ -127,7 +127,7 @@ collections:
 #      Comments    #
 # ---------------- #
 # 使用评论插件的名称: disqus, gitment, gitalk, utterances, beaudar, giscus
-comments_provider: beaudar
+comments_provider: utterances
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
