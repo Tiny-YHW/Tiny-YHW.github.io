@@ -127,7 +127,7 @@ collections:
 #      Comments    #
 # ---------------- #
 # 使用评论插件的名称: disqus, gitment, gitalk, utterances, beaudar, giscus
-comments_provider: giscus
+comments_provider: gitalk
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
@@ -144,8 +144,8 @@ gitment:
 gitalk:
     owner: mzlogin
     repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    clientID: 004f9b9cac574a671938
+    clientSecret: 9f9fd6b61549ec17124d0462a439f3d90ff0d779
 # utterances 配置参考：https://utteranc.es/
 utterances:
     repo: mzlogin/blog-comments

@@ -13,6 +13,10 @@ mindmap2: false
 ---
 
 
+### 提取文章转换为Markdown
+
+
+
 
 ### 用Markdown写微信公众号
 
@@ -20,11 +24,17 @@ mindmap2: false
 
 ### 提取文章转换为Markdown
 
-<https://www.helloworld.net/html2md>
+[helloworld](https://www.helloworld.net/html2md){:target="_blank"}
+
+[devtool](https://devtool.tech/html-md){:target="_blank"}
+
+
+
+[Jekyll 中文文档](http://jekyllcn.com/docs/home/){:target="_blank"}
 
 ### 表格转Markdown
 
-<https://tableconvert.com/excel-to-markdown>
+[tableconvert](https://tableconvert.com/html-to-markdown){:target="_blank"}
 
 ## 在表格单元格里换行
 
@@ -96,27 +106,6 @@ mindmap2: false
 
 &emsp;&emsp;春天来了，又到了万物复苏的季节。
 
-## 展示数学公式
-
-如果是在 GitHub Pages，可以参考 <http://wanguolin.github.io/mathmatics_rending/> 使用 MathJax 来优雅地展示数学公式（非图片）。
-
-如果是在 GitHub 项目的 README 等地方，目前我能找到的方案只能是贴图了，以下是一种比较方便的贴图方案：
-
-1. 在 <https://www.codecogs.com/latex/eqneditor.php> 网页上部的输入框里输入 LaTeX 公式，比如 `$$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$`；
-
-2. 在网页下部拷贝 URL Encoded 的内容，比如以上公式生成的是 `https://latex.codecogs.com/png.latex?%24%24x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D%24%24`；
-
-   ![](/images/posts/markdown/latex-img.png)
-
-3. 在文档需要的地方使用以上 URL 贴图，比如
-
-   ```
-   ![](https://latex.codecogs.com/png.latex?%24%24x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D%24%24)
-   ```
-
-   示例效果：
-
-   ![](https://latex.codecogs.com/png.latex?%24%24x%3D%5Cfrac%7B-b%5Cpm%5Csqrt%7Bb%5E2-4ac%7D%7D%7B2a%7D%24%24)
 
 ## 图文混排
 
@@ -183,4 +172,29 @@ N 与图片高度有关。
 
 <div align="center"><img width="65" height="75" src="https://raw.githubusercontent.com/mzlogin/mzlogin.github.io/master/images/posts/markdown/demo.png"/></div>
 
+
+## WordPress 文章转为 Markdown 格式
+
+因为 WordPress 导出的文章是 xml 格式的文件，如果想转到其他博客平台的话非常不方便，所以想将 WordPress 的文章转换成 Markdown 格式的文件。
+
+上网搜了一下有很多这种功能的工具，我用的是 [Blogger to Markdown](https://github.com/palaniraja/blog2md) 这个工具。
+
+这个工具使用很简单，如同自述文件里写的一样：
+
++   下载这个项目压缩包并解压缩
++   `cd` 到该目录下
++   运行 `npm install` 安装依赖
++   运行 `node index.js <arg>`
+
+因为我是要从 WordPress 导出为 Markdown 格式的文件，所以运行：
+
+```auto
+node index.js w your-wordpress-backup-export.xml out
+```
+
+稍等一会你的所有文章就都统一在 `out` 文件夹中生成了。
+
+https://github.com/palaniraja/blog2md
+
+node index.js w your-wordpress-backup-export.xml out
 
