@@ -148,7 +148,7 @@ gitalk:
     clientSecret: 9f9fd6b61549ec17124d0462a439f3d90ff0d779
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: tiny-yhw/blog-comments
+    repo: tiny-yhw/utterances
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
     repo: tiny-yhw/blog-comments
