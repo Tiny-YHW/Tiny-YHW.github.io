@@ -142,7 +142,7 @@ gitment:
         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
+    owner: Tiny-YHW
     repo: blog-comments
     clientID: 004f9b9cac574a671938
     clientSecret: 9f9fd6b61549ec17124d0462a439f3d90ff0d779
