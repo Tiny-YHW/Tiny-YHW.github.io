@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: User Guide
-cate1: Altium PCB中
+cate1: Altium PCB
 cate2: 
 ---
 
