@@ -13,9 +13,6 @@ mindmap2: false
 ---
 
 
-### 提取文章转换为Markdown
-
-
 
 
 ### 用Markdown写微信公众号
@@ -29,8 +26,6 @@ mindmap2: false
 [devtool](https://devtool.tech/html-md){:target="_blank"}
 
 
-
-[Jekyll 中文文档](http://jekyllcn.com/docs/home/){:target="_blank"}
 
 ### 表格转Markdown
 
@@ -197,4 +192,119 @@ node index.js w your-wordpress-backup-export.xml out
 https://github.com/palaniraja/blog2md
 
 node index.js w your-wordpress-backup-export.xml out
+
+
+### 锚点
+
+```
+* [目录](#目录)
+```
+
+* [目录](#目录)
+
+### Inline Attribute
+
+Span Inline Attribute 详情参考 <https://kramdown.gettalong.org/syntax.html#span-ials>
+
+Block Inline Attribute 详情参考 <https://kramdown.gettalong.org/syntax.html#block-ials>
+
+给块/元素添加 class、id、内嵌样式等：
+
+```
+![本站favicon](/favicon.ico){:.center}
+
+Hello, *world*{:#world} 
+
+Hello, *world*{: style="color:red"} 
+```
+
+![本站favicon](/favicon.ico){:.center}
+
+Hello, *world*{:#world} 
+
+Hello, *world*{: style="color:red"} 
+
+结合自定义的样式，有些场景比较有用。
+
+### Emoji
+
+:camel:
+:blush:
+:smile:
+
+### Footnotes
+
+This is a text with footnote[^1].
+
+### mermaid
+
+```mermaid
+sequenceDiagram
+    Alice-->>John: Hello John, how are you?  
+    John-->>Alice: Great!
+```
+
+```mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+```
+
+### sequence
+
+```sequence
+Andrew->China: Says Hello
+Note right of China: China thinks\nabout it
+China-->Andrew: How are you?
+Andrew->>China: I am good thanks!
+```
+
+### flowchart
+
+```flow
+st=>start: Start
+e=>end
+op1=>operation: My Operation
+sub1=>subroutine: My Subroutine
+cond=>condition: Yes
+or No?
+io=>inputoutput: catch something...
+
+st->op1->cond
+cond(yes)->io->e
+cond(no)->sub1(right)->op1
+```
+
+### mathjax
+
+When $$(a \ne 0)$$, there are two solutions to $$(ax^2 + bx + c = 0)$$ and they are
+
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+
+### mindmap
+
+```mindmap
+# topic
+## topic2
+### topic2.1
+### topic2.2
+## topic3
+<!--Note-->
+这是一个备注
+<!--/Note-->
+### topic3.1
+### topic3.2
+#### topic3.2.1
+#### topic3.2.2
+#### topic3.2.3
+#### topic3.2.4
+#### topic3.2.5
+### topic3.4
+### topic3.5
+### topic3.6
+```
+
+[^1]: Here is the footnote 1 definition.
 
