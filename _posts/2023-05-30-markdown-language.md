@@ -213,18 +213,17 @@ title可加可不加
 如果你要创建一组文档、博文、页面或文件的链接，使用 link 标签可以正确生成指定路径的永久链接。
 
 ```
-[Link to a document]({% link _collection/name-of-document.md %})
-[Link to a post]({% link _posts/2016-07-26-name-of-post.md %})
-[Link to a page]({% link news/index.html %})
-[Link to a file]({% link /assets/files/doc.pdf %})
+
+[Link to a post]({% link _posts/2023-06-19-allegro-cant-open.md %})
+
 ```
 
 如果你想使用你某篇文章的链接，标签 post_url 可以满足你的需求。
 ```
-{% post_url 2010-07-21-name-of-post %}
-{% post_url /subdir/2010-07-21-name-of-post %}
+{% post_url 2023-06-19-allegro-cant-open %}
+{% post_url /_posts/2023-06-19-allegro-cant-open %}
 
-[Name of Link]({% post_url 2010-07-21-name-of-post %})
+[Name of Link]({% post_url 2023-06-19-allegro-cant-open %})
 
 ```
 
