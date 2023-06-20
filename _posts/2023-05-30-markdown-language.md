@@ -12,6 +12,12 @@ mindmap: false
 mindmap2: false
 ---
 
+**目录**
+
+* TOC
+{:toc}
+
+
 [官方文档](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax){:target="_blank"}
 
 
@@ -204,6 +210,27 @@ title可加可不加
 [example](http://yinping4256.github.io)
 <http://yinping4256.github.io>
 
+如果你要创建一组文档、博文、页面或文件的链接，使用 link 标签可以正确生成指定路径的永久链接。
+
+```
+[Link to a document]({% link _collection/name-of-document.md %})
+[Link to a post]({% link _posts/2016-07-26-name-of-post.md %})
+[Link to a page]({% link news/index.html %})
+[Link to a file]({% link /assets/files/doc.pdf %})
+```
+
+如果你想使用你某篇文章的链接，标签 post_url 可以满足你的需求。
+```
+{% post_url 2010-07-21-name-of-post %}
+{% post_url /subdir/2010-07-21-name-of-post %}
+
+[Name of Link]({% post_url 2010-07-21-name-of-post %})
+
+```
+
+当使用post_url标签时，不需要写文件后缀名。
+
+
 **新标签页**
 
 最简单的办法是，只需要在我上面两种方法后面添加{:target="\_blank"}.
@@ -241,6 +268,11 @@ Markdown 支持行内式链接和引用式链接。
 
 [1]: https://mazhuang.org
 [2]: https://github.com/mzlogin "我的 GitHub 主页"
+
+
+您可以通过加载 Markdown 文件而不进行 Markdown 渲染来链接到 Markdown 文件中的特定行。 要在不呈现的情况下加载 Markdown 文件，可以在文件的 URL 末尾使用 ?plain=1 参数。 例如，github.com/<organization>/<repository>/blob/<branch_name>/README.md?plain=1。
+
+您可以在代码中以同样的方式链接到 Markdown 文件中的特定行。 在 URL 末尾的行号处附加 #L。 例如，github.com/<organization>/<repository>/blob/<branch_name>/README.md?plain=1#L14 将在纯文本 README.md 文件中突出显示第 14 行。
 
 
 ### 自动链接
@@ -393,36 +425,3 @@ Markdown 标记语言的目的不是替代 HTML，也不是发明一种更便捷
 | 1     | 李四       | 29         | 男         |
 
 
-### 任务列表
-
-在 GitHub / GitLab 里有较好的支持。
-
-**Markdown：**
-
-```
-- [x] 洗碗
-- [ ] 清洗油烟机
-- [ ] 拖地
-```
-
-**预览效果：**
-
-- [x] 洗碗
-- [ ] 清洗油烟机
-- [ ] 拖地
-
-
-
-### emoji
-
-以 GitHub Pages 为例。
-
-**Markdown：**
-
-```
-:camel: :blush: :smile:
-```
-
-**预览效果：**
-
-:camel: :blush: :smile:
