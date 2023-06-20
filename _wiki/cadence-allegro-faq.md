@@ -15,10 +15,3 @@ Frequently asked question
 
 
 * [Allegro文件不能打开或打开为空白的问题及解决方案]({% post_url 2023-06-19-allegro-cant-open %})
-
-* [Allegro文件不能打开或打开为空白的问题及解决方案]({% post_url 2023-06-19-allegro-cant-open %})
-
-
-[Link to a post]({% link \_posts/2023-06-19-allegro-cant-open.md %})
-
-
