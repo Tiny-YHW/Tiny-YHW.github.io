@@ -22,9 +22,6 @@ Frequently asked question
 
 
 
-
-{% post_url 2010-07-21-name-of-post %}
-
 https://tiny-yhw.github.io//_post/2023-06-19-allegro-cant-open.md
 https://tiny-yhw.github.io//_post/2023/06/19/allegro-cant-open.md
 https://tiny-yhw.github.io//_post/2023/06/19/allegro-cant-open.md?plain=1
