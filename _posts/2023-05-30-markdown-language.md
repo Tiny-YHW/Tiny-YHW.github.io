@@ -214,13 +214,13 @@ title可加可不加
 
 ```
 
-[Link to a post]({% link _posts/2023-06-19-allegro-cant-open.md %})
+[Link to a post]({\% link _posts/2023-06-19-allegro-cant-open.md \%})
 
 ```
 
 如果你想使用你某篇文章的链接，标签 post_url 可以满足你的需求。
 ```
-[Allegro文件不能打开或打开为空白的问题及解决方案]({% post_url 2023-06-19-allegro-cant-open %})
+[Allegro文件不能打开或打开为空白的问题及解决方案]({\% post_url 2023-06-19-allegro-cant-open \%})
 
 ```
 
