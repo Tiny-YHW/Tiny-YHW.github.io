@@ -4,6 +4,7 @@ title: Allegro文件不能打开或打开为空白的问题及解决方案
 categories: Altium
 description: 
 date: 2023-06-20
+permalink: /5255.html
 ---
 
 Allegro `.brd`文件不能打开，可以由于众多原因导致，本文描述几种常见的可能导致此问题的原因
