@@ -20,8 +20,6 @@ Frequently asked question
 
 [Name of Link]({% post_url 2023-06-19-allegro-cant-open %})
 
-[Name of Link]({% post_url 2023-06-19-allegro-cant-open %}){:target="_blank"}
-
 
 
 
