@@ -10,15 +10,9 @@ Frequently asked question
 
 * * *
 
-## 网表类
+## 其他
 
--  [What’s New in 17.2 2016](https://tiny-yhw.github.io//2023/06/08/cadence-allegro-whats-new-in-17-2-2016/){:target="_blank"}
+-  [Allegro文件不能打开或打开为空白的问题及解决方案](https://tiny-yhw.github.io//2023/06/20/allegro-cant-open/){:target="_blank"}
 
-
-* * *
-
-## Allegro软件
-
-*   [What’s New in 22.1](https://tiny-yhw.github.io//2023/06/06/cadence-allegro-whats-new-in-22-1/){:target="_blank"}
 
 * * *
