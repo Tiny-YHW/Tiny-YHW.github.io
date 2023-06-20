@@ -18,7 +18,7 @@ Frequently asked question
 
 * [Allegro文件不能打开或打开为空白的问题及解决方案](https://tiny-yhw.github.io//2023/06/20/allegro-cant-open/){:target="_blank"}
 
-[Name of Link]({% post_url 2023-06-19-allegro-cant-open %})
+[Allegro文件不能打开或打开为空白的问题及解决方案]({% post_url 2023-06-19-allegro-cant-open %}){:target="_blank"}
 
 
 
