@@ -222,7 +222,6 @@ title可加可不加
 ```
 {% post_url 2023-06-19-allegro-cant-open %}
 {% post_url /_posts/2023-06-19-allegro-cant-open %}
-
 [Name of Link]({% post_url 2023-06-19-allegro-cant-open %})
 
 ```
