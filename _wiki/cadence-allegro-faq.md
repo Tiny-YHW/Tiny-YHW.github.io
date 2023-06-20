@@ -23,8 +23,3 @@ Frequently asked question
 [Link to a post]({% link _posts/2023-06-19-allegro-cant-open.md %}){:target="_blank"}
 
 
-https://tiny-yhw.github.io//_post/2023-06-19-allegro-cant-open.md
-https://tiny-yhw.github.io//_post/2023/06/19/allegro-cant-open.md
-https://tiny-yhw.github.io//_post/2023/06/19/allegro-cant-open.md?plain=1
-https://tiny-yhw.github.io//2023/06/19/allegro-cant-open.md
-* * *
