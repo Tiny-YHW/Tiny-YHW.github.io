@@ -1,7 +1,7 @@
 ---
 layout: post
 title: PCB上走线电阻评估方法
-categories: PCB
+categories: PCB设计
 description: 
 date: 2023-06-25
 permalink: pcb-wire-resistance

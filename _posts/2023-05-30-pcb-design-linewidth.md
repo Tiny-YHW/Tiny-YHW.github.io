@@ -2,7 +2,9 @@
 layout: post
 title: PCB设计线宽应如何选用
 categories: PCB设计
+permalink: pcb-design-linewidth
 date: 2023-06-06
+excerpt: PCB设计线宽应如何选用
 ---
 两个视频引入主题
 
