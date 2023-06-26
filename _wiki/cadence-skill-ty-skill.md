@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: 命令
+title: TY-Skill
 cate1: Cadence Skill
 cate2: 
 keywords: 

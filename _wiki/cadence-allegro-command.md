@@ -1,6 +1,6 @@
 ---
 layout: wiki
-title: TY-Skill
+title: 命令
 cate1: Cadence Allegro
 cate2: 
 keywords: 
