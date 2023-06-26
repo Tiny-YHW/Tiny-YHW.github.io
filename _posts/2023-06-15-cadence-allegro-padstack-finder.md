@@ -30,8 +30,9 @@ Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。 Pa
 ### 使用方法
 
 *   从菜单Tools->Padstack Finder启动或直接使用tbx findpadstack命令启动
-*   从Filter中选择或设置过滤项，支持选择Pad或Via，名称过滤（支持通配符\*和？），钻孔尺寸过滤
-*   设置好Filter后将出现符合条件的对象，选取对象（安装Ctrl或Shift进行多选或加减选）
+*   从Filter中选择或设置过滤项，支持选择Pin或Via，名称过滤（支持通配符\*和？）
+*   Drill size钻孔尺寸过滤设置好后Filter后将出现符合条件的对象
+*   选取对象（安装Ctrl或Shift进行多选或加减选）
 *   从Mode中选择高亮或仅输出报告使用Apply执行
 *   通过报告中的列表，可以选取对象交互查看对象详情
 
