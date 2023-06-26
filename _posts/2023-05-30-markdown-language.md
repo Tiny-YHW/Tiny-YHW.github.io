@@ -50,20 +50,6 @@ This is not \*italicized\* type.
 
 <kbd>Alt+X</kbd>
 
->[!NOTE]
->
->This is a standard NOTE block.
-
->[!TIP]
->
->This is a standard TIP.
->
-
->[!IMPORTANT]
->
->This is an IMPORTANT note.
-
-
 
 ## 标题
 
@@ -184,10 +170,8 @@ n个...
 
 支持行内代码和代码块。
 
-语法：
-
 单行代码：代码之间分别用一个反引号包起来 
- 
+
 `代码内容`
 
 代码块：代码之间分别用三个反引号包起来，且两边的反引号单独占一行
@@ -195,30 +179,9 @@ n个...
 public void error(String format, Object... arguments);
 ```
 
-**Markdown：**
-
-    Android 里使用 `TextUtils` 类的 `isEmpty` 方法来判断字符串是否为空。
-
-    ```java
-    if (TextUtils.isEmpty(text)) {
-        return null;
-    }
-    ```
-
-**预览效果：**
-
-Android 里使用 `TextUtils` 类的 `isEmpty` 方法来判断字符串是否为空。
-
-```java
-if (TextUtils.isEmpty(text)) {
-    return null;
-}
-```
-
 上例中的语言标记 `java` 可选填，可用于在编辑器和渲染后的效果里添加语法高亮。
 
 块式代码也可以对整个代码段缩进四个空格，或一个 Tab 来实现。
-
 
 ## 超链接
 
@@ -372,18 +335,6 @@ https://github.com
 
 - - -
 
-## ^上^角~下~标
-
-```
-上角标 x^2^
-下角标 H~2~0
-```
-
-## ==标记==
-```
-==标记==
-```
-
 ### 嵌入 HTML
 
 Markdown 标记语言的目的不是替代 HTML，也不是发明一种更便捷的插入 HTML 标签的方式。它对应的只是 HTML 标签的一个很小的子集。
@@ -391,6 +342,7 @@ Markdown 标记语言的目的不是替代 HTML，也不是发明一种更便捷
 对于那些没有办法用 Markdown 语法来对应的 HTML 标签，直接使用 HTML 来写就好了。
 
 ### 表格
+
 表头|表头|表头
 ---|:--:|---:
 内容|内容|内容
@@ -458,4 +410,3 @@ Markdown 标记语言的目的不是替代 HTML，也不是发明一种更便捷
 [//]: # (哈哈我是注释，不会在浏览器中显示。)
 
 [^_^]: # (哈哈我是注释，不会在浏览器中显示。)
-

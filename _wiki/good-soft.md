@@ -9,6 +9,50 @@ keywords: 软件, 推荐
 
 好的软件总是给人一种相见恨晚的感觉。
 
+## CAD
+
+### PCB设计 Allegro
+### PCB设计 Altium
+### 机械制图 AutoCAD
+### 3D编辑 Rhino
+### DFM Valor
+### PCB建库 PCB Library
+
+## 网络浏览器 Google浏览器
+
+## 截图 Snipaste
+
+
+## 文本编辑
+
+### sublime
+
+## 多媒体
+
+### 屏幕录制 Bandicam
+### 视频播放器 Pot Player
+### 视频剪辑 剪映
+### 图片处理 Photoshop
+
+## 下载 IDM
+
+## 录制屏幕生成 ScreenToGif
+
+## 系统工具
+
+### 文件查找 Everything
+
+### 文本内容查找 AnyTXT Searcher
+
+
+### 软件卸载 geek
+
+[geek官网](https://geekuninstaller.com/){:target="_blank"}
+
+[geek下载](https://geekuninstaller.com/download){:target="_blank"}
+
+高效快速，小巧便携。100%免费
+
 ## 软件列表
 
 | 功能                                 | Windows                  | Mac OS X                  |
@@ -31,27 +75,3 @@ keywords: 软件, 推荐
 | 打开 CHM 文档                        |                          | ichm                      |
 | 阅读 EPUB 电子书                     | Neat Reader              | iBook                     |
 | 手机投屏                             |                          | 幕享 / AirServer / Macast |
-
-## 亮点
-
-### Cmder
-
-* alias
-
-  在 Cmder 下可以很方便地像在类 Unix 系统下使用 alias 功能，比如：
-
-  ```sh
-  alias blog=cd /d d:\github\mzlogin.github.io
-  ```
-
-  然后就能愉快地使用 blog 命令在任意目录进入 blog 仓库的目录了。
-
-### Genymotion
-
-配置好后，那启动速度，嗖嗖地，秒 Android SDK 自带的八条街。
-
-### mpv
-
-不像 MPlayerX 和 Perian 那样无故卡死转码半天就是最大的亮点了。
-
-[WiFi Mouse]: https://wifimouse.necta.us/
