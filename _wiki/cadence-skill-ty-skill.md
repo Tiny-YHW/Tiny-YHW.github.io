@@ -1,7 +1,7 @@
 ---
 layout: wiki
-title: Skill函数
-cate1: Cadence Allegro
+title: 命令
+cate1: Cadence Skill
 cate2: 
 keywords: 
 ---
