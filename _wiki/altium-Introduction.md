@@ -5,6 +5,9 @@ cate1: Altium PCB
 cate2: 
 ---
 
+
+![](https://a1024.synology.me:222/images/blog2022/Promo2.jpg){:target="_blank"}
+
 * * *
 
 ## 下载地址

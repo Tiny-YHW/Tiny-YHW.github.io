@@ -36,6 +36,8 @@ keywords: Cadence软件下载
 
 尽量选择最新版本的License Managener，因为它是向下兼容的，目前（20230614）最新版本为12.08，网盘内单独提取了此安装包，可单独下载安装
 
+如果Cadence安装包内包含的License Managener安装程序无反应（貌似22.1有此症状）时也可以用这个独立安装包替代
+
 ![Snipaste_2023-06-14_09-12-30.jpg](https://a1024.synology.me:222/images/Snipaste_2023-06-14_09-12-30.jpg)
 
 - 解压运行setup.exe进行安装
