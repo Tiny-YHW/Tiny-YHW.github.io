@@ -1,7 +1,7 @@
 ---
 layout: wiki
 title: TY-Skill
-cate1: Cadence Skill1
+cate1: Cadence Skill
 cate2: 
 keywords: 
 ---
