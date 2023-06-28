@@ -2,7 +2,6 @@
 layout: post
 title: PCB上走线电阻评估方法
 categories: PCB设计
-description: 
 date: 2023-06-25
 permalink: pcb-wire-resistance
 excerpt: PCB上走线电阻评估方法
@@ -22,7 +21,7 @@ excerpt: PCB上走线电阻评估方法
 
 电阻率在国际单位制的单位是Ω·m，读作欧姆米，简称欧米。常用单位为“欧姆·米”
 
-其中最常使用的铜20度时的电导率约为1.75 x 10^(-8) Ω·m
+其中最常使用的铜20度时的电阻率约为1.75 x 10^(-8) Ω·m
 
 ## 在指定温度时
 

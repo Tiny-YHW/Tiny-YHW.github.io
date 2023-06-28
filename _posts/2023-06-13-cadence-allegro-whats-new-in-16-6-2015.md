@@ -6,6 +6,8 @@ description:
 date: 2023-06-13
 ---
 
+<!--Help\Allegro PCB Editor\Allegro PCB Editor  What's New in 16.6-->
+
 本文描述了Cadence Allegro PCB Editor在17.4-2019基础版中的增强和改进
 
 <iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=w0975lb6c1m" allowFullScreen="true"></iframe>
