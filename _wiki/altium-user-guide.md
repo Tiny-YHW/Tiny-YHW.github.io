@@ -5,6 +5,10 @@ cate1: Altium PCB
 cate2: 
 ---
 
+## 基础知识
+
+
+
 ## 3D
 
 * [Altium PCB中3D相关功能详解](https://tiny-yhw.github.io//2023/06/19/altium-3d/){:target="_blank"}
