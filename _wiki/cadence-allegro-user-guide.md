@@ -8,6 +8,11 @@ keywords:
 
 * * *
 
+## 基础知识
+
+* [Cadence（Allegro）的环境变量-Home](https://tiny-yhw.github.io//cadence-home){:target="_blank"}
+
+
 ## Drafting and Dimensioning 绘图和标注
 
 - [Allegro Drafting 新的绘图能力](https://tiny-yhw.github.io//2023/06/13/cadence-allegro-drafting/){:target="_blank"}
