@@ -2,7 +2,7 @@
 layout: post
 title: 常用元器件引脚定义
 categories: PCB设计
-date: 2023-06-25
+date: 2023-06-26
 permalink: pcb-pin-function
 excerpt: 
 ---

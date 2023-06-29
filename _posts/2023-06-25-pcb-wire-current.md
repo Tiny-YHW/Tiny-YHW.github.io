@@ -3,7 +3,7 @@ layout: post
 title: PCB上走线的线宽与载流和压降及温升的关系
 categories: PCB设计
 description: 
-date: 2023-06-27
+date: 2023-06-25
 permalink: pcb-wire-current
 excerpt: 了解PCB上走线的线宽与载流和压降及温升的关系我们才能知道功率线设计时应采取的线宽值
 ---
