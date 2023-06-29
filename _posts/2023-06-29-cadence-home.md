@@ -3,7 +3,7 @@ layout: post
 title: Cadence（Allegro）的环境变量-Home
 categories: Allegro
 description: 
-date: 2023-06-25
+date: 2023-06-29
 permalink: cadence-home
 excerpt: Cadence Allegro在启动时会加载一些用户配置文件，基于这些配置文件来决定Allegro启动后的状态包含但不限于env、allegro.ilinit、.men、等，这些文件都将在软件启动时被执行一次以导入这些文件包含的命令。
 ---
