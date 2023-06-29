@@ -46,9 +46,9 @@ $ HOME / pcbenv目录用来存储用户首选项和其他启动信息
 
 **allegro.ini**：用于存储主窗口大小和位置，用户最后编辑的项目文件，控制面板停靠状态和大小，还用于存储默认绘图配置设置。此文件会默认实时更新，每次打开软件有相关设置被更改时，此文件都会更新储存。将文件设置为只读将阻止其更新。
 
-**<program name>.geo**：存储辅助窗口位置和大小。辅助窗口是指表单（对话框）和文本窗口（示例“show element”，日志文件查看器和报告等）。该数据在程序退出时更新（同上）。可以通过调用对话框*View-> Customization-> Display*并选择“Restore windows positions”按钮来重置这些位置。将文件设置为只读可阻止其更新。
+**\<program name\>.geo**：存储辅助窗口位置和大小。辅助窗口是指表单（对话框）和文本窗口（示例“show element”，日志文件查看器和报告等）。该数据在程序退出时更新（同上）。可以通过调用对话框*View-> Customization-> Display*并选择“Restore windows positions”按钮来重置这些位置。将文件设置为只读可阻止其更新。
 
-**<program name>.mru**：存储程序最近使用的文件列表。这将显示在程序的“file”菜单中。文件数由*recentFileList*环境变量控制。文件在程序退出时更新。将文件设置为只读将阻止其更新。
+**\<program name\>.mru**：存储程序最近使用的文件列表。这将显示在程序的“file”菜单中。文件数由*recentFileList*环境变量控制。文件在程序退出时更新。将文件设置为只读将阻止其更新。
 
 **allegro.strokes：**存储用户定义的手势。可以在Allegro中通过菜单*tool – >Utilities – >Stroke Edit*管理Allegro中的手势文件。
 
