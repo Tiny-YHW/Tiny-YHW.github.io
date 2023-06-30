@@ -4,6 +4,7 @@ title: Allegro Flow Planning将设计意图表达在设计中
 categories: Allegro
 description: 
 date: 2023-06-15
+permalink: cadence-allegro-flow-planning
 ---
 
 Allegro Flow Planning 于高速PCB 设计流程中能够大幅度的缩短评估布线空间及走线方式所花费的时间成本，并且提升设计效率。现在，搭配Allegro PCB Symphony Team Design Option 线上协同作业功能，能将Flow Planning 所规划之布线走势藉由线上多人合作来加速PCB 设计流程，快速完成PCB 设计。
@@ -90,8 +91,8 @@ Find中选择Groups，层开关打开Plan/All层（默认生成到此层），�
 
 Auto Connect 或
 
-[Allegro (AIBT)Auto Interactive Break Out Technology自动交互布线技术](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-aibt/){:target="_blank"}
+[Allegro (AIBT)Auto Interactive Break Out Technology自动交互布线技术](https://tiny-yhw.github.io//cadence-allegro-aibt/){:target="_blank"}
 
-其它资料
+** 其它资料
 
-链接: https://pan.baidu.com/s/1VI4VItAKcrAwevuYTikd5Q 提取码: 99rm
+链接: <https://pan.baidu.com/s/1VI4VItAKcrAwevuYTikd5Q> 提取码: 99rm

@@ -8,7 +8,7 @@ date: 2023-06-13
 
 <!--Help\Allegro PCB Editor\Allegro PCB Editor  What's New in 16.6-->
 
-本文描述了Cadence Allegro PCB Editor在17.4-2019基础版中的增强和改进
+本文描述了Cadence Allegro PCB Editor在16.6-2015基础版中的增强和改进
 
 <iframe width="720" height="405" frameborder="0" src="https://v.qq.com/txp/iframe/player.html?vid=w0975lb6c1m" allowFullScreen="true"></iframe>
 
@@ -28,7 +28,7 @@ Allegro新增一系列绘图能力功能，大大增强了在机械结构图的�
 
 ## Design Planning Option （Flow）
 
-### [Flow Planning](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-flow-planning/){:target="_blank"}
+### [Flow Planning](https://tiny-yhw.github.io//cadence-allegro-flow-planning/){:target="_blank"}
 
 将设计意图表达在设计中
 

@@ -30,4 +30,4 @@ Label Tune是一个Productivity Toolbox工具，再16.6某补丁及之后版本�
 官方文档
 ----
 
-链接:[https://pan.baidu.com/s/1bo9qYK3](https://pan.baidu.com/s/1bo9qYK3)
+链接:[https://pan.baidu.com/s/1bo9qYK3](https://pan.baidu.com/s/1bo9qYK3){:target="_blank"}
