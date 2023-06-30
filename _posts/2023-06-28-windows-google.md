@@ -4,7 +4,7 @@ title: Google浏览器和Google搜索
 categories: Windows
 description: 
 date: 2023-06-28
-permalink: windows-photo
+permalink: windows-google
 excerpt: Google浏览器和Google搜索
 ---
 
@@ -76,17 +76,15 @@ Win 7及以上，点击下面对应地址下载离线安装包
 
 ### **网站网页命令**
 
-site: 限定搜索某网站的网页如： site:[www.google.com](https://a1024.synology.me:1024/www.google.com) 。
+site: 限定搜索某网站的网页如： site:www.google.com
 
-link: 搜索链向某网站/网址的网页如： link:[www.google.com](https://a1024.synology.me:1024/www.google.com) 。
+link: 搜索链向某网站/网址的网页如： link:www.google.com
 
-related: 搜索与某网页相似或相关的页面如： related:[www.google.com](https://a1024.synology.me:1024/www.google.com) 。
+related: 搜索与某网页相似或相关的页面如： related:www.google.com
 
-cache: 搜索某网页在Google缓存（网页快照）中的旧版本如： cache:[www.google.com](https://a1024.synology.me:1024/www.google.com) 。
+cache: 搜索某网页在Google缓存（网页快照）中的旧版本如： cache:www.google.com
 
-info: 综合查询某网页的信息，即列出上述四个命令如： info:[www.google.com](https://a1024.synology.me:1024/www.google.com) 。作用同 id
-
-感谢热心网友：google.com/ncr 无区域重定向，结果更好
+info: 综合查询某网页的信息，即列出上述四个命令如： info:www.google.com
 
 ### **图片搜索与影视搜索**
 
@@ -119,59 +117,59 @@ imagesize: 限定搜索指定尺寸的图片，如: imagesize:800x600URL 参数�
 
 ### 谷歌翻译
 
-https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb){:target="_blank"}
 
 ### IDM Integration Module
 
-https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/idm-integration-module/ngpampappnmepgilojfohadhhmbhlaek){:target="_blank"}
 
 随IDM安装一起安装，可以探测到网页上的一些资源如Youtube的视频
 
 ### smartUp手势
 
-https://chrome.google.com/webstore/detail/smartup-gestures/bgjfekefhjemchdeigphccilhncnjldn
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/smartup-gestures/bgjfekefhjemchdeigphccilhncnjldn){:target="_blank"}
 
 通过使用鼠标提高生产力和效率且可自定义的Web浏览器扩展。
 
 ### Web Scraper
 
-https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/web-scraper-free-web-scra/jnhgnonknehpejjnehehllkliplmbmhn){:target="_blank"}
 
 网页爬虫
 
 ### YouTube™ 双字幕
 
-https://chrome.google.com/webstore/detail/youtube-dual-subtitles/hkbdddpiemdeibjoknnofflfgbgnebcm
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/youtube-dual-subtitles/hkbdddpiemdeibjoknnofflfgbgnebcm){:target="_blank"}
 
 中英文同时显示
 
 ### 微信公众号同步助手
 
-https://chrome.google.com/webstore/detail/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B/hchobocdmclopcbnibdnoafilagadion
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E5%90%8C%E6%AD%A5%E5%8A%A9%E6%89%8B/hchobocdmclopcbnibdnoafilagadion){:target="_blank"}
 
 微信公众号文章同步助手，支持头条号、简书、知乎、WordPress
 
 ### 沉浸式翻译
 
-https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/immersive-translate/bpoadfkcbjbfhfodiogcnhhhpibjhbnh){:target="_blank"}
 
 沉浸式网页双语翻译扩展，免费使用，支持 Deepl/Google/有道/腾讯翻译等多个翻译服务，支持 Firefox/Chrome/油猴脚本，亦可在 iOS Safari
 
 ### 篡改猴测试版
 
-https://chrome.google.com/webstore/detail/tampermonkey-beta/gcalenpjmijncebpfijmoaglllgpjagf
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/tampermonkey-beta/gcalenpjmijncebpfijmoaglllgpjagf){:target="_blank"}
 
 使用用户脚本自由地改变网络
 
 ### Fatkun图片批量下载
 
-https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/fatkun-batch-download-ima/nnjjahlikiabnchcpehcpkdeckfgnohf){:target="_blank"}
 
 找出当前页面的所有图片，提供按分辨率、链接等筛选图片，做一个简单好用的下载图片扩展！
 
 ### AdGuard 广告拦截器
 
-https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenaelnjfhikgbkllg){:target="_blank"}
 
 一款无与伦比的广告拦截扩展，用以对抗各式广告与弹窗。可以拦截 Facebook、YouTube 和其它所有网站的广告。
 
@@ -181,7 +179,7 @@ https://chrome.google.com/webstore/detail/adguard-adblocker/bgnkhhnnamicmpeenael
 
 支持滚动截屏
 
-https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
+[谷歌商店插件地址](https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg){:target="_blank"}
 
 ## 其他
 
