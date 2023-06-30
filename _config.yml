@@ -5,7 +5,7 @@ baseurl:
 url: https://tiny-yhw.github.io/
 date_format: "ordinal"
 title: Layouto
-subtitle: "公众号：Layouto"
+subtitle: "专注于 PCB Layout 设计"
 description: "Tiny-Y个人博客，公众号：Layouto"
 keywords: PCB Layout, Tiny-Y, Allegro, Altium, Skill
 timezone: Asia/Shanghai
