@@ -96,12 +96,26 @@ axlMsgPut("%L\n" infor2)
 
 ### 输出每个元素的详细属性
 
-```
+```Common_Lisp
 (foreach item db
     t
     axlMsgPut("%L\n" item->??)
 )
 ```
+
+```java
+Image image = imageReader.acquireNextImage();
+ImagePlane[] planes = image.getPlanes();
+
+int width = image.getWidth();
+int height = image.getHeight();
+
+if (planes.length > 0) {
+    int pixelStride = planes[0].getPixelStride();
+    int rowStride = planes[0].getRowStride();
+}
+```
+
 
 ## 对象和属性
 
