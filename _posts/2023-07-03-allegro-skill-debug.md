@@ -76,8 +76,7 @@ db1 = car(db)
 
 ### 第n个元素
 
-
-``` Common_Lisp
+{% highlight Common_Lisp %}
 nth( 1 '(a b c) )    => b
 z = '(1 2 3)         => (1 2 3)
 nth(2 z)             => 3
@@ -93,7 +92,7 @@ infor1=db1->??
 infor2=db2->??
 axlMsgPut("%L\n" infor1)
 axlMsgPut("%L\n" infor2)
-```
+{% endhighlight %}
 
 ### 输出每个元素的详细属性
 
