@@ -94,6 +94,25 @@ axlMsgPut("%L\n" infor1)
 axlMsgPut("%L\n" infor2)
 {% endhighlight %}
 
+```lisp
+nth( 1 '(a b c) )    => b
+z = '(1 2 3)         => (1 2 3)
+nth(2 z)             => 3
+nth(3 z)             => nil
+
+nthelem( 1 '(a b c) )  => a
+z = '(1 2 3)
+nthelem(2 z)           => 2
+
+db1=nthelem(1 db)
+db2=nthelem(2 db)
+infor1=db1->??
+infor2=db2->??
+axlMsgPut("%L\n" infor1)
+axlMsgPut("%L\n" infor2)
+```
+
+
 ### 输出每个元素的详细属性
 
 ```lisp
