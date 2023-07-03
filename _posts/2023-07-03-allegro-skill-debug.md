@@ -103,7 +103,20 @@ axlMsgPut("%L\n" infor2)
 )
 ```
 
-```java
+```
+Image image = imageReader.acquireNextImage();
+ImagePlane[] planes = image.getPlanes();
+
+int width = image.getWidth();
+int height = image.getHeight();
+
+if (planes.length > 0) {
+    int pixelStride = planes[0].getPixelStride();
+    int rowStride = planes[0].getRowStride();
+}
+```
+
+```
 Image image = imageReader.acquireNextImage();
 ImagePlane[] planes = image.getPlanes();
 
