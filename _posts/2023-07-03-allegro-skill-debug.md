@@ -25,8 +25,7 @@ axlCmdRegister("pinconnect" 'pinconnect ?cmdType "interactive" ?doneCmd 'pinconn
 axlShell("slide")
 ```
 
-信息输出
-----
+## 信息输出
 
 ```
 ;直接数据文本
@@ -37,8 +36,7 @@ axlMsgPut("Processing package : %s " txt->text)
 axlMsgPut("%s %s %d %d %d %d" item->name item2 length(setof(temp1 item->children temp1->layer == item2)) numseg numpath temp1)
 ```
 
-窗口显示
-----
+## 窗口显示
 
 ```
 ;在主窗口显示一条信息
@@ -47,8 +45,7 @@ axlUIWPrint(nil "Command Finished.")
 axlUIWPrint => axlUIWPrint(userDefinedForm "this is a pretty form"); 输出字符到form的最下面窗口 
 ```
 
-弹出确认框
------
+## 弹出确认框
 
 ```
 axlUIConfirm(t_message[s_level])
@@ -58,8 +55,7 @@ axlUIConfirm( "Selected object has FIXED property." 'error )
 
 相似函数axlUIPrompt, axlUIYesNo, axlUIYesNoCancel, axlUIConfirmEx
 
-读取元素
-----
+## 读取元素
 
 ### 第一个元素
 
@@ -69,7 +65,7 @@ db1 = car(db)
 
 ### 第n个元素
 
-```
+```Common Lisp
 nth( 1 '(a b c) )    => b
 z = '(1 2 3)         => (1 2 3)
 nth(2 z)             => 3
@@ -96,13 +92,13 @@ axlMsgPut("%L\n" infor2)
 )
 ```
 
-对象和属性
------
+## 对象和属性
+
 
 [Database Read Functions](https://a1024.synology.me:1024/?p=2942)
 
-未定义变量
------
+## 未定义变量
+
 
 boundp 函数判断一个变量是否是 bound。boundp函数具有以下功能：
 
