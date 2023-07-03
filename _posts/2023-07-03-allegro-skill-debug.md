@@ -7,97 +7,118 @@ permalink: allegro-skill-debug
 excerpt: Skill调试常用函数
 ---
 
-## 如何使用git命令
-
-安装git
-
-在指定文件夹下右键选择 *Git Bash Here* 弹出命令交互页面，输入命令
-
-## 回滚到指定commit的sha码
-
-回滚后本地文件将更新为 GitHub 中指定版本的状态
+## 调用调试窗口
 
 ```
-git reset --hard commit_sha
+axlShell("set telskill")
 ```
 
-## 如何查看commit_sha
-
-在 GitHub Code 标签页点击左侧文件列表顶部右侧 XXXX commits
-
-从列出来的更新记录中右侧可直接复制此代码
-
-## 将本地内容推送到 GitHub
-
+## 注册命令
+----
 ```
-git push -f
+axlCmdRegister("pinconnect" 'pinconnect ?cmdType "interactive" ?doneCmd 'pinconnectDone ?cancelCmd 'pinconnectCancel) 
 ```
 
-## fatal: unable to access : Recv failure: Connection was reset
-
-可能是代理模式问题，尝试关闭代理或挂全局代理
-
-
-## 清除代理设置
+## 调用Command命令
 
 ```
-git config --global --unset http.proxy
-git config --global --unset https.proxy
-
+axlShell("slide")
 ```
 
-***
+信息输出
+----
 
-# 其它抄来的
-
-## 常用命令
-
-| 功能                      | 命令                                  |
-|:--------------------------|:--------------------------------------|
-| 添加文件/更改到暂存区     | git add filename                      |
-| 添加所有文件/更改到暂存区 | git add .                             |
-| 提交                      | git commit -m msg                     |
-| 从远程仓库拉取最新代码    | git pull origin master                |
-| 推送到远程仓库            | git push origin master                |
-| 查看配置信息              | git config --list                     |
-| 查看文件列表              | git ls-files                          |
-| 比较工作区和暂存区        | git diff                              |
-| 比较暂存区和版本库        | git diff --cached                     |
-| 比较工作区和版本库        | git diff HEAD                         |
-| 从暂存区移除文件          | git reset HEAD filename               |
-| 查看本地远程仓库配置      | git remote -v                         |
-| 回滚                      | git reset --hard 提交SHA              |
-| 强制推送到远程仓库        | git push -f origin master             |
-| 修改上次 commit           | git commit --amend                    |
-| 推送 tags 到远程仓库      | git push --tags                       |
-| 推送单个 tag 到远程仓库   | git push origin [tagname]             |
-| 删除远程分支              | git push origin --delete [branchName] |
-| 远程空分支（等同于删除）  | git push origin :[branchName]         |
-| 查看所有分支历史          | gitk --all                            |
-| 按日期排序显示历史        | gitk --date-order                     |
-
-
-### 恢复单个文件到指定版本
-
-```sh
-git reset 5234ab MainActivity.java
+```
+;直接数据文本
+axlMsgPut("debug")
+;带变量
+axlMsgPut("Processing package : %s " txt->text)
+;带多个变量
+axlMsgPut("%s %s %d %d %d %d" item->name item2 length(setof(temp1 item->children temp1->layer == item2)) numseg numpath temp1)
 ```
 
-### 查看某次 commit 的修改内容
+窗口显示
+----
 
-```sh
-git show <commit-hash-id>
+```
+;在主窗口显示一条信息
+axlUIWPrint(r_window/nil t_formatString [g_arg1 ...])
+axlUIWPrint(nil "Command Finished.")
+axlUIWPrint => axlUIWPrint(userDefinedForm "this is a pretty form"); 输出字符到form的最下面窗口 
 ```
 
-### 查看某个文件的修改历史
+弹出确认框
+-----
 
-```sh
-git log -p <filename>
+```
+axlUIConfirm(t_message[s_level])
+axlUIConfirm( "Returning to Allegro. Please confirm." )
+axlUIConfirm( "Selected object has FIXED property." 'error )
 ```
 
-### 查看最近两次的修改内容
+相似函数axlUIPrompt, axlUIYesNo, axlUIYesNoCancel, axlUIConfirmEx
 
-```sh
-git log -p -2
+读取元素
+----
+
+### 第一个元素
+
+```
+db1 = car(db)
 ```
 
+### 第n个元素
+
+```
+nth( 1 '(a b c) )    => b
+z = '(1 2 3)         => (1 2 3)
+nth(2 z)             => 3
+nth(3 z)             => nil
+
+nthelem( 1 '(a b c) )  => a
+z = '(1 2 3)
+nthelem(2 z)           => 2
+
+db1=nthelem(1 db)
+db2=nthelem(2 db)
+infor1=db1->??
+infor2=db2->??
+axlMsgPut("%L\n" infor1)
+axlMsgPut("%L\n" infor2)
+```
+
+### 输出每个元素的详细属性
+
+```
+(foreach item db
+    t
+    axlMsgPut("%L\n" item->??)
+)
+```
+
+对象和属性
+-----
+
+[Database Read Functions](https://a1024.synology.me:1024/?p=2942)
+
+未定义变量
+-----
+
+boundp 函数判断一个变量是否是 bound。boundp函数具有以下功能：
+
+如果变量为 bound ，返回 t
+
+如果不是 bound ，返回 nil
+
+```
+x = 5                ; Binds x to the value 5.
+y = 'unbound         ; Unbind y
+boundp( 'x )
+=> t
+boundp( 'y )
+=> nil
+y = 'x               ; Bind y to the constant x.
+boundp( y )
+=> t                 ; Returns t because y evaluates to x, 
+                     ; which is bound.
+```
