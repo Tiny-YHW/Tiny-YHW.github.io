@@ -6,17 +6,14 @@ cate2:
 keywords: 
 ---
 
-* * *
-
-## 网表类
-
--  [What’s New in 17.2 2016](https://tiny-yhw.github.io//2023/06/08/cadence-allegro-whats-new-in-17-2-2016/){:target="_blank"}
-
+*  [Skill调试常用函数](https://tiny-yhw.github.io//allegro-skill-debug){:target="_blank"}
 
 * * *
 
-## Allegro软件
+## AXL-SKILL函数
 
-*   [What’s New in 22.1](https://tiny-yhw.github.io//2023/06/06/cadence-allegro-whats-new-in-22-1/){:target="_blank"}
+*  [Database Read Functions](https://tiny-yhw.github.io//allegro-skill-design-control-functions){:target="_blank"}
+
 
 * * *
+
