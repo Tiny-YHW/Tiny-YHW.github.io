@@ -65,7 +65,8 @@ db1 = car(db)
 
 ### 第n个元素
 
-```Common Lisp
+
+``` Common_Lisp
 nth( 1 '(a b c) )    => b
 z = '(1 2 3)         => (1 2 3)
 nth(2 z)             => 3
