@@ -14,7 +14,7 @@ axlShell("set telskill")
 ```
 
 ## 注册命令
-----
+
 ```lisp
 axlCmdRegister("pinconnect" 'pinconnect ?cmdType "interactive" ?doneCmd 'pinconnectDone ?cancelCmd 'pinconnectCancel) 
 ```
