@@ -96,14 +96,22 @@ axlMsgPut("%L\n" infor2)
 
 ### 输出每个元素的详细属性
 
-```Common_Lisp
+```lisp
 (foreach item db
     t
     axlMsgPut("%L\n" item->??)
 )
 ```
 
+```common-lisp
+(foreach item db
+    t
+    axlMsgPut("%L\n" item->??)
+)
 ```
+
+
+```c
 Image image = imageReader.acquireNextImage();
 ImagePlane[] planes = image.getPlanes();
 
@@ -116,7 +124,7 @@ if (planes.length > 0) {
 }
 ```
 
-```
+```java
 Image image = imageReader.acquireNextImage();
 ImagePlane[] planes = image.getPlanes();
 
