@@ -8,54 +8,10 @@ keywords:
 
 ##
 
+*  [1 List Functions List函数](https://tiny-yhw.github.io//allegro-skill-lisp-list-functions){:target="_blank"}
 *  [5 String Functions 字符串函数](https://tiny-yhw.github.io//allegro-skill-lisp-string-functions){:target="_blank"}
 *  [6 Arithmetic （Trigonometric） Functions 算术（三角）函数](https://tiny-yhw.github.io//allegro-skill-lisp-arithmetic-functions){:target="_blank"}
 
-
-
-
-
-
-
-1
-List Functions
-append
-append1
-caar, caaar, caadr, cadr, caddr, cdar, cddr, ...
-car
-cdr
-cons
-constar
-copy
-dtpr
-last
-lconc
-length
-lindex
-list
-listp
-nconc
-ncons
-nth
-nthcdr
-nthelem
-pairp
-range
-remd
-remdq
-remove
-removeListDuplicates
-remq
-reverse
-rplaca
-rplacd
-setcar
-setcdr
-tailp
-tconc
-xcons
-xCoord
-yCoord
 2
 Data Structure
 arrayp
