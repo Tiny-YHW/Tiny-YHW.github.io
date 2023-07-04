@@ -4,10 +4,10 @@ title: Design Control Functions
 categories: Allegro Skill
 date: 2023-06-29
 permalink: allegro-skill-design-control-functions
-excerpt: 本章介绍了可用于获取当前设计的名称和类型的 AXL-SKILL 函数。
+excerpt: 本章介绍了可用于查询或设置当前设计的名称和类型以及部分数据库参数的 AXL-SKILL 函数。
 ---
 
-本章介绍了可用于获取当前设计的名称和类型的 AXL-SKILL 函数。
+本章介绍了可用于查询或设置当前设计的名称和类型以及部分数据库参数的 AXL-SKILL 函数。
 
 ## axlCurrentDesign 获取当前设计的文件名
 
@@ -112,7 +112,6 @@ axlGetDrawingName()
 color = axlDBDisplayControl('gridColor, nil);Find out grid color
 old = axlDBDisplayControl('gridEnable t);Turn on grids
 listOfNames = axlDBDisplayControl(nil);Get all names supported by this interface
-
 ```
 
 目前支持的项目
@@ -146,7 +145,7 @@ listOfNames = axlDBDisplayControl(nil);Get all names supported by this interface
 * waiveDRCEnable
 * customColorEnabled:Changes the display of custom colors(color192 dialog ("Enable Custom Colors"))
 
-```
+```lisp
 axlDBDisplayControl('customColorEnabled)
 axlDBDisplayControl('customColorEnabled t)
 axlVisibleUpdate(t)
