@@ -2,7 +2,7 @@
 layout: post
 title: Design Control Functions
 categories: Allegro Skill
-date: 2023-06-29
+date: 2023-07-03
 permalink: allegro-skill-design-control-functions
 excerpt: 本章介绍了可用于查询或设置当前设计的名称和类型以及部分数据库参数的 AXL-SKILL 函数。
 ---

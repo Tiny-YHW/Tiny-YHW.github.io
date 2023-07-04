@@ -13,7 +13,7 @@ keywords:
 ## AXL-SKILL函数
 
 *  [Database Read Functions](https://tiny-yhw.github.io//allegro-skill-design-control-functions){:target="_blank"}
-
+*  [Parameter Management Functions](https://tiny-yhw.github.io//allegro-skill-parameter-management-functions){:target="_blank"}
 
 * * *
 

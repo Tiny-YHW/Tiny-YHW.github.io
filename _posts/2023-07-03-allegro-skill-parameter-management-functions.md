@@ -2,8 +2,8 @@
 layout: post
 title: Parameter Management Functions
 categories: Allegro Skill
-date: 2023-06-29
-permalink: parameter-management-functions
+date: 2023-07-03
+permalink: allegro-skill-parameter-management-functions
 excerpt: 
 ---
 

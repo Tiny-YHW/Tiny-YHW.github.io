@@ -15,3 +15,7 @@ cate2:
 ## 元器件
 
 * [常用元器件引脚定义](https://tiny-yhw.github.io//pcb-pin-function){:target="_blank"}
+
+## 检查
+
+* [PCB设计检查表](https://tiny-yhw.github.io//pcb-design-checklist){:target="_blank"}
