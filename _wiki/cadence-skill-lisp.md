@@ -11,7 +11,7 @@ keywords:
 *  [1 List Functions List函数](https://tiny-yhw.github.io//allegro-skill-lisp-list-functions){:target="_blank"}
 *  [5 String Functions 字符串函数](https://tiny-yhw.github.io//allegro-skill-lisp-string-functions){:target="_blank"}
 *  [6 Arithmetic （Trigonometric） Functions 算术（三角）函数](https://tiny-yhw.github.io//allegro-skill-lisp-arithmetic-functions){:target="_blank"}
-
+*  [13 Function and Program Structure](https://tiny-yhw.github.io//allegro-skill-lisp-functions-and-Program-Structure){:target="_blank"}
 
 Cadence® SKILL 是一种基于流行的人工智能语言 Lisp 的高级交互式编程语言。
 
@@ -266,67 +266,7 @@ sstatus
 status
 theEnvironment
 unbindVar
-13
-Function and Program Structure
-addDefstructClass
-alias
-apply
-argc
-argv
-begin
-clearExitProcs
-declareLambda
-declareNLambda
-declareSQNLambda
-defdynamic
-defglobalfun
-define
-define_syntax
-defmacro
-defsetf
-defun
-defUserInitProc
-destructuringBind
-dynamic
-dynamicLet
-err
-error
-errset
-errsetstring
-eval
-evalstring
-expandMacro
-fboundp
-flet
-funcall
-getd
-getFnWriteProtect
-getFunType
-getVarWriteProtect
-globalProc
-isCallable
-isMacro
-labels
-lambda
-let
-letrec
-letseq
-mprocedure
-nlambda
-nprocedure
-procedure
-procedurep
-prog
-prog1
-prog2
-progn
-putd
-setf_dynamic
-setFnWriteProtect
-setVarWriteProtect
-unalias
-unwindProtect
-warn
+
 14
 Environment Functions
 cdsGetInstPath
