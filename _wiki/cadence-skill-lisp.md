@@ -12,6 +12,9 @@ keywords:
 *  [5 String Functions 字符串函数](https://tiny-yhw.github.io//allegro-skill-lisp-string-functions){:target="_blank"}
 *  [6 Arithmetic （Trigonometric） Functions 算术（三角）函数](https://tiny-yhw.github.io//allegro-skill-lisp-arithmetic-functions){:target="_blank"}
 
+
+Cadence® SKILL 是一种基于流行的人工智能语言 Lisp 的高级交互式编程语言。
+
 2
 Data Structure
 arrayp
@@ -86,8 +89,6 @@ timeToString
 timeToTm
 tmToTime
 vectorToList
-
-
 
 ## 7 Bitwise Operator Functions
 band
