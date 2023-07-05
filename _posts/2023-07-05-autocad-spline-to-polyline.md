@@ -7,9 +7,9 @@ permalink: autocad-spline-to-polyline
 excerpt: AutoCAD 样条曲线转多段线
 ---
 
-由于部分PCB设计软件包括Allegro和Altium不支持样条曲线（样条曲线不是圆弧）
+由于部分PCB设计软件包括Allegro和Altium不支持样[样条曲线](https://help.autodesk.com/view/ACDMAC/2024/CHS/?guid=GUID-58316136-30EB-499C-ACAD-31D0C653B2B2){:target="_blank"}（样条曲线不是圆弧）
 
-考虑到部分设计软件导入DXF结构图时样条曲线图形丢失问题，请安下述内容操作
+考虑到部分设计软件导入DXF结构图时样条曲线图形丢失问题，请按下述内容操作
 
 ## 多条
 
@@ -48,5 +48,5 @@ SPLINEDIT 之后：
 
 另请参见：
 
-*   [SPLINEDIT（命令）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-5530922C-6828-48B1-804C-EDD9053535BD-htm.html){:target="_blank"}
-*   [PEDIT（命令）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-0C422AA9-23DD-4650-AD66-68E9D7989E3F-htm.html?st=pedit){:target="_blank"}
+*   [Auto CAD SPLINEDIT（命令）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-5530922C-6828-48B1-804C-EDD9053535BD-htm.html){:target="_blank"}
+*   [Auto CAD PEDIT（命令）](https://knowledge.autodesk.com/zh-hans/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2019/ENU/AutoCAD-Core/files/GUID-0C422AA9-23DD-4650-AD66-68E9D7989E3F-htm.html?st=pedit){:target="_blank"}
