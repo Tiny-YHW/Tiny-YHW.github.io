@@ -6,34 +6,19 @@ date: 2023-07-05
 permalink: allegro-skill-database-read-functions
 excerpt: 
 ---
+[Skill Database User Model数据库（对象）类型属性及关系](https://tiny-yhw.github.io//allegro-skill-database-user-model){:target="_blank"}
 
-[Skill Database User Model数据库（对象）类型属性及关系](https://a1024.synology.me:1024/?p=2926)
 
 ## axlDBGetDesign
 
 获取板中所有对象的ID
-
-*   bus: List of busses
-*   diffpair: List of differential pairs
-*   drcs: List of DRCs
-*   ecsets: List of Electrical Csets
-*   groups: List of groups
-*   matchgroup: List of match groups in the design
-*   module: List of module instances in the design
-*   nets: List of nets
-*   netclass: List of netclass constraints group
-*   netgroup: List of netgroups in the design
-*   objType: Type of object, in this case "design"
-*   region: List of regions
-*   waived: List of waived DRCs
-*   xnet: List of Xnets (no nets with VOLTAGE property)
 
 ```lisp
 axlDBGetDesign() => dbid
 axlDBGetDesign()->symbols;所有放置在PCB上的器件,包括所有Package Sym和Mech Sym
 axlDBGetDesign()->symdefs;所有放置在PCB上的Package
 axlDBGetDesign()->nets
-axlDBGetDesign()->xnet
+axlDBGetDesign()->xnet;List of Xnets (no nets with VOLTAGE property)
 axlDBGetDesign()->bus
 axlDBGetDesign()->netGroup
 axlDBGetDesign()->matchgroup
@@ -46,7 +31,14 @@ axlDBGetDesign()->diffpair
 axlDBGetDesign()->compdefs;List of component definitions
 axlDBGetDesign()->components;所有Database中包含的器件，包含未放置到PCB中的
 axlDBGetDesign()->bBox
-axlDBGetDesign()->objType
+
+axlDBGetDesign()->objType: Type of object, in this case "design"
+axlDBGetDesign()->drcState;
+axlDBGetDesign()->ecsets;List of Electrical Csets
+axlDBGetDesign()->groups;List of groups
+axlDBGetDesign()->module;List of module instances in the design
+axlDBGetDesign()->region;List of regions
+axlDBGetDesign()->waived;List of waived DRCs
 
 obj=axlDBGetDesign()->symbols;包括所有Package Sym和Mech Sym
 obj = setof(x obj x->type == "PACKAGE");提取所有的Package Sym
@@ -54,11 +46,19 @@ obj = setof(x obj x->type == "PACKAGE");提取所有的Package Sym
 
 当前design的dbid，基本上来说整个design的所有信息都可以通过这个dbid得到。比如design有多少个 component，每个component的dbid；比如design有多少drc，每个drc又分别是什么等等。
 
+可以用下述命令
+```lisp
+item=car(axlDBGetDesign()->symbols)->??;查看第一个symbols的固有属性名和属性值
+
+```
+
 可以用下述命令在上面的基础上继续过滤获得dbid
 
 ```
 Obj = setof(x Obj x->layer == "BOARD GEOMETRY/OUTLINE")
 ```
+
+
 
 ## axlDBGetDesignUnits 获得设计的单位和精度
 
