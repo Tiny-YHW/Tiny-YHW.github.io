@@ -483,12 +483,20 @@ ENDFIELD
 (fprintf port "ENDFIELD\n")    
 ```
 
+axlFormSetField用在list框内时,如果原来里面有数据则axlFormSetField为在其下方继续增加值
+若需要替换应该先清空已有值，见下方代码移除所有案例
 
 ```lisp
 items = '("NET1" "NET2" "NET3" "NET4" "NET10" "GND" "VCC" "DP1" "DP2" "BUS1")
-axlFormSetField(form "mlistfield" items )	
+axlFormSetField(form "mlistfield" items )	;多选框list只能显示文本类元素
 
-while(axlFormListDeleteItem(fw "mlistfield" 0) nil);移除所有
+while(axlFormListDeleteItem(form "mlistfield" 0) nil);移除所有
+
+items = sort('(6 1 3 2 5) 'lessp);=>list(1 2 3 5 6)
+(foreach item items
+    axlFormSetField(form "mlistfield" item);数字可以单个加进多选框，如果list中为数字可以通过foreach依次添加
+)
+
 ```
 
 #### button 按钮

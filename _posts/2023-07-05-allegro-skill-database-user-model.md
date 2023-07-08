@@ -342,7 +342,7 @@ nil if not bondwire.
 * **pads:**ll\_dbid List of pads
 * **parent:**dbid Design
 * **padSuppresion:**t/nil Does padstack have Pad Suppression enabled. This is for the legacy artwork based pad suppression.The dynamic pad suppression ignores this option.
-* **plating:**string One of "Plated", "Non-Plated", "Plating-Optional"
+* **plating:**string One of "PLATED", "NON_PLATED", "Plating-Optional"
 * **prop:**nil Always nil, padstacks do not support properties
 * **startEnd:**lt\_layer Start and end layer of padstack
 * **type:**string Type of padstack; valid values are:through、smd、bbvia、uvia
