@@ -13,6 +13,8 @@ excerpt: Cadence Allegro在启动时会加载一些用户配置文件，基于�
 
 Cadence Allegro在启动时会加载一些用户配置文件，基于这些配置文件来决定Allegro启动后的状态包含但不限于env、allegro.ilinit、.men、等，这些文件都将在软件启动时被执行一次以导入这些文件包含的命令。
 
+配置文件加载顺序从先到后分别为  env->ilinit  其它待补充
+
 本文主要介绍环境变量-Home，此路径的相关文件优先级最高，如果不考虑版本差异建议所有用户自定义配置使用此路径的相关文件
 
 PCB编辑器按以下顺序加载设置：均生效，但HOME优先级最高，因为它最后被加载会覆盖先前的设置。
@@ -20,6 +22,9 @@ PCB编辑器按以下顺序加载设置：均生效，但HOME优先级最高，�
 *   $ cdsroot / share / pcb / text（系统级）
 *   $ CDS\_SITE / pcb（网站级别）
 *   $ HOME / pcbenv（用户级别）
+
+$ cdsroot 为软件的安装目录 一般位于类似于*C:\Cadence\SPB_16.3*这样的位置
+$ CDS\_SITE 默认路径为：$ cdsroot/share/local/pcb/skill ，我们也可以通过添加一个"CDS_SITE"环境变量，并通过其变量值来指定其他目录。若以上文件夹不存在，可手动创建一个。
 
 ## 环境变量路径配置
 
