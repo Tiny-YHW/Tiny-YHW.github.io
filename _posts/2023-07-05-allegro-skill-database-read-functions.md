@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Allegro Skill Form Interface Functions
+title: Allegro Skill Database Read Functions
 categories: Allegro Skill
 date: 2023-07-05
 permalink: allegro-skill-database-read-functions
