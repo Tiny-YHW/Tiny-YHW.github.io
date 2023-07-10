@@ -9,8 +9,74 @@ excerpt:
 
 # Overview
 
+## axlDBGridGet
+
+
+axlDBGridGet(
+nil)
+==> lt_grids
+
+axlDBGridGet(
+t_gridName)
+==> og_grid
+
+描述
+
+该函数用于获取当前Grid（格点）的值。函数共两种模式:
+如果gridname 为 nil 则返回格点设置的所有layer列表。
+如果gridname 传递了层layer的值，则直接返回该layer的格点设置的值。
+
+注意: 格点设置中预留了一个"non-etch"层，用于设置非电气属性层的格点，其余的层为ETCH下的subclass层面。
+
+使用 axlDBDisplayControl 函数可控制格点颜色及是否显示。
+
+格点具有以下属性:
+
+Name                Type                Description
+objType        string                格点属性，始终为grids
+readOnly        nil                是否可修改
+name                string                格点layer名
+xOrigin        dbrep                X origin of grid X偏移量
+yOrigin        dbrep                Y origin of grid Y偏移量
+xMajor                dbrep                Major X spacing of grid (read-only)值为XGrids的总和
+yMajor                dbrep                Major Y spacing of grid (read-only)值为YGrids的总和
+xGrids                l_dbrep                Spacings X of grid (always a list of dbreps)X方向格点间距
+yGrids                l_dbrep                Spacings Y of grid (always a list of dbreps)Y方向格点间距
+
+
+参数
+t_gridName 格点的layer名（比如"non-etch" "TOP"）或者 nil （获取所有格点layer名）
+
+
+返回值
+
+lt_gridds - 格点layer列表
+og_grid - 层面的格点属性
+
+相关函数
+
+axlDBGridSet
+
+例子
+
+获取所有layer的格点属性。
+
+grids = axlDBGridGet(nil)
+=>("non-etch" "TOP" "GND02" "POWER03" "BOTTOM")
+foreach(g grids
+grd = axlDBGridGet(g)
+printf("GRID name=%s values=%L\n", grd->name, grd))
+
+=>
+GRID name=non-etch values=(nil name "non-etch" objType "grids" readOnly nil xOrigin 0.0 yOrigin 0.0 xMajor 5.0 yMajor 5.0 xGrids (5.0) yGrids (5.0))
+GRID name=TOP values=(nil name "TOP" objType "grids" readOnly nil xOrigin 0.0 yOrigin 0.0 xMajor 25.0 yMajor 25.0 xGrids (5.0 5.0 5.0 5.0 5.0) yGrids (5.0 5.0 5.0 5.0 5.0))
+GRID name=GND02 values=(nil name "GND02" objType "grids" readOnly nil xOrigin 0.0 yOrigin 0.0 xMajor 25.0 yMajor 25.0 xGrids (5.0 5.0 5.0 5.0 5.0) yGrids (5.0 5.0 5.0 5.0 5.0))
+GRID name=POWER03 values=(nil name "POWER03" objType "grids" readOnly nil xOrigin 0.0 yOrigin 0.0 xMajor 25.0 yMajor 25.0 xGrids (5.0 5.0 5.0 5.0 5.0) yGrids (5.0 5.0 5.0 5.0 5.0))
+GRID name=BOTTOM values=(nil name "BOTTOM" objType "grids" readOnly nil xOrigin 0.0 yOrigin 0.0 xMajor 25.0 yMajor 25.0 xGrids (5.0 5.0 5.0 5.0 5.0) yGrids (5.0 5.0 5.0 5.0 5.0))
+
 * axlcreate
-* axlDBGridGet
+
+
 * axlDBGridSet
 * axlDBTextBlockCreate
 * axlExportXmlDBRecords
@@ -50,6 +116,18 @@ excerpt:
 ## axlVisibleLayer 开关图层
 
 打开或关闭指定图层显示状态
+
+用于打开或关闭allegro中的某一个层。基本格式为class/subclass，如果只指定了class而未指定subclass，那么就显示或不显示当前class下所有的层。注意，执行该函数后，需要使用axlVisibleUpdate函数更新当前显示。
+
+```lisp
+axlVisibleLayer(t_layer g_makeVis);=>t/nil
+```
+
+*t_layer* 需要显示或不显示的层，格式为class/subclass，或者class
+*g_makeVis* t显示层，nil不显示层
+*t* 执行层面显示或不显示成功
+*nil* 执行失败
+
 ```lisp
 axlVisibleDesign(nil);关闭所有层
 axlVisibleDesign(t);打开所有层

@@ -50,8 +50,10 @@ buildString( '("A" "B") 'and)         => "AandB"
 
 ### strcat 将多个字串串接
 
+strcat函数可将输入参数的字符串连接起来，然后返回一个新的字符串
+
 ```
-strcat(S_string1 [ S_string2 ... ]) => t_result
+strcat(S_string1 [ S_string2 ... ]);=> t_result
 ```
 
 ```lisp

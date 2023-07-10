@@ -31,7 +31,7 @@ List是SKILL数据对象的一个有序集合。list数据结构是SKILL的核�
 SKILL显示一个括号围绕在列表成员两旁的列表。下面的例子将一个list赋值给一个变量shapeTypeList，然后从变量之中获取。
 
 ```
-shapeTypeList = '( "rect" "polygon" "rect" "line" )
+shapeTlispypeList = '( "rect" "polygon" "rect" "line" )
 shapeTypeList => ( "rect" "polygon" "rect" "line" )
 ```
 
@@ -51,14 +51,14 @@ SKILLinthe\_itemsperlineglobalvariable（在\_itemsperline全局变量中）存�
 
 ### list从给定元素制作list
 
-```
+```lisp
 '( 1 2 3 )    => ( 1 2 3 )
 a = 1         => 1
 b = 2         => 2
 list( a b 3 ) => ( 1 2 3 )
 ```
 
-```
+```lisp
 aList = '( 1 2 a b c) => (1 2 a b c)
 bList = list( 1 2 'a 'b 'd) => (1 2 a b d)
 cList = '( 1 ( 2 a a ) b ) => (1 (2 a a) b)
@@ -78,14 +78,14 @@ cons和append函数将返回一个新的list。您应该将返回结果存储在
 
 ### car 获取 list 第一个元素
 
-```
+```lisp
 numbers = '( 1 2 3 )         => ( 1 2 3 )
 car( numbers )               => 1
 ```
 
 ### cdr 获取除去第一个元素的list
 
-```
+```lisp
 numbers = '( 1 2 3 )         => ( 1 2 3 )
 cdr( numbers )               => ( 2 3 )
 ```
@@ -96,19 +96,19 @@ nth读取第一个元素为序号0，nth(0 numbers)相当于car( numbers).
 
 `nthelem` 读取第一个元素为序号1，`nthelem(1l_list)` 相当于 `car(l_list)`.
 
-```
+```lisp
 numbers = '( 1 2 3 )         => ( 1 2 3 )
 nth( 1 numbers )             => 2
 ```
 
-```
+```lisp
 nth( 1 '(a b c) )    => b
 z = '(1 2 3)         => (1 2 3)
 nth(2 z)             => 3
 nth(3 z)             => nil
 ```
 
-```
+```lisp
 nthelem( 1 '(a b c) )  => a
 z = '(1 2 3)
 nthelem(2 z)           => 2
@@ -116,7 +116,7 @@ nthelem(2 z)           => 2
 
 ### last 读取 List 中最后一个元素
 
-```
+```lisp
 last( '(a b c) ) => (c)
 z = '( 1 2 3 )
 last( z ) => (3)
@@ -126,7 +126,7 @@ last( z ) => (3)
 
 ### rplaca 替换 List 中的第一个元素
 
-```
+```lisp
 aList = '( 1 2 3) => ( 1 2 3 )
 bList = rplaca( aList 4 ) => ( 4 2 3 )
 aList => ( 4 2 3 )
@@ -139,7 +139,7 @@ eq( aList bList ) => t
 
 这是一个破坏性操作，这意味着对列表的任何其他引用也将看到更改。
 
-```
+```lisp
 x = '(a b c)
 rplacd( x '(d e f))  => (a d e f)
 x                    => (a d e f) 
@@ -153,14 +153,14 @@ x                    => (a d e f)
 
 tconc 在序列后方添加元素，将新的序列放到前方
 
-```
+```lisp
 x = tconc(nil 1)        ; x is now ((1) 1)
 tconc(x 2)              ; x is now ((1 2) 2)
 tconc(x 3)              ; x is now ((1 2 3) 3)
 x = car(x)              ; x is now (1 2 3)
 ```
 
-```
+```lisp
 x = tconc(nil 1)      ; x is initialized ((1) 1)
 lconc(x '(2 3 4))     ; x is now ((1 2 3 4) 4)
 lconc(x nil)          ; Nothing is added to x.
@@ -168,7 +168,7 @@ lconc(x '(5))         ; x is now ((1 2 3 4 5) 5)
 x = car( x )          ; x is now (1 2 3 4 5)
 ```
 
-```
+```lisp
 components = axlDBGetDesign()->components
 componentsnamelist = nil
     (foreach component components
@@ -181,7 +181,7 @@ componentsnamelist = car(componentsnamelist)
 
 增加的元素会成为新list的第一个元素。
 
-```
+```lisp
 result = '( 2 3 )             => ( 2 3 )
 result = cons( 1 result )     => ( 1 2 3 )
 ```
@@ -190,7 +190,7 @@ cons函数的参数位置只能是往前面加不能往后面加，如果需要�
 
 ### append1 在List 后添加元素
 
-```
+```lisp
 append1('(1 2 3) 4) => (1 2 3 4)
 ```
 
@@ -198,7 +198,7 @@ append1('(1 2 3) 4) => (1 2 3 4)
 
 Append合并的一定为list，请注意。
 
-```
+```lisp
 oneList = '( 4 5 6 )             => ( 4 5 6 )
 aList = '( 1 2 3 )               => ( 1 2 3 )
 bList = append( oneList aList)   => ( 4 5 6 1 2 3 )
@@ -206,7 +206,7 @@ bList = append( oneList aList)   => ( 4 5 6 1 2 3 )
 
 append函数只能合并两个List，并且不改变所合并List变量的值。
 
-```
+```lisp
 cList = '( 1 2 )
 dList = '( 3 4 5 )
 eList = '( 6 7 )
@@ -217,7 +217,7 @@ dList => ( 3 4 5 )
 
 nconc函数可以合并多个List，但会改变所合并List 变量的值。
 
-```
+```lisp
 nconc( cList dList eList ) => ( 1 2 3 4 5 6 7 )
 cList => ( 1 2 3 4 5 6 7 )
 dList => ( 3 4 5 6 7 )
@@ -234,7 +234,7 @@ eList => ( 6 7 )
 
 remove函数可以移除List 中所指定的元素，如果List 中没有所指定的元素，那么返回原List。remove 函数不会改变原List变量的值。
 
-```
+```lisp
 aList = '( 1 2 3 4 5 )
 remove( 3 aList ) => ( 1 2 4 5 )
 aList => ( 1 2 3 4 5 )
@@ -250,7 +250,7 @@ reverse( '(a b (c d) e) )  => '(e (c d) b a)
 
 ### unique list去重
 
-```
+```lisp
 a = list("1" "2" "1" "2" "3" "3" "4" "4" "4" "4" "5" "5")
 b = unique(a) =>("1" "2" "3" "4" "5")
 unique(list('abc 'aa 'ac 'aa)) =>(abc aa ac)
@@ -262,7 +262,7 @@ unique(list('abc 'aa 'ac 'aa)) =>(abc aa ac)
 
 length函数确定list（列表）、array（数组）或者关联表的长度。
 
-```
+```lisp
 numbers = '( 1 2 3 )         => ( 1 2 3 )
 length( numbers )            => 3
 ```
@@ -271,7 +271,7 @@ length( numbers )            => 3
 
 一个xy坐标是由两个元素的列表表示。冒号（:)二元运算符通过x值和y值生成坐标。
 
-```
+```lisp
 xValue = 300 
 yValue = 400 
 aCoordinate = xValue:yValue => ( 300 400 )
@@ -279,7 +279,7 @@ aCoordinate = xValue:yValue => ( 300 400 )
 
 函数*xCoord*和*yCoord*访问 x坐标 和y坐标。
 
-```
+```lisp
 xCoord( aCoordinate ) => 300 
 yCoord( aCoordinate ) => 400
 ```
@@ -307,7 +307,7 @@ forall( x '( 2 4 7 8 ) evenp( x ) ) => nil
 
 foreach一次按list中的每一次元素给指定变量，并依次执行
 
-```
+```lisp
 foreach( x '(1 2 3 4) println(x))
 
 1
@@ -326,7 +326,7 @@ foreach( (x y) '(1 2 3) '(4 5 6) (println x+y))
 
 **mapc函数**
 
-```
+```lisp
 mapc( 'list '(1 2 3) '(9 8 7) ) => (1 2 3)
 mapc( '(lambda (x y) (print (list x y))) '(1 2 3) '(9 8 7) )
 (1 9) (2 8) (3 7)
@@ -336,7 +336,7 @@ mapc( '(lambda (x y) (print (list x y))) '(1 2 3) '(9 8 7) )
 
 ma**p 函数**
 
-```
+```lisp
 map( 'list '(1 2 3) '(9 8 7) )
 => (1 2 3)
 
@@ -347,7 +347,7 @@ map( '(lambda (x y) (print (append x y))) '(1 2 3) '(9 8 7) )
 
 **mapcar 函数**
 
-```
+```lisp
 mapcar( 'plus '(1 2 3) '(9 8 7) )=> (10 10 10)
 mapcar( 'list '(a b c) '(1 2 3) '(x y z) )=> ((a 1 x) (b 2 y) (c 3 z))
 mapcar( 'lambda( (x) plus( x 1 )) '(2 4 6) )=> (3 5 7)
@@ -355,7 +355,7 @@ mapcar( 'lambda( (x) plus( x 1 )) '(2 4 6) )=> (3 5 7)
 
 **maplist 函数**
 
-```
+```lisp
 maplist( 'length '(1 2 3) )
 => (3 2 1)
 
@@ -365,7 +365,7 @@ maplist( 'list '(a b c) '(1 2 3) )
 
 **mapcan 函数**
 
-```
+```lisp
 mapcan( 'list '(1 2 3) '(a b c) )
 => (1 a 2 b 3 c)
 
@@ -382,7 +382,7 @@ Usethe_list_functiontobuildaboundingboxthatcontainsCoordinatesspecifiedwiththebi
 
 一个边界框由一个包含左下和右上坐标的list表示。使用list函数建立一个包含由二元操作符(:)指定的坐标的边界框。Coordinatesspecifiedbyvariables.（坐标通过变量指定）
 
-```
+```lisp
 bBox = list( 300:400 500:450 )
 lowerLeft        = 300:400 
 upperRight       = 500:450 
@@ -391,7 +391,7 @@ bBox             = list( lowerLeft upperRight )
 
 如果坐标被已被逐个地以list方式指定，您可以使用单引号(')操作符建立一个边界框。
 
-```
+```lisp
 bBox = '(( 300 400 ) ( 500 450 ))
 ```
 
@@ -456,7 +456,7 @@ ury=cadadr(bBox)
 
 创建给定列表中匹配正则表达式模式的那些字符串或符号的新列表。 提供的正则表达式模式会覆盖先前编译的模式，并用于后续匹配，直到提供下一个新模式。
 
-```
+```lisp
 rexMatchList("^[a-z][0-9]*" '(a01 x02 "003" aa01 "abc"))
 => (a01 x02 aa01 "abc")
 rexMatchList("^[a-z][0-9][0-9]*" 
@@ -469,9 +469,18 @@ rexMatchList("box[0-9]*" '(square circle "cell9" "123"))
 
 ### sort sortcar list排序
 
-sort的书写格式为：sort(l\_data u\_comparefn)，其中第一个变量l\_data为List量变量，第二个变u\_comparefn为对比函数。对比函数也可以是自定义函数。
-
+```lisp
+sort(l_data  u_comparefn);=> l_result
 ```
+
+第一个参数(l\_data)是输入列表List量变量，第二个参数(u\_comparefn)是 比较函数。对比函数也可以是自定义函数
+
+比較函數是nil的情况下,只是按字符顺序排列,也就是使用比較函數為alphalessp,
+在列表裡中是純數字就會產生Error
+
+
+
+```lisp
 y = '(c a d b)
 (sort y nil)        => (a b c d)
 y                   => (c d)  ;no longer points to head of list
@@ -480,23 +489,41 @@ y = (sort y nil)    => (a b c d)
 y => (a b c d)                ;reassignment points y to sorted list.
 ```
 
-```
+列表中是纯数字元素，可以用lessp来从小到大排列，或者用greaterp从大到小排列
+
+```lisp
 y = '(2 4 1 3)
 y = sort(y 'lessp) => (1 2 3 4)
 y = sort(y 'greaterp) => (4 3 2 1)
 y = sort(y 'alphalessp) => error
 ```
 
-```
+如果只想按位比较ASC码的大小,alphalessp
+
+列表里的元素是数字+字符的话, axlStrcmpAlpNum
+
+```lisp
 sort( '(4 3 2 1) 'lessp ) => (1 2 3 4)
 sort( '(d b c a) 'alphalessp) => (a b c d)
 sort('("U5" "U10" "U1" "U5" "U2") 'axlStrcmpAlpNum)
 => ("U1" "U2" "U5" "U5" "U10")
 ```
 
+自定义比较函数
+
+```lisp
+procedure( strlenlessp(a b)
+    strlen(a)>strlen(b)
+)
+lStr='( "a" "ab" "abcd" "abc" "abcde")
+sort( lStr 'strlenlessp)=>'("abcde" "abcd“"abc" "ab" "a" )
+```   
+
+编写比较函数很简单，默认a,b为前后输入的2个数据，只要给出这2个数据比较遵循什么规律，那么这个排序方式就定下来了。
+
 当List元素都是由List组成的时候，还可以使用sortcar函数对比子List的第一个元素排序
 
-```
+```lisp
 sortcar( '((4 four) (3 three) (2 two)) 'lessp )=> ((2 two) (3 three) (4 four)
 sortcar( '((d 4) (b 2) (c 3) (a 1)) nil )=> ((a 1) (b 2) (c 3) (d 4))
 ```
@@ -507,13 +534,13 @@ sortcar( '((d 4) (b 2) (c 3) (a 1)) nil )=> ((a 1) (b 2) (c 3) (d 4))
 
 member 函数不能搜索所有分级的list，只能查找顶层元素。将查找到的元素及其右分支的所有元素输出
 
-```
+```lisp
 numbers = '( 1 2 3 )         => ( 1 2 3 )
 member( 4 numbers )          => nil    说明Member第一个参数不能超过第二个参数list的长度
 member( 2 numbers )          => ( 2 3 )
 ```
 
-```
+```lisp
 x = "c"                          => "c"
 member( x '("a" "b" "c" "d"))    => ("c" "d")
 memq('c '(a b c d c d))          => (c d c d)
@@ -525,7 +552,7 @@ assoc函数的书写格式为：assoc(g\_key l\_alist)，g\_key变量为所查�
 
 assco返回查找到的子List。
 
-```
+```lisp
 aList = '(( 1 "one" )( 2 "two" )( 3 "three" ))
 assoc( 2 aList ) => ( 2 "two" )
 assoc( 5 aList ) => nil
@@ -543,13 +570,13 @@ setof函数的书写格式为：setof( s\_formalVar l\_valueList g\_predicateExp
 
 setof函数会把l\_valueList历赋值给变量中的所有元素，遍s\_formalVar局部变量，带入到g\_predicateExpression表达式中，如果表达式返回的值为nil输出的新，在List中会将其元素过滤。
 
-```
+```lisp
 setof( x '(1 2 3 4) (x > 2) ) => (3 4)
 setof( x '(1 2 3 4) (x < 3) ) => (1 2)
 setof( x '( 1 2 3 4 5 6 ) oddp(x)) => ( 1 3 5 )
 ```
 
-```
+```lisp
 obj = list(xxx)
 objt = setof(x obj1 x->layer == "REF DES/SILKSCREEN_TOP")
 ```
@@ -558,7 +585,7 @@ objt = setof(x obj1 x->layer == "REF DES/SILKSCREEN_TOP")
 
 exists 函数和setof 函数区别在于exists 函数查找List 满足条件的第一个元素，输出它和它之后的元素
 
-```
+```lisp
 exists( x '(1 2 3 4) (x > 2) ) => (3 4)
 exists( x '(4 3 4 5) (x < 4) ) => (3 4 5)
 exists( x '(1 2 3 4) (x > 4) ) => nil
@@ -567,7 +594,7 @@ exists( x '(1 2 3 4) (x > 4) ) => nil
 
 ### List转向量（数组）
 
-```
+```lisp
 V = listToVector( '( 1 2 3 ) ) => array[3]:1954920
 V[0] => 1
 V[1] => 2
