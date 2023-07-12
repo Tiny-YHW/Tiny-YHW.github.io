@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Design Control Functions
+title: Allegro Skill Design Control Functions
 categories: Allegro Skill
 date: 2023-07-03
 permalink: allegro-skill-design-control-functions

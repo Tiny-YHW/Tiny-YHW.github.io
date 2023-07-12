@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Skill调试常用函数
+title: Allegro Skill调试常用函数
 categories: Allegro Skill
-date: 2023-06-29
+date: 2023-07-05
 permalink: allegro-skill-debug
 excerpt: Skill调试常用函数
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Parameter Management Functions
 categories: Allegro Skill
-date: 2023-07-03
+date: 2023-07-05
 permalink: allegro-skill-parameter-management-functions
 excerpt: 
 ---
@@ -138,17 +138,47 @@ axlVisibleLayer( "REF DES" nil );关闭Class的所有层
 axlVisibleUpdate(t);更新视图,否则需要用户手动更新
 ```
 
+## axlVisibleGet
+
+该函数的返回值是命令运行当前design的可见性 - 哪些层可见/不可见
+
+```
+visList = axlVisibleGet();找个设计查看结果输出
+```
+
+## axlVisibleSet
+
+该函数使用axlVisibleGet()函数的返回结果，重置design的显示状态。
+
+```lisp
+(vis = (axlVisibleGet));将当前显示存为vis
+;do sth
+(axlVisibleSet vis);恢复存储的vis显示状态
+```
+
+
+**axlGetXSection**()，这是获取design的**crosssection**(层叠结构)的函数；
+
+**axlLayerGet**(t\_layer)，这是获得指定层t\_layer的dbid的函数；
+
+**axlIsLayer**(t\_layer)，判断指定的层t\_layer存不存在；
+
+```lisp
+when(axlIsLayer("Board Geometry/Design_Outline")
+        axlVisibleLayer("Board Geometry/Design_Outline" t)
+        )
+```
+
+
+**axlIsVisibleLayer**(t\_layer)，判断指定层t\_layer是不是显示状态(visible)；
+
+**axlVisibleDesign**(g\_makeVis)，设置design的状态是显示还是不显示；
+
+
 * axlClasses
 * axlDBGetLayerType
-* axlGetXSection
-* axlIsLayer
-* axlIsVisibleLayer
 * axlLayerCreateCrossSection
 * axlLayerCreateNonConductor
-* axlLayerGet
-* axlVisibleDesign
-* axlVisibleGet
-* axlVisibleSet
 * axlConductorBottomLayer
 * axlConductorTopLayer
 * axlDBCreateFilmRec

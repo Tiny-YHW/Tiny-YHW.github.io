@@ -91,8 +91,17 @@ Sets control background to Allegro PCB Editor database color 1
 对multiselect多选框进行全选和全不选
 
 ```lisp
-axlFormListSelAll(fw "mlistfield" t)
-axlFormListSelAll(fw "mlistfield" nil)
+axlFormListSelAll(form "mlistfield" t)
+axlFormListSelAll(form "mlistfield" nil)
+```
+
+```lisp
+axlFormListGetSelCount(form "mlistfield")
+if(axlFormListGetSelCount(form "mlistfield")>1 then
+    axlFormListSelAll(form "mlistfield" nil)  
+    else
+    axlFormListSelAll(form "mlistfield" t)
+    )
 ```
 
 ### axlFormListGetSelItems
@@ -475,6 +484,8 @@ list_options
 ENDFIELD
 ```
 
+*list_options:*使用OPTIONS multiselect才允许多选否则仍然是单选
+
 ```lisp
 (fprintf port "FIELD mlistfield\n")
 (fprintf port "FLOC %d %d\n"  x y)
@@ -565,7 +576,7 @@ axlFormCreate(
 	g_nonBlock
 	[g_stringOption]
 	)
-⇒ r_form/nil
+;⇒ r_form/nil
 ```
 
 注意，FORM必须为FIXED类型，否则将不能使用axlFormCreate创建form，使用该函数创建FORM后，并不会立即将FORM显示出来，必须使用axlFormDisplay函数显示FORM。
