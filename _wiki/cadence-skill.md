@@ -16,7 +16,9 @@ keywords:
 *  [Parameter Management Functions](https://tiny-yhw.github.io//allegro-skill-parameter-management-functions){:target="_blank"}
 *  [Command Shell Functions](https://tiny-yhw.github.io//allegro-skill-command-shell-functions){:target="_blank"}
 *  [Database Read Functions](https://tiny-yhw.github.io//allegro-skill-database-read-functions){:target="_blank"}
+*  [Database Create Functions](https://tiny-yhw.github.io//allegro-skill-database-create-functions){:target="_blank"}
 *  [Form Interface Functions](https://tiny-yhw.github.io//allegro-skill-form-interface-functions){:target="_blank"}
+*  [Interface Functions](https://tiny-yhw.github.io//allegro-skill-interface-functions){:target="_blank"}
 
 
 
