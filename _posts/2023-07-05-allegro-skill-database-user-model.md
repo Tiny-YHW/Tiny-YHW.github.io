@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Skill Database User Model数据库（对象）类型属性及关系
+title: Allegro Skill Database User Model数据库（对象）类型属性及关系
 categories: Allegro Skill
 date: 2023-07-05
 permalink: allegro-skill-database-user-model

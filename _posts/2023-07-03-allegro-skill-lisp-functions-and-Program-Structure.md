@@ -2,9 +2,9 @@
 layout: post
 title: Function and Program Structure
 categories: Allegro Skill
-date: 2023-07-05
+date: 2023-07-03
 permalink: allegro-skill-lisp-functions-and-Program-Structure
-excerpt: 字串可视为一维的字阵列，在本节中介绍 SKILL 提供常用之字串处理的函式。
+excerpt: Function and Program Structure。
 ---
 
 ## prog let 局部变量声明函数
