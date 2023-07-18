@@ -148,3 +148,9 @@ E36B85CC 84991F19 7575D828 470A92AB
 
 Cadence skill插件不建议用在线的，用附件的比较好。  
 插件开源代码：[https://github.com/noisyass2/SublimeCadenceSkill](https://github.com/noisyass2/SublimeCadenceSkill)
+
+### 其它插件
+
+1)、outline（显示函数名，或者ctrl+r）
+
+2)、ConvertToUTF8（编码识别GBK）

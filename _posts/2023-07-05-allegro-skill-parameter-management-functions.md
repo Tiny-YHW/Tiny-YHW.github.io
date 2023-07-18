@@ -11,14 +11,10 @@ excerpt:
 
 ## axlDBGridGet
 
-
-axlDBGridGet(
-nil)
-==> lt_grids
-
-axlDBGridGet(
-t_gridName)
-==> og_grid
+```lisp
+axlDBGridGet(nil);==> lt_grids
+axlDBGridGet(t_gridName);==> og_grid
+```
 
 描述
 
@@ -89,8 +85,62 @@ GRID name=BOTTOM values=(nil name "BOTTOM" objType "grids" readOnly nil xOrigin 
 
 # Color Access
 
+## axlCVFColorChooserDlg
+
+显示调色板模式对话框，并返回用户选择的颜色值
+
+```lisp
+axlCVFColorChooserDlg(
+        [x_color_index]
+        [g_show_hilite]
+        [x_hilite_flag]
+        [x_bitmap_index]
+        )
+;==> t/nil
+
+(ans = (axlCVFColorChooserDlg 293 nil 0))
+(axlDBControl 'highlightColor car(ans))
+(axlDBControl 'highlightColor)
+```
+
+* x_color_index: Color index to initialize palette dialog. Values 0 to 191.
+* g_show_hilite: Specifies whether or not the highlight check box is to be displayed. If the value is set to:
+        - t - displays the highlight check box.
+        - nil/default - highlight check box is not displayed.
+* x_hilite_flag: Highlight state to initialize highlight check box (if displayed). Pass 1 or 0.
+* x_bitmap_index: Bitmap index to initialize palette dialog. Values 0 to 15.
+
+* list: containing one or two int values for user color palette selection and highlight check box selection. if g_show_hilite is not nil, list contains the two values, or else list contains color index only.
+* nil: if user cancels the form or error occurred.
+
+
+## axlColorGet,axlColorSet
+
+获取指定色号的RGB值,按RGA值设定指定色号
+```lisp
+;Set color number three same as color two:
+clr = axlColorGet(2)
+axlColorSet(3 clr)
+axlVisibleUpdate(nil)
+;Set first three colors:
+axlColorSet('all '((10 10 10) (40 40 40) (100 100 100)))
+
+;设定"ETCH/TOP"层为红色
+ColorID = 161
+ColorRGB = '(255 0 0)
+Layer = "ETCH/TOP"
+axlColorSet(ColorID ColorRGB)
+axlLayerGet(Layer)->color = ColorID
+axlLayerSet(axlLayerGet(Layer))
+
+```
+
+
+
+
+##
+
 * axlColorDoc
-* axlColorGet
 * axlColorShadowGet
 * axlColorShadowSet
 * axlColorLoad
@@ -100,7 +150,7 @@ GRID name=BOTTOM values=(nil name "BOTTOM" objType "grids" readOnly nil xOrigin 
 * axlColorPrioritySet - Obsolete Command
 * axlColorSave
 * axlColorSet
-* axlCVFColorChooserDlg
+
 * axlClearObjectCustomColor
 * axlCustomColorObject
 * axlLayerPriorityClearAll

@@ -2,7 +2,7 @@
 layout: post
 title: Function and Program Structure
 categories: Allegro Skill
-date: 2023-07-03
+date: 2023-07-04
 permalink: allegro-skill-lisp-functions-and-Program-Structure
 excerpt: Function and Program Structure。
 ---

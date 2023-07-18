@@ -131,6 +131,20 @@ axlFormListDeleteItem(setupdiff_symbol "mlistfieldndp" diffname);移除一条
 while(axlFormListDeleteItem(form "activewidth" 0) nil);移除所有
 ```
 
+## axlFormListDeleteAll 移除所有多选项
+
+```lisp
+axlFormListDeleteAll(form "padstacktype");移除所有
+```
+
+## axlFormListSelect
+
+```lisp
+axlFormListSelect(form "padstacktype" "MH3");加选一项
+axlFormListSelect(form "padstacktype" nil);deselect any selected item and set list back to top.
+```
+
+
 ## Form基本元素
 
 form的define信息一般保存在一个.form的文件中，
@@ -338,7 +352,7 @@ ENDFIELD;结束标识
 *   CHECKLIST "display" \["radioLabel"\]：单选或多选框
 *   LIST "" w h：多选框
 *   TREEVIEW w h
-*   COLOR w h
+*   COLOR w h：颜色控件
 *   THUMBNAIL \[<bitmapFile>|#<resource>\]
 *   PROGRESS w h
 *   TRACKBAR w h
@@ -557,6 +571,18 @@ FSIZE w h (8)
 [POP "<popupName>"]
 [ENDGREADH]
 ENDGRID
+```
+
+#### color控件
+
+
+```lisp
+
+x=1 y=1
+fprintf(port "FIELD hlColor\n") ;控件名
+fprintf(port "FLOC %d %d\n" x y) ;位置
+fprintf(port "COLOR 2 1\n");大小
+fprintf(port "ENDFIELD\n") ;结束标记
 ```
 
 ## Form显示控制axl函数
@@ -895,10 +921,10 @@ axlFormInvalidateField
 axlFormIsFieldEditable  
 axlFormIsFieldVisible  
 axlFormListAddItem  
-axlFormListDeleteAll  
+
 axlFormListGetItem  
 axlFormListOptions  
-axlFormListSelect  
+
 axlFormMsg  
 axlFormRestoreField  
 axlFormSetActiveField  

@@ -120,19 +120,29 @@ rexMatchp("GND" "DGND")  => t
 rexMatchp("GND" "ND") => nil
 ```
 
-### rexCompile 字串的查找与替换
+### rexCompile rexReplace字串的查找与替换
+
+```lisp
+rexCompile( t_pattern ) ;=> t / nil 
+rexReplace( t_source t_replacement x_index ) ;=> t_result
+```
+
+* *t_pattern:* 需要被替换的字符单元
+* *t_source:* 源字符
+* *t_replacement:* 替换为什么字符
+* *x_index:* 指定要替换哪个匹配子字符串。 如果 <= 0，则进行全局替换。
 
 ```lisp
 rexCompile( "[0-9]+" )
-rexReplace( "abc-123-xyz-890-wuv" "(*)" 1) => "abc-(*)-xyz-890-wuv"
-rexReplace( "abc-123-xyz-890-wuv" "(*)" 2) => "abc-123-xyz-(*)-wuv"
-rexReplace( "abc-123-xyz-890-wuv" "(*)" 3) => "abc-123-xyz-890-wuv"
-rexReplace( "abc-123-xyz-890-wuv" "(*)" 0) => "abc-(*)-xyz-(*)-wuv"
+rexReplace( "abc-123-xyz-890-wuv" "(*)" 1) ;=> "abc-(*)-xyz-890-wuv"
+rexReplace( "abc-123-xyz-890-wuv" "(*)" 2) ;=> "abc-123-xyz-(*)-wuv"
+rexReplace( "abc-123-xyz-890-wuv" "(*)" 3) ;=> "abc-123-xyz-890-wuv"
+rexReplace( "abc-123-xyz-890-wuv" "(*)" 0) ;=> "abc-(*)-xyz-(*)-wuv"
 
 rexCompile( "xyz" )
-rexReplace( "xyzzyxyzz" "xy" 0)            => "xyzyxyz" ; no rescanning!
+rexReplace( "xyzzyxyzz" "xy" 0)            ;=> "xyzyxyz" ; no rescanning!
 rexCompile("[A-Za-z]+")
-rexReplace( "abc-123-xyz-890-wuv" "(*)" 0) => "(*)-123-(*)-890-(*)
+rexReplace( "abc-123-xyz-890-wuv" "(*)" 0) ;=> "(*)-123-(*)-890-(*)
 ```
 
 ### 字串反向排列
@@ -148,12 +158,49 @@ rName = strcat(tt rName)
 rName
 ```
 
+### blankstrp 判断是否为空字符
 
-### blankstrp
-### getchar
-### index
+```lisp
+blankstrp( "");=> t
+blankstrp( " ");=> t
+blankstrp( "a string");=> nil
+```
+
+### getchar 获取第指定位字符
+
+```lisp
+getchar("abc" 2)  ;=> b
+getchar("abc" 4)  ;=> nil
+```
+
+### index 从指定字符到末尾
+
+```lisp
+index( "abc" "b" )            ;=> "bc"
+index( "abcdabce" "dab" )    ;=> "dabce"
+index( "abc" "cba" )         ;=> nil
+index( "dandelion" "d")      ;=> "dandelion"
+```
+
+
+### nindex 从字串中查找字符出现在第几位
+
+```lisp
+nindex( "abc" 'b )            ;=> 2
+nindex( "abcdabce" "dab" )    ;=> 4
+nindex( "abc" "cba" )         ;=> nil
+```
+
+### stringp 判断是否为字串
+
+```lisp
+stringp( 93);=> nil
+stringp( "93");=> t
+```
+
+
 ### lsprintf
-### nindex
+
 ### outstringp
 ### pcreCompile
 ### pcreExecute
@@ -179,7 +226,7 @@ rName
 ### rexSubstitute
 ### rindex
 ### strcmp
-### stringp
+
 ### strncat
 ### strncmp
 ### strpbrk

@@ -53,6 +53,8 @@ axlUnsetVariableFile(t_variable );==> t 设置变量，会存储到env
 ```
 
 ```lisp
+axlGetVariable("localenv");环境变量PCBENV文件夹
+
 menu = axlGetVariable("menuload"); ==> "geometry"
 psmpath = axlGetVariable("psmpath"); ==> ". symbols"
 
