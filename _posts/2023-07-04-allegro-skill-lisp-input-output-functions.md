@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Input Output Functions 字符串函数
+title: Input Output Functions
 categories: Allegro Skill
 date: 2023-07-04
 permalink: allegro-skill-lisp-input-output-functions
-excerpt: 字串可视为一维的字阵列，在本节中介绍 SKILL 提供常用之字串处理的函式。
+excerpt: 数据输入输出，文件内容读写
 ---
 
 This section introduces how to Display values using default formats and application-specific formats本节介绍如何使用默认格式和特定于应用程序的格式显示值

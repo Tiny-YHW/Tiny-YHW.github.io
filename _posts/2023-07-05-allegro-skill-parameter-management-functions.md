@@ -135,29 +135,40 @@ axlLayerSet(axlLayerGet(Layer))
 
 ```
 
+## axlColorShadowGet axlColorShadowSet
+
+阴影模式选项和设置阴影模式选项
+
+## axlLayerPrioritySet axlLayerPriorityGet
+
+设置图层显示优先级和获取图层的当前优先级
+
+## axlLayerPriorityClearAll axlLayerPrioritySaveAll
+
+清除所有图层优先级（恢复为默认值）
+
+保存现有优先级表
+
+## axlColorSave axlColorLoad
+
+将颜色值保存到文件，从文件加载颜色值
 
 
-
-##
 
 * axlColorDoc
-* axlColorShadowGet
-* axlColorShadowSet
-* axlColorLoad
+
+* 
 * axlColorOnGet - Obsolete Command
 * axlColorOnSet - Obsolete Command
 * axlColorPriorityGet - Obsolete Command
 * axlColorPrioritySet - Obsolete Command
-* axlColorSave
+* 
 * axlColorSet
 
 * axlClearObjectCustomColor
 * axlCustomColorObject
 * axlLayerPriorityClearAll
-* axlLayerPriorityGet
-* axlLayerPriorityRestoreAll
-* axlLayerPrioritySaveAll
-* axlLayerPrioritySet
+
 * axlIsCustomColored
 
 

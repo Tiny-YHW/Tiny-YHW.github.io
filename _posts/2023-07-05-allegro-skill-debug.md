@@ -31,7 +31,8 @@ axlShell("slide")
 ;直接数据文本
 axlMsgPut("debug")
 ;带变量
-axlMsgPut("Processing package : %s " txt->text)
+axlMsgPut("Processing: %s " txt->text)
+axlMsgPut("Processing: %N " txt);按照原有类型输出（字符串会带引号）
 ;带多个变量
 axlMsgPut("%s %s %d %d %d %d" item->name item2 length(setof(temp1 item->children temp1->layer == item2)) numseg numpath temp1)
 ```

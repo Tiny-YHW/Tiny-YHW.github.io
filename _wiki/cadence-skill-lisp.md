@@ -11,7 +11,9 @@ keywords:
 *  [1 List Functions List函数](https://tiny-yhw.github.io//allegro-skill-lisp-list-functions){:target="_blank"}
 *  [5 String Functions 字符串函数](https://tiny-yhw.github.io//allegro-skill-lisp-string-functions){:target="_blank"}
 *  [6 Arithmetic （Trigonometric） Functions 算术（三角）函数](https://tiny-yhw.github.io//allegro-skill-lisp-arithmetic-functions){:target="_blank"}
+*  [11 Input Output Functions](https://tiny-yhw.github.io//allegro-skill-lisp-input-output-functions){:target="_blank"}
 *  [13 Function and Program Structure](https://tiny-yhw.github.io//allegro-skill-lisp-functions-and-Program-Structure){:target="_blank"}
+
 
 Cadence® SKILL 是一种基于流行的人工智能语言 Lisp 的高级交互式编程语言。
 
