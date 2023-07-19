@@ -9,258 +9,24 @@ keywords:
 ##
 
 *  [1 List Functions List函数](https://tiny-yhw.github.io//allegro-skill-lisp-list-functions){:target="_blank"}
+*  [2 Data Structure](https://tiny-yhw.github.io//allegro-skill-lisp-data-structure){:target="_blank"}
+*  [3 Data Operator Functions](https://tiny-yhw.github.io//allegro-skill-lisp-data-operator-functions){:target="_blank"}
+*  [4 Type Conversion Functions](https://tiny-yhw.github.io//allegro-skill-lisp-type-conversion-functions){:target="_blank"}
 *  [5 String Functions 字符串函数](https://tiny-yhw.github.io//allegro-skill-lisp-string-functions){:target="_blank"}
 *  [6 Arithmetic （Trigonometric） Functions 算术（三角）函数](https://tiny-yhw.github.io//allegro-skill-lisp-arithmetic-functions){:target="_blank"}
+*  [7 Bitwise Operator Functions](https://tiny-yhw.github.io//allegro-skill-lisp-bitwise-operator-functions){:target="_blank"}
+*  [9 Logical and Relational Functions](https://tiny-yhw.github.io//allegro-skill-logical-and-relational-functions){:target="_blank"}
+*  [10 Flow Control Functions](https://tiny-yhw.github.io//allegro-skill-lisp-flow-control-functions){:target="_blank"}
 *  [11 Input Output Functions](https://tiny-yhw.github.io//allegro-skill-lisp-input-output-functions){:target="_blank"}
+*  [12 Core Functions](https://tiny-yhw.github.io//allegro-skill-lisp-core-functions){:target="_blank"}
 *  [13 Function and Program Structure](https://tiny-yhw.github.io//allegro-skill-lisp-functions-and-Program-Structure){:target="_blank"}
-
+*  [14 Environment Functions](https://tiny-yhw.github.io//allegro-skill-lisp-environment-functions){:target="_blank"}
+*  [15 Namespace Functions And More](https://tiny-yhw.github.io//allegro-skill-lisp-namespace-functions-and-more){:target="_blank"}
 
 Cadence® SKILL 是一种基于流行的人工智能语言 Lisp 的高级交互式编程语言。
 
-2
-Data Structure
-arrayp
-arrayref
-assoc, assq, assv
-declare
-defprop
-defstruct
-defstructp
-defvar
-makeTable
-makeVector
-setarray
-tablep
-type, typep
-vector
-vectorp
-3
-Data Operator Functions
-alphaNumCmp
-concat
-copy_<name>
-copyDefstructDeep
-get
-getSG
-getq
-getqq
-importSkillVar
-integerp
-make_<name>
-otherp
-plist
-popf
-postArrayDec
-postArrayInc
-postArraySet
-postdecrement
-postincrement
-preArrayDec
-preArrayInc
-preArraySet
-predecrement
-preincrement
-pushf
-putprop
-putpropq
-putpropqq
-quote
-remprop
-rotatef
-set
-setf
-setf_<helper>
-setguard
-setplist
-setq
-setSG
-symbolp
-symeval
-symstrp
-4
-Type Conversion Functions
-charToInt
-intToChar
-listToVector
-stringToFunction
-stringToSymbol
-stringToTime
-symbolToString
-tableToList
-timeToString
-timeToTm
-tmToTime
-vectorToList
-
-## 7 Bitwise Operator Functions
-band
-bitfield
-bitfield1
-bnand
-bnor
-bnot
-bor
-bxnor
-bxor
-setqbitfield
-setqbitfield1
-8
-Trigonometric Functions
-asin
-atan
-atan2
-cos
-sin
-tan
-acos
-9
-Logical and Relational Functions
-alphalessp
-and
-compareTime
-eq
-equal
-eqv
-geqp
-greaterp
-leqp
-lessp
-member, memq, memv
-neq
-nequal
-null
-numberp
-or
-sxtd
-10
-Flow Control Functions
-case
-caseq
-catch
-cond
-decode
-do
-exists
-existss
-for
-fors
-forall
-foralls
-foreach
-foreachs
-if
-go
-map
-mapc
-mapcan
-mapcar
-mapcon
-mapinto
-maplist
-not
-regExitAfter
-regExitBefore
-remExitProc
-return
-setof
-setofs
-throw
-unless
-when
-while
 
 
-12 Core Functions
-arglist
-assert
-atom
-bcdp
-booleanp
-boundp
-describe
-fdoc
-gc
-gensym
-getMuffleWarnings
-getSkillVersion
-get_pname
-get_string
-getVersion
-getWarn
-help
-inScheme
-inSkill
-isVarImported
-makeSymbol
-measureTime
-muffleWarnings
-needNCells
-restoreFloat
-saveFloat
-schemeTopLevelEnv
-setPrompts
-sstatus
-status
-theEnvironment
-unbindVar
-
-14
-Environment Functions
-cdsGetInstPath
-cdsGetToolsPath
-cdsPlat
-changeWorkingDir
-cputime
-createDir
-createDirHier
-csh
-deleteDir
-deleteFile
-exit
-getCurrentTime
-getInstallPath
-getLogin
-getPrompts
-getShellEnvVar
-getSkillPath
-getTempDir
-getWorkingDir
-isDir
-prependInstallPath
-setShellEnvVar
-setSkillPath
-sh, shell
-system
-unsetShellEnvVar
-vi, vii, vil
-15
-Namespace Functions
-makeNamespace
-findNamespace
-useNamespace
-unuseNamespace
-importSymbol
-findSymbol
-addToExportList
-getSymbolNamespace
-removeFromExportList
-addToNamespace
-shadow
-shadowImport
-removeShadowImport
-unimportSymbol
-16
-Scheme/SKILL++ Equivalents Tables
-Lexical Structure
-Expressions
-Functions
-17
-Mapping Symbols to Values
-18
-setf Helper Functions
-setf_<helper>
-19
-Type Introspection Functions
 
 
 二、检验与逻辑运算功能函数
@@ -301,39 +67,6 @@ Type Introspection Functions
 
 3.9 （trans 点 原位置 新位置［位移］） 返回：转换坐标系统值
 
-四、列表处理功能函数
-
-4.1 （append 列表 列表……） 结合所有列表成一个列表
-
-4.2（assoc 关键元素 联合列表）根据关键元素找寻联合列表中关系信息
-
-4.3 （car 列表）返回列表中的第一个元素，通常用来求X坐标
-
-4.4（cadr 列表）返回列表中的第二个元素，通常用来求y坐标
-
-4.5（caddr 列表）返回列表中的第三个元素，通常用来求Z坐标
-
-4.6（cdr 列表）返回：除去第一个元素后的列表
-
-4.7（cons 新元素 列表）返回：将新元素添加到列表
-
-4.8（foreach 名称 列表 表达式）返回：将列表的每一元素对应至名称再根据表达式执行响应
-
-4.9（length 列表）返回：列表内的元素数量
-
-4.10（list 元素 元素…）返回：将所有元素合并为一列表
-
-4.11（listp 元素）返回：判断元素是否为一串
-
-4.12（mapcar函数 列表1列表2…）返回：将列表1、列表2列表的元素配合函数，求得新列表
-
-4.13（member 关键元素列表）返回：根据关键元素（含似后的列表
-
-4.14（nth n 列表）返回：列表的第n个元素
-
-4.15（reverse 列表）返回：将列表元素根据顺序颠倒过来的列表
-
-4.16（subst 新项旧项列表）返回：替换新旧列表后的列表
 
 五、字符串、字符、文件处理函数
 
