@@ -4,7 +4,7 @@ title: Altium Designer中的快捷键
 categories: Altium
 permalink: altium-shortcut-keys
 description: 
-date: 2023-06-19
+date: 2023-07-20
 ---
 
 转自官网[链接](https://www.altium.com.cn/blog/altium-designer%E4%B8%AD%E7%9A%84%E5%BF%AB%E6%8D%B7%E9%94%AE)
