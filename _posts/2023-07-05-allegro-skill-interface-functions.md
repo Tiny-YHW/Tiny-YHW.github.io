@@ -10,6 +10,10 @@ excerpt: This chapter describes the AXL/SKILL functions that give access to the 
 
 ## axlHighlightObject、axlDehighlightObject
 
+```lisp
+axlHighlightObject([lo_dbid] [g_permHighlight])         ;==> t/nil
+```
+
 高亮对象和取消高亮对象
 
 两个函数中的t参数，如果设置代表使用永久高亮颜色，如果不设置则使用临时高亮颜色
@@ -28,6 +32,13 @@ axlDehighlightObject( axlGetSelSet() t)
 (lSeg = (axlGetSelSet (axlAddSelectAll))) 
 (axlClearSelSet) 
 (axlDehighlightObject lSeg)
+```
+
+高亮颜色设置
+
+
+```lisp
+axlDBControl('highlightColor 4)
 ```
 
 ## axlZoomToDbid 显示视图缩放到指定对象
