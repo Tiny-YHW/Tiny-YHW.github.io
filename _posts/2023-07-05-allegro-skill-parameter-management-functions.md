@@ -132,7 +132,6 @@ Layer = "ETCH/TOP"
 axlColorSet(ColorID ColorRGB)
 axlLayerGet(Layer)->color = ColorID
 axlLayerSet(axlLayerGet(Layer))
-
 ```
 
 ## axlColorShadowGet axlColorShadowSet
@@ -153,22 +152,31 @@ axlLayerSet(axlLayerGet(Layer))
 
 将颜色值保存到文件，从文件加载颜色值
 
+## axlClearObjectCustomColor axlCustomColorObject 给指定对象加颜色和去颜色
+
+```lisp
+axlCustomColorObject([lo_dbid][g_custom_color]);==> t/nil
+axlClearObjectCustomColor([lo_dbid]);==> t/nil
+
+(defun customColorLoop ()
+axlSetFindFilter( ?enabled '("noall" "alltypes" "nameform") ?onButtons "alltypes")
+while( axlSelect()
+    axlCustomColorObject( axlGetSelSet() 4)
+    checkColor = axlIsCustomColored( car(axlGetSelSet()) )
+    axlSleep(1)
+    axlClearObjectCustomColor( axlGetSelSet())
+    )
+)
+
+```
 
 
 * axlColorDoc
-
-* 
 * axlColorOnGet - Obsolete Command
 * axlColorOnSet - Obsolete Command
 * axlColorPriorityGet - Obsolete Command
 * axlColorPrioritySet - Obsolete Command
-* 
-* axlColorSet
-
-* axlClearObjectCustomColor
-* axlCustomColorObject
 * axlLayerPriorityClearAll
-
 * axlIsCustomColored
 
 
