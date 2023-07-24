@@ -744,33 +744,7 @@ axlColorSave,axlColorSet
 axlColorLoad(nil)
 axlVisibleUpdate(t)
 
-### getWorkingDir()获取当前工作目录
 
-
-getWorkingDir()
-=> t_currentDir
-
-描述
-用于获取当前的工作目录
-
-参数
-无
-
-返回值
-当前打开文件所在的工作目录
-
-例子
-getWorkingDir() => "C:/project/Layout/brd"
-
-参考函数
-changeWorkingDir()
-
-说明
-该函数与使用"./"的目录一致。在平时layout过程中，往往需要频繁打开当前的brd文件夹，可以通过下面代码设置简单快捷键快速打开。
-
-funckey sss skill 'axlShell(strcat("http " getWorkingDir()))'
-
-将上面代码添加到ENV文件中，重启allegro，按下sss即可打开当前工作目录
 
 ### axlMKSConvert 单位转换函数
 

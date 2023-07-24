@@ -1,13 +1,93 @@
 ---
 layout: post
-title: Input Output Functions
+title: Input Output And Environment Functions
 categories: Allegro Skill
 date: 2023-07-04
 permalink: allegro-skill-lisp-input-output-functions
-excerpt: 数据输入输出，文件内容读写
+excerpt: 数据输入输出,文件内容读写,文件、文件夹读写和更改
 ---
 
 This section introduces how to Display values using default formats and application-specific formats本节介绍如何使用默认格式和特定于应用程序的格式显示值
+
+关联axl文件处理函数[22 File Access Functions](https://tiny-yhw.github.io//allegro-skill-file-access-functions){:target="_blank"}
+
+
+## getWorkingDir 获得当前活动文件所在路径，当前工作目录
+
+```lisp
+getWorkingDir();=> t_currentDir
+getWorkingDir();=> "C:/project/Layout/brd"
+```
+
+返回值:当前打开文件所在的工作目录
+
+说明:该函数与使用"./"的目录一致。在平时layout过程中，往往需要频繁打开当前的brd文件夹，可以通过下面代码设置简单快捷键快速打开。
+
+```lisp
+funckey sss skill 'axlShell(strcat("http " getWorkingDir()))'
+```
+
+将上面代码添加到ENV文件中，重启allegro，按下sss即可打开当前工作目录
+
+
+## getDirFiles 获取文件夹下文件清单
+
+```lisp
+getDirFiles(car(getInstallPath()))
+getDirFiles(".");获得当前工作目录所有文件
+getDirFiles(getWorkingDir());获得当前工作目录所有文件
+```
+
+## isDir 判断路径是否存在
+
+## isFile 判断文件是否存在
+
+```lisp
+ (files = getDirFiles("./")) 
+	foreach(file files 
+	    if(((isFile(file) == t) && (nth(1 
+				parseString(file ".")
+			    ) == "drl") ) then 
+		(axlOSFileMove file strcat("./OUTPUT/" file))
+	    )
+	)
+```
+
+## createDir 创建文件夹
+
+```lisp
+unless(isDir("./OUTPUT") createDir("./OUTPUT")) 
+```
+
+## deleteDir 删除路径
+
+```lisp
+createDir("/usr/tmp/test") => t
+deleteDir("/usr/tmp/test") => t
+deleteDir("/usr/bin")
+```
+
+
+## deleteFile 删除文件
+
+```lisp
+deleteFile("./drill_file.scr")
+```
+
+
+## system
+
+生成一个单独的 UNIX （批处理，CMD指令）进程来执行命令。
+
+```lisp
+system("step_out 000.brd -o 000 -m -n -d -z")
+```
+
+```lisp
+system( "date" )  =>Wed Dec 14 15:14:53 PST 1994 0
+system( "daa" ) => sh: daa: not found 1
+```
+
 
 ## 从文件中读数据
 
@@ -113,7 +193,7 @@ B - Bounding box list (Ignores width and precision.)边界框list（忽略宽度
 
 The %L directive specifies the default format. %L 指令符指定一个默认格式。
 
-This directive is a convenient way to intersperse application-specific formats with default formats.    
+This directive is a convenient way to intersperse application-specific formats with default formats. 
 
 ### fprintf
 
@@ -123,29 +203,29 @@ This directive is a convenient way to intersperse application-specific formats w
 
 下文有案例
 
-#### Writing Data to a File（在一个文件中写入数据）
+## Writing Data to a File（在一个文件中写入数据）
 
 要写文本数据到一个文件需要使用*outfile*函数获得一个文件输出端口。
 
-```
+```lisp
 p = outfile("/tmp/out.il" "w")
 ```
 
 使用一个必需的参数给fprintf（就是fprintf函数必需要有该参数），也可以使用printf或println
 
-```
+```lisp
 for(i 0 15 fprintf(p "%20d %-20d\n" 2**i 3**i))
 ```
 
 关闭输出端口
 
-```
+```lisp
 close(p)
 ```
 
 Both _print_ and _println_ accept an optional second argument, which should be an output port associated with the target file. Use the _outfile_ function to obtain an output port for a file. Once you are finished writing data to the file, use the _close_ function to release the port. The following code
 
-```
+```lisp
 myPort = outfile( "/tmp/myFile" )
 for( i 1 3  println( list( "Number:" i) myPort ))
 close( myPort )
@@ -153,21 +233,25 @@ close( myPort )
 
 写数据给文件 `/tmp/myFile`
 
-```
+```lisp
 ("Number:" 1) ("Number:" 2) ("Number:" 3)
 ```
 
 outfile函数使用完整的路径。记住如果路径未被指定或不能访问到文件，outfile返回 nil，如果端口参数是 nil，print和println函数显示一个错误。注意类型模板使用 _p_ 来指定。
 
-```
+```lisp
 println( "Hello" nil )
-Message: *Error* println: argument #2 should be an I/O port(type template = "gp") - nil
+;Message: *Error* println: argument #2 should be an I/O port(type template = "gp") - nil
 ```
 
 不像print和println函数，printf函数不接受一个可选的端口参数，使用printf函数向文件中写入格式数据，其第一个参数应该是关联文件的输出端口，具体看下面的代码：
 
-```
-myPort = outfile( "/tmp/myFile" ) for( i 1 3       fprintf( myPort "Number: %d\n" i )       ) close( myPort )
+```lisp
+myPort = outfile( "/tmp/myFile" ) 
+for( i 1 3       
+	fprintf( myPort "Number: %d\n" i )
+	) 
+close( myPort )
 ```
 
 writes this data to the file `/tmp/myFile`.
@@ -180,7 +264,7 @@ Number: 1 Number: 2 Number: 3
 
 与`fprintf`的区别是，不直接打印结果，而是将结果作为函数的输出，你可以赋值给`变量`
 
-```
+```lisp
 sprintf( variable "My name is %s and weight is %d kg\n" "YEUNGCHIE" 999 )
 variable = sprintf( nil "My name is %s and weight is %d kg\n" "YEUNGCHIE" 999 )
 ; "My name is YEUNGCHIE and weight is 999 kg"
@@ -194,14 +278,14 @@ variable = sprintf( nil "My name is %s and weight is %d kg\n" "YEUNGCHIE" 999 )
 
 与 `sprintf` 的区别是，第一个参数不用于指定被赋值的变量。
 
-```
+```lisp
 string = lsprintf( "My name is %s and weight is %d kg\n" "YEUNGCHIE" 999 )
 ```
 
 *   成功格式化即返回字符串内容
 *   当输出的参数数量不确定的时候这个函数非常好用，举个例子：
 
-```
+```lisp
 format = "My name is %s and weight is %d kg\n"
 args   = list( "YEUNGCHIE" 999 )
 string = apply( 'lsprintf format args )
@@ -210,7 +294,7 @@ string = apply( 'lsprintf format args )
 
 当然 `sprintf` 也不是做不到，只不过会比较麻烦。
 
-```
+```lisp
 string = apply(
   lambda(( a \@rest b )
     apply( 'sprintf nil a b )
@@ -227,7 +311,7 @@ string = apply(
 
 获取一个输入句柄，打开这个文件。
 
-```
+```lisp
 inHandle = infile( "file.txt" )
 ```
 
@@ -235,21 +319,21 @@ inHandle = infile( "file.txt" )
 
 用`gets`可以将按**行**迭代文件内容（一行一行读取），全部内容读取完会返回`nil`。
 
-```
+```lisp
 gets( string inHandle )
 close( inHandle )；读取结束后记得关闭这个句柄。
 ```
 
 上面这个操作将第一行的内容赋值给了 string 变量。
 
-```
+```lisp
 printf( "%s\n" string )
 ```
 
 也可以将第一个参数指定为`nil`，不赋值给变量，通过函数返回值的读取内容，类似`sprintf`
 再次使用`gets`则会继续读取第二行内容。
 
-```
+```lisp
 printf( "%s\n" gets( nil inHandle ))
 ```
 
@@ -258,13 +342,13 @@ printf( "%s\n" gets( nil inHandle ))
 用`getc`可以将按**单个字符**迭代文件内容（一个字一个字读取），全部内容读取完会返回`nil`。  
 和`gets`有点不同，`getc`返回 symbol 类型，且第一个变量为句柄。
 
-```
+```lisp
 printf( "%s\n" getc( inHandle ))
 ```
 
 读取完剩下内容，并打印出来。
 
-```
+```lisp
 while( char = getc( inHandle )
   printf( "%s\n" char )
 )
@@ -273,7 +357,7 @@ close( inHandle )；读取结束后记得关闭这个句柄。
 
 fscanf函数通过格式指令符从文件中读取数据。这个例子打印`~/.cshrc文件中的每个字。`
 
-```
+```lisp
 inPort = infile("~/.cshrc")
 when(inPort
 	while(
@@ -343,14 +427,12 @@ fileTell
 fileTimeModified
 fscanf, scanf, sscanf
 get_filename
-getDirFiles
 getOutstring
 include
 info
 inportp
 instring
 isExecutable
-isFile
 isFileEncrypted
 isFileName
 isLargeFile
@@ -383,3 +465,27 @@ truename
 which
 write
 writeTable
+
+14
+Environment Functions
+cdsGetInstPath
+cdsGetToolsPath
+cdsPlat
+changeWorkingDir
+cputime
+createDirHier
+csh
+exit
+getCurrentTime
+getInstallPath
+getLogin
+getPrompts
+getShellEnvVar
+getSkillPath
+getTempDir
+prependInstallPath
+setShellEnvVar
+setSkillPath
+sh, shell
+unsetShellEnvVar
+vi, vii, vil

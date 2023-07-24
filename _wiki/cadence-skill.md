@@ -20,6 +20,7 @@ keywords:
 *  [Form Interface Functions](https://tiny-yhw.github.io//allegro-skill-form-interface-functions){:target="_blank"}
 *  [Interface Functions](https://tiny-yhw.github.io//allegro-skill-interface-functions){:target="_blank"}
 *  [Logic Access Functions](https://tiny-yhw.github.io//allegro-skill-logic-access-functions){:target="_blank"}
+*  [22 File Access Functions](https://tiny-yhw.github.io//allegro-skill-file-access-functions){:target="_blank"}
 
 * * *
 
@@ -39,7 +40,6 @@ Cadence® SKILL 是一种基于流行的人工智能语言 Lisp 的高级交互�
 *  [11 Input Output Functions](https://tiny-yhw.github.io//allegro-skill-lisp-input-output-functions){:target="_blank"}
 *  [12 Core Functions](https://tiny-yhw.github.io//allegro-skill-lisp-core-functions){:target="_blank"}
 *  [13 Function and Program Structure](https://tiny-yhw.github.io//allegro-skill-lisp-functions-and-Program-Structure){:target="_blank"}
-*  [14 Environment Functions](https://tiny-yhw.github.io//allegro-skill-lisp-environment-functions){:target="_blank"}
 *  [15 Namespace Functions And More](https://tiny-yhw.github.io//allegro-skill-lisp-namespace-functions-and-more){:target="_blank"}
 
 * * *
