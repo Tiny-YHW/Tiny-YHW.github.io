@@ -29,28 +29,10 @@ funckey sss skill 'axlShell(strcat("http " getWorkingDir()))'
 
 将上面代码添加到ENV文件中，重启allegro，按下sss即可打开当前工作目录
 
-
-## getDirFiles 获取文件夹下文件清单
-
-```lisp
-getDirFiles(car(getInstallPath()))
-getDirFiles(".");获得当前工作目录所有文件
-getDirFiles(getWorkingDir());获得当前工作目录所有文件
-```
-
 ## isDir 判断路径是否存在
 
-## isFile 判断文件是否存在
-
 ```lisp
- (files = getDirFiles("./")) 
-	foreach(file files 
-	    if(((isFile(file) == t) && (nth(1 
-				parseString(file ".")
-			    ) == "drl") ) then 
-		(axlOSFileMove file strcat("./OUTPUT/" file))
-	    )
-	)
+isDir(strcat(axlGetVariable("localenv") "\\dts_site\\hdcnet"));注意文件路径最后不能有\否则返回nil
 ```
 
 ## createDir 创建文件夹
@@ -65,6 +47,27 @@ unless(isDir("./OUTPUT") createDir("./OUTPUT"))
 createDir("/usr/tmp/test") => t
 deleteDir("/usr/tmp/test") => t
 deleteDir("/usr/bin")
+```
+
+## getDirFiles 获取文件夹下文件清单
+
+```lisp
+getDirFiles(car(getInstallPath()))
+getDirFiles(".");获得当前工作目录所有文件
+getDirFiles(getWorkingDir());获得当前工作目录所有文件
+```
+
+## isFile 判断文件是否存在
+
+```lisp
+ (files = getDirFiles("./")) 
+	foreach(file files 
+	    if(((isFile(file) == t) && (nth(1 
+				parseString(file ".")
+			    ) == "drl") ) then 
+		(axlOSFileMove file strcat("./OUTPUT/" file))
+	    )
+	)
 ```
 
 
@@ -226,9 +229,9 @@ close(p)
 Both _print_ and _println_ accept an optional second argument, which should be an output port associated with the target file. Use the _outfile_ function to obtain an output port for a file. Once you are finished writing data to the file, use the _close_ function to release the port. The following code
 
 ```lisp
-myPort = outfile( "/tmp/myFile" )
-for( i 1 3  println( list( "Number:" i) myPort ))
-close( myPort )
+p = outfile( "/tmp/myFile" )
+for( i 1 3  println( list( "Number:" i) p ))
+close( p )
 ```
 
 写数据给文件 `/tmp/myFile`
