@@ -70,7 +70,6 @@ getDirFiles(getWorkingDir());获得当前工作目录所有文件
 	)
 ```
 
-
 ## deleteFile 删除文件
 
 ```lisp
@@ -226,7 +225,7 @@ for(i 0 15 fprintf(p "%20d %-20d\n" 2**i 3**i))
 close(p)
 ```
 
-Both _print_ and _println_ accept an optional second argument, which should be an output port associated with the target file. Use the _outfile_ function to obtain an output port for a file. Once you are finished writing data to the file, use the _close_ function to release the port. The following code
+Both_print_and _println_ accept an optional second argument, which should be an output port associated with the target file. Use the _outfile_ function to obtain an output port for a file. Once you are finished writing data to the file, use the _close_ function to release the port. The following code
 
 ```lisp
 p = outfile( "/tmp/myFile" )
