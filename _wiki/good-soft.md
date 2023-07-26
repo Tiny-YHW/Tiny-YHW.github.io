@@ -10,22 +10,21 @@ keywords: 软件, 推荐
 好的软件总是给人一种相见恨晚的感觉。
 
 ## CAD
-
-### PCB设计 Allegro
-### PCB设计 Altium
+### [PCB设计 Allegro](https://tiny-yhw.github.io//wiki/cadence-allegro-Introduction/){:target="_blank"}
+### [PCB设计 Altium](https://tiny-yhw.github.io//wiki/altium-Introduction/){:target="_blank"}
 ### 机械制图 AutoCAD
 ### 3D编辑 Rhino
 ### DFM Valor
-### PCB建库 PCB Library
+### [PCB建库 PCB Library](https://www.pcblibraries.com/){:target="_blank"}
 
 ## 网络浏览器 Google浏览器
 
-## 截图 Snipaste
+### [截图 Snipaste](https://www.snipaste.com/){:target="_blank"}
 
 
 ## 文本编辑
 
-### sublime
+### [sublime](https://tiny-yhw.github.io//sublime-text){:target="_blank"}
 
 ## 多媒体
 
@@ -36,11 +35,11 @@ keywords: 软件, 推荐
 
 ## 下载 IDM
 
-## 录制屏幕生成 ScreenToGif
+## [录制屏幕生成 ScreenToGif](https://www.screentogif.com/){:target="_blank"}
 
 ## 系统工具
 
-### 文件查找 Everything
+### [文件查找 Everything](https://www.voidtools.com/zh-cn/){:target="_blank"}
 
 ### 文本内容查找 AnyTXT Searcher
 

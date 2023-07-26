@@ -3,6 +3,7 @@ layout: post
 title: Sublime Text
 categories: Sublime
 date: 2023-06-07
+permalink: sublime-text
 ---
 
 Sublime Text 3 的官方网站在[这里open in new window](https://www.sublimetext.com/)，找到适合自己的平台进行下载并安装。如如果你无法访问官网，可使用下方百度网盘链接（不会及时更新最新版本）[提取码：dcam](https://pan.baidu.com/s/1TgZk1RcHxaFORJjfmJi31Q)
