@@ -105,8 +105,7 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 ![Pinconnect.gif](https://a1024.synology.me:222/images/blog2023/Pinconnect.gif)
 
-Add
----
+## Add
 
 为当前设计增加设计要求需要元素或增加设计需要的辅助元素辅助设计
 
@@ -128,7 +127,7 @@ Add
 
 为设计中所有2个表贴pin的器件在其器件面两个焊盘之间增加一个 ShapeKeepout，避免整版铺铜灌入其中
 
-### [RKO For Hole](https://tiny-yhw.github.io//ty-skill-add-rko-for-hole/){:target="_blank"}
+### [RKO For Hole](https://tiny-yhw.github.io//ty-skill-add-rko-for-hole){:target="_blank"}
 
 筛选指定类型的通孔pin，对其添加指定尺寸的禁布层
 
@@ -168,6 +167,10 @@ Display
 设置的层包括以下几种：TOP和BOT层，丝印层，Solder层，Paste层，ANTI ETCH层，ASSEMBLY层
 
 直接从菜单执行命令即可。
+
+### [Key Net Assign Color](https://tiny-yhw.github.io//ty-skill-display-key-net-assign-color){:target="_blank"}
+
+为包含指定文本的网络增加颜色功能，可用于为不用电压值的网络赋予不同的颜色，或包含指定文本的网络名赋予颜色
 
 ### [Highlight Object](https://a1024.synology.me:1024/?p=3591)
 
@@ -271,8 +274,7 @@ Place
 
 适用于HDL格式原理图，按原理图中元器件的相对位置分页布局PCB，除选择的exp格式文件处直接为工程cpm文件外，其它操作及效果基本与[Place By Capture XY](https://a1024.synology.me:1024/?p=3721)一致不再赘述
 
-Tool
-----
+## Tool
 
 ### [Artwork Set+Mark](https://a1024.synology.me:1024/?p=3728)
 
@@ -316,9 +318,11 @@ PCB模式和DRA模式均可用，PCB较大时运行时间可能较长（计算�
 2.  填写相关参数
 3.  点击创建后放置到PCB指定位置，新增内容放置的层为BG/DIMENSION
 
-### [PDF Link](https://a1024.synology.me:1024/?p=1661)
+ty-skill-tool-pdf-link
 
-Allegro与PDF原理图（需可从其中复制文本出来）交互
+### [PDF Link](https://tiny-yhw.github.io//ty-skill-tool-pdf-link){:target="_blank"}
+
+Allegro与PDF原理图交互
 
 ### Replace All Pad
 
@@ -415,12 +419,11 @@ PCB中所有Pad参数合理性检查
 
 ![](https://a1024.synology.me:222/images/blog2023/dalbrowseexp.png)
 
-### [Footprint Elements](https://a1024.synology.me:1024/?p=2967)
+### [Footprint Elements](https://tiny-yhw.github.io//ty-skill-check-footprint-elements){:target="_blank"}
 
 如果板中器件与其对应的封装内相应层对象的数量存在不同则输出差异数量报告，如误删丝印层一脚标识，器件Placebound等
 
-Text
-----
+## Text
 
 ### [Quick Change Text Size](https://a1024.synology.me:1024/?p=3879)
 
