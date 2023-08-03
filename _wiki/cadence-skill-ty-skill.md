@@ -5,7 +5,7 @@ cate1: Cadence Skill
 cate2: 
 keywords: 
 ---
-本文章将持续补充TB-Skill收录的功能使用说明
+本文章将持续补充TY-Skill收录的功能使用说明
 
 部分已经整理的功能将在后面的分链接中进行说明
 
