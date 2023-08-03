@@ -190,7 +190,7 @@ Display
 
 分类查看设计中不同孔径的Vias和Pins、分类查看设计中不同焊盘名称的Vias或Pads
 
-### [Key Layer Visibility](https://a1024.synology.me:1024/?p=1104)
+### [Key Layer Visibility](https://tiny-yhw.github.io//ty-skill-display-layer-visibility){:target="_blank"}
 
 设计时使用键盘按键切换常用设计视图
 
