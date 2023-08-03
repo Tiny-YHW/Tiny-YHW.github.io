@@ -213,7 +213,8 @@ Setup
 
 根据板中已创建的Class、Bus或Net Group，批量创建Pinpair并生成Matchgroup
 
-### [Manage Grids](https://a1024.synology.me:1024/?p=1108)
+
+### [Manage Grids](https://tiny-yhw.github.io//ty-skill-setup-manage-grids){:target="_blank"}
 
 多功能设定格点工具
 
@@ -317,8 +318,6 @@ PCB模式和DRA模式均可用，PCB较大时运行时间可能较长（计算�
 1.  使用菜单或者命令启动后弹出对话框
 2.  填写相关参数
 3.  点击创建后放置到PCB指定位置，新增内容放置的层为BG/DIMENSION
-
-ty-skill-tool-pdf-link
 
 ### [PDF Link](https://tiny-yhw.github.io//ty-skill-tool-pdf-link){:target="_blank"}
 
@@ -603,7 +602,7 @@ Footprint
 
 根据需要，设置起始值、步进值参数，固定后缀信息可选无后缀不填，功能参数设置完成后框选或者点选需要修改的PIN，即可实现Pin Number顺序编辑。
 
-### [Package批处理](https://a1024.synology.me:1024/?p=2788)
+### [Package批处理](https://tiny-yhw.github.io//ty-skill-footprint-batch){:target="_blank"}
 
 Batch DRA To SYM+Pad：批量将当前文件夹内所有dra文件批量创建sym文件和输出焊盘文件  
 Batch SYM To DRA：批量将当前文件夹内所有sym文件（需要.pad支持）放入PCB批量创建DRA文件  
