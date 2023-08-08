@@ -19,7 +19,7 @@ keywords: 软件, 推荐
 
 ## 网络浏览器 Google浏览器
 
-### [截图 Snipaste](https://www.snipaste.com/){:target="_blank"}
+## [截图 Snipaste](https://www.snipaste.com/){:target="_blank"}
 
 
 ## 文本编辑
@@ -27,8 +27,9 @@ keywords: 软件, 推荐
 ### [sublime](https://tiny-yhw.github.io//sublime-text){:target="_blank"}
 
 ## 多媒体
-
+[](link){:target="_blank"}
 ### 屏幕录制 Bandicam
+### [键盘按键在显示器显示Carnac](https://github.com/Code52/carnac/){:target="_blank"}
 ### 视频播放器 Pot Player
 ### 视频剪辑 剪映
 ### 图片处理 Photoshop
