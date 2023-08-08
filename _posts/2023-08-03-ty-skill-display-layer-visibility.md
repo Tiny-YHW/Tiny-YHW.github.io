@@ -80,7 +80,7 @@ excerpt: 设计时使用键盘按键切换常用设计视图
 ```lisp
 axlCmdRegister( "2111" 'alllayeron);开所有层
 axlCmdRegister( "2000" 'alllayeroff);关所有层
-axlCmdRegister( "210" 'place);顶底层同时布线
+axlCmdRegister( "210" 'TOPBOT);顶底层同时布线
 axlCmdRegister( "20" 'BOTTOM);底层布线
 axlCmdRegister( "21" 'TOP);顶层布线
 axlCmdRegister( "22" 'L2);第2层布线
@@ -101,9 +101,12 @@ axlCmdRegister( "2.6" 'L16)
 axlCmdRegister( "2.7" 'L17)
 axlCmdRegister( "2.8" 'L18)
 axlCmdRegister( "2.9" 'L19)
-axlCmdRegister( "200" 'bottomm);底层布局
-axlCmdRegister( "211" 'topp);顶层布局
-axlCmdRegister( "2100" 'placee);顶底层同开布局
+axlCmdRegister( "200" 'bottomplace);底层布局
+axlCmdRegister( "211" 'topplace);顶层布局
+axlCmdRegister( "2100" 'topbotplace);顶底层同开布局
+axlCmdRegister( "200+" 'bottomplacesilk);底层布局
+axlCmdRegister( "211+" 'topplacesilk);顶层布局
+axlCmdRegister( "2100+" 'topbotplacesilk);顶底层同开布局
 axlCmdRegister( "st" 'skt) ;顶层丝印
 axlCmdRegister( "sb" 'skb) ;底层丝印
 axlCmdRegister( "stb" 'sktb);顶底层同开丝印
@@ -245,7 +248,7 @@ defun( skt ()
     axlVisibleLayer( "DRC ERROR CLASS/SOLDERMASK_TOP" t )
     axlVisibleUpdate(t))
 
-defun( topp ()
+defun( topplace ()
     axlVisibleDesign(nil)
     axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
     axlVisibleLayer( "PIN/TOP" t )
@@ -274,7 +277,38 @@ defun( topp ()
 
     axlVisibleUpdate(t))
 
-defun( bottomm ()
+defun( topplacesilk ()
+    axlVisibleDesign(nil)
+    axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
+    axlVisibleLayer( "PIN/TOP" t )
+    axlVisibleLayer( "VIA class/top" t )
+    axlVisibleLayer( "etch/TOP" t )
+    axlVisibleLayer( "BOUNDARY/TOP" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/SILKSCREEN_TOP" t )
+    axlVisibleLayer( "BOARD GEOMETRY/SILKSCREEN_TOP" t )
+    axlVisibleLayer( "DRC ERROR CLASS/top" t )
+    axlVisibleLayer( "package keepout/top" t )
+    axlVisibleLayer( "package keepout/all" t )
+    axlVisibleLayer( "route keepout/top" t )
+    axlVisibleLayer( "route keepout/all" t )
+    axlVisibleLayer( "route keepin/all" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/Place_Bound_Top" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/Pin_Number" t )
+    axlVisibleLayer( "DRC ERROR CLASS/package_top" t )
+    axlVisibleLayer( "PACKAGE keepin/all" t )
+    axlVisibleLayer( "via keepout/top" t)
+    axlVisibleLayer( "CONSTRAINT REGION/top" t)
+    axlVisibleLayer( "CONSTRAINT REGION/ALL" t )
+    axlVisibleLayer( "manufacturing/mech_top" t )
+    axlVisibleLayer( "manufacturing/mech_top" t )
+    axlVisibleLayer( "REF DES/SILKSCREEN_TOP" t )
+    planlayer = "PLAN/TOP"
+    when(axlLayerGet(planlayer)
+        axlVisibleLayer( planlayer t ))
+
+    axlVisibleUpdate(t))
+
+defun( bottomplace ()
     axlVisibleDesign(nil)
     axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
     axlVisibleLayer( "PIN/bottom" t )
@@ -303,7 +337,40 @@ defun( bottomm ()
 
     axlVisibleUpdate(t))
 
-defun( placee ()
+
+defun( bottomplacesilk ()
+    axlVisibleDesign(nil)
+    axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
+    axlVisibleLayer( "PIN/bottom" t )
+    axlVisibleLayer( "VIA class/bottom" t )
+    axlVisibleLayer( "etch/bottom" t )
+    axlVisibleLayer( "BOUNDARY/BOTTOM" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/SILKSCREEN_bottom" t )
+    axlVisibleLayer( "BOARD GEOMETRY/SILKSCREEN_BOTTOM" t )
+    axlVisibleLayer( "DRC ERROR CLASS/bottom" t )
+    axlVisibleLayer( "package keepout/bottom" t )
+    axlVisibleLayer( "package keepout/all" t )
+    axlVisibleLayer( "route keepout/bottom" t )
+    axlVisibleLayer( "route keepout/all" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/Place_Bound_Bottom" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/Pin_Number" t )
+    axlVisibleLayer( "DRC ERROR CLASS/package_bottom" t )
+    axlVisibleLayer( "PACKAGE keepin/all" t )
+    axlVisibleLayer( "route keepin/all" t )
+    axlVisibleLayer( "via keepout/bottom" t)
+    axlVisibleLayer( "CONSTRAINT REGION/bottom" t)
+    axlVisibleLayer( "CONSTRAINT REGION/ALL" t )
+    axlVisibleLayer( "manufacturing/mech_bottom" t )    
+    axlVisibleLayer( "REF DES/SILKSCREEN_BOTTOM" t )
+    planlayer = "PLAN/BOTTOM"
+    when(axlLayerGet(planlayer)
+        axlVisibleLayer( planlayer t ))
+
+    axlVisibleUpdate(t))
+
+
+
+defun( topbotplace ()
     axlVisibleDesign(nil)
     axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
     axlVisibleLayer( "PIN/bottom" t )
@@ -356,7 +423,62 @@ defun( placee ()
 
     axlVisibleUpdate(t))
 
-defun( place ()
+defun( topbotplacesilk ()
+    axlVisibleDesign(nil)
+    axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
+    axlVisibleLayer( "PIN/bottom" t )
+    axlVisibleLayer( "VIA class/bottom" t )
+    axlVisibleLayer( "etch/bottom" t )
+    axlVisibleLayer( "BOUNDARY/BOTTOM" t )
+    axlVisibleLayer( "DRC ERROR CLASS/bottom" t )
+    axlVisibleLayer( "package keepout/bottom" t )
+    axlVisibleLayer( "package keepout/all" t )
+    axlVisibleLayer( "route keepout/bottom" t )
+    axlVisibleLayer( "route keepout/all" t )
+    axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
+    axlVisibleLayer( "PIN/TOP" t )
+    axlVisibleLayer( "VIA class/top" t )
+    axlVisibleLayer( "etch/TOP" t )
+    axlVisibleLayer( "BOUNDARY/TOP" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/SILKSCREEN_TOP" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/SILKSCREEN_bottom" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/Pin_Number" t )
+    axlVisibleLayer( "BOARD GEOMETRY/SILKSCREEN_BOTTOM" t )
+    axlVisibleLayer( "BOARD GEOMETRY/SILKSCREEN_TOP" t )
+    axlVisibleLayer( "DRC ERROR CLASS/top" t )
+    axlVisibleLayer( "package keepout/top" t )
+    axlVisibleLayer( "package keepout/all" t )
+    axlVisibleLayer( "route keepout/top" t )
+    axlVisibleLayer( "route keepout/all" t )
+    axlVisibleLayer( "route keepin/all" t )
+    axlVisibleLayer( "package keepin/all" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/place_bound_bottom" t )
+    axlVisibleLayer( "DRC ERROR CLASS/package_bottom" t )
+    axlVisibleLayer( "PACKAGE GEOMETRY/place_bound_top" t )
+    axlVisibleLayer( "DRC ERROR CLASS/package_top" t )
+    axlVisibleLayer( "manufacturing/pen24" t )
+    axlVisibleLayer( "manufacturing/pen57" t )
+    axlVisibleLayer( "manufacturing/mech_top" t )
+    axlVisibleLayer( "manufacturing/mech_bottom" t )
+    axlVisibleLayer( "manufacturing/photoplot_outline" t )
+    axlVisibleLayer( "BOARD GEOMETRY/Dimension" t )
+    axlVisibleLayer( "via keepout/top" t)
+    axlVisibleLayer( "CONSTRAINT REGION/top" t)
+    axlVisibleLayer( "via keepout/bottom" t)
+    axlVisibleLayer( "CONSTRAINT REGION/bottom" t)
+    axlVisibleLayer( "CONSTRAINT REGION/ALL" t )
+    axlVisibleLayer( "REF DES/SILKSCREEN_BOTTOM" t )
+    axlVisibleLayer( "REF DES/SILKSCREEN_TOP" t )
+    planlayer = "PLAN/BOTTOM"
+    when(axlLayerGet(planlayer)
+        axlVisibleLayer( planlayer t ))
+    planlayer = "PLAN/TOP"
+    when(axlLayerGet(planlayer)
+        axlVisibleLayer( planlayer t ))
+
+    axlVisibleUpdate(t))
+
+defun( TOPBOT ()
     axlVisibleDesign(nil)
     axlVisibleLayer( "BOARD GEOMETRY/OUTLINE" t )
     axlVisibleLayer( "PIN/bottom" t )
