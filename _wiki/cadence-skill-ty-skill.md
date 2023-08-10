@@ -157,8 +157,7 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 选择命令后再从PCB画布中选择需要添加丝印位号的器件即可
 
-Display
--------
+## Display
 
 ### Color Altium
 
@@ -178,9 +177,9 @@ Display
 
 ### Custom Colors Enable \[F5\]
 
-针对下图选项定制的快捷键,可以通过此菜单命令或者直接按键盘F5键，开启或关闭(切换)用户通过assign color或hilight命令定义的颜色
+[详解](https://tiny-yhw.github.io//ty-skill-display-custom-colors-enable){:target="_blank"}
 
-![Snipaste_2023-08-03_10-12-19.png](https://a1024.synology.me:222/images/Snipaste_2023-08-03_10-12-19.png)
+针对下图选项定制的快捷键,可以通过此菜单命令或者直接按键盘F5键，开启或关闭(切换)用户通过assign color或hilight命令定义的颜色
 
 ### [Layer Visibility](https://a1024.synology.me:1024/?p=3594)
 
