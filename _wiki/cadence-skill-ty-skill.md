@@ -177,9 +177,10 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 ### Custom Colors Enable \[F5\]
 
-[详解](https://tiny-yhw.github.io//ty-skill-display-custom-colors-enable){:target="_blank"}
-
 针对下图选项定制的快捷键,可以通过此菜单命令或者直接按键盘F5键，开启或关闭(切换)用户通过assign color或hilight命令定义的颜色
+
+[**功能说明**](https://tiny-yhw.github.io//ty-skill-display-custom-colors-enable){:target="_blank"}
+
 
 ### [Layer Visibility](https://a1024.synology.me:1024/?p=3594)
 
