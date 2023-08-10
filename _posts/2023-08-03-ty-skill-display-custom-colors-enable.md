@@ -49,4 +49,7 @@ Allegro其实有同样功能的选项
 
 <iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7264842797025493539?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
 
-[Allegro Skill Custom Colors Enable 快捷切换用户自定义颜色赋予的开关](https://v.douyin.com/iJkQ3e7C/){:target="_blank"}
+
+[抖音视频链接](https://v.douyin.com/iJkQ3e7C/){:target="_blank"}
+
+4.38 yte:/ Allegro Skill Custom Colors Enable 快捷切换用户自定义颜色赋予的开关# pcb设计 # allegro软件 # 电子技术  https://v.douyin.com/iJkCKNHa/ 复制此链接，打开Dou音搜索，直接观看视频！
