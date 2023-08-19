@@ -127,9 +127,11 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 为设计中所有2个表贴pin的器件在其器件面两个焊盘之间增加一个 ShapeKeepout，避免整版铺铜灌入其中
 
-### [RKO For Hole](https://tiny-yhw.github.io//ty-skill-add-rko-for-hole){:target="_blank"}
+### RKO For Hole
 
 筛选指定类型的通孔pin，对其添加指定尺寸的禁布层
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-add-rko-for-hole){:target="_blank"}
 
 ### Route Pin to Via
 
@@ -167,9 +169,11 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 直接从菜单执行命令即可。
 
-### [Key Net Assign Color](https://tiny-yhw.github.io//ty-skill-display-key-net-assign-color){:target="_blank"}
+### Key Net Assign Color
 
 为包含指定文本的网络增加颜色功能，可用于为不用电压值的网络赋予不同的颜色，或包含指定文本的网络名赋予颜色
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-display-key-net-assign-color){:target="_blank"}
 
 ### [Highlight Object](https://a1024.synology.me:1024/?p=3591)
 
@@ -181,7 +185,6 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 [**了解更多……**](https://tiny-yhw.github.io//ty-skill-display-custom-colors-enable){:target="_blank"}
 
-
 ### [Layer Visibility](https://a1024.synology.me:1024/?p=3594)
 
 层叠显示快捷切换，另支持自定义层叠的保存及调用
@@ -190,12 +193,13 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 分类查看设计中不同孔径的Vias和Pins、分类查看设计中不同焊盘名称的Vias或Pads
 
-### [Key Layer Visibility](https://tiny-yhw.github.io//ty-skill-display-layer-visibility){:target="_blank"}
+### Key Layer Visibility
 
 设计时使用键盘按键切换常用设计视图
 
-Setup
------
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-display-layer-visibility){:target="_blank"}
+
+## Setup
 
 ### Board Origin
 
@@ -214,7 +218,7 @@ Setup
 根据板中已创建的Class、Bus或Net Group，批量创建Pinpair并生成Matchgroup
 
 
-### [Manage Grids](https://tiny-yhw.github.io//ty-skill-setup-manage-grids){:target="_blank"}
+### Manage Grids
 
 多功能设定格点工具
 
@@ -223,6 +227,8 @@ Setup
 *   支持命令行直接输入
 *   支持按选择点设定和分割格点
 *   支持将格点对齐到对象
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-setup-manage-grids){:target="_blank"}
 
 Create
 ------
@@ -319,9 +325,11 @@ PCB模式和DRA模式均可用，PCB较大时运行时间可能较长（计算�
 2.  填写相关参数
 3.  点击创建后放置到PCB指定位置，新增内容放置的层为BG/DIMENSION
 
-### [PDF Link](https://tiny-yhw.github.io//ty-skill-tool-pdf-link){:target="_blank"}
+### PDF Link
 
 Allegro与PDF原理图交互
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-tool-pdf-link){:target="_blank"}
 
 ### Replace All Pad
 
@@ -418,9 +426,11 @@ PCB中所有Pad参数合理性检查
 
 ![](https://a1024.synology.me:222/images/blog2023/dalbrowseexp.png)
 
-### [Footprint Elements](https://tiny-yhw.github.io//ty-skill-check-footprint-elements){:target="_blank"}
+### Footprint Elements
 
 如果板中器件与其对应的封装内相应层对象的数量存在不同则输出差异数量报告，如误删丝印层一脚标识，器件Placebound等
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-check-footprint-elements){:target="_blank"}
 
 ## Text
 
@@ -519,7 +529,7 @@ TOP/BOTTOM/Step:输出项目选项，被指定的项目将被导出
 *   PIN：PIN；PIN/SOLDERMASK层是否输出
 *   Dimension：BOARD GEOMETRY/DIMENSION层是否输出
 
-### [Final Output](https://a1024.synology.me:1024/?p=3942)
+### Final Output
 
 用于设计完成后输出最终生产数据
 
@@ -604,11 +614,13 @@ Footprint
 
 根据需要，设置起始值、步进值参数，固定后缀信息可选无后缀不填，功能参数设置完成后框选或者点选需要修改的PIN，即可实现Pin Number顺序编辑。
 
-### [Package批处理](https://tiny-yhw.github.io//ty-skill-footprint-batch){:target="_blank"}
+### Package批处理
 
 Batch DRA To SYM+Pad：批量将当前文件夹内所有dra文件批量创建sym文件和输出焊盘文件  
 Batch SYM To DRA：批量将当前文件夹内所有sym文件（需要.pad支持）放入PCB批量创建DRA文件  
 Batch Downrev Symbol 17 to 16：批量将当前文件夹内所有sym和pad文件从17.X降版本到16.5
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-footprint-batch){:target="_blank"}
 
 TB-Help
 -------
