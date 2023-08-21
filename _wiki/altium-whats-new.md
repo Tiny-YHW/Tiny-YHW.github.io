@@ -24,6 +24,11 @@ AD15开始支持xSignals如果 从15及之后版本规则管理器设置了此�
 
 AD18及以上版本与低版本（AD16及以下）切换时有时候会出现莫名的问题，具体表现为器件不能被选择，显示异常等，可尝试使用AD17版本打开PCB并保存一次设计来修复类似问题
 
+
+### Altium Designer 23（2023-2024）
+
+[New in Altium PCB Version 23](https://tiny-yhw.github.io//new-in-altium-pcb-version-23){:target="_blank"}
+
 ### Altium Designer 21（2021-2022）
 
 [官方更新说明](https://www.altium.com/documentation/altium-designer/release-notes-for-altium-designer?version=21)
