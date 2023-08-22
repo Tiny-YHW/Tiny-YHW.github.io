@@ -2,7 +2,7 @@
 layout: post
 title: TY-Skill Display->Key Net Assign Color 为包含指定文本的网络增加颜色功能
 categories: TY-Skill
-date: 2023-08-03
+date: 2023-08-22
 permalink: ty-skill-display-key-net-assign-color
 excerpt: 
 ---
@@ -12,6 +12,14 @@ excerpt:
 为包含指定文本的网络增加颜色功能，可用于为不用电压值的网络赋予不同的颜色，或包含指定文本的网络名赋予颜色
 
 ![Snipaste_2023-08-03_14-42-30.png](https://a1024.synology.me:222/images/Snipaste_2023-08-03_14-42-30.png)
+
+## 功能视频演示
+
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7270064701219078690?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
+
+[抖音视频链接](https://v.douyin.com/iJsq3Dc5/){:target="_blank"}
+
+9.43 Qkp:/ Allegro Skill 为关键网络赋予颜色 # allegro软件 # pcb设计  https://v.douyin.com/iJsq3Dc5/ 复制此链接，打开Dou音搜索，直接观看视频！
 
 ## 操作说明使用
 

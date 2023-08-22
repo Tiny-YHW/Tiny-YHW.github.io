@@ -2,7 +2,7 @@
 layout: post
 title: TY-Skill Add->RKO For Hole 为通孔pin增加禁布
 categories: TY-Skill
-date: 2023-08-03
+date: 2023-08-22
 permalink: ty-skill-add-rko-for-hole
 excerpt: 为通孔pin增加禁布
 ---
@@ -12,6 +12,14 @@ excerpt: 为通孔pin增加禁布
 筛选指定类型的通孔pin，对其添加指定尺寸的禁布层
 
 ![Snipaste_2023-08-03_11-00-247d53e277736c2ca4.png](https://a1024.synology.me:222/images/Snipaste_2023-08-03_11-00-247d53e277736c2ca4.png)
+
+## 功能视频演示
+
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7265989625267782207?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
+
+[抖音视频链接](https://v.douyin.com/iJsbr8oN/){:target="_blank"}
+
+6.64 JIv:/ Allegro Skill RKO For Hole 为通孔pin增加禁布#   https://v.douyin.com/iJsbr8oN/ 复制此链接，打开Dou音搜索，直接观看视频！
 
 ## 操作说明
 
