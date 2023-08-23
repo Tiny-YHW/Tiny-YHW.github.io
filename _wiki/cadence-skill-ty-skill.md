@@ -197,7 +197,7 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 设计时使用键盘按键切换常用设计视图
 
-[**了解更多……**](https://tiny-yhw.github.io//ty-skill-display-layer-visibility){:target="_blank"}
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-display-key-layer-visibility){:target="_blank"}
 
 ## Setup
 

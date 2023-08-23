@@ -1,9 +1,9 @@
 ---
 layout: post
-title: TY-Skill Display->Layer Visibility 使用键盘按键切换常用设计视图
+title: TY-Skill Display->Key Layer Visibility 使用键盘按键切换常用设计视图
 categories: Allegro Skill
 date: 2023-08-03
-permalink: ty-skill-display-layer-visibility
+permalink: allegro-skill-case-clayer
 excerpt: 设计时使用键盘按键切换常用设计视图
 ---
 
