@@ -61,11 +61,11 @@ QIR 2（HotFix6）引入，将等长组的线长关系，以可视化的颜色�
 (HotFix51)新增功能
 可将平行布线转换为锯齿形（斜角）路线。通过此种布线方式，可以最大程度地减少PCB玻璃纤维编织对高速信号路由的影响。此功能同时可用于差分对和单端网络。可以指定所需的曲折角度和最大线段长度，以及用于转换完整线段或定义起点和终点的选项。
 
-![](http://a1024.synology.me:222/images/blog2022/highspped2.png)
+![](https://a1024.synology.me/images/blog/2022/highspped2.png)
 
 使用方法：见动图
 
-![](http://a1024.synology.me:222/images/blog2022/highspeed3.gif)
+![](https://a1024.synology.me/images/blog/2022/highspeed3.gif)
 
 
 ### Differential Pair Return Path Vias 差分回流过孔
@@ -76,7 +76,7 @@ QIR 2（HotFix6）引入，将等长组的线长关系，以可视化的颜色�
 
 使用方法：在Add connect命令时右键选择菜单Return Path Vias (Prototype)选择Setup设置回流过孔的参数包括，Setup标签页的过孔选择、网络选择和Spacing标签页的对应回流过孔类型的间距位置等参数，应用后再打孔时回流过孔会同时生成
 
-![](http://a1024.synology.me:222/images/blog2022/highspped1.png)
+![](https://a1024.synology.me/images/blog/2022/highspped1.png)
 
 
 ### Remove Tuning移除等长绕线
@@ -89,7 +89,7 @@ QIR 2（HotFix6）引入，将等长组的线长关系，以可视化的颜色�
 该命令用于批量切换（改变）走线拐角的角度（Arc、45、90）。其操作对象可以为Nets、Clines和Cline Segments
 菜单：Route->Unsurpported Prototypes->Auto-interactive Convert Corner
 
-![](http://a1024.synology.me:222/images/blog2022/Aicc.gif)
+![](https://a1024.synology.me/images/blog/2022/Aicc.gif)
 
 
 ## Route Interconnect 布线交互
@@ -146,7 +146,7 @@ QIR 3(HotFix13)引入，而后进行多次更新
 
 个人感觉有点鸡肋，没什么用途，在Add connect命令时通过右键菜单选择Scribble Mode激活此布线模式
 
-![](http://a1024.synology.me:222/images/blog2022/scribble_mode_routing.png)
+![](https://a1024.synology.me/images/blog/2022/scribble_mode_routing.png)
 
 ### Contour Routing 按轮廓布线
 
@@ -156,7 +156,7 @@ QIR 3(HotFix13)引入，而后进行多次更新
 
 在Add connect命令时右键选择Contour，调整依附轮廓和间距参数，顺着轮廓描摹即可
 
-![](http://a1024.synology.me:222/images/blog2022/highspped5.png)
+![](https://a1024.synology.me/images/blog/2022/highspped5.png)
 
 
 ## ToolBox
@@ -528,7 +528,7 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 
 将当前显示界面分割为两个部分，分别对焦不同的设计区域，当进行较长的布线时，可以直观清晰的看到连接两端的状态，通过菜单View-Split View访问
 
-![](http://a1024.synology.me:222/images/blog2022/split_view16.66.png)
+![](https://a1024.synology.me/images/blog/2022/split_view16.66.png)
 
 ### Move Component with Slide Etch
 

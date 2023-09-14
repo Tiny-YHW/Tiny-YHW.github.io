@@ -8,7 +8,7 @@ date: 2023-06-15
 
 Label Tune是一个Productivity Toolbox工具，再16.6某补丁及之后版本可用，并需要启用Productivity Toolbox选项，如果设置了默认打开方式则可以从File-Change Editor处更换
 
-![](http://a1024.synology.me:222/images/blog2022/toolbox.jpg)
+![](https://a1024.synology.me/images/blog/2022/toolbox.jpg)
 
 从启动命令Manufacturer-Label Tune
 
@@ -17,7 +17,7 @@ Label Tune是一个Productivity Toolbox工具，再16.6某补丁及之后版本�
 动图演示
 ----
 
-![](http://a1024.synology.me:222/images/blog2022/LabelTune%20.gif)
+![](https://a1024.synology.me/images/blog/2022/LabelTune%20.gif)
 
 视频介绍
 ----

@@ -9,7 +9,7 @@ excerpt: Google浏览器和Google搜索
 ---
 
 
-![](http://a1024.synology.me:222/images/blog2022/Snipaste_2020-05-13_10-25-45.png)
+![](https://a1024.synology.me/images/blog/2022/Snipaste_2020-05-13_10-25-45.png)
 
 ## 前言
 

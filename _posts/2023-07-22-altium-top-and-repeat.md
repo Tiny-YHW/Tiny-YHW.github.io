@@ -16,13 +16,13 @@ excerpt:
 
 多图纸结构一般是通过图表符（sheet symbol）形成，一个图表符对应一个子图纸；在主原理图图纸放置图标符，通过图表符与子图纸进行连接，而子图纸也可以通过图表符与更底层的图纸连接。通过点击“Place》Sheet Symbol”或 图标来放置图标符号。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A11.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A11.png)
 
 我们可以在“Designer”区域输入标识符，若标识符包含有Repeat关键字的语句，还能实现多通道功能（下文有详解）。而在“File Name”输入想要调用的子图纸文件名称（不分大小写），则可实现对子图纸的调用。还有其他方法能生成图表符，具体方法见下文。
 
 当多图纸工程编译好后，各个图纸间的逻辑关系被识别并建立一个树形结构，表示各个图纸的逻辑关系
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A12.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A12.png)
 
 ### 层次结构
 
@@ -38,7 +38,7 @@ excerpt:
 
 当子图纸中的端口与图纸入口不匹配（包括名字和IO类型）时，可以通过“Design》Synchronize Sheet Entries and Ports”来同步
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A13.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A13.png)
 
 选中不同步的端口，若想改变子图纸的端口，使其与图表符匹配，则选中间的图标（第一个）；相反就选第二个。
 
@@ -46,7 +46,7 @@ excerpt:
 
 若想重命名一个图表符对应的子图纸，一般的思路是先改子图纸的名称，然后再改图表符的“file name”，最后编译工程。现在AD提供了重命名子图纸的功能“Design》Rename Child Sheet”，出现浮动的十字光标，点中想重命名的图表符。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A14.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A14.png)
 
 我们可以根据自己的需要设置相关的选项。
 
@@ -65,7 +65,7 @@ Repeat(SheetSymbolDesignator, FirstInstance, LastInstance)
 
 其中，SheetSymbolDesignator是图表符的本名，FirstInstance和LastInstance一起定义了通道数；注意FirstInstance参数必须等于或大于1，如下图所示，表示了2个filter通道。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A15.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A15.png)
 
 ### 单个图表符调用多个子图纸
 
@@ -102,31 +102,31 @@ Repeat(SheetSymbolDesignator, FirstInstance, LastInstance)
 
 #### 分层次设计
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A16.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A16.png)
 
 这个原理图工程被自动识别为分层次作用域，因为其父系图纸中的图表符带有图纸入口。这时端口HP-L和HP-R通过图纸入口连接到一起；而两个子图纸中的C1和C2则不能跨越图纸连接。
 
 #### 全局端口
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A17.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A17.png)
 
 此工程只有端口，不存在图纸入口，因此作用域被自动设置成全局端口。工程变成平行结构，此时工程上的所有匹配端口都会连接在一起，但网络标签仍不能跨图纸连接。这时即使顶层图纸移除也不会影响工程。
 
 #### 全局网络标号
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A18.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A18.png)
 
 此工程没有端口和图纸入口，使得网络标签能够跨越图纸，在匹配的情况下进行全局连接；此时移除顶层图纸工程仍能正常编译。
 
 #### 全局网络标号和端口
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A19.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A19.png)
 
 选择Project->Project Option，点击Option标签，在“Net Identifier Scope”区域可以选择网络标识符范围模式：Global（Netlabels and ports global）；如图 9示，这时网络标签与端口为全局，它们都以水平方式，在全局范围内连接到匹配对象。
 
 #### 跨图纸接口
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A110.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A110.png)
 
 如图 10示，此工程有四个子图纸，图表符“Group A”调用了两个子图纸“A1.schdoc”和“A2.schdoc”，“Group B”调用了子图纸“B1.schdoc”和“B2.schdoc”。此时图纸“A1.schdoc”内部的C1、C2能够和图纸“A2.schdoc”中的C1、C2相连接，同理图纸“B1.schdoc”和“B2.schdoc”也能够实现网络的连接，但这两个组间不会进行网络连接（如图纸A1.schdoc的C1不会连接到B1.schdoc的C1）。这就是跨图纸接口的作用，能增大图表符的图纸范围。
 
@@ -145,23 +145,23 @@ Repeat(SheetSymbolDesignator, FirstInstance, LastInstance)
 
 2)       打开原理图filter.SchDoc，添加两个端口IN和OUT（分别与信号IN和OUT相连接）；打开原理图Amplifier.SchDoc，添加四个端口IN\_L， IN\_R， OUT\_L和OUT\_R（分别与信号IN\_L， IN\_R， OUT\_L和OUT\_R相连接）。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A111.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A111.png)
 
 3)       打开原理图toplevel.SchDoc，点击“Design->Creat Sheet Symbol From Sheet or HDL file”，在弹出的窗口中选择“Amplifier.SchDoc”文件，然后点击OK。这时软件会生成一个带有四个图纸入口的图表符，将其放置在原理图中，重命名“Designator”为“Am”，并排列好相应的图纸入口。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A112.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A112.png)
 
 4)        同理，点击Design->Creat Sheet Symbol From Sheet or HDL file”，在弹出的窗口中选择“filter.SchDoc”文件；之后重命名“Designator”为“repeat(FI,1,2)”，表示调用两次filter.SchDoc图纸。注意，所有子图纸的公共网络是按照正常的方式连接的，此时图表符的图纸入口名称不用修改；而子图纸都有的但又是各自独立的网络则是以总线方式引出，总线中的每一条线连接一个子图纸，此时图表符的图纸入口需修改为Repeat（端口名），如本例中的输入需改为Repeat（IN）。如下图示。网络是以在导线上放置总线名的方式（而不是以总线范围的方式）来表示。当设计被编译时，总线就会被分解为每个通道带有一个标识的独立的网络（从IN1到IN2），IN1连接到FI\_1子图纸，IN2连接到FI\_2子图纸。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A113.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A113.png)
 
 5)        放置其他元件，连接好线路，然后编译工程。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A114.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A114.png)
 
 6)       编译好之后，可以看左边的面板，发现工程变长树形结构。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A115.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A115.png)
 
 ### 关于多通道设计的几点说明
 
@@ -169,7 +169,7 @@ Repeat(SheetSymbolDesignator, FirstInstance, LastInstance)
 
 多通道设计多次调用同一个子图纸，在编译之后，会为各个通道分配好标识符，进而映射到PCB文件中；点击“Project->Project Option”，在打开的对话框中单击“Multi-Channel”标签，在这里可以设置到通道（ROOM）和元件的命名方式。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A116.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A116.png)
 
 **通道（ROOM）的命名**
 
@@ -191,19 +191,19 @@ Repeat(SheetSymbolDesignator, FirstInstance, LastInstance)
 
 工程被编译后，我们可以在被多次调用的子图纸界面下方看到多了一些标签。我们可以单击相应的标签查看里面元件标识符的分配情况。之后给工程添加一个PCB文件，通过“Design->Update PCB”将元件导入到PCB文件中；转换过程会自动为每个子图纸建立一组元件中，每组元件有一个room并将元件都置于room之中。对一个通道布局布线后，可通过“Design->Rooms->Copy Room Formats”来复制该通道的布局与走线到另一通道中。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A117.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A117.png)
 
 #### 查看通道标识符分配情况
 
 单击“Project->View Channel”即可调出“Project Components”对话框，其中显示了每个原理图中元件标识符的分配情况。之后点击“Component Report”，弹出“Report Preview”窗口，此时可以点击“Export”按钮导出Excel格式表格（.xls文件），或是点击“Print”按钮进行打印。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A118.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A118.png)
 
 #### 使用Signal Harness使多图纸设计更方便
 
 AD提供的Signal Harness功能，支持将多个导线、总线包裹在一起进行连接。在导线、总线连接较多且复杂的原理图中，我们可以使用Signal Harness将这些线路汇集在一起，结合各种网络标识符进行图纸内或跨图纸连接。一般Signal Harness系统包含有四块：Signal Harness（连线），Harness Connector（连接器），Harness Entry（入口）和Harness Definition File（定义文件）。前三者在画原理图时需用到，最后的定义文件则会自动生成（前提是使用了Harness Connector）。
 
-![](http://a1024.synology.me:222/images/blog2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A119.png)
+![](https://a1024.synology.me/images/blog/2022/Altium%20Designer%E4%B9%8B%E5%A4%9A%E5%9B%BE%E7%BA%B8%E8%AE%BE%E8%AE%A119.png)
 
 下面简单介绍下Signal Harness的使用：
 

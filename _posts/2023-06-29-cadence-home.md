@@ -34,7 +34,7 @@ HOME存储所有用户特定的路径和环境信息。从**开始 – >设置 �
 
 查看或编辑变量名为Home的值，如果没有Home变量可以自己新建一个
 
-![](http://a1024.synology.me:222/images/blog2022/skill14.jpg)
+![](https://a1024.synology.me/images/blog/2022/skill14.jpg)
 
 在文件浏览器输入%home%可直接打开此路径
 

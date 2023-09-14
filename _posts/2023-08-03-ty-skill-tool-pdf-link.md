@@ -14,7 +14,7 @@ Dome演示如下
 
 动图为早期版本录制，仅为方便查看保留，新版功能演示见后文视频
 
-![](http://a1024.synology.me:222/images/blog2022/PDF_link.gif)
+![](https://a1024.synology.me/images/blog/2022/PDF_link.gif)
 
 2021年10月份发布过本功能，截止目前已不在可用，本次做升级发布优化一些功能项，并将有效时间改到2023年年底
 

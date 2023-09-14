@@ -107,7 +107,7 @@ Command > g 30mil 1.5mm
 
 **指定格点值**：直接在命令栏输入“g 20”回车确认即格点设置为20
 
-![](http://a1024.synology.me:222/images/blog2022/ggrid.gif)
+![](https://a1024.synology.me/images/blog/2022/ggrid.gif)
 
 程序代码
 ----

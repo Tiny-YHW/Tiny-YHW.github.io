@@ -28,7 +28,7 @@ step out
 
 通过菜单*File - Export - STEP*或使用*step out 命令*从Allegro PCB导出3D STEP文件
 
-![](http://a1024.synology.me:222/images/blog2022/stepout.png)
+![](https://a1024.synology.me/images/blog/2022/stepout.png)
 
 *   Output file name 指定导出文件的文件名 按需设置
 *   Output units 指定导出文件的单位 按需设置
@@ -42,7 +42,7 @@ step out
 
 选择Export则在brd所在目录（除非你指定了其它位置）生成对应的文件
 
-![](http://a1024.synology.me:222/images/blog2022/stepouttu.png)
+![](https://a1024.synology.me/images/blog/2022/stepouttu.png)
 
 ### STEP Model 的套用与设定
 
@@ -69,7 +69,7 @@ idf_out
 
 整体与step out类似
 
-![](http://a1024.synology.me:222/images/blog2022/IDFOUT1.png)
+![](https://a1024.synology.me/images/blog/2022/IDFOUT1.png)
 
 通过菜单*File - Export - IDF*或使用*idf_out*命令从Allegro PCB导出3D文件，导出的格式及文件如下
 

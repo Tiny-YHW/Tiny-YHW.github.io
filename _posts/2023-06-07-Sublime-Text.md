@@ -75,7 +75,7 @@ E36B85CC 84991F19 7575D828 470A92AB
 
 插件官方网站：[http://packagecontrol.cn/](http://packagecontrol.cn/)
 
-![](http://a1024.synology.me:222/images/blog2022/Sublime%20Text2.png)
+![](https://a1024.synology.me/images/blog/2022/Sublime%20Text2.png)
 
 ### 使用
 --------------------------------------
@@ -137,7 +137,7 @@ E36B85CC 84991F19 7575D828 470A92AB
 
 ![](https://a1024.synology.me:222/images/blog2022/Snipaste_2021-10-29_09-55-34.png)
 
-![](http://a1024.synology.me:222/images/blog2022/Sublime%20Text4.png)
+![](https://a1024.synology.me/images/blog/2022/Sublime%20Text4.png)
 
 ### 配置skill语言
 
@@ -145,7 +145,7 @@ E36B85CC 84991F19 7575D828 470A92AB
 
 ![](https://a1024.synology.me:222/images/blog2022/Snipaste_2021-10-29_10-02-28.png)
 
-![](http://a1024.synology.me:222/images/blog2022/Sublime_skill.gif)
+![](https://a1024.synology.me/images/blog/2022/Sublime_skill.gif)
 
 Cadence skill插件不建议用在线的，用附件的比较好。  
 插件开源代码：[https://github.com/noisyass2/SublimeCadenceSkill](https://github.com/noisyass2/SublimeCadenceSkill)

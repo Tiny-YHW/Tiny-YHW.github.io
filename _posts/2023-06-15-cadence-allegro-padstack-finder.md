@@ -15,7 +15,7 @@ Padstack Finder
 
 Padstack Finder是一个Productivity Toolbox工具，再16.6某补丁及之后版本可用，并需要启用Productivity Toolbox选项，如果设置了默认打开方式则可以从File-Change Editor处更换
 
-![](http://a1024.synology.me:222/images/blog2022/toolbox.jpg)
+![](https://a1024.synology.me/images/blog/2022/toolbox.jpg)
 
 Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。 Padstack Finder包含以下功能
 
@@ -25,7 +25,7 @@ Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。 Pa
 *   支持Pad和Via分别查看
 *   高亮和对象和交互查看
 
-![](http://a1024.synology.me:222/images/blog2022/Padstack%20Finder.png)
+![](https://a1024.synology.me/images/blog/2022/Padstack%20Finder.png)
 
 ### 使用方法
 
