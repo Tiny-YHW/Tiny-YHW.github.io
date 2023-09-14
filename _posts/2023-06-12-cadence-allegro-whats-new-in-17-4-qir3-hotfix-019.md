@@ -36,47 +36,47 @@ DesignTrue DFM Enhancements
 
 两种新的DesignTrue DFF Mask检查，用于vias和SMD pad overlapping solder masks or Coverlay。
 
-![algPN-43.gif](https://a1024.synology.me:222/images/algPN-43.gif)
+![algPN-43.gif](https://a1024.synology.me/images/blog/2023/algPN-43.gif)
 
 #### Allow Via-in-Pad Via Mask to SMD Mask Overlap
 
 当选项设置为off时过孔延伸到SMD引脚阻焊层边界外部是报错，完全在阻焊图形内部是不报错
 
-![algPN-44.gif](https://a1024.synology.me:222/images/algPN-44.gif)
+![algPN-44.gif](https://a1024.synology.me/images/blog/2023/algPN-44.gif)
 
 当选项设置为on时上述两种情况均不报错
 
-![algPN-45.gif](https://a1024.synology.me:222/images/algPN-45.gif)
+![algPN-45.gif](https://a1024.synology.me/images/blog/2023/algPN-45.gif)
 
 #### Allow Same Net Via Mask to SMD Mask Overlap
 
 当选项设置为off时相同网络过孔（包含盘）与SMD引脚阻焊层边界重合时报错
 
-![algPN-46.gif](https://a1024.synology.me:222/images/algPN-46.gif)
+![algPN-46.gif](https://a1024.synology.me/images/blog/2023/algPN-46.gif)
 
 当选项设置为on时相同网络过孔（包含盘）与SMD引脚阻焊层边界重合时不报错
 
-![algPN-47.gif](https://a1024.synology.me:222/images/algPN-47.gif)
+![algPN-47.gif](https://a1024.synology.me/images/blog/2023/algPN-47.gif)
 
 ### DesignTrue DFF Hole Enhancement Hole检查增强
 
 micro vias的厚径比算法更新，按micro vias的深度和孔径计算得出，现在厚度仅包括起始层和钻孔穿过的层，钻孔停止的末端层不再包含在总深度中
 
-![algPN-48.gif](https://a1024.synology.me:222/images/algPN-48.gif)
+![algPN-48.gif](https://a1024.synology.me/images/blog/2023/algPN-48.gif)
 
 这种计算方式适用于micro vias和non-standard drill 类型为 Laser的vias
 
-![algPN-50.gif](https://a1024.synology.me:222/images/algPN-50.gif)
+![algPN-50.gif](https://a1024.synology.me/images/blog/2023/algPN-50.gif)
 
-![algPN-51.gif](https://a1024.synology.me:222/images/algPN-51.gif)
+![algPN-51.gif](https://a1024.synology.me/images/blog/2023/algPN-51.gif)
 
 ### Component Lead Display元器件引脚显示
 
 元器件引脚显示通过层控制Package Geometry/Component\_Lead and Pin两个层控制，像Pin number一样，必须同时打开这两个层才能显示元器件引脚图形
 
-![algPN-52.gif](https://a1024.synology.me:222/images/algPN-52.gif)
+![algPN-52.gif](https://a1024.synology.me/images/blog/2023/algPN-52.gif)
 
-![algPN-53.gif](https://a1024.synology.me:222/images/algPN-53.gif)
+![algPN-53.gif](https://a1024.synology.me/images/blog/2023/algPN-53.gif)
 
 ### DesignTrue DFM Wizard Enhancements向导功能增强
 
@@ -86,9 +86,9 @@ micro vias的厚径比算法更新，按micro vias的深度和孔径计算得出
 
 Copper 图形和间距，现在可以在末班中为不同的层类型指定不同的规则值，这些层类型包含Internal (INT), external (EXT), plane (PLN), and All.
 
-![algPN-55.gif](https://a1024.synology.me:222/images/algPN-55.gif)
+![algPN-55.gif](https://a1024.synology.me/images/blog/2023/algPN-55.gif)
 
-![algPN-56.gif](https://a1024.synology.me:222/images/algPN-56.gif)
+![algPN-56.gif](https://a1024.synology.me/images/blog/2023/algPN-56.gif)
 
 #### DFA Template Enhancements模板增强
 
@@ -119,25 +119,25 @@ DRC Browser Updates DRC浏览器更新
 
 在DRC导航中，添加了右键弹出选项，可以在不同级别展开或折叠导航树。
 
-![algPN-57.gif](https://a1024.synology.me:222/images/algPN-57.gif)
+![algPN-57.gif](https://a1024.synology.me/images/blog/2023/algPN-57.gif)
 
-![algPN-58.gif](https://a1024.synology.me:222/images/algPN-58.gif)
+![algPN-58.gif](https://a1024.synology.me/images/blog/2023/algPN-58.gif)
 
-![algPN-59.gif](https://a1024.synology.me:222/images/algPN-59.gif)
+![algPN-59.gif](https://a1024.synology.me/images/blog/2023/algPN-59.gif)
 
 ### Waive DRC By Group Select 批量Waive DRC
 
 通过组合按键Ctrl或Shift或鼠标按住拖动可以从DRC列表中选择多项后通过鼠标右键选择Waive批量Waive多个DRC
 
-![algPN-60.gif](https://a1024.synology.me:222/images/algPN-60.gif)
+![algPN-60.gif](https://a1024.synology.me/images/blog/2023/algPN-60.gif)
 
 ### Constraint Domain View Options规则Domain视图选项
 
 在DRC浏览器的选项菜单中，可以选择两个新选项来按constraint rule or constraint domain查看DRC。
 
-![algPN-66.gif](https://a1024.synology.me:222/images/algPN-66.gif)
+![algPN-66.gif](https://a1024.synology.me/images/blog/2023/algPN-66.gif)
 
-![algPN-67.gif](https://a1024.synology.me:222/images/algPN-67.gif)
+![algPN-67.gif](https://a1024.synology.me/images/blog/2023/algPN-67.gif)
 
 ### Fillet DRC Behavior
 
@@ -145,7 +145,7 @@ DRC Browser Updates DRC浏览器更新
 
 可以通过选项将fillet被视为一个单独的shape做DRC检查，默认fillet将作为与其关联的对象如via or pin作为对象检查，启用此选项后若Shape控制间距较大时可能导致很多情况下不能生成fillet
 
-![algPN-68.gif](https://a1024.synology.me:222/images/algPN-68.gif)
+![algPN-68.gif](https://a1024.synology.me/images/blog/2023/algPN-68.gif)
 
 GPU Acceleration Rendering GPU渲染加速
 ----------------------------------
@@ -183,21 +183,21 @@ Analysis and Constraints分析和规则
 
 检查设置项位于规则管理器Electrical / Return Path/Adjacent Void Spacing.
 
-![algPN-69.gif](https://a1024.synology.me:222/images/algPN-69.gif)
+![algPN-69.gif](https://a1024.synology.me/images/blog/2023/algPN-69.gif)
 
 ### Parameterized High-Speed Structures参数化高速结构
 
 在17.4-2019 QIR2中即添加了此功能，在此版本中进一步进行升级，可以通过在画布上选择差分对过孔并将过孔padstack and spacing输入参数，从而为预先存在的布线构建替换结构。
 
-![algPN-70.gif](https://a1024.synology.me:222/images/algPN-70.gif)
+![algPN-70.gif](https://a1024.synology.me/images/blog/2023/algPN-70.gif)
 
 layer-specific keepouts也扩展为包括五种预定义的几何形状。
 
-![algPN-71.gif](https://a1024.synology.me:222/images/algPN-71.gif)
+![algPN-71.gif](https://a1024.synology.me/images/blog/2023/algPN-71.gif)
 
 Non-symmetrical keepouts, Owl and Goggles在结构创建过程中会自动翻转，以最大化焊盘entry/exit走线通过过渡进入差分对的平面参考。
 
-![algPN-72.gif](https://a1024.synology.me:222/images/algPN-72.gif)
+![algPN-72.gif](https://a1024.synology.me/images/blog/2023/algPN-72.gif)
 
 Symphony Team Design Improvements协同改进
 -------------------------------------
@@ -206,19 +206,19 @@ Symphony Team Design Improvements协同改进
 
 允许客户端在画布上创建和放置structures，这些structures数据将被实时更新到数据库，其他客户端可立即调用更新
 
-![algPN-73.gif](https://a1024.synology.me:222/images/algPN-73.gif)
+![algPN-73.gif](https://a1024.synology.me/images/blog/2023/algPN-73.gif)
 
 ### In-session Component Placement Usability 在线元器件放置可用性
 
 改进了元件放置时多用户锁定显示，避免了两个用户同时放置同一个元件。锁定在`place manual`命令相关窗口中可见。
 
-![algPN-75.gif](https://a1024.synology.me:222/images/algPN-75.gif)
+![algPN-75.gif](https://a1024.synology.me/images/blog/2023/algPN-75.gif)
 
 ### Database Sharing Usability Improvements数据库共享可用性改进
 
 在这个版本中，Symphony服务器增加了一个_分享_按钮。设计所有者或连接的客户可以单击_分享_按钮来生成一个链接，该链接可以粘贴到Host Name快速连接到Symphony会话。
 
-![algPN-76.gif](https://a1024.synology.me:222/images/algPN-76.gif)
+![algPN-76.gif](https://a1024.synology.me/images/blog/2023/algPN-76.gif)
 
 3D Canvas Updates 3D画布更新
 ------------------------
@@ -229,48 +229,48 @@ Symphony Team Design Improvements协同改进
 
 选择View – Camera – Bottom Isometric或按数字小键盘1键，多次在顶部和底部之间切换Isometric View 。
 
-![algPN-77.gif](https://a1024.synology.me:222/images/algPN-77.gif)
+![algPN-77.gif](https://a1024.synology.me/images/blog/2023/algPN-77.gif)
 
-![algPN-78.gif](https://a1024.synology.me:222/images/algPN-78.gif)
+![algPN-78.gif](https://a1024.synology.me/images/blog/2023/algPN-78.gif)
 
 Realistic Plating Thickness实际孔铜厚度
 ---------------------------------
 
 为了尽可能真实地显示3D画布中的PCB设计，在此版本中，电镀孔的铜壁电镀厚度已改进为更真实的电镀厚度，如下图所示。
 
-![algPN-79.gif](https://a1024.synology.me:222/images/algPN-79.gif)
+![algPN-79.gif](https://a1024.synology.me/images/blog/2023/algPN-79.gif)
 
 孔铜厚度默认值为`25um (microns)`。如果需要，请使用`PTH_PLATING_THICKNESS`属性更改孔铜厚度值。
 
-![algPN-80.gif](https://a1024.synology.me:222/images/algPN-80.gif)
+![algPN-80.gif](https://a1024.synology.me/images/blog/2023/algPN-80.gif)
 
 ### Increased Model Realism增强了模型的真实感
 
 曲面更平滑
 
-![algPN-81.gif](https://a1024.synology.me:222/images/algPN-81.gif)
+![algPN-81.gif](https://a1024.synology.me/images/blog/2023/algPN-81.gif)
 
-![algPN-82.gif](https://a1024.synology.me:222/images/algPN-82.gif)
+![algPN-82.gif](https://a1024.synology.me/images/blog/2023/algPN-82.gif)
 
 ### Primary and Secondary Models主要和次要模型
 
 生成3D画布时，针对器件模型可选主要或次要模型，此选项原来位于Design Parameter对话框中
 
-![algPN-83.gif](https://a1024.synology.me:222/images/algPN-83.gif)
+![algPN-83.gif](https://a1024.synology.me/images/blog/2023/algPN-83.gif)
 
 此选项控制主要或次要映射3D模型的显示(如果可用)。如果首选或选定的选项未映射，则显示其他模型(如果可用)。3D models and/or Place\_Bound / DFA\_Bound shapes是否显示在3D画布中仍由3D画布中的符号表示首选项控制，如下图所示。
 
-![algPN-84.gif](https://a1024.synology.me:222/images/algPN-84.gif)
+![algPN-84.gif](https://a1024.synology.me/images/blog/2023/algPN-84.gif)
 
 ### Model Mapper GUI with Primary and Secondary Models带有主模型和次模型的模型映射器GUI
 
 在3D Canvas中3D Mapper标签页现在可以用于设置映射主要或次要模型，从Footprint, Device, or Mechanical tab中选择指定器件类，再选择主要或次要模型类型，之后再Model File可以查看当前器件类使用的模型名称，右侧两个按钮用于替换其它模型或删除当前指定的模型
 
-![algPN-85.gif](https://a1024.synology.me:222/images/algPN-85.gif)
+![algPN-85.gif](https://a1024.synology.me/images/blog/2023/algPN-85.gif)
 
-![algPN-86.gif](https://a1024.synology.me:222/images/algPN-86.gif)
+![algPN-86.gif](https://a1024.synology.me/images/blog/2023/algPN-86.gif)
 
-![algPN-87.gif](https://a1024.synology.me:222/images/algPN-87.gif)
+![algPN-87.gif](https://a1024.synology.me/images/blog/2023/algPN-87.gif)
 
 Module Enhancements模块设计增强
 -------------------------
@@ -289,9 +289,9 @@ place replicate用于构建一个在其设计中使用的经过验证的重用�
 *   disable\_module\_shape\_convert:防止动态到静态的形状转换  
     
 
-![algPN-88.gif](https://a1024.synology.me:222/images/algPN-88.gif)
+![algPN-88.gif](https://a1024.synology.me/images/blog/2023/algPN-88.gif)
 
-![algPN-89.gif](https://a1024.synology.me:222/images/algPN-89.gif)
+![algPN-89.gif](https://a1024.synology.me/images/blog/2023/algPN-89.gif)
 
 Miscellaneous Enhancements杂项增强功能
 --------------------------------
@@ -300,7 +300,7 @@ Miscellaneous Enhancements杂项增强功能
 
 增加智能性，现在只要大致划过需要连接的对象即可，不需要在每一个节点都点击一次鼠标
 
-![algPN-90.gif](https://a1024.synology.me:222/images/algPN-90.gif)
+![algPN-90.gif](https://a1024.synology.me/images/blog/2023/algPN-90.gif)
 
 ### Align Vias (Update)过孔对齐功能更新
 
@@ -310,19 +310,19 @@ Miscellaneous Enhancements杂项增强功能
 
 在协作时，经常会原理图和PCB并行设计，所以确保原理图和PCB即时同步非常重要，使用此功能可以在原理图更改是，可以重新导入网表，确保版本始终同步，下文成链接设计
 
-![algPN-91.gif](https://a1024.synology.me:222/images/algPN-91.gif)
+![algPN-91.gif](https://a1024.synology.me/images/blog/2023/algPN-91.gif)
 
 要使用链接设计，Cadence系统的管理员需要启用Pulse integration，并要求在PCB Editor中使用Pulse version control进行数据管理。
 
-![algPN-93.gif](https://a1024.synology.me:222/images/algPN-93.gif)
+![algPN-93.gif](https://a1024.synology.me/images/blog/2023/algPN-93.gif)
 
 通过链接的设计版本控制，PCB设计者可以找到和原理图设计者都可以从系统捕获或PCB编辑器中打开链接的设计，通过在提交表单中指定一个标签，经由Pulse发布网表。
 
-![algPN-94.gif](https://a1024.synology.me:222/images/algPN-94.gif)
+![algPN-94.gif](https://a1024.synology.me/images/blog/2023/algPN-94.gif)
 
 当设计不同步时链接设计会提供一个通知，提示对数据进行同步。
 
-![algPN-95.gif](https://a1024.synology.me:222/images/algPN-95.gif)
+![algPN-95.gif](https://a1024.synology.me/images/blog/2023/algPN-95.gif)
 
 使用链接设计，您可以:
 

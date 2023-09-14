@@ -6,7 +6,7 @@ cate2:
 ---
 
 
-![](https://a1024.synology.me:222/images/blog2022/Promo2.jpg){:target="_blank"}
+![](https://a1024.synology.me/images/blog/2023/blog2022/Promo2.jpg){:target="_blank"}
 
 * * *
 

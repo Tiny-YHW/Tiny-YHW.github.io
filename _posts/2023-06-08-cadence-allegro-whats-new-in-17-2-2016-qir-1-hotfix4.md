@@ -34,7 +34,7 @@ New 3D Canvas (Unsupported Prototype)
 
 图形引擎升级，可在平移和缩放时带来更高质量的可视化和速度。Allegro 3D Canvas是一个新的3D Viewer介面，3D Canvas 搭配STEP File来让Allegro 3D Canvas更真实呈现PCB的样貌，并提供高品质的画面和速度，还能做结构上零件的干涉测试。
 
-![172-algPN-330.gif](https://a1024.synology.me:222/images/172-algPN-330.gif)
+![172-algPN-330.gif](https://a1024.synology.me/images/blog/2023/172-algPN-330.gif)
 
 原始的3D Viewer仍然是默认的3D查看器，新的_3D Canvas_作为unsupported prototype功能加入，使用此功能需要设置Setup – User Preferences – Unsupported中interactive\_3d\_canvas才可启用
 
@@ -54,13 +54,13 @@ New 3D Canvas (Unsupported Prototype)
 *   Symbols – 为Top, Bottom or Embedded Component层器件控制器件是否显示出来
 *   Collision – 检查器件是否存在重叠.
 
-![172-algPN-331.gif](https://a1024.synology.me:222/images/172-algPN-331.gif)
+![172-algPN-331.gif](https://a1024.synology.me/images/blog/2023/172-algPN-331.gif)
 
 ### Basic Collision Detection
 
 从Collision面板中检查并报告重叠器件，如下图所示。选择一个对象，单击鼠标右键，然后选择“Locate”。这将在器件附近显示蓝色定位器图形。该器件也会闪烁几次。
 
-![172-algPN-332.gif](https://a1024.synology.me:222/images/172-algPN-332.gif)
+![172-algPN-332.gif](https://a1024.synology.me/images/blog/2023/172-algPN-332.gif)
 
 STEP Model Mapping to Devices STEP 模型映射
 ---------------------------------------
@@ -72,7 +72,7 @@ Step Mapper用户界面增强
 *   New pane for current devices in design。
 *   New mapping status for package (Primary or Secondary)
 
-![172-algPN-333.gif](https://a1024.synology.me:222/images/172-algPN-333.gif)
+![172-algPN-333.gif](https://a1024.synology.me/images/blog/2023/172-algPN-333.gif)
 
 使用菜单Setup – User Preferences – Path – Library进行库路径设置，这样才能检索到对应的3D模型文件
 
@@ -89,34 +89,34 @@ Bend Editor for Flex Design Applications用于港后设计的弯曲编辑器
 
 选择菜单Setup – Bend – Create将出现Create Bend Area对话框
 
-![172-algPN-335.gif](https://a1024.synology.me:222/images/172-algPN-335.gif)
+![172-algPN-335.gif](https://a1024.synology.me/images/blog/2023/172-algPN-335.gif)
 
 **折弯名称：**折弯区域需要 ID 或名称。每个名称必须是唯一的，不允许重复的折弯区域名称。导出和导入 IDX 文件以进行 ECAD/MCAD 协作时会引用此名称。
 
-![172-algPN-336.gif](https://a1024.synology.me:222/images/172-algPN-336.gif)
+![172-algPN-336.gif](https://a1024.synology.me/images/blog/2023/172-algPN-336.gif)
 
 **折弯线起点（终点）：**输入折弯线起点（终点）的 X：Y 位置。
 
-![172-algPN-337.gif](https://a1024.synology.me:222/images/172-algPN-337.gif)
+![172-algPN-337.gif](https://a1024.synology.me/images/blog/2023/172-algPN-337.gif)
 
 折弯线定义沿折弯半径的折弯中心，如下图所示。
 
-![172-algPN-338.gif](https://a1024.synology.me:222/images/172-algPN-338.gif)
+![172-algPN-338.gif](https://a1024.synology.me/images/blog/2023/172-algPN-338.gif)
 
 **折弯参数**
 
-![172-algPN-339.gif](https://a1024.synology.me:222/images/172-algPN-339.gif)
+![172-algPN-339.gif](https://a1024.synology.me/images/blog/2023/172-algPN-339.gif)
 
 *   **Inner side:**选择 TOP 表示折弯方向向上，而选择 BOTTOM 表示向下方向。
 *   **Inner radius:**弯折半径
 *   **Angle:**弯折角度
 *   **Order:**弯折顺序
 
-![172-algPN-340.gif](https://a1024.synology.me:222/images/172-algPN-340.gif)
+![172-algPN-340.gif](https://a1024.synology.me/images/blog/2023/172-algPN-340.gif)
 
 **折弯区域选项**
 
-![172-algPN-341.gif](https://a1024.synology.me:222/images/172-algPN-341.gif)
+![172-algPN-341.gif](https://a1024.synology.me/images/blog/2023/172-algPN-341.gif)
 
 **Via keepout:**选中此复选框表示为折弯区域生成过孔禁布。设定Oversize值时禁布将依据弯折区域图形外扩
 
@@ -124,13 +124,13 @@ Bend Editor for Flex Design Applications用于港后设计的弯曲编辑器
 
 **Create**：按参数生成弯折
 
-![172-algPN-343.gif](https://a1024.synology.me:222/images/172-algPN-343.gif)
+![172-algPN-343.gif](https://a1024.synology.me/images/blog/2023/172-algPN-343.gif)
 
-![172-algPN-3448f92db486d6fddf6.gif](https://a1024.synology.me:222/images/172-algPN-3448f92db486d6fddf6.gif)
+![172-algPN-3448f92db486d6fddf6.gif](https://a1024.synology.me/images/blog/2023/172-algPN-3448f92db486d6fddf6.gif)
 
 折弯区域不允许重叠。如果折弯区域重叠，则新折弯区域创建将失败，命令窗口中将显示以下消息：
 
-![172-algPN-34576f1fc4ee66335f9.gif](https://a1024.synology.me:222/images/172-algPN-34576f1fc4ee66335f9.gif)
+![172-algPN-34576f1fc4ee66335f9.gif](https://a1024.synology.me/images/blog/2023/172-algPN-34576f1fc4ee66335f9.gif)
 
 ### Editing a Bend Definition
 
@@ -138,24 +138,24 @@ Bend Editor for Flex Design Applications用于港后设计的弯曲编辑器
 
 从Bend name选择要编辑的折弯区域，然后其它参数基本与创建时输入的内容一致，可按需调整参数值
 
-![172-algPN-34769192233d6b9d1c1.gif](https://a1024.synology.me:222/images/172-algPN-34769192233d6b9d1c1.gif)
+![172-algPN-34769192233d6b9d1c1.gif](https://a1024.synology.me/images/blog/2023/172-algPN-34769192233d6b9d1c1.gif)
 
 选择Delete Bend按钮可以删除对应的弯折区域定义
 
-![172-algPN-348b5ffb466b5b30569.gif](https://a1024.synology.me:222/images/172-algPN-348b5ffb466b5b30569.gif)
+![172-algPN-348b5ffb466b5b30569.gif](https://a1024.synology.me/images/blog/2023/172-algPN-348b5ffb466b5b30569.gif)
 
 Shape Application Mode Updates
 ------------------------------
 
 新增多个Shape一并设置参数功能，选择多个Shape后右键选择Shape – Parameters可以同时编辑多个Shape参数
 
-![172-algPN-3506be205e3cf5ea520.gif](https://a1024.synology.me:222/images/172-algPN-3506be205e3cf5ea520.gif)
+![172-algPN-3506be205e3cf5ea520.gif](https://a1024.synology.me/images/blog/2023/172-algPN-3506be205e3cf5ea520.gif)
 
 ### Add Notch Update
 
 增加Notch在原来只有90的基础删新增了45度和135度，或者你可以定义1-179直接的任意数值
 
-![172-algPN-3516e70d4d291345942.gif](https://a1024.synology.me:222/images/172-algPN-3516e70d4d291345942.gif)
+![172-algPN-3516e70d4d291345942.gif](https://a1024.synology.me/images/blog/2023/172-algPN-3516e70d4d291345942.gif)
 
 ### Slide IX/IY Support
 
@@ -166,14 +166,14 @@ Route Optimization (Unsupported Prototype)布线优化
 
 设置Setup – User Preferences – Unsupported中optimize\_in\_channel并在add connect命令时从option设置Bubble为非off勾选optimize in channel时从焊盘或过孔间穿线时，线会自动居中
 
-![172-algPN-367.gif](https://a1024.synology.me:222/images/172-algPN-367.gif)
+![172-algPN-367.gif](https://a1024.synology.me/images/blog/2023/172-algPN-367.gif)
 
 Via Structure Update 过孔结构更新
 ---------------------------
 
 Route – Via Structure – Create支持一个新的选项cut clines by rectangle，其允许截取一部分作为过孔结构而不是整个线，这样更有助与这个过孔结构被调用
 
-![172-algPN-368.gif](https://a1024.synology.me:222/images/172-algPN-368.gif)
+![172-algPN-368.gif](https://a1024.synology.me/images/blog/2023/172-algPN-368.gif)
 
 Group Routing群组布线
 -----------------
@@ -182,27 +182,27 @@ Group Routing群组布线
 
 群组布线时按右键从下图菜单中访问此命令
 
-![Snipaste_2023-04-26_10-32-27.png](https://a1024.synology.me:222/images/Snipaste_2023-04-26_10-32-27.png)
+![Snipaste_2023-04-26_10-32-27.png](https://a1024.synology.me/images/blog/2023/Snipaste_2023-04-26_10-32-27.png)
 
-![172-algPN-369.gif](https://a1024.synology.me:222/images/172-algPN-369.gif)
+![172-algPN-369.gif](https://a1024.synology.me/images/blog/2023/172-algPN-369.gif)
 
-![172-algPN-370.gif](https://a1024.synology.me:222/images/172-algPN-370.gif)
+![172-algPN-370.gif](https://a1024.synology.me/images/blog/2023/172-algPN-370.gif)
 
 Tab Routing Update
 ------------------
 
 etch-editing命令更新增强，可以智能地保留或删除clines or segments上的tabs
 
-![172-algPN-373.gif](https://a1024.synology.me:222/images/172-algPN-373.gif)
+![172-algPN-373.gif](https://a1024.synology.me/images/blog/2023/172-algPN-373.gif)
 
-![172-algPN-374.gif](https://a1024.synology.me:222/images/172-algPN-374.gif)
+![172-algPN-374.gif](https://a1024.synology.me/images/blog/2023/172-algPN-374.gif)
 
 Add RF Trace添加射频线
 -----------------
 
 Route – Unsupported Prototypes新增Add RF Trace命令
 
-![172-algPN-375.gif](https://a1024.synology.me:222/images/172-algPN-375.gif)
+![172-algPN-375.gif](https://a1024.synology.me/images/blog/2023/172-algPN-375.gif)
 
 *   Bend Type – 弯折类型
     *   Square – 方形
@@ -233,35 +233,35 @@ Chip on Board 也称为直接芯片连接，是指安装裸片、用电线电连
 
 针对引线键合应用的封装符号必须在Symbol Editor中使用_“Bondpad_”选项创建。PCB编辑器Wirebond应用不能直接利用现有的symbols。必须删除现有symbols上的引脚，然后使用左图所示的_Bondpad_选项重新添加。此外，“Find f”过滤器已更新为两个新条目：Fingers and Bond wires。
 
-![172-algPN-376.gif](https://a1024.synology.me:222/images/172-algPN-376.gif)
+![172-algPN-376.gif](https://a1024.synology.me/images/blog/2023/172-algPN-376.gif)
 
 两个新的图形_Bond\_Top_和_Bond\_Bottom_，可用于支持包含芯片引脚的封装符号。
 
-![172-algPN-377.gif](https://a1024.synology.me:222/images/172-algPN-377.gif)
+![172-algPN-377.gif](https://a1024.synology.me/images/blog/2023/172-algPN-377.gif)
 
 Allegro PCB 编辑器中的wirebond命令位于“Route”菜单中。它们包括Add, Edit, Settings and Tack Point Move。
 
-![172-algPN-378.gif](https://a1024.synology.me:222/images/172-algPN-378.gif)
+![172-algPN-378.gif](https://a1024.synology.me/images/blog/2023/172-algPN-378.gif)
 
 一个新的模式Wirebond Edit application mode可选
 
-![172-algPN-379.gif](https://a1024.synology.me:222/images/172-algPN-379.gif)
+![172-algPN-379.gif](https://a1024.synology.me/images/blog/2023/172-algPN-379.gif)
 
 用户定义变量中增加一系列变量，可定制不同的功能
 
-![172-algPN-380.gif](https://a1024.synology.me:222/images/172-algPN-380.gif)
+![172-algPN-380.gif](https://a1024.synology.me/images/blog/2023/172-algPN-380.gif)
 
 Route – Wirebond – Settings设置用于Bond Fingers的焊盘和对齐选项。
 
-![172-algPN-381.gif](https://a1024.synology.me:222/images/172-algPN-381.gif)
+![172-algPN-381.gif](https://a1024.synology.me/images/blog/2023/172-algPN-381.gif)
 
 选择一个或多个pin以添加wire bond，添加wire bond后，将显示引线的长度和角度。
 
-![172-algPN-382.gif](https://a1024.synology.me:222/images/172-algPN-382.gif)
+![172-algPN-382.gif](https://a1024.synology.me/images/blog/2023/172-algPN-382.gif)
 
 使用“Tack Point Move”命令在键合手指内重新定位导线。此命令允许支持手指边界内的多根线。
 
-![172-algPN-383.gif](https://a1024.synology.me:222/images/172-algPN-383.gif)
+![172-algPN-383.gif](https://a1024.synology.me/images/blog/2023/172-algPN-383.gif)
 
 Display Canvas显示画布
 ------------------
@@ -272,26 +272,26 @@ Display Canvas显示画布
 
 工具栏图标大小可以通过用户首选项变量 _tbiconsize_ 控制大小
 
-![172-algPN-384.gif](https://a1024.synology.me:222/images/172-algPN-384.gif)
+![172-algPN-384.gif](https://a1024.synology.me/images/blog/2023/172-algPN-384.gif)
 
 ### Fontsize字体大小
 
 _fontsize_ 用户首选项变量控制菜单文本和表单标题的大小。默认情况下，其值设置为 9，以下示例使用值 12。
 
-![172-algPN-385.gif](https://a1024.synology.me:222/images/172-algPN-385.gif)
+![172-algPN-385.gif](https://a1024.synology.me/images/blog/2023/172-algPN-385.gif)
 
 ### Analysis Mode Form Update 分析模式面板更新
 
 模式类别已合并为Design, Electrical, Physical, Spacing, Same Net Spacing, and Assembly，UI显示增强
 
-![172-algPN-386.gif](https://a1024.synology.me:222/images/172-algPN-386.gif)
+![172-algPN-386.gif](https://a1024.synology.me/images/blog/2023/172-algPN-386.gif)
 
 Eagle PCB and Library Translator
 --------------------------------
 
 新增 Eagle CAD 的 PCB 文件转换为Allegro设计格式，从File - Import – CAD Translators菜单中访问
 
-![172-algPN-387.gif](https://a1024.synology.me:222/images/172-algPN-387.gif)
+![172-algPN-387.gif](https://a1024.synology.me/images/blog/2023/172-algPN-387.gif)
 
 Productivity ToolBox Updates 效率工具箱更新
 ------------------------------------
@@ -317,14 +317,14 @@ Productivity ToolBox Updates 效率工具箱更新
 
 可以以图形的方式比较两个数据，基于IPC2581，可以比较所有或单个层。突出显示差异。
 
-![172-algPN-388.gif](https://a1024.synology.me:222/images/172-algPN-388.gif)
+![172-algPN-388.gif](https://a1024.synology.me/images/blog/2023/172-algPN-388.gif)
 
 Custom Variables自定义变量
 ---------------------
 
 此功能允许在PCB中增加文本信息，这些文本可以使用被控制更改，方便管理，支持历史记录
 
-![172-algPN-389.gif](https://a1024.synology.me:222/images/172-algPN-389.gif)
+![172-algPN-389.gif](https://a1024.synology.me/images/blog/2023/172-algPN-389.gif)
 
 RF-PCB Enhancements射频PCB增强
 --------------------------
@@ -333,11 +333,11 @@ RF-PCB Enhancements射频PCB增强
 
 间隙初始化和设置命令已得到增强，以支持cline and trace shapes（通过rf\_add\_trace命令添加的shape）。您可以为不同的对象(RF component, cline, and trace)设置不同的偏移值。间隙的默认值在所有图层上始终对称。下图显示 rf\_ac\_setup and rf\_ac\_init命令 的_“Options_”选项卡。
 
-![172-algPN-390.gif](https://a1024.synology.me:222/images/172-algPN-390.gif)
+![172-algPN-390.gif](https://a1024.synology.me/images/blog/2023/172-algPN-390.gif)
 
 添加间隙时，启用Override global clearance选项，并使用按图层查看间隙形状选项设置要添加View clearance shape by layer。
 
-![172-algPN-391.gif](https://a1024.synology.me:222/images/172-algPN-391.gif)
+![172-algPN-391.gif](https://a1024.synology.me/images/blog/2023/172-algPN-391.gif)
 
 对于traces，对其右键可以使用swap命令来交换asymmetrical offset values.
 
@@ -349,11 +349,11 @@ RF-PCB Enhancements射频PCB增强
 
 *   添加了在cline segment的中心线上通过阵列创建的新选项。
 
-![172-algPN-392.gif](https://a1024.synology.me:222/images/172-algPN-392.gif)
+![172-algPN-392.gif](https://a1024.synology.me/images/blog/2023/172-algPN-392.gif)
 
 *   Disable extending cline选项可防止 cline 扩展通过所有 cline 分支上的数组创建。
 
-![172-algPN-393.gif](https://a1024.synology.me:222/images/172-algPN-393.gif)
+![172-algPN-393.gif](https://a1024.synology.me/images/blog/2023/172-algPN-393.gif)
 
 *   The staggered via is centered between 2 vias of the other ring.。
 *   The via-via gap for adjacent via pairs on a ring does not exceed maximum gap between 2 vias and is maintained for all adjacent via pairs。

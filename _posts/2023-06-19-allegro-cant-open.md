@@ -33,7 +33,7 @@ Allegro设计文件可能被lock或某种未知的力量加密
 
 此类情况当打开设计文件时会弹如下对话框
 
-![Snipaste_2023-06-20_10-41-3292771022ff1fd948.png](https://a1024.synology.me:222/images/Snipaste_2023-06-20_10-41-3292771022ff1fd948.png)
+![Snipaste_2023-06-20_10-41-3292771022ff1fd948.png](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-20_10-41-3292771022ff1fd948.png)
 
 可以使用高于或等于对应设计版本的Allegro软件打开对应设计或使用某些办法对设计文件进行降版本操作
 

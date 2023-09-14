@@ -36,7 +36,7 @@ excerpt:
 
 直接从菜单命令运行即生成报告文件
 
-![](https://a1024.synology.me:222/images/blog2022/Footprint%20Elements.jpg)
+![](https://a1024.synology.me/images/blog/2023/blog2022/Footprint%20Elements.jpg)
 
 *   RefDef：元素数量有差异的器件位号
 *   Location：元素数量有差异的器件位置，点击坐标可跳转到器件出

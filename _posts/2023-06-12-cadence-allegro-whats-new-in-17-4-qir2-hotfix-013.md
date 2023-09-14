@@ -38,13 +38,13 @@ Dynamic Shape Enhancements动态铜皮增强
 
 该功能允许分别对不同的设计层定制不同的默认铜皮参数，选定指定层设置对应的参数，则对应层的铜皮将按指定参数进行更新
 
-![algPN-96.gif](https://a1024.synology.me:222/images/algPN-96.gif)
+![algPN-96.gif](https://a1024.synology.me/images/blog/2023/algPN-96.gif)
 
 ### Dynamic Fill Mode “Fast” 动态铜皮Fast模式
 
 “Fast”替代原“Rough”模式，此模式下铜皮更新的效率更高（超级高，在进行大批量更新时，效能提升明显），建议优选此模式
 
-![algPN-97.gif](https://a1024.synology.me:222/images/algPN-97.gif)
+![algPN-97.gif](https://a1024.synology.me/images/blog/2023/algPN-97.gif)
 
 3D Canvas Update 3D画布更新
 -----------------------
@@ -67,11 +67,11 @@ Dynamic Shape Enhancements动态铜皮增强
 
 使用3D Mapper需要设置首选项设置Setup – Preferences – Appearance – Symbol Representation，并在3DCanvas首选项中设置红框的选项是才可使用
 
-![algPN-98.gif](https://a1024.synology.me:222/images/algPN-98.gif)
+![algPN-98.gif](https://a1024.synology.me/images/blog/2023/algPN-98.gif)
 
 如果选择第一个或第五个选项将收到以下提示
 
-![algPN-99.gif](https://a1024.synology.me:222/images/algPN-99.gif)
+![algPN-99.gif](https://a1024.synology.me/images/blog/2023/algPN-99.gif)
 
 Model Mapper Tab
 ----------------
@@ -80,45 +80,45 @@ Model Mapper Tab
 
 下图是dra模式对应的选项
 
-![algPN-100.gif](https://a1024.synology.me:222/images/algPN-100.gif)
+![algPN-100.gif](https://a1024.synology.me/images/blog/2023/algPN-100.gif)
 
 稀土是brd模式对应的选项
 
-![algPN-101.gif](https://a1024.synology.me:222/images/algPN-101.gif)
+![algPN-101.gif](https://a1024.synology.me/images/blog/2023/algPN-101.gif)
 
 选择一个需要映射的器件分类形式Footprint, Device or Mechanical.
 
-![algPN-102.gif](https://a1024.synology.me:222/images/algPN-102.gif)
+![algPN-102.gif](https://a1024.synology.me/images/blog/2023/algPN-102.gif)
 
 从清单中可以看到当前设计包含的所有器件类型
 
-![algPN-103.gif](https://a1024.synology.me:222/images/algPN-103.gif)
+![algPN-103.gif](https://a1024.synology.me/images/blog/2023/algPN-103.gif)
 
 选择从整板查看或仅单器件查看的方式映射器件
 
-![algPN-104.gif](https://a1024.synology.me:222/images/algPN-104.gif)
+![algPN-104.gif](https://a1024.synology.me/images/blog/2023/algPN-104.gif)
 
 ### Model Mapper GUI Functionality模型映射器GUI功能
 
 3D映射文件(`.map`)可以通过点击_导入_或者通过单击Import导入 or export导出已经映射好的map文件
 
-![algPN-105.gif](https://a1024.synology.me:222/images/algPN-105.gif)
+![algPN-105.gif](https://a1024.synology.me/images/blog/2023/algPN-105.gif)
 
 可选将模型指定为主要和次要
 
-![algPN-106.gif](https://a1024.synology.me:222/images/algPN-106.gif)
+![algPN-106.gif](https://a1024.synology.me/images/blog/2023/algPN-106.gif)
 
 从设计属性编辑面板设置在3D画布使用主要或次要模型，这个选项仅在此版本中出现在此处，之后被更新到3D画布的启动对话框中了
 
-![algPN-107.gif](https://a1024.synology.me:222/images/algPN-107.gif)
+![algPN-107.gif](https://a1024.synology.me/images/blog/2023/algPN-107.gif)
 
 被指定的映射模型名称将出现在下图字段，如果没有模型则显示为空，选择……可以对其增加或替换模型，支持所有主流3D文件格式
 
-![algPN-108.gif](https://a1024.synology.me:222/images/algPN-108.gif)
+![algPN-108.gif](https://a1024.synology.me/images/blog/2023/algPN-108.gif)
 
 使用下方控制按钮对齐模型，AUTO用于自动对齐，若未能成功可继续使用手动按钮继续对齐
 
-![algPN-109.gif](https://a1024.synology.me:222/images/algPN-109.gif)
+![algPN-109.gif](https://a1024.synology.me/images/blog/2023/algPN-109.gif)
 
 选择MAN后将出现一个3D操纵器控制器，然后单击拖动操纵器的末端，即可沿三个方向中的任意一个方向移动模型。
 
@@ -126,15 +126,15 @@ Model Mapper Tab
 
 XY用于将指定的模型面对齐到平面上指定点，Z用于将指定的模型面对齐到Z轴指定点
 
-![algPN-110.gif](https://a1024.synology.me:222/images/algPN-110.gif)
+![algPN-110.gif](https://a1024.synology.me/images/blog/2023/algPN-110.gif)
 
 通过调整坐标值调整模型的位置
 
-![algPN-111.gif](https://a1024.synology.me:222/images/algPN-111.gif)
+![algPN-111.gif](https://a1024.synology.me/images/blog/2023/algPN-111.gif)
 
 通过调整旋转角度调整模型的方向
 
-![algPN-112.gif](https://a1024.synology.me:222/images/algPN-112.gif)
+![algPN-112.gif](https://a1024.synology.me/images/blog/2023/algPN-112.gif)
 
 DesignTrue DFM Enhancements DFM增强功能
 -----------------------------------
@@ -149,19 +149,19 @@ DFM规则可以找到在制造公差范围内的违规。例如，假设线间�
 
 从Setup – Constraints – Modes命令打开Analysis Modes
 
-![algPN-113.gif](https://a1024.synology.me:222/images/algPN-113.gif)
+![algPN-113.gif](https://a1024.synology.me/images/blog/2023/algPN-113.gif)
 
 选择Design for Fabrication中Manufacturing Tolerance Allowance
 
-![algPN-114.gif](https://a1024.synology.me:222/images/algPN-114.gif)
+![algPN-114.gif](https://a1024.synology.me/images/blog/2023/algPN-114.gif)
 
 分别对导体间距和Mask指定允许的制造公差值
 
-![algPN-115.gif](https://a1024.synology.me:222/images/algPN-115.gif)
+![algPN-115.gif](https://a1024.synology.me/images/blog/2023/algPN-115.gif)
 
 点击OK或Apply对应的公差值即设置成功
 
-![algPN-116.gif](https://a1024.synology.me:222/images/algPN-116.gif)
+![algPN-116.gif](https://a1024.synology.me/images/blog/2023/algPN-116.gif)
 
 ### Tented Via List Enhancements
 
@@ -174,30 +174,30 @@ Via21-Tent-top 焊盘中没有定义 SOLDERMASK\_BOTTOM . Via21-Tent-top这个�
 
 从Setup – Constraints – Modes命令打开Analysis Modes
 
-![algPN-117.gif](https://a1024.synology.me:222/images/algPN-117.gif)
+![algPN-117.gif](https://a1024.synology.me/images/blog/2023/algPN-117.gif)
 
 选择Design for Fabrication中的Top Tented Via list或Bottom Tented Via list
 
-![algPN-118.gif](https://a1024.synology.me:222/images/algPN-118.gif)
+![algPN-118.gif](https://a1024.synology.me/images/blog/2023/algPN-118.gif)
 
 添加需要忽略检查的via，将其添加到右侧窗口点击ok即添加成功
 
-![algPN-119.gif](https://a1024.synology.me:222/images/algPN-119.gif)
+![algPN-119.gif](https://a1024.synology.me/images/blog/2023/algPN-119.gif)
 
 DesignTrue DFM Rule Aggregator DFM规则聚合器（模版）
 -------------------------------------------
 
 使用系统命令（Win+R运行，或者启动cmd）"consmgr.exe -dfmAggr"启动DFM规则聚合器
 
-![algPN-120.gif](https://a1024.synology.me:222/images/algPN-120.gif)
+![algPN-120.gif](https://a1024.synology.me/images/blog/2023/algPN-120.gif)
 
 使用File – Import Technology Files导入模版文件
 
-![algPN-121.gif](https://a1024.synology.me:222/images/algPN-121.gif)
+![algPN-121.gif](https://a1024.synology.me/images/blog/2023/algPN-121.gif)
 
 模版文件中的值即被成功应用
 
-![algPN-122.gif](https://a1024.synology.me:222/images/algPN-122.gif)
+![algPN-122.gif](https://a1024.synology.me/images/blog/2023/algPN-122.gif)
 
 当PCB制造商使用从DesignTrue DFM门户网站获得的规则时，使Group – Auto Group All。自动分组基于存储在technology file中的属性，并组合具有相同铜重量、制造类别等属性的规则。
 
@@ -206,11 +206,11 @@ DesignTrue DFM Rule Aggregator DFM规则聚合器（模版）
 1.  选择要分组的CSets(以绿色突出显示)。
 2.  右键单击并选择_创建组_.
 
-![algPN-123.gif](https://a1024.synology.me:222/images/algPN-123.gif)
+![algPN-123.gif](https://a1024.synology.me/images/blog/2023/algPN-123.gif)
 
 创建组时，会创建聚合CSet，并用每个DFM规则的最保守值输入。通过在组中选择不同的值，然后右键选择_Override_选项。所选值现在被放置在聚合的CSet中，并突出显示以指示选择了被覆盖的值。
 
-![algPN-124.gif](https://a1024.synology.me:222/images/algPN-124.gif)
+![algPN-124.gif](https://a1024.synology.me/images/blog/2023/algPN-124.gif)
 
 设置好的规则文件可以通过File – Export – Aggregated CSet导出供再次调用使用
 
@@ -232,7 +232,7 @@ IDX版本4包含以下增强功能:
 
 如果PCB编辑器启动创建初始baseline或重新baseline的过程，PCB编辑器默认为3.0版。要启用IDX 4.0，您必须在用户首选项编辑器中指定版本，路径为_Interfaces – IDX – idx\_version_
 
-![algPN-125.gif](https://a1024.synology.me:222/images/algPN-125.gif)
+![algPN-125.gif](https://a1024.synology.me/images/blog/2023/algPN-125.gif)
 
 一旦将数据库设置为4.0版，无论用户首选项编辑器的设置如何，数据库都不会导出到早期版本。
 
@@ -309,7 +309,7 @@ IPC-2581修订版c增加了两个新的用户首选项。
 ipc2581\_enable\_artwork\_filename\_affixes:为IPC\_out设置，为非导体图形图层名称添加前缀和后缀。  
 当在图形控制表单的一般参数选项卡中定义prefix and/or suffix时，前缀和后缀将被添加到层叠定义中未定义的项目的层名称中。
 
-![algPN-127.gif](https://a1024.synology.me:222/images/algPN-127.gif)
+![algPN-127.gif](https://a1024.synology.me/images/blog/2023/algPN-127.gif)
 
 例如，前缀为`CDNS_ `后缀为` _Rev_3`，IPC-2581图层名称为Artwork film名称`TOP_ASSEMBLY`将使用`CDNS_TOP_ASSEMBLY_REV_3`.
 
@@ -323,7 +323,7 @@ Allegro PCB Symphony Team Design协同设计
 
 现在，Symphony客户端可以直接将组件从placement list放置到画布上，并将数据传输到Symphony服务器数据库。不用再停止协同操作此项内容
 
-![algPN-128.gif](https://a1024.synology.me:222/images/algPN-128.gif)
+![algPN-128.gif](https://a1024.synology.me/images/blog/2023/algPN-128.gif)
 
 Symphony clients can place components with the required symbol data sent to all clients and Symphony server:
 
@@ -342,12 +342,12 @@ Allegro Constraint Compiler Allegro约束编译器
 *   通过消除不同的编译器模式，仅替换模式，简化了流程
 *   界面优化，带有一个简单的Import按钮和一个“Report Only (Validate)”
 
-![algPN-129.gif](https://a1024.synology.me:222/images/algPN-129.gif)
+![algPN-129.gif](https://a1024.synology.me/images/blog/2023/algPN-129.gif)
 
 *   简化使用模型选择XML Constraint Data set来导入约束
     *   无需提取ZIP文件内容并导航至设计。可扩展标记语言
 
-![algPN-130.gif](https://a1024.synology.me:222/images/algPN-130.gif)
+![algPN-130.gif](https://a1024.synology.me/images/blog/2023/algPN-130.gif)
 
 *   在导入过程中，约束表利用别名占位符替换设计特定名称，这允许在设计之间重用约束数据。为了进一步实现这一目标，当设计关联的别名丢失时，编译器将自动生成映射表，以便可以修改设计映射表。
     *   `cds_missing_alias.csv`:接口内缺少别名映射
@@ -363,14 +363,14 @@ Parameterized High-Speed Structures 参数化高速结构
 *   孔名称和差分孔间距
 *   特定层的Pad Entry and Exit布线图形样式
 
-![algPN-131.gif](https://a1024.synology.me:222/images/algPN-131.gif)
+![algPN-131.gif](https://a1024.synology.me/images/blog/2023/algPN-131.gif)
 
 回流孔分布样式
 
-![algPN-132.gif](https://a1024.synology.me:222/images/algPN-132.gif)
+![algPN-132.gif](https://a1024.synology.me/images/blog/2023/algPN-132.gif)
 
 特定层的禁布大小
 
-![algPN-133.gif](https://a1024.synology.me:222/images/algPN-133.gif)
+![algPN-133.gif](https://a1024.synology.me/images/blog/2023/algPN-133.gif)
 
 使用这些结构可以将其导入Sigrity进行仿真和分析或添加到规则管理中并在布线过程中访问

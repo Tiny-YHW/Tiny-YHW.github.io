@@ -24,7 +24,7 @@ keywords:
 
 ## Calculation
 
-![](https://a1024.synology.me:222/images/blog2023/Calculation.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/Calculation.png)
 
 mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
@@ -103,7 +103,7 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 *   从Options中指定需要的连接方式
 *   单击选择或框选指定Pin改变其与铜皮的连接方式
 
-![Pinconnect.gif](https://a1024.synology.me:222/images/blog2023/Pinconnect.gif)
+![Pinconnect.gif](https://a1024.synology.me/images/blog/2023/blog2023/Pinconnect.gif)
 
 ## Add
 
@@ -241,13 +241,13 @@ Create
 
 按输入参数自动创建Flash文件
 
-![CreateFlash.png](https://a1024.synology.me:222/images/blog2023/CreateFlash.png)
+![CreateFlash.png](https://a1024.synology.me/images/blog/2023/blog2023/CreateFlash.png)
 
 ### Pad
 
 按输入参数自动创建Pad文件
 
-![CreatePad.png](https://a1024.synology.me:222/images/blog2023/CreatePad.png)
+![CreatePad.png](https://a1024.synology.me/images/blog/2023/blog2023/CreatePad.png)
 
 Place
 -----
@@ -319,7 +319,7 @@ PCB模式和DRA模式均可用，PCB较大时运行时间可能较长（计算�
 
 按模版设计为PCB指定层增加生产信息或设计标注等信息
 
-![](https://a1024.synology.me:222/images/blog2023/manufapara.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/manufapara.png)
 
 1.  使用菜单或者命令启动后弹出对话框
 2.  填写相关参数
@@ -337,7 +337,7 @@ Allegro与PDF原理图交互
 
 替换完成后列表区域将报告哪些焊盘被替换掉了
 
-![](https://a1024.synology.me:222/images/blog2023/Snipaste_2023-01-18_16-24-06.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/Snipaste_2023-01-18_16-24-06.png)
 
 ### Taper
 
@@ -346,7 +346,7 @@ Allegro与PDF原理图交互
 1.  使用菜单或者命令启动后，从Option面板配置功能选项。
 2.  支持参数较多，具体含义待测试，典型应用为单击Add select后框选需要增加过度的Clines即为Clines增加过度shape。
 
-![](https://a1024.synology.me:222/images/blog2023/Snipaste_2023-01-18_16-44-35.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/Snipaste_2023-01-18_16-44-35.png)
 
 Check
 -----
@@ -363,7 +363,7 @@ PCB中所有Pad参数合理性检查
 
 检查PCB设计中的DangingLines、Dangling Vias、Island Shapes并支持批量删除
 
-![](https://a1024.synology.me:222/images/blog2023/dlings.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/dlings.png)
 
 1.  使用菜单或者命令启动
 2.  根据要检查的对象选择对应标签
@@ -375,7 +375,7 @@ PCB中所有Pad参数合理性检查
 
 走线跨参考平面分割的检查
 
-![](https://a1024.synology.me:222/images/blog2023/kuafenge.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/kuafenge.png)
 
 1.  使用菜单或者命令启动
 2.  选择自定模式或手动模式，自动模式将根据叠层属性和顺序自动分析跨分割的线，手动模式则按要求选择信号层和参考层，对选择的层面进行检查分析，一般选择自动分析模式即可。
@@ -385,7 +385,7 @@ PCB中所有Pad参数合理性检查
 
 检查相邻层面信号线重叠且平行走线
 
-![](https://a1024.synology.me:222/images/blog2023/pingxingxianglin.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/pingxingxianglin.png)
 
 1.  使用菜单或者命令启动
 2.  选择自定模式或手动模式，自动模式将根据叠层属性和顺序自动分析相邻层面的信号线，手动模式则按要求选择相邻信号层，对选择的层面进行检查分析，一般选择自动分析模式即可，设置允许平行走线指定长度。
@@ -395,7 +395,7 @@ PCB中所有Pad参数合理性检查
 
 高亮检查折线（Clines交错较小的）布线
 
-![](https://a1024.synology.me:222/images/blog2023/shortsegment.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/shortsegment.png)
 
 1.  使用菜单或者命令启动
 2.  输出指定长度，默认为2mil
@@ -414,7 +414,7 @@ PCB中所有Pad参数合理性检查
 
 对设计检查时按元素依次查看检查做记录等操作
 
-![](https://a1024.synology.me:222/images/blog2023/dalbrowse.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/dalbrowse.png)
 
 1.  使用菜单或者命令启动后选择检查对应的标签页
 2.  每种标签会实时显示对应元素的部分信息便于查阅
@@ -424,7 +424,7 @@ PCB中所有Pad参数合理性检查
 6.  再次打开本设计允许此程序记录内容仍然存在
 7.  记录内容可在Option页面内导出和导入
 
-![](https://a1024.synology.me:222/images/blog2023/dalbrowseexp.png)
+![](https://a1024.synology.me/images/blog/2023/blog2023/dalbrowseexp.png)
 
 ### Footprint Elements
 
@@ -460,7 +460,7 @@ PCB中所有Pad参数合理性检查
 
 设计完成后，丝印层丝印预放置
 
-![zidongsiyin.png](https://a1024.synology.me:222/images/blog2023/zidongsiyin.png)
+![zidongsiyin.png](https://a1024.synology.me/images/blog/2023/blog2023/zidongsiyin.png)
 
 1.  使用菜单或者命令启动
 2.  指定要调整的层面和丝印号大小设置（配合Quick Change Text Size直接使用3号字即可）

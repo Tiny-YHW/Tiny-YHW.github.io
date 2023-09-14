@@ -50,29 +50,29 @@ Component swapping可转换同性质的零件功能。
 3D Canvas Updates 3D 画布更新
 -------------------------
 
-![172-algPN-240.gif](https://a1024.synology.me:222/images/172-algPN-240.gif)
+![172-algPN-240.gif](https://a1024.synology.me/images/blog/2023/172-algPN-240.gif)
 
 ### Isometric View (Default)等轴测视图（默认）
 
 在此版本中，对画布进行了视觉更改。默认情况下，加载的设计显示在等轴测视图中，以便更好地表达画布和设计的 3D 性质。为了便于访问，等轴测视图映射到 NumLock 键 _1_。下图显示了新的 3D 画布窗口。
 
-![172-algPN-241.gif](https://a1024.synology.me:222/images/172-algPN-241.gif)
+![172-algPN-241.gif](https://a1024.synology.me/images/blog/2023/172-algPN-241.gif)
 
 ### Updated and New Panes更新和增加新面板
 
 在 3D 画布中，添加了两个新窗格：Messages and Options，使用者可以从这个视窗看到PCB的信息或者是错误信息。
 
-![172-algPN-242.gif](https://a1024.synology.me:222/images/172-algPN-242.gif)
+![172-algPN-242.gif](https://a1024.synology.me/images/blog/2023/172-algPN-242.gif)
 
 Visibility面板现在包括图层控件，用于快速打开或关闭Conductor, Plane, Mask, and Dielectric图层。这将与2D 画布上Visibility面板基本一致。这些窗口现在都允许移动和分组
 
-![172-algPN-243.gif](https://a1024.synology.me:222/images/172-algPN-243.gif)
+![172-algPN-243.gif](https://a1024.synology.me/images/blog/2023/172-algPN-243.gif)
 
 ### Preferences Dialog“首选项”对话框
 
 此版本引入一个新的Preferences对话框，与PCB编辑器中的Setup – User Preferences类似
 
-![172-algPN-243.gif](https://a1024.synology.me:222/images/172-algPN-244.gif)
+![172-algPN-243.gif](https://a1024.synology.me/images/blog/2023/172-algPN-244.gif)
 
 *   Display显示：设定 3D 画布窗口的默认颜色。
 *   Messages消息：控制新“_消息_”窗格的显示与关闭。
@@ -82,41 +82,41 @@ Visibility面板现在包括图层控件，用于快速打开或关闭Conductor,
 
 在以前的版本中，silkscreen outlines (lines)是可见的。在此版本中，text (both reference designators and free text)在 3D 画布上也可见。
 
-![172-algPN-245.gif](https://a1024.synology.me:222/images/172-algPN-245.gif)
+![172-algPN-245.gif](https://a1024.synology.me/images/blog/2023/172-algPN-245.gif)
 
 在silkscreen图层上绘制的Rectangles现在显示在 3D 画布上。对于未定义线宽的line将使用Artwork中设置的Undefined line width作为线宽值。
 
 对shapes的支持也是此版本的一部分，但目前，所有形状类型（filled, cross-hatched, and unfilled）在 3D 画布上显示为填充。
 
-![172-algPN-246.gif](https://a1024.synology.me:222/images/172-algPN-246.gif)
+![172-algPN-246.gif](https://a1024.synology.me/images/blog/2023/172-algPN-246.gif)
 
-![172-algPN-247.gif](https://a1024.synology.me:222/images/172-algPN-247.gif)
+![172-algPN-247.gif](https://a1024.synology.me/images/blog/2023/172-algPN-247.gif)
 
 ### 2D PDF and Export Dialog文件输出功能
 
 此版本也支持了2D PDF输出功能，可以从3D Canvas 的File > Export来输出PDF文件，输出的PDF文件但内容只会是2D呈现，而且也只会是表面层资料，不会有内层资料。
 
-![172-algPN-248.gif](https://a1024.synology.me:222/images/172-algPN-248.gif)
+![172-algPN-248.gif](https://a1024.synology.me/images/blog/2023/172-algPN-248.gif)
 
 ### 3D to 2D Move Command在3D中移动器件
 
 此次也新增了零件移动指令，我们可以从3D Canvas里点选零件，零件就会呈现红色，然后鼠标右键可选择Move指令，此时零件会变成透明状，移动的器件会是实心状，我们移动时只能仅限于X和Y平面，当零件移动完成后会更新到Allegro PCB上，所以会有连动关系。移动时也可从Options来选择Etch的处理方式。
 
-![172-algPN-249.gif](https://a1024.synology.me:222/images/172-algPN-249.gif)
+![172-algPN-249.gif](https://a1024.synology.me/images/blog/2023/172-algPN-249.gif)
 
-![172-algPN-249.gif](https://a1024.synology.me:222/images/172-algPN-250.gif)
+![172-algPN-249.gif](https://a1024.synology.me/images/blog/2023/172-algPN-250.gif)
 
 ### Zone Aware 3D
 
 此版本也新增显示叠层的厚度。此厚度是依据Allegro Cross Section Editor设定的厚度。
 
-![172-algPN-251.gif](https://a1024.synology.me:222/images/172-algPN-251.gif)
+![172-algPN-251.gif](https://a1024.synology.me/images/blog/2023/172-algPN-251.gif)
 
 ### Miscellaneous Updates to 3D Canvas：
 
 此版3D Canvas的介面也更新了跟Allegro PCB一致。 Status bar添加Units：这会跟Allegro 一致。 Status bar添加X、Y、Z座标：参考点为鼠标。滑鼠的操作跟Allegro的操作更新为一致。
 
-![172-algPN-252.gif](https://a1024.synology.me:222/images/172-algPN-252.gif)
+![172-algPN-252.gif](https://a1024.synology.me/images/blog/2023/172-algPN-252.gif)
 
 Dynamic Ratsnest动态飞线（鼠线）
 ------------------------
@@ -132,7 +132,7 @@ Dynamic Ratsnest动态飞线（鼠线）
 *   Nets with pin-count greater than 20
 *   Components with pin-count greater than 100
 
-![172-algPN-255.gif](https://a1024.synology.me:222/images/172-algPN-253.gif)
+![172-algPN-255.gif](https://a1024.synology.me/images/blog/2023/172-algPN-253.gif)
 
 注意：如果要停止此功能，可以从Setup > User Preferences > Placement > General folder No\_dynamic\_ratsnest来设定。
 
@@ -143,23 +143,23 @@ Route Keepout Net Exceptions 例外禁布
 
 在Constraint manager创建一个PKO Group。
 
-![172-algPN-255.gif](https://a1024.synology.me:222/images/172-algPN-254.gif)
+![172-algPN-255.gif](https://a1024.synology.me/images/blog/2023/172-algPN-254.gif)
 
-![172-algPN-255.gif](https://a1024.synology.me:222/images/172-algPN-255.gif)
+![172-algPN-255.gif](https://a1024.synology.me/images/blog/2023/172-algPN-255.gif)
 
 把例外的Net加入这个PKO Group
 
-![172-algPN-256.gif](https://a1024.synology.me:222/images/172-algPN-256.gif)
+![172-algPN-256.gif](https://a1024.synology.me/images/blog/2023/172-algPN-256.gif)
 
-![172-algPN-257.gif](https://a1024.synology.me:222/images/172-algPN-257.gif)
+![172-algPN-257.gif](https://a1024.synology.me/images/blog/2023/172-algPN-257.gif)
 
 在禁布区增加RKO Group Assign这个属性到这个Shape里，即可加入此例外。
 
-![172-algPN-258.gif](https://a1024.synology.me:222/images/172-algPN-258.gif)
+![172-algPN-258.gif](https://a1024.synology.me/images/blog/2023/172-algPN-258.gif)
 
 在route keepout shape上运行“Show Element ”命令可以查看例外成员。
 
-![172-algPN-259.gif](https://a1024.synology.me:222/images/172-algPN-259.gif)
+![172-algPN-259.gif](https://a1024.synology.me/images/blog/2023/172-algPN-259.gif)
 
 Padstack Editor XML Import 通过XML文件导入焊盘
 --------------------------------------
@@ -172,7 +172,7 @@ Padstack Editor XML Import 通过XML文件导入焊盘
 
 关于此功能的详细介绍先略，如有需要再继续补充
 
-![172-algPN-260.gif](https://a1024.synology.me:222/images/172-algPN-260.gif)
+![172-algPN-260.gif](https://a1024.synology.me/images/blog/2023/172-algPN-260.gif)
 
 Import File Manager导入文件管理器
 --------------------------
@@ -187,11 +187,11 @@ Import File Manager导入文件管理器
 
 要在布局编辑器中调用此函数，请选择Tools – Import File Manager。
 
-![172-algPN-267.gif](https://a1024.synology.me:222/images/172-algPN-267.gif)
+![172-algPN-267.gif](https://a1024.synology.me/images/blog/2023/172-algPN-267.gif)
 
 在Import File Manager中，指定文件类型、扩展名、共享目录的位置以及用于文件类型的导入命令。
 
-![172-algPN-268.gif](https://a1024.synology.me:222/images/172-algPN-268.gif)
+![172-algPN-268.gif](https://a1024.synology.me/images/blog/2023/172-algPN-268.gif)
 
 _导入文件管理器_设置将保存到文本文件中（在设计的工作目录中。`importFileManagerConfiguratoin.txt)`
 
@@ -202,11 +202,11 @@ _导入文件管理器_设置将保存到文本文件中（在设计的工作目
 *   _import\_file\_alarm\_enable_：重新启动PCB编辑器时激活新的导入文件检测过程。
 *   _import\_file\_alarm\_interval_：输入一个以分钟为单位的数值，以定义新文件检测进程之间的时间间隔。（值为 3 表示 3 分钟）
 
-![172-algPN-271.gif](https://a1024.synology.me:222/images/172-algPN-271.gif)
+![172-algPN-271.gif](https://a1024.synology.me/images/blog/2023/172-algPN-271.gif)
 
 必须重新启动PCB编辑器才能应用变量设置。当PCB编辑器重新打开时， Import File Manager会根据指定的时间间隔检查共享目录中是否有新的或更新的文件。如果检测到新的或更新的文件，则会弹出导入文件警报。警报显示新的或更新的文件名以及文件可用的时间和日期。
 
-![172-algPN-272.gif](https://a1024.synology.me:222/images/172-algPN-272.gif)
+![172-algPN-272.gif](https://a1024.synology.me/images/blog/2023/172-algPN-272.gif)
 
 Relative Grid相对格点
 -----------------
@@ -214,25 +214,25 @@ Relative Grid相对格点
 此新功能是新增在Move 指令里，使用Move功能，在Option里做Relative Grid。这功能可以设定X和Y的格点来替代PCB里的格点，这个有助于移动器件时，可以准确的放置到指定位置上。这功能可以运用在Bypass的电容要放置到BGA有电源或接地的Vias里，这里要移动往往需要变更系统的格点才能准确地摆放在正确位置，但如果有Relative Grid功能就能轻松又准确地放零件，当结束Move指令Relative Grid就会回复到原本系统的格点了。  
 Relative Grid的操作：
 
-![172-algPN-273.gif](https://a1024.synology.me:222/images/172-algPN-273.gif)
+![172-algPN-273.gif](https://a1024.synology.me/images/blog/2023/172-algPN-273.gif)
 
 Move指令，然后在Options勾选Relative Grid，然后设定安全间距X和Y，接这在BGA上的Vias运用Snap pick to > Via，把Spacing套到Vias上，(这时会发现Grid已经改变)这样偏移的格点就改变了。
 
-![172-algPN-274.gif](https://a1024.synology.me:222/images/172-algPN-274.gif)
+![172-algPN-274.gif](https://a1024.synology.me/images/blog/2023/172-algPN-274.gif)
 
-![172-algPN-275.gif](https://a1024.synology.me:222/images/172-algPN-275.gif)
+![172-algPN-275.gif](https://a1024.synology.me/images/blog/2023/172-algPN-275.gif)
 
-![172-algPN-276.gif](https://a1024.synology.me:222/images/172-algPN-276.gif)
+![172-algPN-276.gif](https://a1024.synology.me/images/blog/2023/172-algPN-276.gif)
 
 移动器件到指定位置上
 
-![172-algPN-277.gif](https://a1024.synology.me:222/images/172-algPN-277.gif)
+![172-algPN-277.gif](https://a1024.synology.me/images/blog/2023/172-algPN-277.gif)
 
-![172-algPN-278.gif](https://a1024.synology.me:222/images/172-algPN-278.gif)
+![172-algPN-278.gif](https://a1024.synology.me/images/blog/2023/172-algPN-278.gif)
 
 结束move命令，格点恢复原值
 
-![172-algPN-279.gif](https://a1024.synology.me:222/images/172-algPN-279.gif)
+![172-algPN-279.gif](https://a1024.synology.me/images/blog/2023/172-algPN-279.gif)
 
 Multi-Destination Paste多目标粘贴
 ----------------------------
@@ -243,38 +243,38 @@ copy命令尚未修改，只是所选对象现在放置在复制缓冲区中，�
 
 选择Copy命令，并设置复制参考点
 
-![172-algPN-280.gif](https://a1024.synology.me:222/images/172-algPN-280.gif)
+![172-algPN-280.gif](https://a1024.synology.me/images/blog/2023/172-algPN-280.gif)
 
 指定对象类型
 
-![172-algPN-281.gif](https://a1024.synology.me:222/images/172-algPN-281.gif)
+![172-algPN-281.gif](https://a1024.synology.me/images/blog/2023/172-algPN-281.gif)
 
 设置选择方式并选择要复制粘贴的对象
 
-![172-algPN-282.gif](https://a1024.synology.me:222/images/172-algPN-282.gif)
+![172-algPN-282.gif](https://a1024.synology.me/images/blog/2023/172-algPN-282.gif)
 
 可选吸附到指定对象作为参考点
 
-![172-algPN-283.gif](https://a1024.synology.me:222/images/172-algPN-283.gif)
+![172-algPN-283.gif](https://a1024.synology.me/images/blog/2023/172-algPN-283.gif)
 
 此时选择的对象已经被存储到剪切板，直到下次试用复制命令时其一直存在
 
-![172-algPN-284.gif](https://a1024.synology.me:222/images/172-algPN-284.gif)
+![172-algPN-284.gif](https://a1024.synology.me/images/blog/2023/172-algPN-284.gif)
 
 可以选定对象后选择paste命令，重新调用剪切板中的内容
 
-![172-algPN-286.gif](https://a1024.synology.me:222/images/172-algPN-286.gif)
+![172-algPN-286.gif](https://a1024.synology.me/images/blog/2023/172-algPN-286.gif)
 
 Route Clearance View
 --------------------
 
 此功能是在拉线时会快速显示Spacing，这个Spacing是依据Constraints里的设定，这有助于在Routing时我们估计空间的规划，也能快速知道线宽的安全间距。
 
-![172-algPN-295.gif](https://a1024.synology.me:222/images/172-algPN-295.gif)
+![172-algPN-295.gif](https://a1024.synology.me/images/blog/2023/172-algPN-295.gif)
 
 在此版本中，路线间隙视图是不受支持的原型。要启用此功能，请从Setup – User Preferences.设置环境变量_clearance\_view_。
 
-![172-algPN-296.gif](https://a1024.synology.me:222/images/172-algPN-296.gif)
+![172-algPN-296.gif](https://a1024.synology.me/images/blog/2023/172-algPN-296.gif)
 
 Miscellaneous Enhancements in PCB Editor其它增强
 --------------------------------------------

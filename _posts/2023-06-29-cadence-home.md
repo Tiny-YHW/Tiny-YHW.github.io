@@ -30,7 +30,7 @@ $ CDS\_SITE 默认路径为：$ cdsroot/share/local/pcb/skill ，我们也可以
 
 HOME存储所有用户特定的路径和环境信息。从**开始 – >设置 – >控制面板 – >系统 – >高级 – >环境变量，可以查看或编辑此路径**（也可以从我的电脑（此电脑）右键选择属性查找）
 
-![](https://a1024.synology.me:222/images/blog2022/skill13.jpg)
+![](https://a1024.synology.me/images/blog/2023/blog2022/skill13.jpg)
 
 查看或编辑变量名为Home的值，如果没有Home变量可以自己新建一个
 

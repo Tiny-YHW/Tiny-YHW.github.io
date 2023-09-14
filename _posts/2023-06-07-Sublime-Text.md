@@ -133,9 +133,9 @@ E36B85CC 84991F19 7575D828 470A92AB
 
 汉化的话输入上述命令后等待片刻再次输出chinese后选择chineselocalizations等待一段时间，软件将自动切换为中文
 
-![](https://a1024.synology.me:222/images/blog2022/Snipaste_2021-10-29_09-50-28.png)
+![](https://a1024.synology.me/images/blog/2023/blog2022/Snipaste_2021-10-29_09-50-28.png)
 
-![](https://a1024.synology.me:222/images/blog2022/Snipaste_2021-10-29_09-55-34.png)
+![](https://a1024.synology.me/images/blog/2023/blog2022/Snipaste_2021-10-29_09-55-34.png)
 
 ![](https://a1024.synology.me/images/blog/2022/Sublime%20Text4.png)
 
@@ -143,7 +143,7 @@ E36B85CC 84991F19 7575D828 470A92AB
 
 也可ctrl+shift+p,快捷安装：按下Ctrl+Shift+P调出命令面板，输入install 调出 Install Package 选项并回车等待片刻，然后在列表中搜索Cadence Skill选择对应的程序即可。
 
-![](https://a1024.synology.me:222/images/blog2022/Snipaste_2021-10-29_10-02-28.png)
+![](https://a1024.synology.me/images/blog/2023/blog2022/Snipaste_2021-10-29_10-02-28.png)
 
 ![](https://a1024.synology.me/images/blog/2022/Sublime_skill.gif)
 

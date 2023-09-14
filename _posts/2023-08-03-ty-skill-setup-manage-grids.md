@@ -10,7 +10,7 @@ excerpt:
 功能说明
 ----
 
-![Managegrids.png](https://a1024.synology.me:222/images/blog2023/Managegrids.png)
+![Managegrids.png](https://a1024.synology.me/images/blog/2023/blog2023/Managegrids.png)
 
 多功能设定格点工具
 
@@ -26,7 +26,7 @@ Grids On复选框可用于打开或关系格点显示
 
 视频演示抖音扫描下方二维码观看
 
-![Managegrids1.png](https://a1024.synology.me:222/images/blog2023/Managegrids1.png)
+![Managegrids1.png](https://a1024.synology.me/images/blog/2023/blog2023/Managegrids1.png)
 
 按指定值设定格点
 --------
