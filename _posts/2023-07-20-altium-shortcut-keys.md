@@ -30,23 +30,24 @@ tip：细心的同学会发现双击菜单栏空白部分的同时菜单栏会�
 
 ## 通用Altium环境快捷键列表
 
-适用于PCB / PCBLIB / SCH / SCHLIB
+同时适用于PCB / PCBLIB / SCH / SCHLIB
 
 ### 通用Windows应用快捷键
 
-F1：访问当前光标下资源的帮助文档，特别是命令，对话框，面板和对象
-Ctrl + F4：关闭活动文档
-（Shift + ）Ctrl + Tab：循环前进（后退）到下一个打开的选项卡式文档，使其成为设计工作区中的活动文档
-Ctrl + O：“打开”对话框，打开任何现有文档
-Ctrl + S：保存活动文档
-Ctrl + C（或Ctrl + Insert）：复制选择
-Ctrl + X（或Shift + Delete）：剪切选择
-Ctrl + V（或Shift + Insert）：粘贴选择
-Ctrl + Z（或Alt + Backspace）：撤消
-Ctrl + Y（或Ctrl + Backspace）：重做
-Ctrl + A：选择当前文档中的所有对象
-Alt + F4：退出Altium Designer
-Delete：删除选择
+* F1：访问当前光标下资源的帮助文档，特别是命令，对话框，面板和对象
+* Delete：删除选择
+* Ctrl + F4：关闭活动文档
+* Alt + F4：退出Altium Designer
+* Ctrl + O：“打开”对话框，打开任何现有文档
+* Ctrl + S：保存活动文档
+* Ctrl + C（或Ctrl + Insert）：复制选择
+* Ctrl + X（或Shift + Delete）：剪切选择
+* Ctrl + V（或Shift + Insert）：粘贴选择
+* Ctrl + Z（或Alt + Backspace）：撤消
+* Ctrl + Y（或Ctrl + Backspace）：重做
+* Ctrl + A：选择当前文档中的所有对象
+*  （Shift + ）Ctrl + Tab：循环前进（后退）到下一个打开的选项卡式文档，使其成为设计工作区中的活动文档
+
 
 ### 界面控制
 
