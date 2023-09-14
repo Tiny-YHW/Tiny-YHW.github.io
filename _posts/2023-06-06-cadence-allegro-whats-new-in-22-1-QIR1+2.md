@@ -181,14 +181,14 @@ Gerber/Artwork生成更快，对于大型设计尤为明显
 
 借助Allegro® Pulse的全新管理模块化设计功能，您可以在原理图和PCB中同时设计和复用模块，提高效率。
 
-[![algPNHF005-2.gif](https://a1024.synology.me/images/blog/2023/algPNHF005-2.gif)](https://a1024.synology.me:222/image/8af3)
+[![algPNHF005-2.gif](https://a1024.synology.me/images/blog/2023/algPNHF005-2.gif)](https://a1024.synology.me/image/8af3)
 
 可以import and place modules published and shared 设计中的模块。
 
-[![algPNHF005-3.gif](https://a1024.synology.me/images/blog/2023/algPNHF005-3.gif)](https://a1024.synology.me:222/image/8LZm)
+[![algPNHF005-3.gif](https://a1024.synology.me/images/blog/2023/algPNHF005-3.gif)](https://a1024.synology.me/image/8LZm)
 
 您可以更新导入的模块，以反映Allegro System Capture中所做的最新更改。您还可以选择将导入的模块回滚到任何以前的版本。您对放置的模块所做的任何更改都可以提交到Pulse服务器。所有版本控制和共享操作都可以通过直观的脉冲模块管理器执行。
 
-[![algPNHF005-4.gif](https://a1024.synology.me/images/blog/2023/algPNHF005-4.gif)](https://a1024.synology.me:222/image/8rHO)
+[![algPNHF005-4.gif](https://a1024.synology.me/images/blog/2023/algPNHF005-4.gif)](https://a1024.synology.me/image/8rHO)
 
 您必须安装22.1版HotFix 005或更高版本的客户端应用程序Allegro System Capture和Allegro PCB Editor以及服务器应用程序Allegro Pulse，才能使用托管模块。

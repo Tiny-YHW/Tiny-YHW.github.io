@@ -61,7 +61,7 @@ Find中选择Groups，层开关打开Plan/All层（默认生成到此层），�
 *   Edit Bundle：把Bundle之外的飞线或Bundle加入进来。
 *   Delete Bundle：删除Bundle，变回飞线的方式。
 
-![](http://a1024.synology.me:222/images/blog2022/%E7%BC%96%E8%BE%91boun.gif)
+![](https://a1024.synology.me/images/blog/2022/%E7%BC%96%E8%BE%91boun.gif)
 
 **Flow的规划**
 -----------

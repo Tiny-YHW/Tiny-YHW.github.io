@@ -364,26 +364,26 @@ QIR 6 (HotFix27)中在标注尺寸时运行使用*Mirror Text*命令标注镜像
 在执行“Manufacture-Dimension Environment”命令，进行线性标注（Linear Dimension）时，
 Option 控制面板有如下改进：
 
-[![Snipaste_2023-06-13_15-45-08.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-08.jpg)](https://a1024.synology.me:222/image/0tmR)
+[![Snipaste_2023-06-13_15-45-08.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-08.jpg)]
 
 Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输入“XYZ”，则尺寸标注的结果只显示XYZ.
 
-[![Snipaste_2023-06-13_15-45-13.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-13.jpg)](https://a1024.synology.me:222/image/05B5)
+[![Snipaste_2023-06-13_15-45-13.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-13.jpg)]
 
 为配合尺寸标注，Text 栏中支持以下格式的输入：
 %v：标注结果为实际尺寸；
 
-[![Snipaste_2023-06-13_15-45-19.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-19.jpg)](https://a1024.synology.me:222/image/036P)
+[![Snipaste_2023-06-13_15-45-19.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-19.jpg)]
 
 %u：标注结果为单位；
 
-[![Snipaste_2023-06-13_15-45-27.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-27.jpg)](https://a1024.synology.me:222/image/0kVK)
+[![Snipaste_2023-06-13_15-45-27.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-27.jpg)]
 
 例如：
 
-[![Snipaste_2023-06-13_15-45-39.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-39.jpg)](https://a1024.synology.me:222/image/0WPa)
+[![Snipaste_2023-06-13_15-45-39.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-39.jpg)]
 
-[![dim.png](https://a1024.synology.me/images/blog/2023/dim.png)](https://a1024.synology.me:222/image/0EkS)
+[![dim.png](https://a1024.synology.me/images/blog/2023/dim.png)]
 
 ## New Reports 新报告
 
