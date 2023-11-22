@@ -23,7 +23,7 @@ SPB22.1/Allegro Package Designer Plus/Allegro Layout Eidtors:Whats New in Releas
 * * *
 
 
-![Cadence-Alegro-2022.png](https://a1024.synology.me/images/blog/2023/blog2023/Cadence-Alegro-2022.png)
+![Cadence-Alegro-2022.png](https://a1024.synology.me/images/blog/2023/Cadence-Alegro-2022.png)
 
 ---
 # QIR 1 (HotFix 001)（12-16-2022）
