@@ -14,7 +14,7 @@ date: 2023-11-23
 
 17.4可以从User Preferences中设置Database_compatibility_mode改为17.2兼容，不过此功能也仅是支持可用17.2浏览，如果17.4中的设计使用的Footprint是17.4环境的产物，则它仍然是17.4的。不能通过下述17.2 to 16.6向下降版本
 
-172.中执行菜单File > Export > Downrev design可以将设计另存为17.2版本
+17.4中执行菜单File > Export > Downrev design可以将设计另存为17.2版本
 
 ## 17.2 to 16.6
 

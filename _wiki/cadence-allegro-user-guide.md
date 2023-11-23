@@ -51,5 +51,6 @@ keywords:
 - [Allegro Flow Planning将设计意图表达在设计中](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-flow-planning/){:target="_blank"}
 - [Allegro (AIBT)Auto Interactive Break Out Technology自动交互布线技术](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-aibt/){:target="_blank"}
 - [Allegro Shape Edit Application Mode Shape（铜皮）编辑模式](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-shape-edit-application-mode/){:target="_blank"}
+- [Allegro 版本查看和降版本](https://tiny-yhw.github.io//allegro-downrev){:target="_blank"}
 
 * * *
