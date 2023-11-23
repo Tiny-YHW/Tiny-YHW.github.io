@@ -3,7 +3,7 @@ layout: post
 title: Allegro 版本查看和降版本
 categories: Allegro
 permalink: allegro-downrev
-date: 2023-06-15
+date: 2023-11-23
 ---
 
 ## 22.X to 17.4
