@@ -14,10 +14,11 @@ keywords:
 
 ## 进阶知识
 
+* [Allegro Device Files 应用 Swap Function调管脚](https://tiny-yhw.github.io//allegro-device-file-swap-function){:target="_blank"}
+
 ## Drafting and Dimensioning 绘图和标注
 
 - [Allegro Drafting 新的绘图能力](https://tiny-yhw.github.io//2023/06/13/cadence-allegro-drafting/){:target="_blank"}
-
 
 
 ## Toolbox 效率工具

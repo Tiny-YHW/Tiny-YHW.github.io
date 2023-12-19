@@ -6,7 +6,7 @@ permalink: allegro-device-file-swap-function
 date: 2023-12-19
 ---
 
-<!-- wp:heading -->## 文件介绍
+## 文件介绍
 
 Device files是ASCII文本文件，可提供唯一的components逻辑信息，在设计database创建期间，将Device files链接到相关的package symbols以获得这些独特components的完整描述。
 
