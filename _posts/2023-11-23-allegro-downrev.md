@@ -3,10 +3,14 @@ layout: post
 title: Allegro 版本查看和降版本
 categories: Allegro
 permalink: allegro-downrev
-date: 2023-11-23
+date: 2023-12-19
 ---
 
-## 22.X to 17.4
+## 23.1 to 22.1
+
+执行菜单File > Export > Downrev design可以将设计另存为17.4版本
+
+## 22.1 to 17.4
 
 除了22.X有新增的东西外，其它可完全兼容，无需任何版本也可相互切换
 
