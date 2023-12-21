@@ -6,8 +6,7 @@ permalink: allegro-device-file-swap-function
 date: 2023-12-19
 ---
 
-[公众号同文内容](https://mp.weixin.qq.com/s?__biz=MzI2NDQxMjg4NA==&mid=2247484758&idx=1&sn=ace218aeea3f3e36cad6df4f73f5b521&chksm=eaac4eeddddbc7fb33ea541718e08bbe3be34df64b9928188442ef960e8efaaea44a3e55fff2&token=176399828&lang=zh_CN#rd
-){:target="_blank"}
+公众号聊天发送“allegro-device-file”或“231219”从公众号阅读此文，包含所有图文内容
 
 ## 文件介绍
 
