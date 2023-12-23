@@ -15,3 +15,10 @@ Frequently asked question
 ## 其他
 
 * [Allegro文件不能打开或打开为空白的问题及解决方案](https://tiny-yhw.github.io//allegro-cant-open){:target="_blank"}
+
+
+## 疑难杂症
+
+### 出光绘数据Artwork
+
+* [Allegro 出光绘报错 Undefined aperture symbol 解决方案](https://tiny-yhw.github.io//allegro-artwork-undefined-aperture-symbol){:target="_blank"}
