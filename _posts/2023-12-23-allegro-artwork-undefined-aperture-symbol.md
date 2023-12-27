@@ -6,7 +6,7 @@ permalink: allegro-artwork-undefined-aperture-symbol
 date: 2023-12-23
 ---
 
-公众号聊天发送“allegro-artwork-undefined-aperture-symbol”或“231223”从公众号阅读此文，包含所有图文内容
+公众号聊天发送“undefined-aperture-symbol”或“231223”从公众号阅读此文，包含所有图文内容
 
 首先说明这个问题是由于创建或编辑焊盘时写了软件识别不到的数据，如果创建焊盘规范是不会有这个问题的
 
