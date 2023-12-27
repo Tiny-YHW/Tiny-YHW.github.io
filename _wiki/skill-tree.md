@@ -9,20 +9,18 @@ keywords: 技能树, 思维导图, mindmap, 脑图
 
 ```mindmap
 # 技能树
-## Java 后端开发
-## Android 开发
-## Windows 开发
-## 通用技能
-### 操作系统
-#### Windows
-#### Linux
-#### macOS
-### 编辑器
-#### Vim
-#### Visual Studio Code
-### 标记语言
-#### Markdown
-### 版本控制
-#### Git
-#### SVN
+## 封装库
+### PCB Library设计及软件应用
+### 中心库管理
+## PCB设计
+### Cadence Allegro PCB设计及软件应用
+### Altium PCB设计及软件应用
+## DFM
+### Valor NPI 对PCB进行DFM检查的相关应用
+## 二次开发
+### Allegro Skill的编写和应用
+
+
+
+
 ```

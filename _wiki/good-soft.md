@@ -42,6 +42,8 @@ keywords: 软件, 推荐
 
 ### [文件查找 Everything](https://www.voidtools.com/zh-cn/){:target="_blank"}
 
+### [KBLAutoSwitch 懂你所想 输入法自动切换](https://tiny-yhw.github.io//kblautoswitch){:target="_blank"}
+
 ### 文本内容查找 AnyTXT Searcher
 
 
