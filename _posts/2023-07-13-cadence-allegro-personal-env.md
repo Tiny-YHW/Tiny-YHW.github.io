@@ -4,7 +4,7 @@ title: 自用env文件定义内容
 categories: Allegro
 permalink: cadence-allegro-personal-env
 excerpt:
-date: 2023-07-13
+date: 2023-12-29
 ---
 
 我自用的ENV配置，可做参考
@@ -65,7 +65,7 @@ funckey ps add text
 funckey pf shape add rect
 funckey dk xsection
 funckey di netin
-funckey dp dlib
+funckey dp "dlib;setwindow form.dlib;FORM dlib destination lib;fillin yes;FORM dlib execute;FORM dlib cancel"
 funckey vf zoom fit
 funckey nha unrats all
 funckey nsa rats all
@@ -120,6 +120,8 @@ funckey - subclass --
 alias mb replay ~\pcbenv\scr\moban
 funckey ~0 replay ~\pcbenv\scr\dynfulltype
 # funckey 和 alias 的区别 只可意会
+
+alias SF8 replay C:\MentorGraphics\EEVX.2.8\SDD_HOME\Valor_NPI\share\dofiles\cadence.DESKTOP-1OQBRGE
 
 #Shape全命令
 alias SUp shape add
