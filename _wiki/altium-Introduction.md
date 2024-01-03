@@ -68,7 +68,11 @@ Altium Designer 10软件下载地址：
 
 ## 安装教程
 
-见[抖音视频](https://v.douyin.com/FvaS9T2/)
+安装见[抖音视频](https://v.douyin.com/FvaS9T2/)前面部分
+
+新板Altium破解
+
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7319411155972457001?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
 
 ## Altium 365
 
