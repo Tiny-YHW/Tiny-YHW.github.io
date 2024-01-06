@@ -11,7 +11,7 @@ excerpt: 为通孔pin增加禁布
 
 筛选指定类型的通孔pin，对其添加指定尺寸的禁布层
 
-![Snipaste_2023-08-03_11-00-247d53e277736c2ca4.png](https://a1024.synology.me/images/blog/2023/Snipaste_2023-08-03_11-00-247d53e277736c2ca4.png)
+![Snipaste_2023-08-03_11-00-247d53e277736c2ca4.png](https://tiny-yhw.github.io//images/TY-skill/Snipaste_2023-08-03_11-00-247d53e277736c2ca4.png)
 
 ## 功能视频演示
 

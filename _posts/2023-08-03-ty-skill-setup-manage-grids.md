@@ -10,7 +10,7 @@ excerpt:
 功能说明
 ----
 
-![Managegrids.png](https://a1024.synology.me/images/blog/2023/Managegrids.png)
+![Managegrids.png](https://tiny-yhw.github.io//images/TY-skill/Managegrids.png)
 
 多功能设定格点工具
 
@@ -26,7 +26,7 @@ Grids On复选框可用于打开或关系格点显示
 
 视频演示抖音扫描下方二维码观看
 
-![Managegrids1.png](https://a1024.synology.me/images/blog/2023/Managegrids1.png)
+![Managegrids1.png](https://tiny-yhw.github.io//images/TY-skill/Managegrids1.png)
 
 按指定值设定格点
 --------
@@ -107,7 +107,7 @@ Command > g 30mil 1.5mm
 
 **指定格点值**：直接在命令栏输入“g 20”回车确认即格点设置为20
 
-![](https://a1024.synology.me/images/blog/2022/ggrid.gif)
+![](https://tiny-yhw.github.io//images/TY-skill/ggrid.gif)
 
 程序代码
 ----

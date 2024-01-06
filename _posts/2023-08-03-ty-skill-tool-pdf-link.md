@@ -7,7 +7,7 @@ permalink: ty-skill-tool-pdf-link
 excerpt: 
 ---
 
-![](https://a1024.synology.me/images/blog/2023/PDFlink.jpg)
+![](https://tiny-yhw.github.io//images/TY-skill/PDFlink.jpg)
 
 Dome演示如下
 --------

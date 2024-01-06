@@ -9,7 +9,7 @@ excerpt:
 功能说明
 ----
 
-![skillfinaloutput.jpg](https://a1024.synology.me/images/blog/2023/skillfinaloutput.jpg)
+![skillfinaloutput.jpg](https://tiny-yhw.github.io//images/TY-skill/skillfinaloutput.jpg)
 
 用于设计完成后输出最终生产数据
 

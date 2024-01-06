@@ -11,7 +11,7 @@ excerpt:
 
 为包含指定文本的网络增加颜色功能，可用于为不用电压值的网络赋予不同的颜色，或包含指定文本的网络名赋予颜色
 
-![Snipaste_2023-08-03_14-42-30.png](https://a1024.synology.me/images/blog/2023/Snipaste_2023-08-03_14-42-30.png)
+![Snipaste_2023-08-03_14-42-30.png](https://tiny-yhw.github.io//images/TY-skill/Snipaste_2023-08-03_14-42-30.png)
 
 ## 功能视频演示
 
@@ -44,7 +44,7 @@ Form右下主区域为主要控制区域
 
 功能与下图选项相同,用于开启或关闭(切换)用户通过assign color或hilight命令定义的颜色
 
-![Snipaste_2023-08-03_10-12-19.png](https://a1024.synology.me/images/blog/2023/Snipaste_2023-08-03_10-12-19.png)
+![Snipaste_2023-08-03_10-12-19.png](https://tiny-yhw.github.io//images/TY-skill/Snipaste_2023-08-03_10-12-19.png)
 
 ### 可选项 Zoom
 
@@ -94,6 +94,6 @@ Form右下主区域为主要控制区域
 
 ### 如何查看指定颜色的RGB值
 
-![Snipaste_2023-08-03_15-41-48.png](https://a1024.synology.me/images/blog/2023/Snipaste_2023-08-03_15-41-48.png)
+![Snipaste_2023-08-03_15-41-48.png](https://tiny-yhw.github.io//images/TY-skill/Snipaste_2023-08-03_15-41-48.png)
 
 从Allegro的颜色面板点击Customize按钮从基本颜色或颜色面板选择你需要查询的颜色，右下红绿蓝三个值基本对应颜色的RGB值

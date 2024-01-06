@@ -7,7 +7,7 @@ permalink: ty-skill-display-custom-colors-enable
 excerpt: 
 ---
 
-![Custom-Colors-Enable.png](https://a1024.synology.me/images/blog/2023/Custom-Colors-Enable.png)
+![Custom-Colors-Enable.png](https://tiny-yhw.github.io//images/TY-skill/Custom-Colors-Enable.png)
 
 ## 功能说明
 
