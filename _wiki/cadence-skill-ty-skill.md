@@ -24,6 +24,8 @@ keywords:
 
 ## Calculation
 
+https://tiny-yhw.github.io//images/TY-skill/Calculation.png
+
 ![](https://a1024.synology.me/images/blog/2023/Calculation.png)
 
 mil和mm的单位互转和常规数值运算，支持加减乘除和()。

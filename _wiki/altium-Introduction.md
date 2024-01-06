@@ -68,11 +68,23 @@ Altium Designer 10软件下载地址：
 
 ## 安装教程
 
-安装见[抖音视频](https://v.douyin.com/FvaS9T2/)前面部分
+### 下载
 
-新板Altium破解
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7320070472115651122?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
+
+### 安装
+
+<iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7320071239572455962?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
+
+### 新板Altium破解
 
 <iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7319411155972457001?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
+
+## 自整理说明
+
+* [Altium PCB - What’s New](https://tiny-yhw.github.io//wiki/altium-whats-new/){:target="_blank"}
+* [Altium PCB - User Guide](https://tiny-yhw.github.io//wiki/altium-user-guide/){:target="_blank"}
+* [Altium PCB - 常见问题FAQ](https://tiny-yhw.github.io//wiki/altium-faq/){:target="_blank"}
 
 ## Altium 365
 
