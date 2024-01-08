@@ -9,6 +9,8 @@ keywords:
 
 部分已经整理的功能将在后面的分链接中进行说明
 
+所有skill程序都建议在无中文目录的文件夹下使用,如果程序没按预期执行,可以先看一下是否是中文路径问题导致的。
+
 常用辅助功能
 ------
 
@@ -149,9 +151,10 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 设计时需要添加图形或中文字符时使用
 
-### [Chinese Text](https://a1024.synology.me:1024/?p=2784)
+### Chinese Text
 
 直接在板中增加中文文字功能
+可跳转至[抖音视频链接](https://v.douyin.com/YyTtmHr/){:target="_blank"}查看 https://v.douyin.com/YyTtmHr/
 
 ### Refdes Silk
 
