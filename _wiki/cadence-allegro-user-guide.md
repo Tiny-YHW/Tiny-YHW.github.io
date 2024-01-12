@@ -26,6 +26,7 @@ keywords:
 - [Advanced Mirror 高级镜像](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-advanced-mirror/){:target="_blank"}
 - [Label Tune 位号自适应大小并居中](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-label-tune/){:target="_blank"}
 - [Padstack Finder 查找查看板中的过孔Via或焊盘Padstack](https://tiny-yhw.github.io//2023/06/15/cadence-allegro-padstack-finder/){:target="_blank"}
+- [Allegro 输出两个brd文件网表差异报告（调管脚swap pin报告）](https://tiny-yhw.github.io//allegro-design-compare-net){:target="_blank"}
 
 ## High Speed 高速
 
