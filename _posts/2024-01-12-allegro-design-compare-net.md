@@ -6,7 +6,9 @@ permalink: allegro-design-compare-net
 date: 2024-01-12
 ---
 
-本文章介绍不用输出文件直接比对两个brd文件即可声场网表差异报告的方法，非常适用于在发生调管脚swap pin后，生成网表比对文件供原理图设计方参照调整
+公众号聊天发送“allegro-design-compare-net”或“240112”从公众号阅读此文，包含所有图文内容
+
+本文章介绍不用输出文件直接比对两个brd文件即可生成网表差异报告的方法，非常适用于在发生调管脚swap pin后，生成网表比对文件供原理图设计方参照调整
 
 使用此功能需要Allegro17.2及以上版本，且启用了Allegro Productivity Toolbox选项
 
@@ -40,4 +42,6 @@ date: 2024-01-12
 * 表头中的Design V1对应③First文档即本案例的newnetlist.brd的网表信息
 * 表头中的Design V2对应④Second文档即本案例的oldnetlist.brd的网表信息
 
-我已将design_compare.html报告的说明做了一个截图，可以将截图文件（保存下面图片或者从附件下载）和报告文件一起发送给原理图设计方即可
+我已将design_compare.html报告的说明做了一个截图，可以将截图文件（保存下面图片）和报告文件一起发送给原理图设计方即可
+
+![/](https://a1024.synology.me/images/blog/2024/compare.png)
