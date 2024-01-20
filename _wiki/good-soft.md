@@ -29,6 +29,7 @@ keywords: 软件, 推荐
 ## 网络浏览器 Google浏览器
 
 ## [截图 Snipaste](https://www.snipaste.com/){:target="_blank"}
+## [截图 PixPin](https://pixpinapp.com/){:target="_blank"}
 
 
 ## 文本编辑
