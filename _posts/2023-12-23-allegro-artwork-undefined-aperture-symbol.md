@@ -15,7 +15,7 @@ date: 2023-12-23
 本文提供当出光绘数据时报类似如下错误的解决方案
 
 ```
-<pre class="wp-block-preformatted">ERROR: aborting film - Undefined aperture symbol, cannot continue.
+ERROR: aborting film - Undefined aperture symbol, cannot continue.
 See APERTURES USED table in this file for symbols to provide.
 Error in L2_GND--halting output.  Artwork file not generated.
 *** ERROR with L2_GND 
