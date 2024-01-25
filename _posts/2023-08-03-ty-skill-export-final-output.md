@@ -16,7 +16,7 @@ excerpt:
 ## 操作说明
 
 1.  使用菜单或者命令启动
-2.  左上几个按钮用于输出最终生产数据前的确认项（如已确认完成可直接跳过）
+2.  上几个按钮用于输出最终生产数据前的确认项（如已确认完成可直接跳过）
     *   DB Check：运行Database Check命令
     *   Status：打开设计状态面板，确认设计完成情况
     *   Drill\_table和Drill\_legend：用于更新钻孔图形及钻孔表
@@ -30,53 +30,71 @@ excerpt:
 
 对ArtWork设置进行检查
 
-层数量检查，本章节下文所有层如果没有被找到也会提示内容XXX layer is not standard or found
+### 光绘层缺失检查
 
-### 信号层设置检查
+如果有光绘叠层没做如顶层丝印层或L3层这种会提示内容 XXX layer not found maybe named incorrectly
+对于信号层要求层叠名称和信号层名称一致，如果不一致也会认定为未找到
 
-Artwork层叠名称是否与设计数据一致，如果不一致做提示，提示内容为 XXX layer is not standard or found
+### 正负片层设置检查
 
 Artwork中正负片设置是否与设计一致，如果不一致做提示，提示内容为 XXX layer plot mode setting is incorrect
 
-每个层中包含的Layer是否正确，应该必须包含对应层的PIN、VIA、ETCH，如果不一致做提示，提示内容为 XXX layer incorrect gerber setup
+### 信号层叠层内容检查
+
+检查每个信号层中包含的Layer是否正确
+
+* 信号层应该必须包含对应层的PIN、VIA、ETCH
+* 信号层可以包含"BOARD GEOMETRY/OUTLINE","BOARD GEOMETRY/DESIGN_OUTLINE","BOARD GEOMETRY/CUTOUT"
+* 如果不一致做提示，提示内容为 XXX layer incorrect gerber setup
+* 同时查看command会报告哪些层有缺失或多于的内容
+    - XXX layer maybe has Missing XXX layers
+    - XXX layer maybe has extra  XXX layers
 
 ### 丝印层检查
 
-顶层光绘层叠名称必须包含("SA" "SILKT" "SILK\_T")中的任意一段字符才能被识别到，否则报缺失层XXX layer is not standard or found
+顶层光绘层叠名称必须包含("SA" "SILKT" "SILK_T"  "SILK-T")中的任意一段字符才能被识别到，否则认定为光绘层缺失
 
-顶层光绘层叠必须包含("REF DES/SILKSCREEN\_TOP" "PACKAGE GEOMETRY/SILKSCREEN\_TOP" "BOARD GEOMETRY/SILKSCREEN\_TOP")几个层（可以更多但不能少），否则提示内容XXX layer is not standard or found
+顶层光绘层叠必须包含("REF DES/SILKSCREEN_TOP" "PACKAGE GEOMETRY/SILKSCREEN_TOP" "BOARD GEOMETRY/SILKSCREEN_TOP")几个层（可以更多但不能少），否则提示内容XXX layer incorrect gerber setup.
 
-底层光绘层叠名称必须包含("SB" "SILKB" "SILK\_B")中的任意一段字符才能被识别到，否则报缺失层XXX layer is not standard or found
+同时查看command会报告哪些层有缺失或多于的内容
 
-底层光绘层叠必须包含("REF DES/SILKSCREEN\_BOTTOM" "PACKAGE GEOMETRY/SILKSCREEN\_BOTTOM" "BOARD GEOMETRY/SILKSCREEN\_BOTTOM")几个层（可以更多但不能少），否则提示内容XXX layer is not standard or found
+BOT层同理层叠名称识别("SB" "SILKB" "SILK_B"  "SILK-B")
 
-Artwork中正负片设置若为负片时，提示内容为 XXX layer plot mode setting is incorrect
+BOT层同理必须包含的层有("REF DES/SILKSCREEN_BOTTOM" "PACKAGE GEOMETRY/SILKSCREEN_BOTTOM" "BOARD GEOMETRY/SILKSCREEN_BOTTOM")
+
 
 ### 阻焊层检查
 
 逻辑与丝印层一致，下文进行简写
 
-层叠名称识别("RA" "SOLDT" "SOLD\_T" "SOLDERT" "SOLDER\_T")、("RB" "SOLDERB" "SOLDER\_B")
+层叠名称识别
 
-必须包含的层有("PIN/SOLDERMASK" "PACKAGE GEOMETRY/SOLDERMASK" "BOARD GEOMETRY/SOLDERMASK")
+* TOP：("RA" "SOLDT" "SOLD_T" "SOLDERT" "SOLDER_T" "SOLD-T" "SOLDER-T")
+* BOT：("RB" "SOLDB" "SOLD_B" "SOLDERB" "SOLDER_B"  "SOLD-B" "SOLDER-B")
 
-Artwork中正负片设置若为负片时，提示内容为 XXX layer plot mode setting is incorrect
+必须包含的层
+
+* ("PIN/SOLDERMASK" "PACKAGE GEOMETRY/SOLDERMASK" "BOARD GEOMETRY/SOLDERMASK")
+
 
 ### 铅锡层检查
 
-层叠名称识别("PA" "PASTET" "PASTE\_T" "PASTT" "PAST_T")、("PB" "PASTEB" "PASTE\_B" "PASTB" "PAST_B")
+层叠名称识别
 
-必须包含的层有("PIN/PASTEMASK" "PACKAGE GEOMETRY/PASTEMASK")
+* TOP：("PA" "PASTET" "PASTE_T" "PASTT" "PAST_T" "PASTE-T" "PAST-T")
+* BOT：("PB" "PASTEB" "PASTE_B" "PASTB" "PAST_B" "PASTE-B" "PAST-B")
 
-Artwork中正负片设置若为负片时，提示内容为 XXX layer plot mode setting is incorrect
+必须包含的层
+
+* ("PIN/PASTEMASK" "PACKAGE GEOMETRY/PASTEMASK")
+
 
 ### 钻孔层检查
 
 层叠名称识别("DRILL" "NC")
 
-必须包含的层有("MANUFACTURING/NCLEGEND-1-层数")
+必须包含的层("MANUFACTURING/NCLEGEND-1-层数")
 
-Artwork中正负片设置若为负片时，提示内容为 XXX layer plot mode setting is incorrect
 
 Gerber 光绘输出
 -----------
