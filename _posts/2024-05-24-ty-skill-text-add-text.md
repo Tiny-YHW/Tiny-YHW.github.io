@@ -7,7 +7,7 @@ permalink: ty-skill-text-add-text
 excerpt: 
 ---
 
-![](https://tiny-yhw.github.io//images/TY-skill/image-49.png)
+![](https://tiny-yhw.github.io//images/TY-skill/image-50.png)
 
 ## 功能说明
 本程序一般用于为指定引脚添加引脚号、网络名、器件位号标识

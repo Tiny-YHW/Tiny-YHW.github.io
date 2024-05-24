@@ -220,6 +220,17 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 根据板中已创建的Class、Bus或Net Group，批量创建Pinpair并生成Matchgroup
 
+### [Power and Unimpedance Nets]
+
+电源和非阻抗网络分析
+
+本程序仅作辅助查看电源线和非阻抗线（常规建议加粗的），不代表本程序能查找到所有这类信号，也不代表程序给出的信号一定是这类信号，只是大概率事件
+
+在设计开始时可以使用此程序创建电源分组
+
+在设计完成时可以使用此程序依次查看检阅电源信号
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-setup-power){:target="_blank"}
 
 ### Manage Grids
 
@@ -444,6 +455,14 @@ PCB中所有Pad参数合理性检查
 1.  重置设置Text字号1-20号的各个参数，字号大小渐进
 2.  将所有Pin\_number放置到其对应焊盘原点处，角度调整为0
 3.  几个常用层Text的字号调整
+
+### Add Text By Select
+
+根据选择对象增加字符
+
+本程序一般用于为指定引脚添加引脚号、网络名、器件位号标识
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-text-add-text){:target="_blank"}
 
 ### Move Ref To Body Center
 
