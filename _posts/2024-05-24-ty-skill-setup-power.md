@@ -1,6 +1,6 @@
 ---
 layout: post
-title: TY-Skill Tool->PDF Link Allegro与PDF格式原理图交互
+title: TY-Skill Setup->Power and Unimpedance Nets电源和非阻抗网络分析
 categories: TY-Skill
 date: 2024-05-24
 permalink: ty-skill-setup-power
