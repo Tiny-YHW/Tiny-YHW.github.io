@@ -8,10 +8,6 @@ keywords:
 
 * * *
 
-## 基础知识
-
-* [Cadence（Allegro）的环境变量-Home](https://tiny-yhw.github.io//cadence-home){:target="_blank"}
-
 ## 进阶知识
 
 * [Allegro Device Files 应用 Swap Function调管脚](https://tiny-yhw.github.io//allegro-device-file-swap-function){:target="_blank"}
