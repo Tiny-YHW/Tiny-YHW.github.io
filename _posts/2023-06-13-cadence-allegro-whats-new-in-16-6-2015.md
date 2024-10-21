@@ -54,18 +54,18 @@ QIR 2（HotFix6）引入，将等长组的线长关系，以可视化的颜色�
 ### Offset Routing
 允许用户在布线过程中采用非标准角度如15度进行布线，以使在玻璃纤维介质中走线时最大程度的降低阻抗的不连续性。
 在使用Route-Connect命令布线时从Option面板勾选Route offset启用此功能
-![route_offset.png](https://a1024.synology.me/images/blog/2023/route_offset.png)
+![route_offset.png](https://tiny-y.asia/images/blog/2023/route_offset.png)
 
 ### Fiber Weave Effect - Zig-Zag Routing 锯齿形布线
 
 (HotFix51)新增功能
 可将平行布线转换为锯齿形（斜角）路线。通过此种布线方式，可以最大程度地减少PCB玻璃纤维编织对高速信号路由的影响。此功能同时可用于差分对和单端网络。可以指定所需的曲折角度和最大线段长度，以及用于转换完整线段或定义起点和终点的选项。
 
-![](https://a1024.synology.me/images/blog/2022/highspped2.png)
+![](https://tiny-y.asia/images/blog/2022/highspped2.png)
 
 使用方法：见动图
 
-![](https://a1024.synology.me/images/blog/2022/highspeed3.gif)
+![](https://tiny-y.asia/images/blog/2022/highspeed3.gif)
 
 
 ### Differential Pair Return Path Vias 差分回流过孔
@@ -76,7 +76,7 @@ QIR 2（HotFix6）引入，将等长组的线长关系，以可视化的颜色�
 
 使用方法：在Add connect命令时右键选择菜单Return Path Vias (Prototype)选择Setup设置回流过孔的参数包括，Setup标签页的过孔选择、网络选择和Spacing标签页的对应回流过孔类型的间距位置等参数，应用后再打孔时回流过孔会同时生成
 
-![](https://a1024.synology.me/images/blog/2022/highspped1.png)
+![](https://tiny-y.asia/images/blog/2022/highspped1.png)
 
 
 ### Remove Tuning移除等长绕线
@@ -89,7 +89,7 @@ QIR 2（HotFix6）引入，将等长组的线长关系，以可视化的颜色�
 该命令用于批量切换（改变）走线拐角的角度（Arc、45、90）。其操作对象可以为Nets、Clines和Cline Segments
 菜单：Route->Unsurpported Prototypes->Auto-interactive Convert Corner
 
-![](https://a1024.synology.me/images/blog/2022/Aicc.gif)
+![](https://tiny-y.asia/images/blog/2022/Aicc.gif)
 
 
 ## Route Interconnect 布线交互
@@ -108,17 +108,17 @@ QIR 7 (HotFix32)更新允许在使用Slide命令时改变拐点的角度
 
 此选项默认在Slide命令中不可见，可以通过*Design Parameter Editor*对话框中*Route*标签页勾选使其可用
 
-![new_seg_angle.png](https://a1024.synology.me/images/blog/2023/new_seg_angle.png)
+![new_seg_angle.png](https://tiny-y.asia/images/blog/2023/new_seg_angle.png)
 
 下图是使用此功能的一个案例
 
-![new_seg_angle1.png](https://a1024.synology.me/images/blog/2023/new_seg_angle1.png)
+![new_seg_angle1.png](https://tiny-y.asia/images/blog/2023/new_seg_angle1.png)
 
 ### Smart Layer Behavior for Add Connect 布线智能图层选择
 
 当使用Route-Connect命令布线时，Option 控制面板中的布线起始层会自动匹配Visibility控制面板中的唯一的可见层。
 
-![smart_layer.png](https://a1024.synology.me/images/blog/2023/smart_layer.png)
+![smart_layer.png](https://tiny-y.asia/images/blog/2023/smart_layer.png)
 
 ### Disable Open Space Routing
 
@@ -128,7 +128,7 @@ QIR 7 (HotFix32)更新允许在使用Slide命令时改变拐点的角度
 
 当使用Route-Connect命令布线时，线宽默认使用之前用户指定的线宽，并在Option中使用蓝色的线宽值显示，如需使用规则中指定的值，在此处切换为Constraint回复规则中指定的线宽值
 
-![line_width_retention.png](https://a1024.synology.me/images/blog/2023/line_width_retention.png)
+![line_width_retention.png](https://tiny-y.asia/images/blog/2023/line_width_retention.png)
 
 QIR 3(HotFix13) 更新增加一个新的环境变量*acon_no_width_override_retain*，允许启用或关闭此功能
 
@@ -146,7 +146,7 @@ QIR 3(HotFix13)引入，而后进行多次更新
 
 个人感觉有点鸡肋，没什么用途，在Add connect命令时通过右键菜单选择Scribble Mode激活此布线模式
 
-![](https://a1024.synology.me/images/blog/2022/scribble_mode_routing.png)
+![](https://tiny-y.asia/images/blog/2022/scribble_mode_routing.png)
 
 ### Contour Routing 按轮廓布线
 
@@ -156,7 +156,7 @@ QIR 3(HotFix13)引入，而后进行多次更新
 
 在Add connect命令时右键选择Contour，调整依附轮廓和间距参数，顺着轮廓描摹即可
 
-![](https://a1024.synology.me/images/blog/2022/highspped5.png)
+![](https://tiny-y.asia/images/blog/2022/highspped5.png)
 
 
 ## ToolBox
@@ -236,20 +236,20 @@ Padstack Finder使用户可以搜索设计中的各个Padstack进行查看。
 
 在“Shape-Global Dynamic Parameters”中，新增命令“Force Update”，用于对Shape 进行强制更新操作。
 
-![shape_update.png](https://a1024.synology.me/images/blog/2023/shape_update.png)
+![shape_update.png](https://tiny-y.asia/images/blog/2023/shape_update.png)
 
 ### Parameterized Cornering for Rectangular Shapes 倒角矩形
 
 16.6 版本在执行“Shape-Rectangular”命令时，可以在Option 控制面板中设置自动将矩形的四个角进行倒角（chamfer）或圆弧角（Round）操作。
 
-![rectangle.png](https://a1024.synology.me/images/blog/2023/rectangle.png)
+![rectangle.png](https://tiny-y.asia/images/blog/2023/rectangle.png)
 
 ### Shape Expansion/Contraction Shape的外扩和內缩
 
 在General Edit 模式下，鼠标放在Shape 上，右键下拉菜单中新增“Expand/Contract”命令，用于改变Shape 的大小。
 QIR2（Hotfix6）中更新对Void的支持，如果Shape内部存在手动的Void则其也将一同被外扩或內缩
 
-![shape_1.png](https://a1024.synology.me/images/blog/2023/shape_1.png)
+![shape_1.png](https://tiny-y.asia/images/blog/2023/shape_1.png)
 
 ### Net assignment to multiple shapes
 
@@ -259,7 +259,7 @@ QIR2（Hotfix6）中*General Edit or Etch Edit*模式时支持对多个shapes一
 
 QIR 5（HotFix22)中新增VOID_SAME_NET属性对同网络shape的支持，相同网络shape有重叠时若包含VOID_SAME_NET则两个Shape会相互避让
 
-![dynamic_shape.png](https://a1024.synology.me/images/blog/2023/dynamic_shape.png)
+![dynamic_shape.png](https://tiny-y.asia/images/blog/2023/dynamic_shape.png)
 
 ### Unassigned Shapes Update
 
@@ -268,7 +268,7 @@ QIR 5（HotFix22)中新增VOID_SAME_NET属性对同网络shape的支持，相同
 ### Lower Shape Priority  降低的形状优先级
 （HotFix51）当铜皮存在交叉时选择指定铜皮右键选择提高或降低优先级来调整交叉部分的覆盖关系
 
-![image063.png](https://a1024.synology.me/images/blog/2023/image063.png)
+![image063.png](https://tiny-y.asia/images/blog/2023/image063.png)
 
 
 ## Export 输出
@@ -287,7 +287,7 @@ Visibility是否可用
 
 QIR 5（HotFix22）中Artwork Control Form中新增一个字段*PDF Sequence*，通过此字段可以控制生成PDF文件时Artwork各层的相对页码位置，如果此字段值相同则按Artwork层明字母排序确定顺序
 
-![artwork_16.64.png](https://a1024.synology.me/images/blog/2023/artwork_16.64.png)
+![artwork_16.64.png](https://tiny-y.asia/images/blog/2023/artwork_16.64.png)
 
 ### Allegro PDF Publisher
 
@@ -297,7 +297,7 @@ QIR 5（HotFix22）输出PDF功能增加一个新选项*Filter Header/Footer and
 
 16.6 版本进行NC Route 操作时，支持将金属化与非金属化的钻孔区分开。
 
-![Snipaste_2023-06-13_15-42-48.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-42-48.jpg)
+![Snipaste_2023-06-13_15-42-48.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-42-48.jpg)
 
 
 ## Snap 和 Select 吸附和选择
@@ -317,14 +317,14 @@ Snap Pick to的对象增加几项
 
 QIR 5（HotFix22）中新增相对偏移吸附功能，可以让对象放到吸附点指定偏移值的位置
 
-![relative_snapping.png](https://a1024.synology.me/images/blog/2023/relative_snapping.png)
+![relative_snapping.png](https://tiny-y.asia/images/blog/2023/relative_snapping.png)
 
 
 ### Select by Lasso or Path 套索或路径选择
 
 16.6 版本鼠标右键下拉菜单Selection set 中新增两个命令“Select by lasso”和“Select by Path”。
 
-![lasso.png](https://a1024.synology.me/images/blog/2023/lasso.png)
+![lasso.png](https://tiny-y.asia/images/blog/2023/lasso.png)
 
 - Select by Lasso：以索套的方式选择对象；
 - Select by Path：以鼠标经过的路径的方式选择对象，鼠标经过哪些对象则选取哪些对象。
@@ -335,7 +335,7 @@ QIR 5（HotFix22）中新增相对偏移吸附功能，可以让对象放到吸�
 之前默认的吸附对象或选择对象模式都是单一的，每次需要特殊的选择或者吸附时都需要重新选取，在（HotFix51）
 版本中新增一种可以用于延续的功能
 
-![image061.png](https://a1024.synology.me/images/blog/2023/image061.png)
+![image061.png](https://tiny-y.asia/images/blog/2023/image061.png)
 
 从上图右键菜单指定对应的Persistent snap或Persistent Select模式后则此选项将被延续，后续使用所有命令的吸附或选择时，指定模式将一直存在，直到你主动切换模式
 
@@ -346,14 +346,14 @@ QIR 5（HotFix22）中新增相对偏移吸附功能，可以让对象放到吸�
 
 16.6 版本在执行*Display-Measure*命令时支持两种单位的显示，如毫英寸和毫米。通过环境变量showmeasure_altunits 来设置第二显示单位。
 
-![show_measure.png](https://a1024.synology.me/images/blog/2023/show_measure.png)
-![Snipaste_2023-06-13_15-16-50.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-16-50.jpg)
+![show_measure.png](https://tiny-y.asia/images/blog/2023/show_measure.png)
+![Snipaste_2023-06-13_15-16-50.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-16-50.jpg)
 
 ### Display-Measure support of angle between two objects 显示两个对象的角度
 
 在QIR 2（HotFix6）更新了*Display-Measure*命令，当测量两个对象时会列出两个对象的角度
 
-![image009_2.png](https://a1024.synology.me/images/blog/2023/image009_2.png)
+![image009_2.png](https://tiny-y.asia/images/blog/2023/image009_2.png)
 
 ### Dimensioning   尺寸标注
 
@@ -364,26 +364,26 @@ QIR 6 (HotFix27)中在标注尺寸时运行使用*Mirror Text*命令标注镜像
 在执行“Manufacture-Dimension Environment”命令，进行线性标注（Linear Dimension）时，
 Option 控制面板有如下改进：
 
-[![Snipaste_2023-06-13_15-45-08.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-08.jpg)]
+[![Snipaste_2023-06-13_15-45-08.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-45-08.jpg)]
 
 Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输入“XYZ”，则尺寸标注的结果只显示XYZ.
 
-[![Snipaste_2023-06-13_15-45-13.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-13.jpg)]
+[![Snipaste_2023-06-13_15-45-13.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-45-13.jpg)]
 
 为配合尺寸标注，Text 栏中支持以下格式的输入：
 %v：标注结果为实际尺寸；
 
-[![Snipaste_2023-06-13_15-45-19.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-19.jpg)]
+[![Snipaste_2023-06-13_15-45-19.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-45-19.jpg)]
 
 %u：标注结果为单位；
 
-[![Snipaste_2023-06-13_15-45-27.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-27.jpg)]
+[![Snipaste_2023-06-13_15-45-27.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-45-27.jpg)]
 
 例如：
 
-[![Snipaste_2023-06-13_15-45-39.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-45-39.jpg)]
+[![Snipaste_2023-06-13_15-45-39.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-45-39.jpg)]
 
-[![dim.png](https://a1024.synology.me/images/blog/2023/dim.png)]
+[![dim.png](https://tiny-y.asia/images/blog/2023/dim.png)]
 
 ## New Reports 新报告
 
@@ -401,7 +401,7 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 
 针对横向对齐或纵向对齐，可以设置不同的对齐方式，如左对齐、右对齐、上对齐、下对齐。针对对齐时元器件的间距，可以设置不同的间距值，如Option 控制面板中，Off 代表当前间距；Use DFA constraints 表示采用DFA 间距；Equal spacing 表示用户设置等间距。
 
-![align.png](https://a1024.synology.me/images/blog/2023/align.png)
+![align.png](https://tiny-y.asia/images/blog/2023/align.png)
 
 更多见文章开头视频演示
 
@@ -409,7 +409,7 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 
 16.6 版本支持在布局模式（Placement edit）下对单个元器件的更新操作，例如我们会经常将元器件的文本或者器件边框不慎删除，以往的操作方法是通过Place-Update Symbol 来进行恢复，16.6 版本可以直接将鼠标放置某元器件上，右键下拉菜单选择“Refresh symbolinstance”命令来实现，操作更为简单。
 
-![Snipaste_2023-06-13_15-02-35.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-02-35.jpg)
+![Snipaste_2023-06-13_15-02-35.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-02-35.jpg)
 
 此命令使您可以刷新PCB中已经放置的symbol。 该命令将恢复与symbol有关的数据。 例如，丝印框或文本。 
 
@@ -439,30 +439,30 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 
 使用*refresh_symbol*命令时新增一个选项以保留与设计中的引脚相关联的焊盘堆栈名称，使其不被更新。
 
-![image059.png](https://a1024.synology.me/images/blog/2023/image059.png)
+![image059.png](https://tiny-y.asia/images/blog/2023/image059.png)
 
 ### Add Circle - Ease of Use Improvements
 
 16.6 版本在选择“Add-Circle”或“Shape-Circle”命令后，添加圆形Shape 时，可以在Option 控制面板中设置圆形Shape 的相关参数（半径、中心坐标）：
 
-![Snipaste_2023-06-13_15-09-43.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-09-43.jpg)
+![Snipaste_2023-06-13_15-09-43.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-09-43.jpg)
 
 ### Change Radius of Line Drawn Circle 改变圆形半径
 
 在General Edit 模式下，对于通过线绘制的圆形，16.6 版本支持通过右键下拉菜单中的“Change Arc/Circle”或“Change Radius”命令来改变圆形的大小。
 
-![Snipaste_2023-06-13_15-09-49.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-09-49.jpg)
+![Snipaste_2023-06-13_15-09-49.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-09-49.jpg)
 
 
 ### Embedded Net Names   嵌入的网络名称
 
 16.6 版本支持在走线、引脚、铜皮上显示其所在的网络名称。
 
-![embedded_netname.png](https://a1024.synology.me/images/blog/2023/embedded_netname.png)
+![embedded_netname.png](https://tiny-y.asia/images/blog/2023/embedded_netname.png)
 
 该功能只能在OpenGL 开启情况下实现，用户还可以通过“Setup-Design Parameters”来控制走线（Clines）、铜皮（Shape）和器件引脚（Pins）上是否显示网络名称。
 
-![Snipaste_2023-06-13_15-14-17.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-14-17.jpg)
+![Snipaste_2023-06-13_15-14-17.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-14-17.jpg)
 
 
 ### Multiple Constraint Region Assignments
@@ -486,12 +486,12 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 通过“Edit-Split Plane”创建铜皮时，网络与铜皮的对应关系会保存至数据库中。当重新分
 割铜皮时，网络分配对话框会显示与当前Shape 默认的关联网络，
 
-![Snipaste_2023-06-13_15-30-33.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-30-33.jpg)
+![Snipaste_2023-06-13_15-30-33.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-30-33.jpg)
 
 点击“OK”确认该网络。如果需要选择其他网络，则选择“\*”来选择其它网络。当选择“Cancel”
 后，弹出如下提示框：
 
-![Snipaste_2023-06-13_15-30-42.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-13_15-30-42.jpg)
+![Snipaste_2023-06-13_15-30-42.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-13_15-30-42.jpg)
 
 点击“OK”：系统自动关联铜皮和网络；
 
@@ -501,7 +501,7 @@ Text：可以在该栏内输入文字，其优先级高于尺寸文本，如输�
 
 16.6 版本在执行“Tools-Padstack-Replace”命令时，Option 控制面板中新增两个选项：
 
-![padstack.png](https://a1024.synology.me/images/blog/2023/padstack.png)
+![padstack.png](https://tiny-y.asia/images/blog/2023/padstack.png)
 
 Ignore FIXED property：在进行焊盘的替换时，支持忽略FIXED 属性；
 Pin #：支持批量替换引脚，例如输入2-8，即只替换编号为2-8 号的引脚。
@@ -520,7 +520,7 @@ QIR 2（HotFix6）更新在*General Edit*模式时，将鼠标悬停在DRC标记
 QIR 4(HotFix16) 当移动器件时默认显示元器件的ref-des的assembly text层文本，通过修改环境变量User Preference Editor - Display - General 中*display_refdes_subclass*可以指定让其显示
 其它层的文本内容
 
-![refdes.png](https://a1024.synology.me/images/blog/2023/refdes.png)
+![refdes.png](https://tiny-y.asia/images/blog/2023/refdes.png)
 
 ### Split Views分割视图
 
@@ -528,7 +528,7 @@ QIR 5 (HotFix22)引入，QIR 6 (HotFix27)有更新
 
 将当前显示界面分割为两个部分，分别对焦不同的设计区域，当进行较长的布线时，可以直观清晰的看到连接两端的状态，通过菜单View-Split View访问
 
-![](https://a1024.synology.me/images/blog/2022/split_view16.66.png)
+![](https://tiny-y.asia/images/blog/2022/split_view16.66.png)
 
 ### Move Component with Slide Etch
 

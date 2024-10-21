@@ -17,7 +17,7 @@ date: 2023-06-06
 * * *
 
 
-![Cadence-Alegro-2022.png](https://a1024.synology.me/images/blog/2023/Cadence-Alegro-2022.png)
+![Cadence-Alegro-2022.png](https://tiny-y.asia/images/blog/2023/Cadence-Alegro-2022.png)
 
 
 版本说明
@@ -42,7 +42,7 @@ Allegro SPB 22.1 版本附带一个新的 3DX 引擎，该引擎与 Allegro 板�
 
 此功能貌似是需要使用Allegro Enterprise PCB Designer Suite产品选项才能使用
 
-![3DXcanvas.png](https://a1024.synology.me/images/blog/2023/3DXcanvas.png)
+![3DXcanvas.png](https://tiny-y.asia/images/blog/2023/3DXcanvas.png)
 
 3DX Canvas窗口包括Visibility, Properties, Search，Component控制面板。
 
@@ -69,15 +69,15 @@ Allegro SPB 22.1 版本可以**从画面上所选的差分对变换中直接提�
 
 增加一个选项：回流过孔使用与信号孔同样的padstack，启用此选项可以更快的定义一种指定的回流孔类型
 
-![algPN_base-7.gif](https://a1024.synology.me/images/blog/2023/algPN_base-7.gif)
+![algPN_base-7.gif](https://tiny-y.asia/images/blog/2023/algPN_base-7.gif)
 
 差分对过孔换层需要相邻层禁布。定义禁布区时，需要匹配差分线布入或布出差分孔的方向。图层行现在有一个方向三角形来标识方向，可定义相邻层掏空形状。
 
-![algPN_base-8.gif](https://a1024.synology.me/images/blog/2023/algPN_base-8.gif)
+![algPN_base-8.gif](https://tiny-y.asia/images/blog/2023/algPN_base-8.gif)
 
 选择现有差分对via提取信号via padstack，可对差分线或焊盘的相关参数进行编辑
 
-![algPN-10.gif](https://a1024.synology.me/images/blog/2023/algPN-10.gif)
+![algPN-10.gif](https://tiny-y.asia/images/blog/2023/algPN-10.gif)
 
 ### Differential Pair Vias Replaced by Structures通过结构替换差分过孔
 
@@ -95,7 +95,7 @@ HotFix 028版本17.4-2019提供了通过结构替换差分过孔的功能。但�
 
 在不更改membership的情况下，移动或调整结构对象的现有流程仍然可以通过使用Redefine Structure命令将更新推送到所有实例。
 
-![algPN-14.gif](https://a1024.synology.me/images/blog/2023/algPN-14.gif)
+![algPN-14.gif](https://tiny-y.asia/images/blog/2023/algPN-14.gif)
 
 Converting Shapes, Vias, and Pins 转换形状、过孔和引脚
 --------------------------------------------
@@ -104,7 +104,7 @@ Converting Shapes, Vias, and Pins 转换形状、过孔和引脚
 
 现在，Allegro SPB 22.1 版本可以轻松解决以上需求，**只要执行 Tools-Convert 命令，在板中直接选中对象即可完成不同对象的转换，也可以实现对象的创建或替换。**
 
-![algPN-15.gif](https://a1024.synology.me/images/blog/2023/algPN-15.gif)
+![algPN-15.gif](https://tiny-y.asia/images/blog/2023/algPN-15.gif)
 
 <iframe width="720" height="405" frameborder="0" src="https://www.ixigua.com/iframe/7225150867958465057?autoplay=0" referrerpolicy="unsafe-url" allowfullscreen></iframe>
 
@@ -124,11 +124,11 @@ Route Keepouts Exception Use Model Enhancement（不会翻译了 使用模型增
 
 设置VIAS\_ ALLOWED和VIA\_STACKING\_NOT\_ALLOWED属性时，可以在禁止区内添加过孔，但当stacked vias出现时，会显示DRC。
 
-![algPN_base-18.gif](https://a1024.synology.me/images/blog/2023/algPN_base-18.gif)
+![algPN_base-18.gif](https://tiny-y.asia/images/blog/2023/algPN_base-18.gif)
 
-![algPN-17.gif](https://a1024.synology.me/images/blog/2023/algPN-17.gif)
+![algPN-17.gif](https://tiny-y.asia/images/blog/2023/algPN-17.gif)
 
-![algPN-19.gif](https://a1024.synology.me/images/blog/2023/algPN-19.gif)
+![algPN-19.gif](https://tiny-y.asia/images/blog/2023/algPN-19.gif)
 
 Power Delivery Generator电源范围生成
 ------------------------------
@@ -137,7 +137,7 @@ Power Delivery Generator电源范围生成
 
 使用Si Layout – Power Delivery – Power Delivery Generator功能，可以自动在对应的电源区域生成电源或接地层平面
 
-![algPN-21.gif](https://a1024.synology.me/images/blog/2023/algPN-21.gif)
+![algPN-21.gif](https://tiny-y.asia/images/blog/2023/algPN-21.gif)
 
 The plane boundary can range from a flood net to cover the layer where no other plane is poured, to regions defined by a bounding shape (convex hull) surrounding pin groups, to rectangular regions such as blocks around regular clusters of pins that identify power domains inside of the chip.
 

@@ -20,17 +20,17 @@ date: 2023-12-27
 
 具体的设置方式如下从基础设置1中开启鼠标指针的输入法即可在鼠标指针处显示输入状态，支持文字区别或颜色区别红色代表英文，蓝色代表中文；另外如果打开切换提示会在切换时再增加一种显示状态
 
-![](https://a1024.synology.me/images/blog/2024/image-10.png)
+![](https://tiny-y.asia/images/blog/2024/image-10.png)
 
 为指定应用设定输入法包括两项设置
 
 从基础设置1中打开输入法自动切换功能，指定默认输入法为中文，这样所有应用被切换激活时都将自动切换为中文输入
 
-![](hhttps://a1024.synology.me/images/blog/2024/image-11.png)
+![](hhttps://tiny-y.asia/images/blog/2024/image-11.png)
 
 从中英窗口的英文窗口中添加那些需要使用英文输入法的的应用名称，此时这些窗口被切换激活时都将自动切换为英文输入
 
-![](https://a1024.synology.me/images/blog/2024/image-12.png)
+![](https://tiny-y.asia/images/blog/2024/image-12.png)
 
 通过以上设置便可以实现在不同应用接切换时，输入法的状态自动切换为你所想要的输入状态，并且可以在鼠标指针处显示当前的输入状态。
 

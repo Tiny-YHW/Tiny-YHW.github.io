@@ -48,9 +48,9 @@ Device files为layout editor提供以下信息：
 - 除特殊语法有特殊的分隔符外均使用空格作为分隔符
 - 文本内容使用单引号括起来
 
-![/](https://a1024.synology.me/images/blog/2022/chap5.8.1.1.png)
+![/](https://tiny-y.asia/images/blog/2022/chap5.8.1.1.png)
 
-![/](https://a1024.synology.me/images/blog/2022/chap5.8.1.2.png)
+![/](https://tiny-y.asia/images/blog/2022/chap5.8.1.2.png)
 
 ### PACKAGE
 
@@ -179,7 +179,7 @@ END
 
 3、使用菜单Logic-->Part Logic后选择对应类别的元器件对其Device属性进行替换并修改完成后（选择上述修改后的文件）进行应用，注意需提前定义Devpath路径（Setup->User Preferences->Paths->library->devpath）才能找到对应路径的对应文件。
 
-![/](https://a1024.synology.me/images/blog/2022/paizuswap.png)
+![/](https://tiny-y.asia/images/blog/2022/paizuswap.png)
 
 4、使用菜单Place -> Swap -> Swap Functions（建议临时指定一个快捷键进行此操作）对排阻内或排阻间的引脚对进行交换
 
@@ -191,4 +191,4 @@ funckey key swap functions
 
 ### 另一个案例
 
-![/](https://a1024.synology.me/images/blog/2022/74swappindevice.png)
+![/](https://tiny-y.asia/images/blog/2022/74swappindevice.png)

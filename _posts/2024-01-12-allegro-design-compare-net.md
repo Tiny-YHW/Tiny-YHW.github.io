@@ -12,15 +12,15 @@ date: 2024-01-12
 
 使用此功能需要Allegro17.2及以上版本，且启用了Allegro Productivity Toolbox选项
 
-![/](https://a1024.synology.me/images/blog/2024/compare2.png)
+![/](https://tiny-y.asia/images/blog/2024/compare2.png)
 
 有网表差异的两个brd文件存放在任意位置
 
-![/](https://a1024.synology.me/images/blog/2024/compare1.png)
+![/](https://tiny-y.asia/images/blog/2024/compare1.png)
 
 使用Allegro打开其中一个brd文件，本案例使用newnetlist.brd
 
-![/](https://a1024.synology.me/images/blog/2024/compare3.png)
+![/](https://tiny-y.asia/images/blog/2024/compare3.png)
 
 点击菜单①Tools-②PCB Design Compare打开设计比较功能，如下图
 
@@ -28,11 +28,11 @@ date: 2024-01-12
 
 点击⑤Start按钮，程序将生成design_compare.html报告文件，存放在当前brd同级目录，这个文件可以直接发给原理图设计方并告知网表差异如何查看（本文后面的内容）
 
-![/](https://a1024.synology.me/images/blog/2024/compare4.png)
+![/](https://tiny-y.asia/images/blog/2024/compare4.png)
 
 从上述章节点击⑤Start按钮后设计差异报告会被立即打开一次，如果过程中关掉了这个报告，也可以再次打开design_compare.html报告文件查看
 
-![/](https://a1024.synology.me/images/blog/2024/compare5.png)
+![/](https://tiny-y.asia/images/blog/2024/compare5.png)
 
 通过点击Netlist展开网表差异
 
@@ -44,4 +44,4 @@ date: 2024-01-12
 
 我已将design_compare.html报告的说明做了一个截图，可以将截图文件（保存下面图片）和报告文件一起发送给原理图设计方即可
 
-![/](https://a1024.synology.me/images/blog/2024/compare.png)
+![/](https://tiny-y.asia/images/blog/2024/compare.png)

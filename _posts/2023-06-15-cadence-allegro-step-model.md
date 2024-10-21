@@ -23,7 +23,7 @@ Allegro / OrCAD PCB Designer 提供与STEP model 对应链接的功能，此功�
 * * *
 
 
-![](https://a1024.synology.me/images/blog/2022/STEP%20Model%E5%9C%A8PCB%20Editor%E4%B8%8A%E7%9A%84%E5%BA%94%E7%94%A8.jpg)
+![](https://tiny-y.asia/images/blog/2022/STEP%20Model%E5%9C%A8PCB%20Editor%E4%B8%8A%E7%9A%84%E5%BA%94%E7%94%A8.jpg)
 
 
 

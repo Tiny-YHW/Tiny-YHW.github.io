@@ -104,7 +104,7 @@ allegro_downrev_library 4-65mm.pad -outfile 4-65-166mm.pad  覆盖不生成orig
 
 所谓Skill不过是把一堆功能做了集合，或者使用了更内层的软件接口或算法而已，Skill能实现的手动都能实现，不过可能需要更多时间而已
 
-![/](https://a1024.synology.me/images/blog/2022/1601-157.png)以下介绍不通过Skill可以如何实现
+![/](https://tiny-y.asia/images/blog/2022/1601-157.png)以下介绍不通过Skill可以如何实现
 
 - 当前%CDSROOT%为16.x（切版本到16.X，17.X和15.X没有DOWNREV15.exe程序）
 - 将设计通过16.X to 16.X的方法输出16.01版本

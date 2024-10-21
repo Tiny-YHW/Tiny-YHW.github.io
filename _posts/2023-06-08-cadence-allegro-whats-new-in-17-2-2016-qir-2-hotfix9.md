@@ -34,7 +34,7 @@ date: 2023-06-08
 
 ## Introducing the New 3D Canvas (Unsupported Prototype) 3D画布
 
-![172-algPN-303.gif](https://a1024.synology.me/images/blog/2023/172-algPN-303.gif)
+![172-algPN-303.gif](https://tiny-y.asia/images/blog/2023/172-algPN-303.gif)
 
 原来的*3D Viewer*任然是默认的查看器，要启用新的查看器需在*Setup - User Preferences - Unsupported*中设置环境变量`interactive_3d_canvas`然后从菜单*View – 3D View*中启动即可打开新的3D画布
 
@@ -50,17 +50,17 @@ date: 2023-06-08
 - Symbols：控制元器件的Step Model or Placebound在Top, Bottom, or Embedded Component 层的可见性
 - Collision：检查器件干涉
 
-![172-algPN-304.gif](https://a1024.synology.me/images/blog/2023/172-algPN-304.gif)
+![172-algPN-304.gif](https://tiny-y.asia/images/blog/2023/172-algPN-304.gif)
 
 ### Basic Collision Detection 基本碰撞检测
 
 在Collision控制面板中可以查看有重叠的symbols，选择列表中的条目则对应的器件将在3D画布生成蓝色的定为图形，对应的器件也会闪烁几次
 
-![172-algPN-305.gif](https://a1024.synology.me/images/blog/2023/172-algPN-305.gif)
+![172-algPN-305.gif](https://tiny-y.asia/images/blog/2023/172-algPN-305.gif)
 
 ### 3D-2D Interaction 3D与2D交互
 
-![172-algPN-306.gif](https://a1024.synology.me/images/blog/2023/172-algPN-306.gif)
+![172-algPN-306.gif](https://tiny-y.asia/images/blog/2023/172-algPN-306.gif)
 
 在3D画布上选定的对象也会在2D画布上选定并高亮显示。
 
@@ -70,12 +70,12 @@ date: 2023-06-08
 
 ### Full Layer Modeling of Mask, Silk, and Dielectric Layers
 
-![172-algPN-307.gif](https://a1024.synology.me/images/blog/2023/172-algPN-307.gif)
+![172-algPN-307.gif](https://tiny-y.asia/images/blog/2023/172-algPN-307.gif)
 
 3D Canvas现在更接近于在逼真的渲染中更准确地表示设计的板。此版本在*Visibility*窗格中列出了阻焊层、丝网印刷层和电介质层。板和层的厚度以及板的轮廓现在可以准确地显示。
 
-![172-algPN-308.gif](https://a1024.synology.me/images/blog/2023/172-algPN-308.gif)
-![172-algPN-309.gif](https://a1024.synology.me/images/blog/2023/172-algPN-309.gif)
+![172-algPN-308.gif](https://tiny-y.asia/images/blog/2023/172-algPN-308.gif)
+![172-algPN-309.gif](https://tiny-y.asia/images/blog/2023/172-algPN-309.gif)
 
 ### File Export 文件导出
 
@@ -87,7 +87,7 @@ date: 2023-06-08
 - PLY – Polygon File Format
 - STL – STereoLithography
 
-![172-algPN-310.gif](https://a1024.synology.me/images/blog/2023/172-algPN-310.gif)
+![172-algPN-310.gif](https://tiny-y.asia/images/blog/2023/172-algPN-310.gif)
 
 ## Interactive Routing Enhancements 交互式布线增强功能
 
@@ -100,7 +100,7 @@ date: 2023-06-08
 - 支持对象：Traces, vias
 - 连通性：需要物理连接（single net）
 
-![172-algPN-311.gif](https://a1024.synology.me/images/blog/2023/172-algPN-311.gif)
+![172-algPN-311.gif](https://tiny-y.asia/images/blog/2023/172-algPN-311.gif)
 
 ### High Speed Via Structure 高速通孔结构
 
@@ -109,23 +109,23 @@ date: 2023-06-08
 - 支持对象： Traces, vias, static shapes (no voids), route keep out
 - 连通性：Multi net
 
-![172-algPN-312.gif](https://a1024.synology.me/images/blog/2023/172-algPN-312.gif)
+![172-algPN-312.gif](https://tiny-y.asia/images/blog/2023/172-algPN-312.gif)
 
 ### Via Structures in Constraint Manager
 
 必须将过孔结构添加到规则管理器中的ECSet，从规则管理器中*Electrical Constraint Set – Routing – Vias*添加过孔结构，并将ECset分配给网络对象
 
-![172-algPN-313.gif](https://a1024.synology.me/images/blog/2023/172-algPN-313.gif)
+![172-algPN-313.gif](https://tiny-y.asia/images/blog/2023/172-algPN-313.gif)
 
 ### Methods to add Via Structures 添加过孔结构
 
 使用*add connect*命令时从option面板过孔清单处可以选择预定义的过孔结构
 
-![172-algPN-315.gif](https://a1024.synology.me/images/blog/2023/172-algPN-315.gif)
+![172-algPN-315.gif](https://tiny-y.asia/images/blog/2023/172-algPN-315.gif)
 
 添加过孔结构时如果方向不对可以从通过右键菜单选择指定方向（0、90、180、270）调整
 
-![172-algPN-316.gif](https://a1024.synology.me/images/blog/2023/172-algPN-316.gif)
+![172-algPN-316.gif](https://tiny-y.asia/images/blog/2023/172-algPN-316.gif)
 
 ## Route Optimization (Unsupported Prototype) 布线优化
 
@@ -133,8 +133,8 @@ date: 2023-06-08
 
 要使用本功能需要在*Setup – User Preferences – Unsupported*中定义环境变量optimize_in_channel才可使用
 
-![172-algPN-320.gif](https://a1024.synology.me/images/blog/2023/172-algPN-320.gif)
-![172-algPN-321.gif](https://a1024.synology.me/images/blog/2023/172-algPN-321.gif)
+![172-algPN-320.gif](https://tiny-y.asia/images/blog/2023/172-algPN-320.gif)
+![172-algPN-321.gif](https://tiny-y.asia/images/blog/2023/172-algPN-321.gif)
 
 ## Shape Applications
 
@@ -143,7 +143,7 @@ date: 2023-06-08
 *Global Dynamic Shape Parameters*中添加了一个新的参数*Automatically delete islands*，启用此项时，在有形成的Shpe被更新Smooth时将被自动去除。
 
 
-![172-algPN-322.gif](https://a1024.synology.me/images/blog/2023/172-algPN-322.gif)
+![172-algPN-322.gif](https://tiny-y.asia/images/blog/2023/172-algPN-322.gif)
 
 ### Island Void Deletion 删除孤立Void
 
@@ -153,11 +153,11 @@ date: 2023-06-08
 
 针对矩形避让的Shape将默认使用圆角
 
-![172-algPN-323.gif](https://a1024.synology.me/images/blog/2023/172-algPN-323.gif)
+![172-algPN-323.gif](https://tiny-y.asia/images/blog/2023/172-algPN-323.gif)
 
 若需要沿用老版本使用90度通过设置环境变量值*dv_squarecorners*来进行调整
 
-![172-algPN-324.gif](https://a1024.synology.me/images/blog/2023/172-algPN-324.gif)
+![172-algPN-324.gif](https://tiny-y.asia/images/blog/2023/172-algPN-324.gif)
 
 DFA Table Support for Embedded Layers（略）
 

@@ -19,11 +19,11 @@ excerpt:
 
 老版本的AD在 下端Layer Pair进入
 
-![](https://a1024.synology.me/images/blog/2022/Snipaste_2019-12-14_13-57-00.png)
+![](https://tiny-y.asia/images/blog/2022/Snipaste_2019-12-14_13-57-00.png)
 
 新版本在Component Layer Pairs处右击选择对应功能进入
 
-![](https://a1024.synology.me/images/blog/2022/Snipaste_2019-12-14_14-14-43.png)
+![](https://tiny-y.asia/images/blog/2022/Snipaste_2019-12-14_14-14-43.png)
 
 分别选择需要相对的层即可完成配置
 

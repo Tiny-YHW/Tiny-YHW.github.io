@@ -30,6 +30,14 @@ keywords: Cadence软件下载
 *   安装Cadence产品和补丁（可同时装多个版本）
 *   使用吴川斌的破解工具对其进行破解
 
+**Tips**
+
+建议安装完毕后清空以下路径，防止库被错误调用
+
+- C:\Cadence\SPB_16.6\share\pcb\pcb_lib
+- C:\Cadence\SPB_17.2\share\pcb\pcb_lib
+- C:\Cadence\SPB_22.1\share\pcb\pcb_lib
+
 * * *
 
 ### 安装License Managener
@@ -38,13 +46,13 @@ keywords: Cadence软件下载
 
 如果Cadence安装包内包含的License Managener安装程序无反应（貌似22.1有此症状）时也可以用这个独立安装包替代
 
-![Snipaste_2023-06-14_09-12-30.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-14_09-12-30.jpg)
+![Snipaste_2023-06-14_09-12-30.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-14_09-12-30.jpg)
 
 - 解压运行setup.exe进行安装
 - 一路默认Next，若有需要接受的点接受
 - 过程中或跳一个Licence File Location对话框，此处点击Cancel
 
-![Snipaste_2023-06-14_09-16-26.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-14_09-16-26.jpg)
+![Snipaste_2023-06-14_09-16-26.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-14_09-16-26.jpg)
 
 - License Managener安装完成
 
@@ -61,12 +69,12 @@ keywords: Cadence软件下载
 
 - 目前使用吴川斌的破解工具是最方便快捷的
 
-![Snipaste_2023-06-14_09-31-57.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-14_09-31-57.jpg)
+![Snipaste_2023-06-14_09-31-57.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-14_09-31-57.jpg)
 
 - 解压后直接运行AllegroCrackMasterVn.exe
 - 选择实用工具-破解修复-选择版本-开始破解
 
-![Snipaste_2023-06-14_09-36-23.jpg](https://a1024.synology.me/images/blog/2023/Snipaste_2023-06-14_09-36-23.jpg)
+![Snipaste_2023-06-14_09-36-23.jpg](https://tiny-y.asia/images/blog/2023/Snipaste_2023-06-14_09-36-23.jpg)
 
 - 等待破解完成（需要一段时间尤其是17.4及之后的版本）
 

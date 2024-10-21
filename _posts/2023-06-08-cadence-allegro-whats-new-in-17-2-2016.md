@@ -26,7 +26,7 @@ date: 2023-06-08
 
 17.2（除非单独声明否则包括之后版本）windows版本仅支持64位操作系统安装，（Win7-Win11均可），XP将不再被支持
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/Snipaste_2022-10-21_16-24-17.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/Snipaste_2022-10-21_16-24-17.png)
 
 Cadence® Allegro® 17.2-2016软件是过去十年中发布的最大版本，于2016年4月下旬发布
 
@@ -43,7 +43,7 @@ Layer support for Dynamic Shape Properties动态铜皮分层连接属性
 
 对于动态铜的Pin/Via连接及隔离设定，在新的版本中能够分层来做细化的定义。
 
-![172-algPN-410.gif](https://a1024.synology.me/images/blog/2023/172-algPN-410.gif)
+![172-algPN-410.gif](https://tiny-y.asia/images/blog/2023/172-algPN-410.gif)
 
 支持的属性包括
 
@@ -63,7 +63,7 @@ Layer support for Dynamic Shape Properties动态铜皮分层连接属性
 重新设计的叠构编辑设定，充分运用表格式的方法来进行相关设定。  
 新的界面整合了Unused Pad Suppression与Embedded Component设定还有支持了非电气层的部分，如：Solder mask, Paste, Coverlay…等；另外对于Material的字段长度也扩展到250个字符。
 
-![172-algPN-411.gif](https://a1024.synology.me/images/blog/2023/172-algPN-411.gif)
+![172-algPN-411.gif](https://tiny-y.asia/images/blog/2023/172-algPN-411.gif)
 
 ### Physical/All Tabs
 
@@ -79,7 +79,7 @@ Layer support for Dynamic Shape Properties动态铜皮分层连接属性
 *   Unused Pads Suppression：非功能盘的设置表单。以前位于菜单Setup – Unused Pads Suppression中。
 *   Refresh Materials：用于刷新materials.dat文件中的参数。
 
-![172-algPN-412.gif](https://a1024.synology.me/images/blog/2023/172-algPN-412.gif)
+![172-algPN-412.gif](https://tiny-y.asia/images/blog/2023/172-algPN-412.gif)
 
 ### Multi-Cross Section Support for Rigid-Flex Design 支持定义刚柔结合板
 
@@ -87,11 +87,11 @@ Layer support for Dynamic Shape Properties动态铜皮分层连接属性
 
 首次启动时，编辑器仅显示一个选项卡“Primary”，默认堆叠显示在“Primary”选项卡中。
 
-![172-algPN-415.gif](https://a1024.synology.me/images/blog/2023/172-algPN-415.gif)
+![172-algPN-415.gif](https://tiny-y.asia/images/blog/2023/172-algPN-415.gif)
 
 使用菜单View – Multi-Stackup启用多堆叠模式
 
-![172-algPN-416.gif](https://a1024.synology.me/images/blog/2023/172-algPN-416.gif)
+![172-algPN-416.gif](https://tiny-y.asia/images/blog/2023/172-algPN-416.gif)
 
 *   所有堆叠选项卡 – 构成堆叠组合的所有导体和非导体层的位置
 *   主选项卡 – 包含所有导体层（如导体和平面）的默认堆叠。它用于非区域应用程序，也用于表示要运行的放置/快速放置应用程序的设计大纲之外的区域。
@@ -99,7 +99,7 @@ Layer support for Dynamic Shape Properties动态铜皮分层连接属性
     *   点击顶部横幅上的 _+_
     *   单击主单元格右侧的Add Stackup单元格
 
-![172-algPN-417.gif](https://a1024.synology.me/images/blog/2023/172-algPN-417.gif)
+![172-algPN-417.gif](https://tiny-y.asia/images/blog/2023/172-algPN-417.gif)
 
 每个堆叠都支持复选框来控制相应堆叠的图层意图。
 
@@ -107,19 +107,19 @@ Layer support for Dynamic Shape Properties动态铜皮分层连接属性
 *   Rigid-Flex Designs - 主堆叠很可能是由最多导体层组成的刚性堆叠。创建额外的堆叠以支持柔性截面或较低数量的刚性截面。这些额外的堆栈映射到物理区域。可能没有必要为被视为主要部分创建物理区域。
 *   Material Inlay - 初级堆叠很可能是PCB的主要部分。为镶嵌部分创建物理区域，使用不同的材料进行射频/模拟。
 
-![172-algPN-419.gif](https://a1024.synology.me/images/blog/2023/172-algPN-419.gif)
+![172-algPN-419.gif](https://tiny-y.asia/images/blog/2023/172-algPN-419.gif)
 
 ### Cross Section Support for Non-Conductor Layers 非导体层的横截面支持
 
 因为软硬结合板设计，支持非导体层的设定，如一般的mask及其他表面涂层皆能在新版本中设定。
 
-![172-algPN-420.gif](https://a1024.synology.me/images/blog/2023/172-algPN-420.gif)
+![172-algPN-420.gif](https://tiny-y.asia/images/blog/2023/172-algPN-420.gif)
 
 ### Rigid-Flex Physical Zone Management刚柔结合物理区域管理
 
 新增物理区域来分别定义软板或硬板的区域范围。
 
-![172-algPN-425.gif](https://a1024.synology.me/images/blog/2023/172-algPN-421.gif)
+![172-algPN-425.gif](https://tiny-y.asia/images/blog/2023/172-algPN-421.gif)
 
 New Database Classes and Subclasses新的数据库类和子类
 --------------------------------------------
@@ -149,7 +149,7 @@ Rigid Flex and Surface Finish Classes 刚柔和表面光洁度等级，新的子
 
 PCB编辑器数据库现在原生支持以下新的类结构，不仅支持刚柔结合设计，还支持标准刚性。新类/子类的结构化列表包括：
 
-![172-algPN-427.gif](https://a1024.synology.me/images/blog/2023/172-algPN-426.gif)
+![172-algPN-427.gif](https://tiny-y.asia/images/blog/2023/172-algPN-426.gif)
 
 ### Design\_Outline and CUTOUTS subclasses
 
@@ -178,7 +178,7 @@ IDF 导出将首先检查DESIGN\_OUTLINE和 CUTOUT 子类上是否存在几何�
 
 如果没有识别到电路板轮廓，IDX\_Out和 IPC-2581\_Out 将失败
 
-![172-algPN-427.gif](https://a1024.synology.me/images/blog/2023/172-algPN-427.gif)
+![172-algPN-427.gif](https://tiny-y.asia/images/blog/2023/172-algPN-427.gif)
 
 16.X版本brd用17.X打开时将自动将原BOARD GEOMETRY – OUTLINE层图形复制到DESIGN\_OUTLINE 和 CUTOUT 子类中，但会存在一些局限性
 
@@ -201,20 +201,20 @@ Cross Section创建的所有stackups在Layer stackup中均可见
 
 新的Visibility图层包含所有mask层，方便查看和切换
 
-![172-algPN-428.gif](https://a1024.synology.me/images/blog/2023/172-algPN-428.gif)
+![172-algPN-428.gif](https://tiny-y.asia/images/blog/2023/172-algPN-428.gif)
 
 ### Dynamic Zone-based Placement
 
 对于不同叠构层面的软硬结合板，其中顶部或底部可能因区域而异。现在PCB编辑器的放置功能是区域感知的，可识别最顶层或最底层，在摆放零件时能够依照所属的区域将零件摆放到正确的层面上。
 
-![172-1.6.gif](https://a1024.synology.me/images/blog/2023/172-1.6.gif)
+![172-1.6.gif](https://tiny-y.asia/images/blog/2023/172-1.6.gif)
 
 Enhanced Contour Routing 增强Contour布线功能
 --------------------------------------
 
 菜单Route – Unsupported Prototype – Enable Enhanced Contour用于在添加布线时通过遵循现有线路径。此功能在旧版 Contour 功能的基础上得到了改进，删除了连续的对话框弹出窗口，引入了简单的基于画布的双状态单击使用模型，并启用了现有连接线的推挤。non-contoured布线和contoured布线之间的过渡将针对线或圆弧拐角进行平滑处理。能让我们只许要在选择好物件之后点选要依附的目标及目的即能将走线快速完成。
 
-![172-algPN-429.gif](https://a1024.synology.me/images/blog/2023/172-algPN-429.gif)
+![172-algPN-429.gif](https://tiny-y.asia/images/blog/2023/172-algPN-429.gif)
 
 Shape Update 布设铜皮更新
 -------------------
@@ -223,13 +223,13 @@ Shape Update 布设铜皮更新
 
 软硬结合板经常在布设铜皮是选用网络铜形式，这样铜重量更轻，材料弯曲时不易开裂。在 17.2 版本中，添加网格铜更方便，可以直接在增加铜皮时从option中type选择
 
-![172-algPN-430.gif](https://a1024.synology.me/images/blog/2023/172-algPN-430.gif)
+![172-algPN-430.gif](https://tiny-y.asia/images/blog/2023/172-algPN-430.gif)
 
 ### Layer-based Property Settings
 
 和新增的焊盘与铜皮的连接方式一样，铜皮同样增加相应的属性，可以分层设置相关的铜连接方式
 
-![172-algPN-431.gif](https://a1024.synology.me/images/blog/2023/172-algPN-431.gif)
+![172-algPN-431.gif](https://tiny-y.asia/images/blog/2023/172-algPN-431.gif)
 
 Inter Layer Checks for Rigid-Flex Design刚柔结合设计的层间检查
 ---------------------------------------------------
@@ -240,9 +240,9 @@ Inter Layer Checks for Rigid-Flex Design刚柔结合设计的层间检查
 
 使用规则管理器Spacing – Inter Layer – Spacing打开层矩阵
 
-![172-algPN-432.gif](https://a1024.synology.me/images/blog/2023/172-algPN-432.gif)
+![172-algPN-432.gif](https://tiny-y.asia/images/blog/2023/172-algPN-432.gif)
 
-![172-algPN-433.gif](https://a1024.synology.me/images/blog/2023/172-algPN-433.gif)
+![172-algPN-433.gif](https://tiny-y.asia/images/blog/2023/172-algPN-433.gif)
 
 层间检查不检查项目:
 
@@ -262,11 +262,11 @@ Inter Layer Checks for Rigid-Flex Design刚柔结合设计的层间检查
 
 功能面板提供了一个过滤器用于方便选择特定类别的图层
 
-![172-algPN-434.gif](https://a1024.synology.me/images/blog/2023/172-algPN-434.gif)
+![172-algPN-434.gif](https://tiny-y.asia/images/blog/2023/172-algPN-434.gif)
 
 选中指定的层间检查项目如，可以在规则表中查看对应设置的规则项目
 
-![172-algPN-435.gif](https://a1024.synology.me/images/blog/2023/172-algPN-435.gif)
+![172-algPN-435.gif](https://tiny-y.asia/images/blog/2023/172-algPN-435.gif)
 
 规则表定义以下内容：
 
@@ -278,16 +278,16 @@ Inter Layer Checks for Rigid-Flex Design刚柔结合设计的层间检查
 
 Gap 弯折区对Pin和Via的检查
 
-![172-algPN-436.gif](https://a1024.synology.me/images/blog/2023/172-algPN-436.gif)
+![172-algPN-436.gif](https://tiny-y.asia/images/blog/2023/172-algPN-436.gif)
 
 Overlap
 
-![172-algPN-437.gif](https://a1024.synology.me/images/blog/2023/172-algPN-437.gif)
+![172-algPN-437.gif](https://tiny-y.asia/images/blog/2023/172-algPN-437.gif)
 
 *   1 inside 2:定义为层 1 的子类上的几何必须包含在定义为层 2 的子类上的几何中。
 *   2 inside 1:定义为层 2 的子类上的几何必须包含在定义为层 1 的子类上的几何中。
 
-![172-algPN-438.gif](https://a1024.synology.me/images/blog/2023/172-algPN-438.gif)
+![172-algPN-438.gif](https://tiny-y.asia/images/blog/2023/172-algPN-438.gif)
 
 *   Value:间距值
 *   Enabled:启用或关闭此项检查
@@ -296,13 +296,13 @@ Overlap
 *   Description:可以添加规则的注释或说明以供参考。此描述只能在约束管理器中的规则表窗体中看到。
 *   Delete:在“删除”列中选择“X”将删除规则条目。
 
-![172-algPN-439.gif](https://a1024.synology.me/images/blog/2023/172-algPN-439.gif)
+![172-algPN-439.gif](https://tiny-y.asia/images/blog/2023/172-algPN-439.gif)
 
 ### Enabling On-line Inter-Layer Checking启用在线层间检查
 
 从Analysis Modes访问，其默认是关闭的，需要时将on-line inter layer checks设置为On或Batch
 
-![172-algPN-440.gif](https://a1024.synology.me/images/blog/2023/172-algPN-440.gif)
+![172-algPN-440.gif](https://tiny-y.asia/images/blog/2023/172-algPN-440.gif)
 
 Manufacturing Prep - Rigid-Flex Design制造准备 - 刚柔结合设计
 ---------------------------------------------------
@@ -311,7 +311,7 @@ Manufacturing Prep - Rigid-Flex Design制造准备 - 刚柔结合设计
 
 Manufacture – Cross Section Chart可以生成一个层叠表，该表支持所有导体和非导体层、材料和厚度的条目。
 
-![172-algPN-441.gif](https://a1024.synology.me/images/blog/2023/172-algPN-441.gif)
+![172-algPN-441.gif](https://tiny-y.asia/images/blog/2023/172-algPN-441.gif)
 
 ### Dynamic Fillets
 
@@ -329,7 +329,7 @@ Embedded Component Design Updates嵌入式器件设计更新
 *   现在支持嵌入式Soldermask subclasses（类似于Pastemask）。
 *   16.6-2015 ISR 中提供了对嵌入式组件的 Extracta 支持。
 
-![172-algPN-442.gif](https://a1024.synology.me/images/blog/2023/172-algPN-442.gif)
+![172-algPN-442.gif](https://tiny-y.asia/images/blog/2023/172-algPN-442.gif)
 
 Backdrill Overhaul背钻大修
 ----------------------
@@ -349,22 +349,22 @@ Tabbed routing是新的布线方式，主要针对高速讯号在Breakout的平�
 
 更多介绍参考[Allegro Tabbed Routing 梯形凸块布线](https://a1024.synology.me:1024/?p=1928)
 
-![172-algPN-487.gif](https://a1024.synology.me/images/blog/2023/172-algPN-487.gif)
+![172-algPN-487.gif](https://tiny-y.asia/images/blog/2023/172-algPN-487.gif)
 
-![172-algPN-488.gif](https://a1024.synology.me/images/blog/2023/172-algPN-488.gif)
+![172-algPN-488.gif](https://tiny-y.asia/images/blog/2023/172-algPN-488.gif)
 
 High Speed Interconnect Enhancements高速互连增强功能
 --------------------------------------------
 
 return path vias在16.6版本中被引入，允许对差分对应用，在此版本中增加对单线的应用，在Add Connect命令时从右键菜单选择Return Path Vias (Prototype)启用此功能
 
-![172-algPN-484.gif](https://a1024.synology.me/images/blog/2023/172-algPN-484.gif)
+![172-algPN-484.gif](https://tiny-y.asia/images/blog/2023/172-algPN-484.gif)
 
-![172-algPN-485.gif](https://a1024.synology.me/images/blog/2023/172-algPN-485.gif)
+![172-algPN-485.gif](https://tiny-y.asia/images/blog/2023/172-algPN-485.gif)
 
 从下面面板选择设置相应的参数即可自动添加固定的回流地孔
 
-![172-algPN-486.gif](https://a1024.synology.me/images/blog/2023/172-algPN-486.gif)
+![172-algPN-486.gif](https://tiny-y.asia/images/blog/2023/172-algPN-486.gif)
 
 Via Structures过孔结构
 ------------------
@@ -378,7 +378,7 @@ Standard Via Structure标准通孔结构
 *   支持的对象：Traces, Vias
 *   连接性：需要所有的Via都有连接(单一信号)
 
-![172-8.4.gif](https://a1024.synology.me/images/blog/2023/172-8.6.gif)
+![172-8.4.gif](https://tiny-y.asia/images/blog/2023/172-8.6.gif)
 
 High Speed Via Structure高速通孔结构
 
@@ -387,15 +387,15 @@ High Speed Via Structure高速通孔结构
 *   支持的对象：Traces, Vias, Static Shapes (no voids), Route Keep out
 *   连接性：多信号
 
-![172-algPN-489.gif](https://a1024.synology.me/images/blog/2023/172-algPN-489.gif)
+![172-algPN-489.gif](https://tiny-y.asia/images/blog/2023/172-algPN-489.gif)
 
 定义和增加过孔结构
 
-![172-8.3.gif](https://a1024.synology.me/images/blog/2023/172-8.3.gif)
+![172-8.3.gif](https://tiny-y.asia/images/blog/2023/172-8.3.gif)
 
-![172-8.4.gif](https://a1024.synology.me/images/blog/2023/172-8.4.gif)
+![172-8.4.gif](https://tiny-y.asia/images/blog/2023/172-8.4.gif)
 
-![172-8.4.gif](https://a1024.synology.me/images/blog/2023/172-8.5.gif)
+![172-8.4.gif](https://tiny-y.asia/images/blog/2023/172-8.5.gif)
 
 Acute Angle Detection锐角检测
 -------------------------
@@ -416,9 +416,9 @@ Drill Hole DRC 钻孔 DRC
 
 此选项默认为off模式，即和之前的版本是一样的，若需使用需可以打开才行
 
-![172-algPN-496.gif](https://a1024.synology.me/images/blog/2023/172-algPN-496.gif)
+![172-algPN-496.gif](https://tiny-y.asia/images/blog/2023/172-algPN-496.gif)
 
-![172-algPN-497.gif](https://a1024.synology.me/images/blog/2023/172-algPN-497.gif)
+![172-algPN-497.gif](https://tiny-y.asia/images/blog/2023/172-algPN-497.gif)
 
 IDX Enhanced Features 增强功能
 --------------------------
@@ -443,7 +443,7 @@ Database and Misc Enhancements数据库和其他增强功能
 
 选择更新封装时如果勾选Keep design padstack names for symbol pins那么在Refresh Symbol时能够选择是否要保留现在设计中的Padstack名称而不被刷新。
 
-![172-algPN-508.gif](https://a1024.synology.me/images/blog/2023/172-algPN-508.gif)
+![172-algPN-508.gif](https://tiny-y.asia/images/blog/2023/172-algPN-508.gif)
 
 ### Performance Improvements
 
@@ -505,7 +505,7 @@ RF PCB Enhancements射频 PCB 增强功能
 
 “Status”对话框中添加了一个新的“RF Status”选项卡，该选项卡仅在启用“RF/Analog”选项时才可见。
 
-![172-algPN-519.gif](https://a1024.synology.me/images/blog/2023/172-algPN-519.gif)
+![172-algPN-519.gif](https://tiny-y.asia/images/blog/2023/172-algPN-519.gif)
 
 使用此新选项，您可以比较原理图和物理设计数据并查看更改。如果单击颜色框，将显示每个更改的详细报告。
 
@@ -513,7 +513,7 @@ RF PCB Enhancements射频 PCB 增强功能
 
 在 17.2 中，间隙初始化设置已与初始化命令集成。rf\_ac\_init命令中还提供了一个新选项，用于启用全局间隙设置的编辑。
 
-![172-algPN-520.gif](https://a1024.synology.me/images/blog/2023/172-algPN-520.gif)
+![172-algPN-520.gif](https://tiny-y.asia/images/blog/2023/172-algPN-520.gif)
 
 ### Cross-probing between Schematic and Layout Enhancements
 
@@ -521,4 +521,4 @@ rf\_autoplace and rf\_change 命令现在支持在元件选择阶段对原理图
 
 通过单击原理图画布选择元件或引脚时，也会在布局编辑器和“Options”选项卡中选择相应的符号。
 
-![172-algPN-521.gif](https://a1024.synology.me/images/blog/2023/172-algPN-521.gif)
+![172-algPN-521.gif](https://tiny-y.asia/images/blog/2023/172-algPN-521.gif)

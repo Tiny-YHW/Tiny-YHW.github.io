@@ -47,27 +47,27 @@ Return Path DRC Updates
 
 单击Modify Selection按钮以选择指定的Net，选择的Net将以指定颜色显示违规或不违规，点击Clear Selection将清除选择
 
-![172-algPN-96.gif](https://a1024.synology.me/images/blog/2023/172-algPN-96.gif)
+![172-algPN-96.gif](https://tiny-y.asia/images/blog/2023/172-algPN-96.gif)
 
 ### Graphical Overlays
 
 如下图展示了实际Vision的显示模式，将鼠标悬停到对象上，datatip显示返回路径约束值和实际值的详细信息
 
-![172-algPN-97.gif](https://a1024.synology.me/images/blog/2023/172-algPN-97.gif)
+![172-algPN-97.gif](https://tiny-y.asia/images/blog/2023/172-algPN-97.gif)
 
-![172-algPN-98.gif](https://a1024.synology.me/images/blog/2023/172-algPN-98.gif)
+![172-algPN-98.gif](https://tiny-y.asia/images/blog/2023/172-algPN-98.gif)
 
 
 3D Canvas Updates
 -----------------
 
-![172-algPN-99.gif](https://a1024.synology.me/images/blog/2023/172-algPN-99.gif)
+![172-algPN-99.gif](https://tiny-y.asia/images/blog/2023/172-algPN-99.gif)
 
 ### Wire Bonds  焊线
 
 3D画布现在支持Chip-On-Board（COB）设计。 3D画布显示了从COB芯片到板设计上的焊盘的简单线缆表示。 还支持包含空穴的板设计。 与其他2D和3D交互类似，可以选择、移动或路由线缆，并在同时打开3D画布和设计画布的并排分割视图模式中实时更新。
 
-![172-algPN-100.gif](https://a1024.synology.me/images/blog/2023/172-algPN-100.gif)
+![172-algPN-100.gif](https://tiny-y.asia/images/blog/2023/172-algPN-100.gif)
 
 ### Additional Export Formats 导出更多格式
 
@@ -77,7 +77,7 @@ Return Path DRC Updates
 *   PDF 3D (\*.`pdf`)
 *   STEP files (\*.`step`, \*.`stp`)
 
-![172-algPN-101.gif](https://a1024.synology.me/images/blog/2023/172-algPN-101.gif)
+![172-algPN-101.gif](https://tiny-y.asia/images/blog/2023/172-algPN-101.gif)
 
 Allegro and OrCAD PCB Editor Canvas Enhancements
 ------------------------------------------------
@@ -97,21 +97,21 @@ Allegro and OrCAD PCB Editor Canvas Enhancements
 
 编辑器画布现在有一个新的“起始页”选项卡，可以访问最佳实践文件、迁移信息和技巧，并提供对最近打开设计的便捷访问。
 
-![172-algPN-102.gif](https://a1024.synology.me/images/blog/2023/172-algPN-102.gif)
+![172-algPN-102.gif](https://tiny-y.asia/images/blog/2023/172-algPN-102.gif)
 
 ### Design Workflow Pane  设计工作流窗格
 
 设计工作流程面板，以协助新用户。该面板可用于指导用户执行基本任务，并消除了搜索必要菜单、工具栏图标或知道命令的需要。单击工作流程面板中的任何选项都会弹出相应命令的对话框。
 
-![172-algPN-103.gif](https://a1024.synology.me/images/blog/2023/172-algPN-103.gif)
+![172-algPN-103.gif](https://tiny-y.asia/images/blog/2023/172-algPN-103.gif)
 
 工作流是基于XML的，您可以创建自己的自定义流程。例如，库创建流程、内部QC检查表或用于制造可交付成果。
 
 默认工作流文件位于 `<installation_directory>/share/pcb/text/workflows` 文件夹。PCB编辑器的工作流文件作为 `workflow.xml`
 
-![172-algPN-104.gif](https://a1024.synology.me/images/blog/2023/172-algPN-104.gif)
+![172-algPN-104.gif](https://tiny-y.asia/images/blog/2023/172-algPN-104.gif)
 
-![172-algPN-105.gif](https://a1024.synology.me/images/blog/2023/172-algPN-105.gif)
+![172-algPN-105.gif](https://tiny-y.asia/images/blog/2023/172-algPN-105.gif)
 
 ### Frequently-Used Icons 常用菜单
 
@@ -121,19 +121,19 @@ _View – Customize Toolbar_中_Customize_允许自定义_ContextMenu_，可以�
 
 从画布上右键则定义的菜单命令将展示在最上侧，最多允许定义16个命令
 
-![172-algPN-106.gif](https://a1024.synology.me/images/blog/2023/172-algPN-106.gif)
+![172-algPN-106.gif](https://tiny-y.asia/images/blog/2023/172-algPN-106.gif)
 
 ### Customizable Design Canvas  可定制的设计画布
 
-![172-algPN-107.gif](https://a1024.synology.me/images/blog/2023/172-algPN-107.gif)
+![172-algPN-107.gif](https://tiny-y.asia/images/blog/2023/172-algPN-107.gif)
 
 ### Improved Graphic Response Time **改善图形响应时间**
 
-![172-algPN-108.gif](https://a1024.synology.me/images/blog/2023/172-algPN-108.gif)
+![172-algPN-108.gif](https://tiny-y.asia/images/blog/2023/172-algPN-108.gif)
 
-![172-algPN-109.gif](https://a1024.synology.me/images/blog/2023/172-algPN-109.gif)
+![172-algPN-109.gif](https://tiny-y.asia/images/blog/2023/172-algPN-109.gif)
 
-![172-algPN-110.gif](https://a1024.synology.me/images/blog/2023/172-algPN-110.gif)
+![172-algPN-110.gif](https://tiny-y.asia/images/blog/2023/172-algPN-110.gif)
 
 ### Modernized Command Pane  现代化的命令窗格
 
@@ -145,21 +145,21 @@ _View – Customize Toolbar_中_Customize_允许自定义_ContextMenu_，可以�
 *   Warnings消息为橙色
 *   Error 信息以红色显示
 
-![172-algPN-111.gif](https://a1024.synology.me/images/blog/2023/172-algPN-111.gif)
+![172-algPN-111.gif](https://tiny-y.asia/images/blog/2023/172-algPN-111.gif)
 
 Route Vision (Segment Suppression in Pads)
 ------------------------------------------
 
 增加一个选项ignore Seg in Pads，勾选此项将不对完全焊盘内部的线段进行Route Vision分析
 
-![172-algPN-113.gif](https://a1024.synology.me/images/blog/2023/172-algPN-113.gif)
+![172-algPN-113.gif](https://tiny-y.asia/images/blog/2023/172-algPN-113.gif)
 
 Timing Vision Update (Static Phase at Vias)
 -------------------------------------------
 
 更新后的Timing Vision分析线长时将对via前后两端的线长单独分析，对不等长的部分单独显示
 
-![172-algPN-114.gif](https://a1024.synology.me/images/blog/2023/172-algPN-114.gif)
+![172-algPN-114.gif](https://tiny-y.asia/images/blog/2023/172-algPN-114.gif)
 
 Productivity Enhancements
 -------------------------
@@ -168,7 +168,7 @@ Productivity Enhancements
 
 `move` 命令已集成到DFA应用程序中。之前，DFA间隙反馈仅限于 `place manual` 命令和Placement Edit应用模式。
 
-![172-algPN-115.gif](https://a1024.synology.me/images/blog/2023/172-algPN-115.gif)
+![172-algPN-115.gif](https://tiny-y.asia/images/blog/2023/172-algPN-115.gif)
 
 ### Assign Net to Via
 
@@ -180,7 +180,7 @@ Productivity Enhancements
 
 在QIR 5版本中，可以在“_Visibility_”选项卡中启用新选项“_Show Layer Numbers _号”。此选项可有效显示标签与其导体图层的同步。
 
-![172-algPN-116.gif](https://a1024.synology.me/images/blog/2023/172-algPN-116.gif)
+![172-algPN-116.gif](https://tiny-y.asia/images/blog/2023/172-algPN-116.gif)
 
 ### Padstack Editor
 
@@ -192,7 +192,7 @@ Productivity Enhancements
 
 “ _File Properties_ ”对话框现在支持五种数据锁类型。它们包括 _Manufacturing, Database, Logic, Constraints,_ and _MCAD/ECAD_。如果选择了特定选项，则禁用属于该组的导出命令。例如，启用“制造”（Manufacturing）选项将禁用 2581, ODB++, artwork, stream out, DFx check, drill legend, NC Drill, NC Route, and Variant 选项的导出。
 
-![172-algPN-117.gif](https://a1024.synology.me/images/blog/2023/172-algPN-117.gif)
+![172-algPN-117.gif](https://tiny-y.asia/images/blog/2023/172-algPN-117.gif)
 
 
 Miscellaneous Enhancements
@@ -208,6 +208,6 @@ Miscellaneous Enhancements
 
 `quickplace` ：如果启用了“将关联元件放置在父引脚上”选项，则 `quickplace `命令现在会在其父元件的电源引脚之间平均分配旁路电容。例如，具有10个电源引脚的元件连接到5 V，并且20个旁路电容与之关联。电容连接在5 V和GND之间。在这种情况下，quickplace过程在10个电源引脚之间平均分配旁路电容。因此，两个旁路电容器被放置在距离10个电源引脚中的每一个相等的距离处。下图显示了一个示例。
 
-![172-algPN-125.gif](https://a1024.synology.me/images/blog/2023/172-algPN-125.gif)
+![172-algPN-125.gif](https://tiny-y.asia/images/blog/2023/172-algPN-125.gif)
 
-![172-algPN-126.gif](https://a1024.synology.me/images/blog/2023/172-algPN-126.gif)
+![172-algPN-126.gif](https://tiny-y.asia/images/blog/2023/172-algPN-126.gif)

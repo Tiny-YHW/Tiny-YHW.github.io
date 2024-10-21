@@ -35,19 +35,19 @@ date: 2023-06-12
 
 从用户首选项设置database\_compatibility\_mode值为17.2激活兼容模式
 
-![174algPN_base-2.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-2.gif)
+![174algPN_base-2.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-2.gif)
 
 在17.4-2019中打开17.2-2016版设计时，如果启用了兼容模式，将显示一个对话框，指示该模式处于活动状态。
 
 您可以决定保持17.2数据库格式或禁用该模式以启用新版本(17.4-2019)功能，并以17.4-2019数据库格式保存设计。
 
-![174algPN_base-3.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-3.gif)
+![174algPN_base-3.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-3.gif)
 
 在兼容模式下打开设计时，窗口标题栏和状态栏会显示_17.2兼容模式_。
 
 如果在17.4中打开17.2设计，禁用兼容模式，将显示一个对话框，指示数据库将更新到当前软件版本。
 
-![174algPN_base-4.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-4.gif)
+![174algPN_base-4.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-4.gif)
 
 Symphony Team Design Option 协同设计选项
 ----------------------------------
@@ -76,7 +76,7 @@ Symphony Team Design Option在以下产品中均可使用
 
 协同模式同样支持开启协同，加入协作时会有下面的提示，此时客户端也将处于兼容模式
 
-![174algPN_base-5.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-5.gif)
+![174algPN_base-5.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-5.gif)
 
 这种新模式不允许17.2版客户端连接到17.4版Symphony服务器，但会阻止将17.2版数据库更新为17.4版格式。
 
@@ -85,7 +85,7 @@ Hierarchical Route and Via Keepouts 分层布线和过孔禁布
 
 在Symbol Editor环境下增加禁布图形是新增层类别，可以对指定类别的层绘制禁布图形，这些禁布图形将在其被放入PCB中时一并映射到对应的设计层中，这些层类别包括OUTER\_LAYERS, INNER\_SIGNAL\_LAYERS, and INNER\_PLANE\_LAYERS
 
-![174algPN_base-6.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-6.gif)
+![174algPN_base-6.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-6.gif)
 
 Allegro Constraint Complier 规则编译器
 ---------------------------------
@@ -118,18 +118,18 @@ Mask Defined Pin Annular Ring Check
 
 一个新的Mask Defined Pad检查已添加到Manufacturing Annular Ring检查的设计和DesignTrue DFM向导模板文件中。当谈到阻焊层与引脚焊盘尺寸大小时，有两种常见的焊盘定义方式。第一种是metal-defined的焊盘(有时称为non-mask defined的焊盘)，阻焊层开口通常大于引脚焊盘。另一种是mask-defined的焊盘，其中阻焊层尺寸通常小于引脚焊盘。mask-defined的焊盘通常用于BGA元件，以将焊球包含在引脚焊盘内，并防止焊料流出。
 
-![174algPN_base-7.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-7.gif)
+![174algPN_base-7.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-7.gif)
 
 Via Array Update 阵列过孔更新
 -----------------------
 
 17.4-2019版本新增功能添加一个阵列过孔命令，用于添加、更新和删除许多不同的阵列过孔类型。屏幕动态通过让您在放置阵列之前动态调整它们，为您提供控制和反馈。新添加的视觉效果和图形使阵列易于理解，让您第一时间得到您想要的东西。
 
-![174algPN_base-9.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-9.gif)
+![174algPN_base-9.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-9.gif)
 
 使用Via Array命令将各种排列的过孔或结构添加到设计中。您可以轻松选择阵列的起点、位置和几何图形(对象之间的间距)。使用现有的传统控件进行预览，遵循DRCs，并扩展选择以包括网络的所有对象。之前被称为_boundary_和_matrix arrays_，以便于使用，并提供以下阵列类型:
 
-![174algPN_base-10.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-10.gif)
+![174algPN_base-10.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-10.gif)
 
 Contour Routing Update
 ----------------------
@@ -161,7 +161,7 @@ Via Structure Update过孔结构更新
 
 17.4-2019版本中的新增功能是single unified Create Structure对话框。该对话框将以前的Standard, High Speed, and L-Comp合并为一个易于使用的对话框，同时还添加了关于如何创建每个结构的描述和使用指南。图形提供了每种结构的可视化示例，使得识别每种结构的可能用例更加容易。
 
-![174algPN_base-11.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-11.gif)
+![174algPN_base-11.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-11.gif)
 
 Route – Structures – Create命令支持创建以下三种不同类型的结构
 
@@ -194,16 +194,16 @@ Route – Structures – Create命令支持创建以下三种不同类型的结�
 
 切割平面功能现在更容易使用。它的调用现在是通过一个context菜单完成的，用户可调整的设置现在位于选项窗格中。这项功能的性能也有了很大的提高。
 
-![174algPN_base-12.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-12.gif)
+![174algPN_base-12.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-12.gif)
 
-![174algPN_base-13.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-13.gif)
+![174algPN_base-13.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-13.gif)
 
 Mechanical Symbol Transparency 器件透明度
 ------------------------------------
 
 Setup – Preferences – Symbol Representations可以调节机械对象的透明度
 
-![174algPN_base-14.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-14.gif)
+![174algPN_base-14.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-14.gif)
 
 Symbol Representation Using DFA\_Bound Shapes 使用DFA\_Bound作为器件外形
 ----------------------------------------------------------------
@@ -214,24 +214,24 @@ Symbol Representation Using DFA\_Bound Shapes 使用DFA\_Bound作为器件外形
 
 从用户首选项Setup – User Preferences – Display – 3D中设置3D\_symbol\_include\_dfa\_bound勾选以启用此功能或者通过在3D画布中使用Setup – Preferences设置Boundary Shape Source
 
-![174algPN_base-15.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-15.gif)
+![174algPN_base-15.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-15.gif)
 
 Unplated Holes in Footprints 焊盘图形中的非金属化孔
 ----------------------------------------
 
 现在3D画布中非金属化孔可以以非金属化的形式展示出来了（之前的版本仍然是显示金属化的）
 
-![174algPN_base-16.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-16.gif)
+![174algPN_base-16.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-16.gif)
 
 ### STEP Models and Pastemask 锡膏厚度模型
 
 3D模型中可以指定锡膏厚度以真实的模拟实际情况，
 
-![174algPN_base-17.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-17.gif)
+![174algPN_base-17.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-17.gif)
 
 通过用户首选项Setup – User Preferences – Display中的3D\_symbol\_place\_on\_pastemask设置是否使用锡膏厚度值
 
-![174algPN_base-18.gif](https://a1024.synology.me/images/blog/2023/174algPN_base-18.gif)
+![174algPN_base-18.gif](https://tiny-y.asia/images/blog/2023/174algPN_base-18.gif)
 
 ### Outer Layers Only Mode仅外层模式
 

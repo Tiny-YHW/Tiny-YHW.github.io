@@ -22,7 +22,7 @@ DFM规则类型
 *   Design for Assemby是用于设定PCB元器件装配的设计规则
 *   Design for Test是用于PCBA测试的设计规则（本文不做介绍）
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/DFM1.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/DFM1.png)
 
 在每个项目下包含两个子项目，和Physical规则类似，这里DFF Constraint Set用于创建规则模版，Design用于将制定的规则模版应用到设计中，可配置的规则项目包含以下几个类型
 
@@ -46,7 +46,7 @@ DFM规则类型
 创建一个CSet（规则模版）
 --------------
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/DFM2.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/DFM2.png)
 
 选择你需要设定的一个规则类型，可以从右侧列表中查看到改类型规则具体可以配置的项目，这里有横排和竖排两种显示方式，点击Create new或New CSET弹出对话框，上边一行设定一个你能识别的名称，下边一行代表此规则应用于那个对象类型，此处包含三种
 
@@ -59,7 +59,7 @@ DFM规则类型
 应用一个Cset（规则模版）
 --------------
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/DFM3.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/DFM3.png)
 
 选择规则项目的Design子项，从子项中选择你已经创建过规则类型的项目，在这个表中你可以选择哪些层或者对应的项目需要使用你设定的规则模版，不同的层或项目也可以选择不同的规则模版
 
@@ -75,12 +75,12 @@ DFM规则类型
 
 再对创建的层应用创建的规则
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/DFM6.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/DFM6.png)
 
 启用或关闭规则项目
 ---------
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/DFM4.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/DFM4.png)
 
 从规则管理器菜单选择Analysis->Analysis Mode，打开规则分析管理窗口，找到你设定规则的对应项目，将你需要检查分析的项目选择On项勾选（这些项目在一个新板中默认全部是关闭的）
 
@@ -96,7 +96,7 @@ DRC检查和处理
 DFM规则的导出和复用
 -----------
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/DFM5.png)
+![](https://tiny-y.asia/images/blog/2023/blog2022/DFM5.png)
 
 从规则管理器中选择File->Export->Constraints，从窗口底部选择你需要的部分，如果你只需要DFM规则则只选择上图中红框的选项，如果有其它需要请自行决策
 

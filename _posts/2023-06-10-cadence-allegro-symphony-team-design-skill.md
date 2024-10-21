@@ -44,7 +44,7 @@ symphony\_skill.txt和env文件类似，一经生成，可以一直使用不会�
 
 Tips：同时还有安装目录两个位置（\\share\\pcb\\text\\和\\share\\local\\pcb\\）同时生成symphony\_skill.txt
 
-![](https://a1024.synology.me/images/blog/2023/blog2022/getting_started-63.gif)
+![](https://tiny-y.asia/images/blog/2023/blog2022/getting_started-63.gif)
 
 ### 录入Skill命令
 

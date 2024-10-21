@@ -13,7 +13,7 @@ date: 2023-06-15
 
 菜单Setup > Design Parameter Editor > Route >Auto-I.Breakout、Auto-I. Trunk Route可对两个功能的预设参数进行调整：如是否移除已布的线、是否参照创建的**Bundle**和Flow规则、是否避让动态铜皮等
 
-![](https://a1024.synology.me/images/blog/2022/aibt.png)
+![](https://tiny-y.asia/images/blog/2022/aibt.png)
 
 Auto I. Break Out 自动交互扇出引线
 --------------------------

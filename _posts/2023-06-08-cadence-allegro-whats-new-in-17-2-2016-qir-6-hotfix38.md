@@ -35,7 +35,7 @@ Enhancements in Design for Fabrication Rules Dfx规则增强
 
 检查DESIGN\_OUTLINE和CUTOUT图形边界到器件之间最小间距的规则，对于器件优先使用DFA\_BOUND其次使用PACKAGE\_BOUND
 
-![172-algPN-73.gif](https://a1024.synology.me/images/blog/2023/172-algPN-73.gif)
+![172-algPN-73.gif](https://tiny-y.asia/images/blog/2023/172-algPN-73.gif)
 
 **Spacing**
 
@@ -54,23 +54,23 @@ Enhancements in Design for Fabrication Rules Dfx规则增强
 
 Analysis Modes中提供一个选项Tented Vias，将过孔加入这个list中，则这些指定的via将在Design for fabrication定义为被油墨塞住的孔而不是裸露的孔，这样可以避免部分检查时产生多余的DRC
 
-![172-algPN-69.gif](https://a1024.synology.me/images/blog/2023/172-algPN-69.gif)
+![172-algPN-69.gif](https://tiny-y.asia/images/blog/2023/172-algPN-69.gif)
 
 ### Void Sliver checks 间隙空洞检查.
 
 使用static or dynamic shape避孔时，避孔或形状边界可能会与铜或其他镀层材料形成窄缝隙，有可能导致制造或组装问题，即使在同一网络上发生桥接也是如此。该检查提供了一个最小间隙DRC来识别可能出现桥接问题的避孔边缘之间的位置。下图显示了通过到形状DRC。
 
-![172-algPN-70.gif](https://a1024.synology.me/images/blog/2023/172-algPN-70.gif)
+![172-algPN-70.gif](https://tiny-y.asia/images/blog/2023/172-algPN-70.gif)
 
 ### Micro Via Stagger 微通孔交错
 
 在HDI设计或类似技术中使用微型通孔时，通常采用锥形几何结构的激光钻孔微型通孔结构。在密集设计中，这种几何通孔结构的优点是可以减少相同网络的微型通孔之间的空间。如果一个微型通孔从第1层穿过到第2层，并连接到另一个相同网络的微型通孔，该微型通孔从第2层穿过到第3层，则钻好洞之间最小距离可以比不同网络的两个微缩图案更接近。
 
-![172-algPN-71.gif](https://a1024.synology.me/images/blog/2023/172-algPN-71.gif)
+![172-algPN-71.gif](https://tiny-y.asia/images/blog/2023/172-algPN-71.gif)
 
 这种情况下微通孔（交错）规则导体的最小间距和下可在_Design for fabrication_类别中定义。
 
-![172-algPN-72.gif](https://a1024.synology.me/images/blog/2023/172-algPN-72.gif)
+![172-algPN-72.gif](https://tiny-y.asia/images/blog/2023/172-algPN-72.gif)
 
 3D Canvas Update
 ----------------
@@ -81,13 +81,13 @@ Analysis Modes中提供一个选项Tented Vias，将过孔加入这个list中，
 
 如下图所示，电路板上的元件模型和电路板本身现在具有阴影，可以将画布上的图像从静态图像转换为电路板的逼真视图。
 
-![172-algPN-74.gif](https://a1024.synology.me/images/blog/2023/172-algPN-74.gif)
+![172-algPN-74.gif](https://tiny-y.asia/images/blog/2023/172-algPN-74.gif)
 
 居中功能可在弯曲操作后自动将画布上的刚柔结合设计重新居中。
 
 符号表示现在包括两个附加选项：STEP模型，如果可用，否则Place\_Bound形状和Place\_Bound形状，如果可用，否则STEP模型。
 
-![172-algPN-75.gif](https://a1024.synology.me/images/blog/2023/172-algPN-75.gif)
+![172-algPN-75.gif](https://tiny-y.asia/images/blog/2023/172-algPN-75.gif)
 
 Enhancements to Sigrity Technology Driven High-Speed Signal Analysis and Checking**增强Signity技术驱动的高速信号分析和检查**
 ------------------------------------------------------------------------------------------------------------
@@ -123,19 +123,19 @@ STEP Model Enhancements for 3D **STEP模型3D增强功能**
 
 在_Device/Package STEP Mapping_对话框中选择Purge将提示一个确认框（此前版本貌似不弹提示框），点击Yes即移除此模型
 
-![172-algPN-77.gif](https://a1024.synology.me/images/blog/2023/172-algPN-77.gif)
+![172-algPN-77.gif](https://tiny-y.asia/images/blog/2023/172-algPN-77.gif)
 
 ### STEP Export Options  STEP导出选项
 
 输出 STEP 模型时增加一个选项_ Ignore STEP model definitions _，选中此选项可以忽略板中定义的step模型，选择不导出这些模型而是使用这些器件关联place\_bound 外形及高度
 
-![172-algPN-78.gif](https://a1024.synology.me/images/blog/2023/172-algPN-78.gif)
+![172-algPN-78.gif](https://tiny-y.asia/images/blog/2023/172-algPN-78.gif)
 
 ### Refresh Symbol Enhancement  刷新符号增强
 
 更新封装页面新增一个选项_Update STEP mapping data only_，可以选择仅更新STEP模型而不更新封装
 
-![172-algPN-79.gif](https://a1024.synology.me/images/blog/2023/172-algPN-79.gif)
+![172-algPN-79.gif](https://tiny-y.asia/images/blog/2023/172-algPN-79.gif)
 
 Dynamic Shape Quality and Performance Initiative **动态铜皮质量和性能**
 --------------------------------------------------------------
@@ -144,11 +144,11 @@ Dynamic Shape Quality and Performance Initiative **动态铜皮质量和性能**
 
 启用此模式需设置环境变量位于_Unsupported _类别中的_shape\_rough\_gridded_
 
-![172-algPN-80.gif](https://a1024.synology.me/images/blog/2023/172-algPN-80.gif)
+![172-algPN-80.gif](https://tiny-y.asia/images/blog/2023/172-algPN-80.gif)
 
 然后可在_Global Dynamic Shape Parameters_对话框中选择Fast
 
-![172-algPN-81.gif](https://a1024.synology.me/images/blog/2023/172-algPN-81.gif)
+![172-algPN-81.gif](https://tiny-y.asia/images/blog/2023/172-algPN-81.gif)
 
 Return Path DRC Enhancements
 ----------------------------
@@ -157,9 +157,9 @@ Return Path DRC Enhancements
 
 规则管理器中允许添加一个Stitch Via Distance检查，当指定网络穿孔附近指定距离内若没有找到回流地孔，则将知识一个DRC
 
-![172-algPN-83.gif](https://a1024.synology.me/images/blog/2023/172-algPN-83.gif)
+![172-algPN-83.gif](https://tiny-y.asia/images/blog/2023/172-algPN-83.gif)
 
-![172-algPN-84.gif](https://a1024.synology.me/images/blog/2023/172-algPN-84.gif)
+![172-algPN-84.gif](https://tiny-y.asia/images/blog/2023/172-algPN-84.gif)
 
 Productivity Enhancements
 -------------------------
@@ -168,13 +168,13 @@ Productivity Enhancements
 
 仅支持DE-HDL or System原理图关联的PCB，使用quickplace命令中Place by schematic page number选项，并启用Schematic type placement，此时可将指定页原理图中的器件按其原理图中的相对位置放置到pcb中
 
-![172-algPN-85.gif](https://a1024.synology.me/images/blog/2023/172-algPN-85.gif)
+![172-algPN-85.gif](https://tiny-y.asia/images/blog/2023/172-algPN-85.gif)
 
 ### Place Replicate Enhancements 模块复用功能增强
 
 模块复用可在不同层叠的板间进行复用，此时复用时将弹出一个选项让用户选择哪些层面进行匹配
 
-![172-algPN-86.gif](https://a1024.synology.me/images/blog/2023/172-algPN-86.gif)
+![172-algPN-86.gif](https://tiny-y.asia/images/blog/2023/172-algPN-86.gif)
 
 ### Route Clearance View 布线空隙视图
 
@@ -182,7 +182,7 @@ Productivity Enhancements
 
 使用Ctrl+Tab键可以快速切换启用或关闭此视图
 
-![172-algPN-88.gif](https://a1024.synology.me/images/blog/2023/172-algPN-88.gif)
+![172-algPN-88.gif](https://tiny-y.asia/images/blog/2023/172-algPN-88.gif)
 
 ### Enhancements in Copy and Paste Commands 复制粘贴命令增强
 
@@ -206,4 +206,4 @@ Allegro® PCB Symphony Team Design Option
 
 被移动中的对象将显示一个十字光标
 
-![172-algPN-89.gif](https://a1024.synology.me/images/blog/2023/172-algPN-89.gif)
+![172-algPN-89.gif](https://tiny-y.asia/images/blog/2023/172-algPN-89.gif)

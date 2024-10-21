@@ -28,7 +28,7 @@ Allegro Flow Planning 于高速PCB 设计流程中能够大幅度的缩短评估
 *   Toolbar（右下角）中的快捷选项
 *   快捷图标中的IFP
 
-![](https://a1024.synology.me/images/blog/2022/app%20mode.png)
+![](https://tiny-y.asia/images/blog/2022/app%20mode.png)
 
 建立Flow Bundle
 -------------
@@ -50,7 +50,7 @@ Bundle可翻译为线束，在这里理解为飞线的集合，可以通过如�
 
 打开规则管理器选择Properties - Nets - Ratsnest Bundle Properties项，从清单中选择网络创建（可从PCB或原理图中选择网络进行交互）
 
-![](https://a1024.synology.me/images/blog/2022/creatbun.png)
+![](https://tiny-y.asia/images/blog/2022/creatbun.png)
 
 **编辑Bundle**
 ------------
@@ -61,7 +61,7 @@ Find中选择Groups，层开关打开Plan/All层（默认生成到此层），�
 *   Edit Bundle：把Bundle之外的飞线或Bundle加入进来。
 *   Delete Bundle：删除Bundle，变回飞线的方式。
 
-![](https://a1024.synology.me/images/blog/2022/%E7%BC%96%E8%BE%91boun.gif)
+![](https://tiny-y.asia/images/blog/2022/%E7%BC%96%E8%BE%91boun.gif)
 
 **Flow的规划**
 -----------

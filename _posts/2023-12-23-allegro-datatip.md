@@ -14,11 +14,11 @@ date: 2024-01-11
 
 **Menu Path Setup - Datatip Customization**
 
-![/](https://a1024.synology.me/images/blog/2022/datatip1.jpg)
+![/](https://tiny-y.asia/images/blog/2022/datatip1.jpg)
 
 ## 数据对应关系
 
-![/](https://a1024.synology.me/images/blog/2022/datatip3.jpg)
+![/](https://tiny-y.asia/images/blog/2022/datatip3.jpg)
 
 从Object Type选择对象类型，在右侧设置当鼠标指向该类型对象时哪些信息会显示出来，Name对应是否显示信息参数名称如Pin、Net Name；Value对应是否显示信息参数的值如R1.1、GND，对话框下方会显示数据将会以何种形式展现出来，通过灵活设置这些对象的参数值，将会使你设计时事半功倍。
 
@@ -37,4 +37,4 @@ date: 2024-01-11
 DataTips Customization Dialog Box
 可以通过File导出或导入设置参数，供再次使用
 
-![/](https://a1024.synology.me/images/blog/2022/datatip2.jpg)
+![/](https://tiny-y.asia/images/blog/2022/datatip2.jpg)

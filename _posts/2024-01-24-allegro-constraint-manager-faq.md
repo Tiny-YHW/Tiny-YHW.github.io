@@ -17,7 +17,7 @@ date: 2024-01-24
 出现此类错误需要按正确的逻辑配置值正确即可，可参考下述案例理解
 
 * eg1:Min Line Spacing may not be larger than Primary or Neck Gapess (-) Tolerance.
-* ![/](https://a1024.synology.me/images/blog/2024/allegro-constraint-manager-faq1.png)
+* ![/](https://tiny-y.asia/images/blog/2024/allegro-constraint-manager-faq1.png)
 
 * eg2:Max value should not be smaller than the Min value.
-* ![/](https://a1024.synology.me/images/blog/2024/allegro-constraint-manager-faq2.png)
+* ![/](https://tiny-y.asia/images/blog/2024/allegro-constraint-manager-faq2.png)
