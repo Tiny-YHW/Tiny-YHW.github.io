@@ -22,6 +22,7 @@ excerpt:
 4. 默认Original位号与Now位号一致，当不一致时在Original输入框输入其位号
 5. 勾选Include more information选项会同时输出ORIGINAL_NET原来的引脚分配情况（H-K列）及部分提
 示检查内容(L列）
-6. 点击Start按钮程序运行，生成报告文件在BRD同级目录并打开它供查看确认
+6. 点击Start按钮程序运行，生成报告文件在BRD同级目录并打开它供查看确认，报告文件名为“器件位号-comp_pin_net_compare.csv”
+7. 如果需要多个器件比对，重复3-6步骤生成多个csv文件即可
 
 ![](https://tiny-yhw.github.io//images/TY-skill/report-component-pin-nets-compare2.png)

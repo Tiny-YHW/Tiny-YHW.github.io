@@ -574,6 +574,21 @@ Report
 
 输出指定格式的BOM表内容（Excel格式）
 
+### Component Pin Nets Compare
+
+比对当前BRD设计中指定器件和被比较BRD的指定器件的所有PIN网络分配差异 推荐用于调管脚后比对两个设计的管脚差异输入报告发给原理设计放调整管脚网络分配
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-report-component-pin-nets-compare){:target="_blank"}
+
+
+### Placebound Area Percentage
+
+布局时大概评估布局密度，评估板子疏密程度
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-report-placebound-area-percentage){:target="_blank"}
+
+
+
 ### Rout Path length
 
 用于查看生产锣长值，计算方式为板框层所有lines或shape的线长总和，计算结果仅供参考
