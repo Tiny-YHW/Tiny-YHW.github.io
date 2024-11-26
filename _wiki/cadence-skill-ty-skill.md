@@ -531,6 +531,8 @@ Export
 
 按指定模版层（布局相关的层）输出DXF文件，常用于布局完成后结构校对时使用，同时支持输出3D Step
 
+本功能相对于软件自带的导出DXF加入了导出的DXF包含通孔pin的孔（孔径）功能
+
 本功能没有太多功能设置，基本都是调用的软件自身的命了，只是为了方便快捷做了整合
 
 如果你用手动的方法不能成功输出，用本功能也照样不能输出，遇到不能输出的情况自己查找自身原因
@@ -658,6 +660,14 @@ Batch SYM To DRA：批量将当前文件夹内所有sym文件（需要.pad支持
 Batch Downrev Symbol 17 to 16：批量将当前文件夹内所有sym和pad文件从17.X降版本到16.5
 
 [**了解更多……**](https://tiny-yhw.github.io//ty-skill-footprint-batch){:target="_blank"}
+
+QuickStart
+---------
+
+用于在Allegro环境中快速再打开一个新的应用程序
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-quickstart){:target="_blank"}
+
 
 TB-Help
 -------
