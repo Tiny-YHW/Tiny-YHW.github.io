@@ -44,6 +44,20 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 
 调试skill程序用
 
+## Import
+
+### DSN Netin
+
+用于在Allegro环境中选择DSN文件，快捷导入原理图网表，整个过程可无需打开原理图文件
+
+[**了解更多……**](https://tiny-yhw.github.io//ty-skill-import-dsn-netin){:target="_blank"}
+
+### [Logo](http://www.allegro-skill.com/forum.php?mod=viewthread&tid=2660&highlight=logo){:target="_blank"}
+
+将各种logo导入到allegro中，包括文字、图形等
+
+设计时需要添加图形或中文字符时使用
+
 ## Edit
 
 具体设计中对设计元素对象的编辑功能
@@ -144,12 +158,6 @@ mil和mm的单位互转和常规数值运算，支持加减乘除和()。
 自动沿板框创建屏蔽地Shape和地Via
 
 设计要求做屏蔽地铜或屏蔽地孔时使用
-
-### [Import Logo](http://www.allegro-skill.com/forum.php?mod=viewthread&tid=2660&highlight=logo)
-
-将各种logo导入到allegro中，包括文字、图形等
-
-设计时需要添加图形或中文字符时使用
 
 ### Chinese Text
 
