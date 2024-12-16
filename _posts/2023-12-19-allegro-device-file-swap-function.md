@@ -84,6 +84,8 @@ PINCOUNT <number_of_pins>
 PINORDER <function_type> <list_of_pin_names>
 ```
 
+定义引脚的PIN_NAME
+
 可选的。PINORDER记录包含有关device中唯一功能类型的信息。您还必须提供PINUSE，PINSWAP和FUNCTION记录才能完全定义功能。
 
 function_type:功能名
@@ -119,6 +121,7 @@ list_of_pin_use_codes：门中使用的引脚类型的列表包括
 PINSWAP <function_type> <list_of_pin_names>
 ```
 
+定义哪些PIN_NAME可以一起交换
 可选的。PINSWAP记录告诉interactive and automatic swapping routines，门内的哪些gate是可以交换的。
 
 ### FUNCTION
