@@ -2,7 +2,7 @@
 layout: post
 title: TY-Skill Display->Key Layer Visibility 使用键盘按键切换常用设计视图
 categories: Allegro Skill
-date: 2023-08-03
+date: 2024-12-21
 permalink: allegro-skill-case-clayer
 excerpt: 设计时使用键盘按键切换常用设计视图
 ---
@@ -33,6 +33,9 @@ excerpt: 设计时使用键盘按键切换常用设计视图
 *   axlCmdRegister( "2.0" 'L10);第10层布线
 *   axlCmdRegister( "2.1" 'L11));第11层布线
 *   ……;省略12-19层
+*   axlCmdRegister( "2..0" 'L20));第20层布线
+*   axlCmdRegister( "2..1" 'L21));第11层布线
+*   ……;省略22-29层
 *   axlCmdRegister( "200" 'bottomm);底层布局
 *   axlCmdRegister( "211" 'topp);顶层布局
 *   axlCmdRegister( "2100" 'placee);顶底层同开布局
@@ -47,11 +50,44 @@ excerpt: 设计时使用键盘按键切换常用设计视图
 *   axlCmdRegister( "2.0+" 'L10add);第10层布线
 *   axlCmdRegister( "2.1+" 'L11add);第11层布线
 *   ……;省略12-19层
+*   axlCmdRegister( "2..0+" 'L20));第20层布线
+*   axlCmdRegister( "2..1+" 'L21));第11层布线
+*   ……;省略22-29层
 
 功能演示
 ----
 
 抖音：[https://v.douyin.com/LgYCrFc](https://v.douyin.com/LgYCrFc)
+
+辅助标识层使用说明
+----
+
+考虑常见有设计有类似晶振或功率电感所在区域禁止布信号线(可以布设电源或地或不重要信号)的情况
+
+对于此类情况若对指定区域设置常规keepout会产生DRC,若不添加任何标记则很可能在布线时忽略了这部分区域存在的限制导致设计返工甚至出问题
+
+本文引入一种设计方法，添加几个辅助层用来标识这个情况，以警示对这些区域的限制
+
+下文描述的这些层将在使用本程序功能切换层叠时一同被显示出来
+
+辅助层分为TOP、BOTTOM和所有层
+
+使用层的最佳应用为在设计中新建自定义层(更加推荐将这个自定义层放到你的默认brd模版中)
+
+* TOP:BOARD GEOMETRY/ROOM_TOP
+* BOTTOM:BOARD GEOMETRY/ROOM_BOTTOM
+* ALL:BOARD GEOMETRY/ROOM_ALL
+
+若设计中没有上述对应的层叠则程度默认使用下述设计中自带的层叠
+
+* TOP:BOARD GEOMETRY/TOP_ROOM
+* BOTTOM:BOARD GEOMETRY/BOTTOM_ROOM
+* ALL:BOARD GEOMETRY/BOTH_ROOMS
+
+更加建议对这些层自行定义一个个人习惯的颜色
+
+本文提及的晶振或者功率电感只是作为一个例子，其它所有需要标识但不能同时作为禁布层的情况均可以使用此思路来解，自行举一反三
+
 
 更新说明
 ----
