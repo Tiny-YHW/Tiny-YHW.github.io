@@ -17,7 +17,7 @@ excerpt:
 ## 操作说明
 
 1. 从菜单或命令启动此程序
-2. 从Original brd输入要比较（原始的）的设计软件
+2. 从Original brd输入要比较（原始的）的设计文件
 3. 从Now Symbol按钮从板中选择一个要比较的器件或者手动输入其位号
 4. 默认Original位号与Now位号一致，当不一致时在Original输入框输入其位号
 5. 勾选Include more information选项会同时输出ORIGINAL_NET原来的引脚分配情况（H-K列）及部分提
